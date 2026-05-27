@@ -412,7 +412,7 @@ and Spanish, plus the project's data-file pointer.
 - **Status**: provisional; admitted on the contrastive principle (containers
   receive distinct gender/class marking in some languages) and on prima
   facie Spanish corpus evidence. Subject to factor-analysis confirmation in
-  Phase 7 (per `notes/plan-from-scratch.md`).
+  Phase 7 (per `archive/plan-from-scratch.md`).
 
 ### Res Planae — Spanish-specific
 - **Prototype**: плоскость, ровная поверхность / flat surface, plane /
@@ -456,7 +456,7 @@ and Spanish, plus the project's data-file pointer.
 - **EN**: CAC — cryptoclass activity coefficient / index
 - **ES**: CAC *(?)*; *coeficiente de actividad criptoclase* *(?)*
 - **Source**: Boriskina 2011, p. 4; Donina 2016, p. 346; cf.
-  `notes/plan-from-scratch.md` Stage 4 of Donina's algorithm
+  `archive/plan-from-scratch.md` Stage 4 of Donina's algorithm
 - **Formula**: `Sᵢ = Σⱼ cᵢⱼ` (per the project's reading of Donina §1.10) —
   sum of citation counts over the classifiers `j` within the cryptoclass,
   for noun `i`. Donina then normalises against the other metaphoronyms of
@@ -710,14 +710,14 @@ not a productive construction but a lexicalised one. This is distinct from
 - **RU**: критическая масса (наблюдений)
 - **EN**: critical mass
 - **ES**: masa crítica
-- **Source**: Donina 2016 §1.10 (per `notes/plan-from-scratch.md` Stage 1,
+- **Source**: Donina 2016 §1.10 (per `archive/plan-from-scratch.md` Stage 1,
   criterion 4)
 - **Definition**: ≥ 5 observations per cell of the `(variant × cryptoclass)`
   matrix for the emonym to be retained. The Pearson correlation requires
   this for stability.
 - **Notes**: This is the cut-off that took Donina from 181 candidate emonyms
   to 23 final ones. For Spanish, the project anticipates dropping from
-  ~150–200 candidates to 15–25 finals — per `notes/plan-from-scratch.md`.
+  ~150–200 candidates to 15–25 finals — per `archive/plan-from-scratch.md`.
 
 ### KWIC (keyword in context)
 - **RU**: KWIC; конкорданс
@@ -833,7 +833,7 @@ quotations without re-deriving the surrounding tradition.
   gender (VI) — so for Spanish, the cryptoclasses sit *alongside* the
   existing gender system, not in its place. This is one of the project's
   non-trivial issues with grammatical gender as a covariate (see
-  `notes/plan-from-scratch.md` Phase 2 "Spanish-specific gotcha").
+  `archive/plan-from-scratch.md` Phase 2 "Spanish-specific gotcha").
 
 ### Эхосемия (echo-semia)
 - **RU**: эхосемия

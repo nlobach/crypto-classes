@@ -241,7 +241,7 @@ Ekman, Izard, Plutchik, Parrot, Lazarus, plus Russian-language work
 canon (Ekman, Plutchik, Parrot, Izard remain canonical) plus
 Spanish-specific lists: Pacheco, Rosenberg, the *Diccionario de
 emociones* tradition, and RAE-affiliated studies of emotion lexicon.
-Per `notes/plan-from-scratch.md` Phase 1.
+Per `archive/plan-from-scratch.md` Phase 1.
 
 ### Criterion 2 — Dictionary definition
 
@@ -252,7 +252,7 @@ Advanced Learners* (2010) must contain a marker like *feeling* or
 **For Spanish**: the analogous filter is presence in *DLE* (RAE)
 definition of one of the markers *emoción*, *sentimiento*, *afecto*,
 *estado de ánimo*, *pasión*, *impulso afectivo*. Per
-`notes/plan-from-scratch.md` Phase 1, criterion 2.
+`archive/plan-from-scratch.md` Phase 1, criterion 2.
 
 ### Criterion 3 — Frequency
 
@@ -263,7 +263,7 @@ purpose: ensure enough corpus hits to compute reliable indices.
 
 **For Spanish**: the analogue is the top tier of *CORPES XXI* frequency
 lists or Davies's Spanish frequency dictionary (Davies & Hayward Davies
-2018). Per `notes/plan-from-scratch.md` Phase 1, criterion 3.
+2018). Per `archive/plan-from-scratch.md` Phase 1, criterion 3.
 
 ### Criterion 4 — Critical mass (the binding constraint)
 
@@ -298,7 +298,7 @@ The 3,400-hour figure (p. 101 verbatim: *"трудоёмкую работу (340
 чел/час)"*) is the bottleneck. The Spanish project's strategy — LLM-
 assisted filtering and tagging calibrated against a manual gold set —
 is precisely the modern speed-up of this stage (per `ROADMAP.md`
-Phases 2–3 and `notes/plan-from-scratch.md` Phase 4).
+Phases 2–3 and `archive/plan-from-scratch.md` Phase 4).
 
 ### 3.1 — Donina's final 23 emonyms
 
@@ -417,7 +417,7 @@ Note **none of these maps cleanly onto Kachru's inner/outer/expanding
 typology**. All 21 are norm-providing in their own jurisdictions, all
 coordinate through ASALE (Asociación de Academias de la Lengua
 Española). The proper Spanish framing is **dialectological zones**, not
-Kachru circles. The expected zones (per `notes/plan-from-scratch.md`
+Kachru circles. The expected zones (per `archive/plan-from-scratch.md`
 Phase 8):
 
 | Zone | ISO codes |
@@ -530,7 +530,7 @@ is representative; low `r` would flag corpus-specific artefacts.
 
 ### 5.6 — Spanish-corpus analogues
 
-The Spanish project's corpus pair, per `notes/plan-from-scratch.md`
+The Spanish project's corpus pair, per `archive/plan-from-scratch.md`
 Phase 3:
 
 | Donina's English corpus | Spanish analogue | Note |
@@ -570,7 +570,7 @@ Donina §1.10 (p. 104) — the only complete worked example of how she
 specifies a class's classifier set. **Reproducing it here is essential**
 because it shows the exact format the Spanish *Res Continens* and
 *Res Planae* classes need to follow when their classifier inventories
-are built bottom-up (per `notes/plan-from-scratch.md` Phase 2).
+are built bottom-up (per `archive/plan-from-scratch.md` Phase 2).
 
 > *Проиллюстрируем, как проводился криптоклассный анализ, на примере
 > криптокласса Res Acutae («остроконечное» типа шипа или иглы).
@@ -780,7 +780,7 @@ validates the classifier inventories: they do not contaminate one
 another.
 
 **The corresponding step for Spanish** (per
-`notes/plan-from-scratch.md` Phase 7): run the same Varimax on the
+`archive/plan-from-scratch.md` Phase 7): run the same Varimax on the
 8-class × 21-variant data. The test for *Res Continens* and *Res
 Planae* is whether they each load on their own factor at ≥ 0.95, or
 whether they collapse:
@@ -1039,11 +1039,11 @@ methodological choices to the Spanish equivalent.
 | Donina (English, 2016) | Spanish project (2026+) | Status |
 |---|---|---|
 | 4 emonym-selection criteria (taxonomy + dictionary + frequency + critical mass) | same 4 criteria, Spanish-substituted sources | `ROADMAP.md` Phase 1 |
-| 181 → 23 emonym pruning | ~150-200 → 15-25 expected | per `notes/plan-from-scratch.md` |
+| 181 → 23 emonym pruning | ~150-200 → 15-25 expected | per `archive/plan-from-scratch.md` |
 | 6 cryptoclasses (Boriskina) | 8 cryptoclasses (Boriskina + 2 Spanish) | locked |
 | 20 variants | 21 variants (ISO codes) | locked, see CLAUDE.md |
 | Kachru inner/outer/expanding circles | Dialectological zones (Peninsular, Caribbean, Andean, Mexican-Central American, Rioplatense, Chilean, US) | reframed |
-| 2 corpora (GloWbE + NOW) | 2 corpora (Davies Web/Dialects + Davies NOW), CORPES XXI as tiebreaker | per `notes/plan-from-scratch.md` Phase 3 |
+| 2 corpora (GloWbE + NOW) | 2 corpora (Davies Web/Dialects + Davies NOW), CORPES XXI as tiebreaker | per `archive/plan-from-scratch.md` Phase 3 |
 | Corpus coefficient per variant per corpus | same | unchanged |
 | Pearson `r` between the two source corpora (validation) | same | unchanged |
 | Manual semi-automatic extraction (3,400 person-hours) | **LLM-assisted extraction calibrated against gold set (~100-200 person-hours)** | `ROADMAP.md` Phases 2-3 |
@@ -1103,7 +1103,7 @@ choices specific to the Donina-style cross-variant work.
 5. **Grammatical gender as covariate.** Donina did not face this
    because English is genderless. The Spanish project decides whether
    gender is reported (recommended), stratified on (possible), or
-   ignored (not recommended). Per `notes/plan-from-scratch.md` Phase
+   ignored (not recommended). Per `archive/plan-from-scratch.md` Phase
    2, the recommendation is **report as covariate, do not stratify**.
 6. **The 3,400-hour bottleneck → LLM pipeline.** This is the project's
    central methodological innovation over Donina, not a translation

@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-// Extract citations from the 8 wide-format xlsx files in references/
+// Extract citations from the 8 wide-format xlsx files in data/legacy-xlsx/
 // into data/citations.tsv, per the schema in data/SCHEMA.md.
 //
-// Usage:  node scripts/extract_wide.js
+// Usage:  node pipeline/extract_wide.js
 //
 // Writes to data/citations.tsv (overwrites). The original long-form
 // `RES LIQUIDAE.xlsx` is excluded; its cleaned wide-form counterpart
@@ -13,7 +13,7 @@ const path = require('path');
 const XLSX = require('xlsx');
 
 const REPO = path.resolve(__dirname, '..');
-const REFS = path.join(REPO, 'references');
+const REFS = path.join(REPO, 'data', 'legacy-xlsx');
 const OUT = path.join(REPO, 'data', 'citations.tsv');
 
 // Canonical ordering (matches CLAUDE.md and SCHEMA.md).

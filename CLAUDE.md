@@ -25,26 +25,48 @@ Located in `references/`. Untouched; treat as read-only sources.
   of emotions across language variants* (kandidat, under Boriskina). Methodological
   model: applies cryptoclass analysis to 23 English emonyms across areal
   varieties of English. This project is the Spanish counterpart.
-- `Приложение 1 для диссера.doc`, `Приложение  2.doc`, `Приложение 3.doc` —
-  Donina's appendices (summary tables, basic-emotions table, decision-tree
-  rules, cryptoclass chains). Read on demand; not yet extracted.
-- `Res *.xlsx`, `RES *.xlsx` — working data files, one per cryptoclass (see
-  below).
+- `donina-appendices/Приложение 1 для диссера.doc`, `donina-appendices/Приложение  2.doc`,
+  `donina-appendices/Приложение 3.doc` — Donina's appendices (summary tables,
+  basic-emotions table, decision-tree rules, cryptoclass chains). Read on
+  demand; not yet extracted.
+
+The manually-collected `.xlsx` files (one per cryptoclass) are project-internal
+working data, not external sources. They have been superseded by the long-form
+TSVs in `data/` and now live in `data/legacy-xlsx/` for provenance — see
+"Working data" below.
 
 ## Repository structure
 
 ```
 crypto-classes/
-├── CLAUDE.md          # this file — stable orientation
-├── ROADMAP.md         # phased plan, evolves over time
-├── references/        # source PDFs, DOCs, and working XLSXs (read-only sources)
-└── notes/             # on-demand extracted content (to be created — see ROADMAP)
-    ├── glossary.md
-    ├── theory-boriskina.md
-    ├── methodology-donina.md
-    ├── cryptoclasses/        # one file per class
-    ├── xlsx-schema.md
-    └── corpora.md
+├── CLAUDE.md             # this file — stable orientation
+├── OVERVIEW.md           # plain-language explanation, no linguistics background
+├── ROADMAP.md            # phased plan, evolves over time
+│
+├── references/           # external scholarly sources — read-only
+│   ├── *.pdf             # Boriskina 2011, Donina 2016
+│   └── donina-appendices/   # the three Приложение*.doc files
+│
+├── data/                 # project data — the canonical source of truth
+│   ├── SCHEMA.md
+│   ├── citations.tsv, classifiers.tsv, cryptoclasses.tsv
+│   ├── legacy-xlsx/      # the eight superseded .xlsx files, kept for provenance
+│   └── derived/          # outputs of analysis (IDC/CAC tables, summaries)
+│
+├── notes/                # on-demand English working extractions
+│   ├── README.md
+│   ├── glossary.md
+│   ├── theory-boriskina.md
+│   ├── methodology-donina.md
+│   ├── corpora.md        # planned — which Spanish corpora are used
+│   └── cryptoclasses/    # planned — one file per class
+│
+├── pipeline/             # corpus-sifting + LLM-filtering code (see ROADMAP)
+│   └── extract_wide.js   # xlsx → citations.tsv extractor
+│
+├── analysis/             # ad-hoc queries / notebooks against data/
+├── manuscript/           # the eventual Spanish-language scholarly output
+└── archive/              # dead drafts and planning history
 ```
 
 `CLAUDE.md` is intentionally short — it is loaded into every Claude conversation.
@@ -52,8 +74,9 @@ Heavier extracted content lives in `notes/` and is read only when relevant.
 
 ## Working data: the `.xlsx` files
 
-Eight files in `references/`, one per cryptoclass. Boriskina's original six plus
-two added for Spanish:
+Eight files in `data/legacy-xlsx/`, one per cryptoclass. Boriskina's original
+six plus two added for Spanish. These are now superseded by `data/citations.tsv`
+(see `data/SCHEMA.md`) and are retained only for provenance / spot-checking:
 
 | File | Cryptoclass | Prototype |
 |---|---|---|
@@ -66,7 +89,8 @@ two added for Spanish:
 | `RES CONTINENS.xlsx` | Res Continens | container — **Spanish-specific** |
 | `Res Planae.xlsx` | Res Planae | flat surface — **Spanish-specific** |
 
-Shared internal schema (detail to live in `notes/xlsx-schema.md`):
+Shared internal schema (canonical form now lives in `data/SCHEMA.md`; the
+xlsx-specific quirks below are preserved here as historical context):
 
 - **Columns** = construction types (verbal subject-transitive,
   subject-intransitive, objective, instrumental, attributive, predicative,
@@ -79,7 +103,7 @@ Shared internal schema (detail to live in `notes/xlsx-schema.md`):
 Known inconsistencies to preserve as-is until the user decides: filename typo
 `Penentrantes`, mixed Russian/Spanish column headers, varying presence of the
 `СПОРНЫЕ` column. `RES LIQUIDAE.xlsx` uses a different (long-form) schema than
-the other seven — see `notes/xlsx-schema.md`.
+the other seven — this is handled by `pipeline/extract_wide.js`.
 
 ## Data status
 
@@ -130,9 +154,7 @@ predominantly collection volume, not framework design.
 | What is a cryptoclass / classifier / collostruction? | `notes/theory-boriskina.md` |
 | How is cross-variant analysis done? | `notes/methodology-donina.md` |
 | Spanish/English/Russian term equivalents | `notes/glossary.md` |
-| Prototype + classifier seeds for a given class | `notes/cryptoclasses/<class>.md` |
-| Exact format of the `.xlsx` files | `notes/xlsx-schema.md` |
-| Which Spanish corpora are used | `notes/corpora.md` |
+| Prototype + classifier seeds for a given class | `notes/cryptoclasses/<class>.md` *(planned)* |
+| Shape of the citation tables | `data/SCHEMA.md` |
+| Which Spanish corpora are used | `notes/corpora.md` *(planned)* |
 | What to do next | `ROADMAP.md` |
-
-The `notes/` files do not yet exist; creating them is Phase 0 of the roadmap.

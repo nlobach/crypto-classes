@@ -1,9 +1,9 @@
 # Consolidated citation table — schema
 
-The `data/` directory is the new single source of truth for the cryptoclass
+The `data/` directory is the single source of truth for the cryptoclass
 profile of Spanish emonyms. Three flat TSV tables replace the eight `.xlsx`
-files in `references/`, which are now treated as read-only historical sources
-(per `CLAUDE.md`).
+files now kept under `data/legacy-xlsx/`, which are treated as read-only
+historical sources (per `CLAUDE.md`).
 
 The shape is **long-form**: one row per citation. This matches the natural
 grain of the data, eliminates the per-file schema drift in the legacy `.xlsx`s,
@@ -152,7 +152,7 @@ SQL
 ## Extraction status
 
 - **Wide-format files (7 of 8)**: extracted automatically by
-  `scripts/extract_wide.js` — 1,589 citation rows in `citations.tsv`, covering
+  `pipeline/extract_wide.js` — 1,589 citation rows in `citations.tsv`, covering
   every cryptoclass except *Res Liquidae*. Re-run the script anytime to
   regenerate; it overwrites the file.
 - **`RES LIQUIDAE.xlsx`**: not yet extracted. Has its own long-form schema

@@ -28,9 +28,10 @@ that future sessions do not re-open the PDFs for routine work.
 - [ ] `notes/cryptoclasses/<class>.md` — one file per class. Each contains:
       prototype, Russian and English original classifier inventories, Spanish
       classifier seeds (extracted from the corresponding `.xlsx` header row).
-- [ ] `notes/xlsx-schema.md` — exact column and row conventions, cell format
-      (numbered citations + `TOTAL N`), encoding of `СПОРНЫЕ`, known
-      inconsistencies (including the long-form schema of `RES LIQUIDAE.xlsx`).
+- [x] `data/SCHEMA.md` — exact column and row conventions for the long-form
+      TSVs that replaced the eight `.xlsx` files; also documents the legacy
+      xlsx quirks (numbered citations + `TOTAL N`, `СПОРНЫЕ`, the long-form
+      schema of `RES LIQUIDAE.xlsx`). Companion code: `pipeline/extract_wide.js`.
 - [ ] `notes/corpora.md` — decision record on which Spanish corpora are used,
       access method (web scrape, API, downloaded dump), country-tagging
       coverage, licensing. Candidates: CORPES XXI, Corpus del Español
@@ -54,14 +55,14 @@ gold-standard validation set for the pipeline built in Phase 2.
 - [ ] Produce a one-page cryptoclass profile for *miedo*.
 - [ ] Freeze the resulting `(emonym, classifier, variant, citation,
       construction-type)` records as the **gold set** in
-      `notes/gold-miedo.{md,jsonl}`.
+      `data/derived/gold-miedo.{tsv,jsonl}`.
 
 ## Phase 2 — Automated corpus-sifting pipeline
 
 Goal: scale collection from ~737 citations to the 5 000–15 000 range needed
 for variant-level statistics, without re-doing the manual labour.
 
-Architecture (high level — detailed design in `notes/pipeline.md`, to be
+Architecture (high level — detailed design in `pipeline/README.md`, to be
 created):
 
 1. **Classifier catalogue.** For each (cryptoclass, construction-type) the
@@ -154,7 +155,7 @@ equivalents finalised by this point.
   *metaforónimo*, *categorialidad encubierta*, IDC, CAC). → confirmed with
   advisor.
 - Which LLM / model family for Phase 3, and what is the cost envelope for
-  tagging at scale? → recorded in `notes/pipeline.md`.
+  tagging at scale? → recorded in `pipeline/README.md`.
 - Should `US` (United States Spanish) be treated as a full variant or as a
   contact / diaspora variety with different status? → decide before Phase 6.
 - Do the `Приложение*.doc` appendices (cultural-historical notes,

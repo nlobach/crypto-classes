@@ -887,7 +887,7 @@ idiosyncratic frequency effects. A frozen idiom can inflate ПоКА but not
 
 ### 9.5 — For the Spanish project
 
-The `outputs/poka.csv` table planned in `notes/plan-from-scratch.md`
+The `outputs/poka.csv` table planned in `archive/plan-from-scratch.md`
 Phase 6 should have one row per `(emonym, variant, cryptoclass)` with
 columns `(S_raw, S_normalised_poka, IDC_ira)`. СИ values are stored per
 `(emonym, variant, classifier_lemma)` and aggregated to ПоКА by sum.
@@ -1197,7 +1197,7 @@ where the Spanish work must diverge or extend.
 1. **Two added classes.** Res Continens and Res Planae are not in
    Boriskina. They are admitted on (a) contrastive grounds and (b)
    prima facie corpus evidence. Their **factor-analysis confirmation**
-   is `notes/plan-from-scratch.md` Phase 7 — they will be either
+   is `archive/plan-from-scratch.md` Phase 7 — they will be either
    retained, merged, or dropped depending on whether they behave as
    independent factors in the Varimax solution.
 
@@ -1211,7 +1211,7 @@ where the Spanish work must diverge or extend.
    VI) on top of cryptoclasses (Vinogradov I–III). The two systems
    coexist but the gender is **not the cryptoclass**: *miedo* (masc)
    and *tristeza* (fem) can both belong to Res Liquidae. Per
-   `notes/plan-from-scratch.md` Phase 2's "Spanish-specific gotcha,"
+   `archive/plan-from-scratch.md` Phase 2's "Spanish-specific gotcha,"
    gender is treated as a covariate, not a stratifier. Empirical work
    should check whether gender correlates with cryptoclass distribution
    — Boriskina did not face this question.

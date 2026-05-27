@@ -18,8 +18,8 @@ numerical, or citational claim in this project is the original PDF in
   Cross-variant methodology: areal layer, corpus coefficients, Pearson `r`,
   Kendall's `W`, Varimax, k-means, Kohonen SOM; the 23-emonym × 20-variant
   empirical study of English.
-- `Приложение 1 для диссера.doc`, `Приложение  2.doc`, `Приложение 3.doc` —
-  Donina's appendices.
+- `donina-appendices/Приложение 1 для диссера.doc`, `donina-appendices/Приложение  2.doc`,
+  `donina-appendices/Приложение 3.doc` — Donina's appendices.
 
 **If a `.md` file in this directory disagrees with the PDF, the PDF
 wins.** Update the note to match the PDF; do not adjust the PDF or work
@@ -68,7 +68,9 @@ source (no front-matter offset to compensate for).
 | `theory-boriskina.md` | Boriskina 2011 | Chapter 1 in full; Chapter 3 selectively (portrait, four principles, five types of metaphoronyms) |
 | `methodology-donina.md` | Donina 2016 | §§1.4–1.10 (methodology); §§2.2–2.3 selectively |
 | `glossary.md` | both | Trilingual RU / EN / ES terminology |
-| `plan-from-scratch.md` | project-internal | Planning notes (not extracted from PDFs) |
 
-The `notes/cryptoclasses/<class>.md` files referenced from the
-extractions do not yet exist and are scheduled per `../ROADMAP.md`.
+The `cryptoclasses/<class>.md` files referenced from the extractions do not
+yet exist and are scheduled per `../ROADMAP.md`. The earlier planning notes
+file (`plan-from-scratch.md`) has moved to `../archive/` — it is still
+referenced from the extractions as historical context, but is no longer the
+live plan; current planning lives in `../ROADMAP.md`.
