@@ -107,19 +107,24 @@ the other seven — this is handled by `pipeline/extract_wide.js`.
 
 ## Data status
 
-As of project start: ~**737 citations** across all 8 cryptoclasses combined, in
-~**530 filled cells**. Distribution is uneven:
+After automated extraction of the manually-collected xlsx files into
+`data/citations.tsv`: ~**2,900 citations** across all 8 cryptoclasses combined
+(2,906 rows), in **482 filled (cryptoclass × emonym × variant) cells**.
+Distribution is uneven:
 
-- **Emonyms in scope**: 4 (*miedo, tristeza, amor, alegría*) vs. Donina's 23 for
-  English. ≈ 17 % of her breadth.
+- **Emonyms in scope**: 5 (*miedo, tristeza, amor, alegría, ira*) vs. Donina's
+  23 for English. ≈ 22 % of her breadth.
+- **Per-emonym counts**: *amor* 1,125 · *alegría* 782 · *miedo* 496 ·
+  *tristeza* 374 · *ira* 129.
 - **Strong variants**: AR, ES, MX, CO, CL, US (variants with large accessible
   corpora). **Weak / absent**: GT, HN, SV, NI, CR, PR, PY, EC. Central American
   coverage is essentially missing.
-- **Cell density**: median 1–2 examples per filled cell — too thin to compute
-  IDC / CAC reliably *per variant*.
+- **Cell density**: median 1–2 examples per (cryptoclass × emonym × variant ×
+  classifier-lemma) cell — still too thin to compute IDC / CAC reliably *per
+  variant* at fine grain, despite the higher total.
 
 **Order-of-magnitude gap to a Donina-equivalent Spanish study**: roughly
-5 000–15 000 citations across 15–25 emonyms. Current data is ~5–10× short of
+5 000–15 000 citations across 15–25 emonyms. Current data is ~2–5× short of
 the low end of that range.
 
 **Strategy** to close the gap (see `ROADMAP.md`): automated sifting of Spanish
@@ -144,7 +149,7 @@ predominantly collection volume, not framework design.
   equivalents are provisional and marked as such).
 - **Country codes**: ISO 3166-1 alpha-2; the 21-code list above is canonical
   for this project.
-- **Emonyms in scope (current)**: *miedo*, *tristeza*, *amor*, *alegría*.
+- **Emonyms in scope (current)**: *miedo*, *tristeza*, *amor*, *alegría*, *ira*.
   Extend per ROADMAP.
 
 ## Where to find what

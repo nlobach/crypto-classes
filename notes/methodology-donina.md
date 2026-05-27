@@ -348,10 +348,10 @@ treat (e.g.) *ira* vs. *enfado* as separate emonyms or to take one as
 canonical is one of the project's central open questions (see
 `ROADMAP.md` Phase 4 open questions).
 
-**The project's current emonym set** (per `CLAUDE.md`): 4 emonyms —
-*miedo*, *tristeza*, *amor*, *alegría*. This is ~17% of Donina's 23,
-and her four selected emotions are: *fear (miedo)*, *love (amor)*,
-*joy (alegría)*, and *sadness (tristeza* — interestingly **not in
+**The project's current emonym set** (per `CLAUDE.md`): 5 emonyms —
+*miedo*, *tristeza*, *amor*, *alegría*, *ira*. This is ~22% of Donina's 23,
+and the selected emotions map as: *fear (miedo)*, *love (amor)*,
+*joy (alegría)*, *anger (ira)*, and *sadness (tristeza* — interestingly **not in
 Donina's 23**; she has *grief*, *distress*, *anxiety* but not a direct
 *sadness* equivalent. *Tristeza* in Spanish corresponds most naturally
 to *sadness* in English; the project's scope therefore differs subtly
@@ -1190,10 +1190,11 @@ collection):
    to the Spanish project's positive-emonym predictions.
 5. Extract Chapter 1 Выводы (pp. 113-120) and Заключение (pp. 338-343)
    in full — they are condensed re-statements of the methodology.
-6. Per-emonym extractions for the 4 emonyms currently in Spanish scope
+6. Per-emonym extractions for the 5 emonyms currently in Spanish scope
    (*fear/miedo* p. 200-208; *love/amor* p. 274-283; *joy/alegría*
-   p. 192-199; *grief* p. 258-265 — closest English analogue of
-   *tristeza*, but note this is a non-trivial translation).
+   p. 192-199; *anger/ira* — Donina's *anger* extraction;
+   *grief* p. 258-265 — closest English analogue of *tristeza*, but note
+   this is a non-trivial translation).
 7. Decide Spanish equivalents for Donina's 23 emonyms (per the
    tentative table in §3.1) and lock the candidate list for Phase 4
    of `ROADMAP.md`.

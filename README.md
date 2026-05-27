@@ -44,10 +44,11 @@ working data; the TSV is the long-form canonical form derived from them.
 
 ## Status
 
-Manually-collected data covers 4 emonyms (*miedo, tristeza, amor, alegría*)
-across the 21 variants, ~737 citations — about 5–10× short of what a
-Donina-equivalent study needs. Closing that gap via an automated
-corpus-sifting pipeline is the next major phase (see `ROADMAP.md`).
+Manually-collected data, extracted into `data/citations.tsv`, covers 5 emonyms
+(*miedo, tristeza, amor, alegría, ira*) across the 21 variants, ~2,900
+citations — about 2–5× short of what a Donina-equivalent study needs. Closing
+that gap via an automated corpus-sifting pipeline is the next major phase (see
+`ROADMAP.md`).
 
 ## Working language
 

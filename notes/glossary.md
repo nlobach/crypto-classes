@@ -234,9 +234,9 @@ Each entry has the shape:
 - **Notes**: Donina's 23 English emonyms: *emotion, feeling, hope, surprise,
   anger, passion, happiness, interest, fear, joy, grief, sympathy, terror,
   pleasure, love, pride, pity, relief, concern, distress, shame, guilt,
-  anxiety*. This project's current four Spanish emonyms (per CLAUDE.md):
-  *miedo, tristeza, amor, alegría*, with extension up to ~15–25 planned per
-  `ROADMAP.md` Phase 4.
+  anxiety*. This project's current five Spanish emonyms (per CLAUDE.md):
+  *miedo, tristeza, amor, alegría, ira*, with extension up to ~15–25 planned
+  per `ROADMAP.md` Phase 4.
 
 ### Non-object noun / abstract noun (непредметное имя)
 - **RU**: непредметное имя; абстрактное имя; nomen abstractum
@@ -745,8 +745,8 @@ not a productive construction but a lexicalised one. This is distinct from
 - **Source**: project-specific; standard term in NLP / corpus pipelines
 - **Definition**: The set of manually-collected, hand-tagged citations
   against which the automated pipeline is validated. In this project, the
-  ~737 citations (now extracted into `data/citations.tsv` from the legacy
-  `.xlsx` files) are the gold set. The pipeline's precision and recall
+  ~2,900 citations extracted into `data/citations.tsv` from the legacy
+  `.xlsx` files are the gold set. The pipeline's precision and recall
   against this set are the only honest measure of its reliability.
 - **Notes**: Cf. `ROADMAP.md` Phase 1 (gold-set freeze) and Phase 3 (LLM
   pipeline calibration).

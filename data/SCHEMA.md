@@ -151,15 +151,17 @@ SQL
 
 ## Extraction status
 
-- **Wide-format files (7 of 8)**: extracted automatically by
-  `pipeline/extract_wide.js` — 1,589 citation rows in `citations.tsv`, covering
-  every cryptoclass except *Res Liquidae*. Re-run the script anytime to
-  regenerate; it overwrites the file.
-- **`RES LIQUIDAE.xlsx`**: not yet extracted. Has its own long-form schema
-  with per-row construction-type and (for `tristeza`/`amor`/`ira`) Russian
-  translations. Adds an estimated ~1,100 rows when done. The aggregate sheets
-  inside it (`Лист6`, `Лист7`, `Лист11`, `Лист12`, `Лист13`, `amor números`,
-  etc.) are GROUP BY views and will not be migrated.
+- **All 8 cryptoclasses extracted**: `pipeline/extract_wide.js` reads the
+  wide-format xlsx files in `data/legacy-xlsx/` and writes **2,906 citation
+  rows** to `citations.tsv`. Re-run the script anytime to regenerate; it
+  overwrites the file. Per-class row counts: Res Liquidae 1,251 · Res Continens
+  499 · Res Filiformes 341 · Res Planae 252 · Res Longae Penetrantes 194 ·
+  Res Parvae 170 · Res Rotundae 134 · Res Acutae 65.
+- **Res Liquidae source**: the original long-form `RES LIQUIDAE.xlsx` is
+  excluded; the cleaned wide-form counterpart `RES LIQUIDAE COR.xlsx` is the
+  one extracted. The aggregate sheets inside the original (`Лист6`, `Лист7`,
+  `Лист11`, `Лист12`, `Лист13`, `amor números`, etc.) are GROUP BY views and
+  are not migrated.
 - **Pipeline-collected citations**: ROADMAP Phase 1+ will append corpus-sifted
   rows to the same table; the manually-collected gold-standard subset should
   be marked via the `notes` column (`gold` or similar) so it can be filtered

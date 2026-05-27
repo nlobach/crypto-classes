@@ -4,8 +4,9 @@ Phased plan for the Spanish cryptoclass project. Phases are sequenced but each
 phase can produce drafts that are revised by later phases.
 
 The plan reflects the **Data status** section of `CLAUDE.md`: the
-manually-collected dataset (~737 citations, 4 emonyms, uneven country coverage)
-is insufficient for Donina-style cross-variant claims. The core strategic move
+manually-collected dataset (~2,900 citations after extraction, 5 emonyms,
+uneven country coverage, thin per-classifier cell density) is insufficient
+for Donina-style cross-variant claims. The core strategic move
 is therefore to build an **automated corpus-sifting pipeline with LLM-assisted
 filtering**, and to treat the existing manual data as the **gold-standard
 validation set** for that pipeline.
@@ -59,7 +60,7 @@ gold-standard validation set for the pipeline built in Phase 2.
 
 ## Phase 2 — Automated corpus-sifting pipeline
 
-Goal: scale collection from ~737 citations to the 5 000–15 000 range needed
+Goal: scale collection from ~2,900 citations to the 5 000–15 000 range needed
 for variant-level statistics, without re-doing the manual labour.
 
 Architecture (high level — detailed design in `pipeline/README.md`, to be
@@ -113,7 +114,7 @@ explicit provenance flag (`source: manual | llm-tagged | llm-tagged+reviewed`).
 
 ## Phase 4 — Scale to Donina's emonym set
 
-With Phases 2–3 operational, extend collection from 4 emonyms to ≈ 20.
+With Phases 2–3 operational, extend collection from 5 emonyms to ≈ 20.
 Candidate set, mirroring Donina's English list translated to Spanish: *miedo,
 tristeza, alegría, amor, esperanza, sorpresa, ira/enfado, pasión, interés,
 felicidad, placer, orgullo, lástima, alivio, preocupación, angustia, terror,
