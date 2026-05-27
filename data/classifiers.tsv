@@ -1,0 +1,53 @@
+cryptoclass	construction_type	seed_lemmas_es	seed_lemmas_ru_legacy	notes
+Res Liquidae	verbal-subject-intransitive	fluir, brotar, manar, rebosar, diluirse, chorrear	субъектная интранзитивная	The dominant pattern for emonyms-as-liquids (382/750 = 51% in amor).
+Res Liquidae	verbal-subject-transitive	inundar, anegar, empapar	субъектная транзитивная	Emonym floods/soaks the experiencer.
+Res Liquidae	verbal-objective	derramar, verter, diluir, salpicar	объектная	Pouring/spilling the emonym.
+Res Liquidae	verbal-instrumental	inundado por, empapado de, ahogado en	инструментальная	Experiencer as oblique recipient of the liquid.
+Res Liquidae	attributive	derramado, vertido, diluido	атрибутивная	
+Res Liquidae	substantive	gota de, gotas de, chorro de, torrente de, flujo de, mar de	субстантивная	Container/measure nouns for the liquid emonym.
+Res Filiformes	verbal-objective	desatar, entrelazar, tejer, retorcer, hilvanar, anudar	Глагольные объектные классификаторы	Working the thread.
+Res Filiformes	verbal-subject-intransitive	desatarse, tejerse, enrollarse	Субъектные интранзитивные	Thread does itself.
+Res Filiformes	verbal-subject-transitive	tensar, amarrar, atar, desatar, enhebrar	Субъектные транзитивные	Thread ties/binds something.
+Res Filiformes	verbal-instrumental	atado con, tejido con, pender de	Инструментальные	
+Res Filiformes	attributive	tenso, tejido, atado, entrelazado	Атрибутивные	Lat. tensus.
+Res Filiformes	substantive	hilo de, madeja de, carrete de, ovillo de	Субстантивные	
+Res Rotundae	verbal-objective	rodar, envolver	Глагольные объектные классификаторы	rodar la pelota, envolver un plato.
+Res Rotundae	verbal-subject-intransitive	girar (en torno a, alrededor de), rodar	Субъектные интранзитивные	Emonym revolves.
+Res Rotundae	verbal-subject-transitive	envolver	Субъектные транзитивные	Emonym wraps the experiencer.
+Res Rotundae	verbal-instrumental	envuelto en	инструментальные	
+Res Rotundae	attributive	redondo, esférico, circular	Атрибутивные	
+Res Rotundae	predicative	es redondo, es esférico	предикативные	
+Res Rotundae	substantive	bola de, círculo de, esfera de	субстантивные	círculo vicioso de tristeza is recurrent.
+Res Longae Penetrantes	verbal-subject-transitive	atravesar	Глагольные субъектные транзитивные	S atraviesa O.
+Res Longae Penetrantes	verbal-subject-intransitive	penetrar (en)	субъектные интранзитивные	S penetra en O.
+Res Longae Penetrantes	verbal-objective	clavar, hincar	объектный	Clavar/hincar el miedo en alguien.
+Res Longae Penetrantes	verbal-instrumental	atravesado por, clavado por	инструментальные	
+Res Longae Penetrantes	attributive	penetrante	Атрибутивные	Source headers spell "penentrante" — preserved only in source_file.
+Res Longae Penetrantes	predicative	es penetrante	предикативные	
+Res Longae Penetrantes	substantive	punta de, golpe de	субстантивные	
+Res Acutae	verbal-subject-transitive	pinchar, punzar	Глагольные субъектные транзитивные	S pincha/punza O.
+Res Acutae	verbal-subject-intransitive		субъектные интранзитивные	Rare for Acutae; often absent in legacy.
+Res Acutae	verbal-objective	afilar, aguzar	объектный	
+Res Acutae	verbal-instrumental	pinchado por, punzado por	инструментальные	
+Res Acutae	attributive	puntiagudo, punzante, cortante, afilado, agudo	Атрибутивные	
+Res Acutae	predicative	es punzante, es agudo	предикативные	
+Res Acutae	substantive	punta de, filo de	субстантивные	"a punta de miedo" idiom.
+Res Acutae	idiomatic	a punta de, al filo de	идиомы	Frozen prepositional idioms.
+Res Parvae	verbal-objective-grasp	tomar, coger, agarrar, asir, sujetar	глагольные транзитивные (захват, удерживание)	Grasping/holding the small object.
+Res Parvae	verbal-objective-throw	soltar, tirar, lanzar, arrojar	глагольные транзитивные (отпускание, бросок)	Releasing/throwing.
+Res Parvae	verbal-objective-collect	captar, recoger	глагольные транзитивные (собирать)	Collecting.
+Res Parvae	substantive	puñado de, manojo de	субстантивные	
+Res Continens	verbal-objective	tapar, destapar, llenar, vaciar	Глагольные объектные классификаторы	Capping/uncapping/filling/emptying the container.
+Res Continens	verbal-subject-transitive	contener, tener, almacenar, guardar	субъектные транзитивные	The container holds X.
+Res Continens	verbal-subject-intransitive		ИНТРАНЗИТИВНЫЕ	Rare in this class.
+Res Continens	verbal-instrumental	almacenar en, guardar en	инструментальные	
+Res Continens	verbal-locative-state	estar en, encontrarse en, vivir en, existir en, aparecer en	Глагольные локативные классификаторы	algo está / vive en el recipiente — being inside.
+Res Continens	verbal-locative-into	caer en, entrar en, sumergirse en	Интранзитивные классификаторы (Помещение)	Motion into the container.
+Res Continens	verbal-locative-out	sacar de, salir de	ИЗВЛЕЧЕНИЕ	Motion out of the container — distinct from -into.
+Res Continens	attributive	lleno de, rebosante de, vacío de	Атрибутивные	
+Res Continens	predicative	está lleno de, está vacío de, está rebosante de	предикативные	
+Res Planae	attributive	plano, llano, liso	Атрибутивные	"tristeza simple y llana".
+Res Planae	predicative	es plano, es liso, es llano	предикативные	
+Res Planae	verbal-objective	nivelar, alisar	объектные	
+Res Planae	substantive	nivel de	субстантивные	By far the dominant pattern in Planae — most cells are nivel-de.
+Res Planae	verbal-instrumental		инструментальные	Sparse / absent in legacy.

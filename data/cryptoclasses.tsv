@@ -1,0 +1,9 @@
+cryptoclass	abbrev	prototype_es	prototype_en	spanish_specific	source_file	notes
+Res Liquidae	liq	agua	water (liquid)	f	RES LIQUIDAE.xlsx	Boriskina's original 6. Largest dataset by far in this project (~1100 long-form rows).
+Res Filiformes	fil	hilo	thread, filament	f	Res Filiformes.xlsx	Boriskina's original 6.
+Res Rotundae	rot	pelota	ball, round object	f	Res Rotundae.xlsx	Boriskina's original 6.
+Res Longae Penetrantes	pen	lanza	spear, penetrating long object	f	Res Penentrantes.xlsx	Boriskina's original 6. Filename typo (Penentrantes) preserved in source_file.
+Res Acutae	acu	aguja	needle, sharp object	f	Res Acutae.xlsx	Boriskina's original 6.
+Res Parvae	par	guijarro	pebble, small graspable object	f	Res Parvae.xlsx	Boriskina's original 6.
+Res Continens	con	recipiente	container	t	RES CONTINENS.xlsx	Added for Spanish. Needs the verbal-locative-{state,into,out} split.
+Res Planae	pla	superficie plana	flat surface	t	Res Planae.xlsx	Added for Spanish. Dominant classifier is substantive: nivel de.
