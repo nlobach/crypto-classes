@@ -16,11 +16,35 @@ collection pipeline (`ROADMAP.md`) a single `GROUP BY`.
 |---|---|---|
 | `cryptoclasses.tsv` | one row per cryptoclass | no (8 rows) |
 | `classifiers.tsv` | one row per (cryptoclass, construction-type) seed | rarely |
+| `emonyms.tsv` | one row per emonym in scope | rarely (Phase 4 expansion) |
 | `citations.tsv` | one row per citation | yes |
 
 TSV (not CSV) — Spanish citations contain commas freely; tabs do not appear in
 running prose, so no quoting is needed. UTF-8, LF line endings, diacritics
 preserved verbatim. Empty cells are the empty string (not `NULL`, not `—`).
+
+## `emonyms.tsv`
+
+| # | column | type / vocab | notes |
+|---|---|---|---|
+| 1 | `emonym` | lowercase Spanish, with diacritics | joins `citations.tsv.emonym` |
+| 2 | `gender` | `m` / `f` | grammatical gender of the noun (the article it takes: *el miedo* vs *la tristeza*) |
+| 3 | `notes` | text, optional | scope notes, e.g. potential Phase 4 splits (*amor / cariño*, *ira / rabia*) |
+
+Recorded as a **covariate**, per the Phase 0 decision on grammatical gender:
+the primary ПоКА / Pearson / Varimax pipeline (ROADMAP Phase 6) runs as if
+gender were not present. A single post-hoc check on the factor loadings
+then asks whether any factor is driven by gender rather than cryptoclass.
+If none surfaces, no further action. If one does, the column is already
+populated and the analysis can be re-cut as stratified-on-gender without
+re-collection.
+
+Rationale: Donina's English material had no agreement to control for. The
+5 current emonyms split 2 m (*miedo*, *amor*) vs 3 f (*tristeza*, *alegría*,
+*ira*); the full Phase 4 set will mix similarly. Ignoring gender entirely
+leaves Phase 6 vulnerable to a confound critique; stratifying immediately
+would halve effective per-cell n on data that is already thin. Recording
+as a covariate is the cheap defensive option.
 
 ## `citations.tsv`
 

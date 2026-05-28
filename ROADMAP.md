@@ -66,6 +66,11 @@ that future sessions do not re-open the PDFs for routine work.
       ПоКА values can be normalised across unevenly-sized variant
       subcorpora. Without this, cross-variant comparisons in Phase 6 are
       not actually comparable.
+- [x] `data/emonyms.tsv` — emonym lookup with grammatical gender recorded
+      as a **covariate**. Decision: the primary Phase 6 pipeline runs as
+      if gender were not present; a single post-hoc factor-loading check
+      tests for a gender-driven confound. Stratify only if the check shows
+      an effect. Documented in `data/SCHEMA.md` §`emonyms.tsv`.
 
 Exit criterion: a new contributor (or a future Claude session) can do
 end-to-end work on the project by reading only `CLAUDE.md` plus the relevant
@@ -260,8 +265,3 @@ equivalents finalised by this point.
 - Final emonym list for Phase 4 — 23 (Donina-parity) or trimmed for Spanish
   semantic peculiarities (e.g. *cariño* vs. *amor*, *rabia* vs. *ira*). →
   decide before Phase 4 begins.
-- Treatment of **grammatical gender** of classifier targets — covariate
-  (reported but not stratified on), stratifier, or ignored. Donina's English
-  material did not pose this problem; recommendation is *covariate*. →
-  decide before the Phase 0 `notes/cryptoclasses/<class>.md` classifier
-  inventories are locked.
