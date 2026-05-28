@@ -159,21 +159,88 @@ function loadSeedLemmas() {
   return map;
 }
 
+function escapeRe(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+// Unicode-aware word-boundary helpers. JS's built-in `\b` is ASCII-only and
+// treats Spanish accented letters as non-word characters, which breaks
+// boundaries on "está", "más", "envió" etc. We use \p{L} lookarounds instead.
+function containsAsWord(cit, phrase) {
+  return new RegExp('(?<!\\p{L})' + escapeRe(phrase) + '(?!\\p{L})', 'u').test(cit);
+}
+function startsWord(cit, prefix) {
+  return new RegExp('(?<!\\p{L})' + escapeRe(prefix), 'u').test(cit);
+}
+
+// Generate candidate stems for a Spanish lemma (verb or adjective/participle).
+// Used to bridge inflected surface forms back to the canonical lemma.
+function generateStems(word) {
+  const out = [];
+  // Verb infinitive: drop -arse / -erse / -irse / -ar / -er / -ir.
+  const v = word.match(/^(.+?)(arse|erse|irse|ar|er|ir)$/);
+  if (v) {
+    const stem = v[1];
+    out.push(stem);
+    // Spanish stem-changing ("boot") verbs: stressed vowel diphthongises.
+    //   e → ie  (atravesar → atraviesa, pensar → piensa, retorcer → retuerce)
+    //   o → ue  (contar → cuenta, doler → duele)
+    //   e → i   (only in -ir verbs: pedir → pide)
+    const e2ie = stem.replace(/e([^aeiouáéíóú]*)$/, 'ie$1');
+    if (e2ie !== stem) out.push(e2ie);
+    const o2ue = stem.replace(/o([^aeiouáéíóú]*)$/, 'ue$1');
+    if (o2ue !== stem) out.push(o2ue);
+    if (v[2].startsWith('ir')) {
+      const e2i = stem.replace(/e([^aeiouáéíóú]*)$/, 'i$1');
+      if (e2i !== stem) out.push(e2i);
+    }
+    // Orthographic alternation before back vowels.
+    //   g → j  (coger → cojo, recoger → recojo)
+    //   c → z  (vencer → venzo)
+    if (stem.endsWith('g')) out.push(stem.slice(0, -1) + 'j');
+    if (stem.endsWith('c')) out.push(stem.slice(0, -1) + 'z');
+  }
+  // Adjective / past participle: drop final -o / -a / -e to cover gender / number.
+  const a = word.match(/^(.+?)[oae]$/);
+  if (a) out.push(a[1]);
+  return out;
+}
+
 // Try to identify which seed lemma actually appears in the citation.
 // Returns the lemma string, or '' if no match.
+//
+// Strategy, in order:
+//   1. Exact phrase match with Unicode-aware word boundaries
+//      (tolerates punctuation: "agudo," still matches the lemma "agudo").
+//   2. Single-word seed → try stem variants at word start.
+//   3. Compound seed (e.g. "vivir en", "envuelto en") → require the tail
+//      tokens to appear in the citation, then stem-match the head.
 function detectLemma(citation, seeds) {
   if (!seeds || !seeds.length) return '';
-  const lower = ' ' + citation.toLowerCase() + ' ';
+  const cit = citation.toLowerCase();
+
   for (const lemma of seeds) {
     const lemmaL = lemma.toLowerCase();
-    // exact (covers phrasal substantives like "nivel de", "a punta de")
-    if (lower.includes(' ' + lemmaL) || lower.includes(lemmaL + ' ')) return lemma;
-    // verb stem: drop -ar/-er/-ir(-se)
-    const verb = lemmaL.match(/^(.+?)(arse|erse|irse|ar|er|ir)$/);
-    if (verb && verb[1].length >= 3 && lower.includes(verb[1])) return lemma;
-    // adjective: drop final -o/-a/-e
-    const adj = lemmaL.match(/^(.+?)[oae]$/);
-    if (adj && adj[1].length >= 4 && lower.includes(adj[1])) return lemma;
+
+    // 1. Exact phrase match.
+    if (containsAsWord(cit, lemmaL)) return lemma;
+
+    const parts = lemmaL.split(/\s+/);
+    if (parts.length === 1) {
+      for (const stem of generateStems(lemmaL)) {
+        if (stem.length >= 2 && startsWord(cit, stem)) return lemma;
+      }
+    } else {
+      // Compound seed: tail tokens must appear, then stem-match the head.
+      const head = parts[0];
+      const tail = parts.slice(1).join(' ');
+      if (!containsAsWord(cit, tail)) continue;
+      for (const stem of generateStems(head)) {
+        if (stem.length >= 2 && startsWord(cit, stem)) return lemma;
+      }
+      // Also accept the bare head as a whole word (e.g. "envuelto" itself).
+      if (head.length >= 2 && containsAsWord(cit, head)) return lemma;
+    }
   }
   return '';
 }
