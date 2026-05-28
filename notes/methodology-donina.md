@@ -1190,11 +1190,12 @@ collection):
    to the Spanish project's positive-emonym predictions.
 5. Extract Chapter 1 Выводы (pp. 113-120) and Заключение (pp. 338-343)
    in full — they are condensed re-statements of the methodology.
-6. Per-emonym extractions for the 5 emonyms currently in Spanish scope
-   (*fear/miedo* p. 200-208; *love/amor* p. 274-283; *joy/alegría*
-   p. 192-199; *anger/ira* — Donina's *anger* extraction;
-   *grief* p. 258-265 — closest English analogue of *tristeza*, but note
-   this is a non-trivial translation).
+6. Per-emonym extractions — relocated to `notes/donina-emonyms/`.
+   Status: *fear/miedo* extracted (pp. 200–208 →
+   `donina-emonyms/fear.md`); pending: *love/amor* (pp. 274–283),
+   *joy/alegría* (pp. 192–199), *anger/ira* (Donina's *anger*
+   extraction), *grief* (pp. 258–265, closest analogue of *tristeza*
+   with a non-trivial translation gloss).
 7. Decide Spanish equivalents for Donina's 23 emonyms (per the
    tentative table in §3.1) and lock the candidate list for Phase 4
    of `ROADMAP.md`.

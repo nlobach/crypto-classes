@@ -65,11 +65,12 @@ source (no front-matter offset to compensate for).
 
 | File | Source | Coverage |
 |---|---|---|
-| `theory-boriskina.md` | Boriskina 2011 | Chapter 1 in full; Chapter 3 selectively (portrait, four principles, five types of metaphoronyms) |
-| `methodology-donina.md` | Donina 2016 | §§1.4–1.10 (methodology); §§2.2–2.3 selectively |
+| `theory-boriskina.md` | Boriskina 2011 | Chapter 1 in full; Chapter 3 selectively (portrait, four principles, five types of metaphoronyms, aggregate state of emotions §3.5) |
+| `methodology-donina.md` | Donina 2016 | §§1.4–1.10 (methodology); §§2.2–2.3 selectively; per-emonym extractions split out into `donina-emonyms/` |
 | `glossary.md` | both | Trilingual RU / EN / ES terminology |
 | `corpora.md` | project decision record | Which Spanish corpora are used, country tagging, licensing, corpus-coefficient requirement |
 | `cryptoclasses/` | per-class working notes | One file per class (eight total) — see `cryptoclasses/README.md` |
+| `donina-emonyms/` | per-emonym extractions from Donina §§2.1.* | One file per English emonym Donina analyses — see `donina-emonyms/README.md`. Each is the cross-linguistic comparator for the corresponding Spanish emonym. |
 
 The earlier planning notes file (`plan-from-scratch.md`) has moved to
 `../archive/` — it is still referenced from the extractions as historical
