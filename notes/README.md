@@ -1,6 +1,6 @@
 # `notes/` — orientation and authority
 
-These notes are **working extractions** from the two source dissertations in
+These notes are **working extractions** from the source dissertations in
 `../references/`. They exist to make the framework navigable in English
 without having to page through ~900 pages of Russian theoretical prose every
 session.
@@ -18,6 +18,14 @@ numerical, or citational claim in this project is the original PDF in
   Cross-variant methodology: areal layer, corpus coefficients, Pearson `r`,
   Kendall's `W`, Varimax, k-means, Kohonen SOM; the 23-emonym × 20-variant
   empirical study of English.
+- `Автореферат_Голикова_О.А..pdf` — Golikova O.A. (2018), 28 pp
+  (автореферат / extended abstract; the full dissertation is not in
+  `references/`). Establishes *Res Planae* as the **seventh English
+  cryptoclass**, links cryptoclass theory to Rakhilina's *topotype*, and
+  proposes the term *именная классификативность*. Significant for this
+  project's framing: *Res Planae* is now an English-attested class, not a
+  Spanish-specific extension — only *Res Continens* remains the project's
+  own addition.
 - `donina-appendices/Приложение 1 для диссера.doc`, `donina-appendices/Приложение  2.doc`,
   `donina-appendices/Приложение 3.doc` — Donina's appendices.
 
@@ -67,6 +75,7 @@ source (no front-matter offset to compensate for).
 |---|---|---|
 | `theory-boriskina.md` | Boriskina 2011 | Chapter 1 in full; Chapter 3 selectively (portrait, four principles, five types of metaphoronyms, aggregate state of emotions §3.5) |
 | `methodology-donina.md` | Donina 2016 | §§1.4–1.10 (methodology); §§2.2–2.3 selectively; per-emonym extractions split out into `donina-emonyms/` |
+| `theory-golikova.md` | Golikova 2018 (автореферат) | Full autoreferat: typological warrant for *Res Planae*, English classifier inventory (*flat / plain / level / even*), construction-type semantics, *level*-frequency datum from COCA, revised feature hierarchy ([+flat] = 2nd after [+graspable]), cryptoclass × topotype linkage, *именная классификативность* term. |
 | `glossary.md` | both | Trilingual RU / EN / ES terminology |
 | `corpora.md` | project decision record | Which Spanish corpora are used, country tagging, licensing, corpus-coefficient requirement |
 | `cryptoclasses/` | per-class working notes | One file per class (eight total) — see `cryptoclasses/README.md` |
