@@ -165,13 +165,21 @@ awk -F'\t' '$2=="Res Liquidae" && $3=="amor" {print $4}' data/citations.tsv \
 
 # 3. Load into SQLite for richer queries
 sqlite3 :memory: <<'SQL'
-.mode tabs
+.mode ascii
+.separator "\t" "\n"
 .import data/citations.tsv citations
 SELECT country, COUNT(*) FROM citations
 WHERE cryptoclass='Res Liquidae' AND emonym='amor'
 GROUP BY country ORDER BY 2 DESC;
 SQL
 ```
+
+**Do not use `.mode tabs` or `.mode csv` to load `citations.tsv`.** Spanish
+citations contain unescaped `"` characters (direct speech, scare quotes), and
+both modes treat `"` as a CSV quote delimiter. The import silently merges or
+drops rows — counts will be wrong without erroring out. `.mode ascii` with
+explicit `\t` / `\n` separators disables quote interpretation and gives the
+correct row counts. Verify a load by checking `Res Continens` rows = 499.
 
 ## Extraction status
 
