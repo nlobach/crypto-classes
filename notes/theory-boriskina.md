@@ -1288,7 +1288,299 @@ this file.
 
 ---
 
-## 14 — Reading map (page-level pointers)
+## 14 — Aggregate state of emotions (§3.5)
+
+Boriskina §3.5 (pp. 328–333) is the single section in her dissertation
+that **directly compares cryptoclass profiles across emotion nouns**.
+Where §§2.1–2.6 work through each cryptoclass class-by-class (one class,
+all its metaphoronyms), §3.5 inverts the matrix: one emonym at a time,
+across all six classes. This is the closest English-data analog to what
+the Spanish project produces in Phase 6 — and the section the Phase 1
+*miedo* profile should be compared against directly.
+
+### 14.1 — The framing question
+
+The section opens by quoting Bragina (2007: 294), who quotes Arutyunova:
+
+> «Почему эмоции уподобляются текучему телу (наблюдение Н.Д.
+> Арутюновой), а воля – твердости?»
+
+— "Why are emotions likened to a flowing body (Arutyunova's
+observation), while will is likened to solidity?" Boriskina recasts
+this as a special case of a more general question. Emotion-noun
+combinability gives grounds **not only** for that one analogy:
+
+- Why are emotions likened to a thread-like object?
+- Why are emotions likened to a graspable, sharp, long-pointed, or
+  round object?
+
+The most general formulation, in cryptoclass terms:
+
+> «Почему имя *love* является метафоронимом шести именных
+> криптоклассов английского языка, а имя *passion* распределено
+> только в трех «Res Liquidae», «Res Parvae», «Res Filiformes»?»
+
+— "Why is *love* a metaphoronym of all six English nominal
+cryptoclasses, while *passion* is distributed across only three?"
+The very ability to *ask* such questions is, Boriskina argues, a step
+toward new knowledge about the language's covert categoriality.
+
+### 14.2 — The mythological-consciousness rationale
+
+Two attributes of mythological-consciousness "remnants" preserved in
+modern metaphor are directly relevant (citing Day 1996; Bragina 2007;
+Apresyan 2011):
+
+1. **The materiality of non-material entities** (вещность непредметных
+   сущностей).
+2. **The capacity to "know" them through touch** (способность
+   «познавать» их вещность через осязание).
+
+Both apply to emotion nouns. The cryptoclass framework operationalises
+this: an emonym distributes across classes whose prototypes are
+material, tactile objects, and the distribution is non-random.
+
+### 14.3 — The empirical baseline: every emonym is in ≥ 3 classes
+
+The result of cryptoclass analysis across Boriskina's 21 English
+emotion nouns:
+
+> «все они распределены как минимум в трех именных криптоклассах
+> английского языка «Res Liquidae», «Res Parvae», «Res Filiformes»»
+
+— **every** studied emonym is distributed across at least three of the
+six cryptoclasses, and those three are always the same set: Liquidae,
+Parvae, Filiformes. So in English-speaking consciousness emotions are
+categorised not only as "flowing/pouring" things but also as
+"thread-like" and as "graspable/manipulable" things.
+
+Half the names are most strongly connected to the *liquidity* feature,
+which manifests as the maximum diversity of their combinability with
+Res Liquidae classifier-collostructions (highest ИРа / IDC there).
+
+### 14.4 — Dominant class per emonym
+
+By IDC dominance (Table 20, §14.7 below), Boriskina's English emonyms
+group as:
+
+- **Res Liquidae-dominant** (13 emonyms): *anger, comfort, confidence,
+  excitement, grief, guilt, joy, passion, pleasure, pride, relief,
+  shame, shock*. The default for English emotion nouns.
+- **Res Filiformes-dominant** (3 emonyms): *emotion, shame, desire*.
+  *Shame* appears in both this list and the Liquidae list because the
+  prose summary calls it Liquidae-dominant but Table 20 ranks
+  Filiformes first; treat the table as authoritative.
+- **Res Parvae-dominant** (5 emonyms): *feeling, fear, shock, surprise,
+  happiness*.
+- **Res Acutae-dominant** (2 emonyms): *disappointment, pity*.
+
+Res Rotundae and Res Longae Penetrantes are dominant for no emonym in
+this data — they appear only as secondary or tertiary affiliations.
+This anticipates Donina's later finding that Rotundae is consistently
+the lowest-ranked class for emonyms across English variants.
+
+### 14.5 — Equivalence classes by feature hierarchy
+
+Beyond which class is dominant, §3.5 picks out emonyms sharing the
+**same ordered sequence of features** — pairings Boriskina takes to be
+empirically interesting even when she cannot explain them. From the
+prose:
+
+- *Love* and *hatred* — similar by IDC "memory strength" (Table 20).
+  Both are six-class metaphoronyms.
+- *Hatred* shares a feature sequence with *sympathy* in Table 21
+  (CAC), but with *love* in Table 20 (IDC) — the IDC and CAC
+  groupings need not agree.
+- *Love, anger, fear* — same feature sequence in English. Boriskina
+  hedges: «случайность или непознанная закономерность» —
+  "coincidence or undiscovered pattern."
+- *Pleasure, excitement, grief* — similar to *love / anger / fear*
+  by hierarchy.
+- *Relief* and *pride* — different in many respects but preserve
+  mythological images in the same order: liquid → prickling → woven
+  (Liquidae → Acutae → Filiformes). A striking parallel between two
+  semantically distant emotions.
+- *Sympathy, guilt, pleasure* — same IDC taxon (Table 20): associative
+  links with all five mythological-consciousness features are equal
+  in strength.
+- *Grief, joy, passion* — close in informational content of their
+  bound images. Order is liquid → graspable → thread.
+- *Grief* and *joy* — category-identical in English by IDC. Same
+  hedging: "coincidence or undiscovered pattern?"
+
+### 14.6 — IDC vs CAC: the "aggregate state" conclusion
+
+Table 21 (CAC, ПоКА) re-ranks emonyms by **raw corpus frequency** in
+each class, where Table 20 ranks by **diversity** of classifier
+combinations. The two rankings often diverge — *guilt* is Liquidae-
+first in both, but Parvae jumps from 2nd by IDC to a much closer 2nd
+by CAC.
+
+Boriskina notes that the **"tactility" of most emonyms is maximally
+communicatively loaded in modern English** — meaning that, by raw
+frequency, Res Parvae leads for the bulk of emonyms. Exceptions where
+Liquidae genuinely leads in raw count: *guilt, passion, emotion,
+sympathy, relief*.
+
+Comparing Liquidae (∑1) vs Parvae (∑2) raw counts for those "liquid"
+exceptions, Boriskina arrives at her answer to the "aggregate state"
+question:
+
+> «Эмоции уподобляются и жидкому, и твердому, но скорее твердому
+> (круглому как гнев или страх, или острому как жалость и
+> облегчение)»
+
+— "Emotions are likened to both liquid and solid, but more so to solid
+(round like anger or fear, or sharp like pity and relief)." A telling
+detail: *relief* shows equal corpus occurrence in Res Acutae and
+Res Liquidae — for English speakers, relief is "both liquid and
+prickling."
+
+For *joy* specifically Boriskina cites Uspensky (1997: 152) — a
+"light bright liquid that sometimes quietly spreads inside a person
+and sometimes bubbles, plays, sparkles, overflows the person,
+splashes over the edge" — and adds that *joy* also resembles a
+prickling object "capable of penetrating the body like a spear"
+(Res Acutae + Res Longae Penetrantes affinity).
+
+### 14.7 — Table 20: IDC (ИРа) hierarchies
+
+Ordered classes per emonym, with IDC values from Boriskina p. 331.
+Six columns = the six classes ranked by decreasing IDC. Blank in 5th/
+6th column = class present in the published table but IDC value not
+shown (always at the long tail); "—" = class genuinely absent for
+that emonym in the source. Verify against the PDF before citing.
+
+| # | Emonym | 1st (IDC) | 2nd (IDC) | 3rd (IDC) | 4th (IDC) | 5th | 6th |
+|---|---|---|---|---|---|---|---|
+| 1 | Love | Liq 0.615 | Fil 0.500 | Par 0.444 | Pen 0.375 | Rot | Acu |
+| 2 | Hatred | Liq 0.538 | Fil 0.375 | Par 0.333 | Rot 0.333 | Acu | Pen |
+| 3 | Relief | Liq 0.538 | Acu 0.375 | Pen 0.375 | Fil 0.125 | Par 0.111 | — |
+| 4 | Pride | Liq 0.385 | Acu 0.250 | Pen 0.125 | Fil 0.125 | Par 0.111 | — |
+| 5 | Anger | Liq 0.769 | Rot 0.667 | Acu 0.500 | Pen 0.375 | Fil | Par |
+| 6 | Guilt | Liq 0.615 | Par 0.556 | Acu 0.500 | Pen 0.375 | Fil | Rot |
+| 7 | Pleasure | Liq 0.385 | Par 0.333 | Acu 0.250 | Pen 0.250 | Fil | — |
+| 8 | Sympathy | Liq 0.385 | Par 0.333 | Acu 0.125 | Pen 0.125 | Fil | — |
+| 9 | Passion | Liq 0.538 | Par 0.333 | Fil 0.125 | — | — | — |
+| 10 | Grief | Liq 0.385 | Par 0.333 | Fil 0.125 | Pen 0.125 | — | — |
+| 11 | Joy | Liq 0.462 | Par 0.444 | Fil 0.375 | Acu 0.375 | Pen | — |
+| 12 | Fear | Par 0.778 | Fil 0.750 | Rot 0.667 | Pen 0.625 | Liq | Acu |
+| 13 | Feeling | Par 0.556 | Liq 0.462 | Acu 0.375 | Fil 0.250 | — | — |
+| 14 | Shock | Par 0.333 | Liq 0.308 | Acu 0.250 | Pen 0.125 | Fil 0.125 | — |
+| 15 | Surprise | Par 0.333 | Liq 0.308 | Acu 0.125 | Pen 0.125 | Fil 0.125 | — |
+| 16 | Happiness | Par 0.667 | Liq 0.308 | Fil 0.125 | Pen | — | — |
+| 17 | Shame | Fil 0.375 | Liq 0.308 | Acu 0.250 | Par 0.222 | Pen | — |
+| 18 | Emotion | Fil 0.625 | Liq 0.615 | Par 0.333 | Acu 0.250 | Pen | — |
+| 19 | Desire | Fil 0.625 | Par 0.556 | Liq 0.385 | Pen 0.375 | Rot | Acu |
+| 20 | Pity | Acu 0.250 | Liq 0.154 | Pen 0.125 | Fil 0.125 | Par 0.111 | — |
+| 21 | Disappointment | Acu 0.625 | Pen 0.250 | Par 0.222 | Liq 0.154 | Fil | — |
+
+Abbreviations: Liq = Res Liquidae, Fil = Res Filiformes, Par = Res
+Parvae, Acu = Res Acutae, Pen = Res Longae Penetrantes, Rot = Res
+Rotundae.
+
+### 14.8 — Table 21: CAC (ПоКА) hierarchies
+
+Ordered classes by raw corpus occurrence count (∑) per class, from
+Boriskina pp. 332–333. The small number after the emonym name in the
+source ("Имя        5" etc.) is the count of populated classes —
+reproduced here as the *N classes* column.
+
+| # | Emonym | N classes | 1st (∑) | 2nd (∑) | 3rd (∑) | 4th (∑) | 5th (∑) | 6th |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Relief | 5 | Acu 110 | Liq 110 | Par 16 | Pen 6 | Fil 1 | — |
+| 2 | Guilt | 6 | Liq 26 | Pen 24 | Par 17 | Acu 16 | Fil 5 | Rot |
+| 3 | Passion | 3 | Liq 26 | Par 25 | Fil 12 | — | — | — |
+| 4 | Emotion | 5 | Liq 34 | Par 31 | Fil 11 | Acu 3 | Pen 1 | — |
+| 5 | Hatred | 6 | Liq 14 | Par 14 | Fil 3 | Pen 2 | Acu 1 | Rot |
+| 6 | Sympathy | 5 | Liq 10 | Par 7 | Fil 1 | Pen 1 | Acu 1 | — |
+| 7 | Shock | 5 | Par 27 | Acu 12 | Liq 6 | Pen 3 | Fil 1 | — |
+| 8 | Desire | 6 | Par 18 | Fil 11 | Liq 9 | Pen 6 | Acu 4 | Rot |
+| 9 | Feeling | 4 | Par 42 | Liq 36 | Acu 8 | Fil 7 | — | — |
+| 10 | Happiness | 3 | Par 12 | Liq 6 | Fil 2 | — | — | — |
+| 11 | Joy | 5 | Par 84 | Liq 22 | Fil 6 | Acu 3 | Pen 1 | — |
+| 12 | Shame | 5 | Par 23 | Liq 16 | Fil 4 | Acu 3 | Pen 2 | — |
+| 13 | Surprise | 5 | Par 10 | Liq 5 | Fil 2 | Acu 2 | Pen 1 | — |
+| 14 | Anger | 6 | Par 112 | Liq 55 | Fil 24 | Pen 7 | Acu 5 | Rot |
+| 15 | Love | 6 | Par 98 | Liq 91 | Fil 37 | Pen 7 | Acu 3 | Rot |
+| 16 | Fear | 6 | Par 64 | Liq 47 | Fil 25 | Pen 23 | Acu 11 | Rot |
+| 17 | Pleasure | 5 | Par 103 | Liq 14 | Pen 3 | Fil 3 | Acu 3 | — |
+| 18 | Excitement | 5 | Par 17 | Liq 6 | Pen 4 | Fil 1 | Acu 1 | — |
+| 19 | Grief | 4 | Par 18 | Liq 8 | Pen 3 | Fil 2 | — | — |
+| 20 | Offense | 3 | Par 115 | Liq 6 | Rot 2 | — | — | — |
+| 21 | Pity | 5 | Par 99 | Liq 4 | Pen 4 | Acu 2 | Fil 1 | — |
+
+*Offense* and *Excitement* appear in Table 21 but not Table 20;
+*Comfort* and *Confidence* are named in §3.5 prose as Liquidae-dominant
+but appear in neither table.
+
+### 14.9 — Implications for the Spanish project
+
+What §3.5 produces for English is precisely the deliverable of the
+Spanish project's Phase 6, mutatis mutandis:
+
+- **Spanish Phase 6 outputs** are the analogs of Tables 20 and 21,
+  but **eight-column** rather than six — the two added classes
+  ([[res-continens]], [[res-planae]]) widen the matrix, and whether
+  those columns hold up under Varimax (ROADMAP Phase 5/6) is the
+  inventory question.
+- **Phase 1 comparator for *miedo*.** Boriskina's *fear* IDC ranking
+  is `Par 0.778 > Fil 0.750 > Rot 0.667 > Pen 0.625 > Liq … > Acu …`
+  and its CAC ranking is `Par 64 > Liq 47 > Fil 25 > Pen 23 > Acu 11
+  > Rot`. The Spanish *miedo* analysis should produce equivalent
+  rankings; the immediate question is whether Par-dominance carries
+  over to Spanish.
+- **The "aggregate state" question for Spanish.** Boriskina's English
+  answer was "more solid than liquid, mostly round-like or sharp."
+  Spanish may answer differently — and the two added classes may
+  shift the answer further by giving Spanish a vocabulary for
+  "contained" ([[res-continens]]) and "level/flat" ([[res-planae]])
+  framings of emotion that English-via-Boriskina doesn't formalise.
+- **Equivalence-class analysis (§14.5)** — pairs and triples of
+  emonyms with identical feature hierarchies — is a *finding*, not
+  just a summary. The Spanish project should report similar
+  pairings: if Spanish *amor / ira / miedo* turn out to share an
+  ordering (as English *love / anger / fear* do), that is direct
+  cross-linguistic evidence; if not, the divergence is itself the
+  finding.
+- **Per-emonym dominance is the headline number.** For each Spanish
+  emonym, the single most important Phase 6 output is "which
+  cryptoclass is dominant?" — compared, emonym-by-emonym, against
+  Boriskina's English Table 20. Naïve baseline expectation based on
+  the English-Spanish translation of the Phase 1 set:
+  - *amor* → expected Liquidae (English *love* IDC: Liquidae)
+  - *miedo* → expected Parvae (English *fear* IDC: Parvae)
+  - *tristeza* → expected Liquidae (English *grief* IDC: Liquidae)
+  - *alegría* → expected Liquidae (English *joy* IDC: Liquidae; CAC
+    is Parvae, so the answer depends on which index is used as the
+    headline)
+  - *ira* → expected Liquidae (English *anger* IDC: Liquidae)
+  Deviations from these expectations are the substantive cross-
+  linguistic findings.
+
+### 14.10 — Open questions raised by §3.5
+
+- **Why are *grief* and *joy* category-identical in English by IDC?**
+  Boriskina hedges. The Spanish equivalents — *tristeza* and
+  *alegría* — provide a cross-linguistic test. If they are also
+  IDC-identical in Spanish, the parallelism is unlikely to be
+  coincidence.
+- **Why are *love, anger, fear* on the same IDC sequence in English?**
+  Same hedging. Spanish *amor, ira, miedo* test the same hypothesis.
+- **Will the "every emonym is in ≥ 3 classes" finding extend to
+  Spanish, and which three?** In English the three are Liquidae,
+  Parvae, Filiformes. The Spanish hypothesis is that the same three
+  hold; if not, the difference is reportable.
+- **Where do [[res-continens]] and [[res-planae]] fit?** Boriskina's
+  English data doesn't include either. The Spanish project's headline
+  test of whether the two added classes are real cryptoclasses for
+  Spanish is whether they enter the "≥ 3 classes per emonym" set or
+  remain marginal — and this is what ROADMAP §Phase 6's Varimax gate
+  ultimately decides.
+
+---
+
+## 15 — Reading map (page-level pointers)
 
 For future sessions that need to verify against the source:
 
@@ -1331,24 +1623,20 @@ For future sessions that need to verify against the source:
 
 ---
 
-## 15 — Follow-up TODOs
+## 16 — Follow-up TODOs
 
 1. Extract §3.4 (Параллельные ряды признаков имен, pp. 307–327) — likely
    contains the cross-class feature hierarchies that bear directly on
    the project's Phase 5 cryptoclass-inventory consolidation.
-2. Extract §3.5 (К вопросу об «агрегатном состоянии» эмоций, pp.
-   328–333) — Boriskina's note on the cryptoclass distribution of
-   *emotion nouns* specifically. **First priority** for next session,
-   given the Spanish project's focus on emonyms.
-3. Extract Chapter 1 Выводы (pp. 77–78) and the Заключение (pp. 338–341)
+2. Extract Chapter 1 Выводы (pp. 77–78) and the Заключение (pp. 338–341)
    in full — they are condensed re-statements of the framework.
-4. Extract one chapter of Chapter 2 (e.g. Res Liquidae §2.1) as a model
+3. Extract one chapter of Chapter 2 (e.g. Res Liquidae §2.1) as a model
    of how Boriskina presents per-class analysis. This will inform the
    template for `notes/cryptoclasses/<class>.md`.
-5. Cross-check the project's `data/SCHEMA.md` construction-type slugs
+4. Cross-check the project's `data/SCHEMA.md` construction-type slugs
    against Boriskina's seven-type Russian schema (which appears at the
    start of Chapter 2 sub-sections; verify in a future session).
-6. Resolve the four open methodological questions (Q1–Q4 in §13.3).
+5. Resolve the four open methodological questions (Q1–Q4 in §13.3).
 
 This file should be re-read alongside `notes/methodology-donina.md`
 once the latter is written — many of Donina's choices (especially in
