@@ -35,10 +35,15 @@ that future sessions do not re-open the PDFs for routine work.
 - [x] `notes/methodology-donina.md` — extracted summary of Donina (2016):
       how to build a per-emonym cryptoclass profile across language variants;
       how variants are compared.
-- [ ] `notes/cryptoclasses/<class>.md` — one file per class. Each contains:
-      prototype, Russian and English original classifier inventories, Spanish
-      classifier seeds (extracted from the corresponding `.xlsx` header row).
-      *Directory exists with README only; eight per-class files pending.*
+- [x] `notes/cryptoclasses/<class>.md` — one file per class (eight in
+      total). Each contains: prototype, Russian / English original
+      classifier inventories, pointer to the Spanish seeds in
+      `data/classifiers.tsv`, Spanish-specific divergences, construction-
+      type structure notes, current data status from `citations.tsv`,
+      query-design hints for Phase 2, and class-specific open questions.
+      Provisional classes ([[res-continens]] and [[res-planae]]) also
+      carry a defence-of-inclusion section pegged to the Phase 6 Varimax
+      gate.
 - [x] `data/SCHEMA.md` — exact column and row conventions for the long-form
       TSVs that replaced the eight `.xlsx` files; also documents the legacy
       xlsx quirks (numbered citations + `TOTAL N`, `СПОРНЫЕ`, the long-form
