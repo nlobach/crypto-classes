@@ -1367,11 +1367,14 @@ group as:
   excitement, grief, guilt, joy, passion, pleasure, pride, relief,
   shame, shock*. The default for English emotion nouns.
 - **Res Filiformes-dominant** (3 emonyms): *emotion, shame, desire*.
-  *Shame* appears in both this list and the Liquidae list because the
-  prose summary calls it Liquidae-dominant but Table 20 ranks
-  Filiformes first; treat the table as authoritative.
 - **Res Parvae-dominant** (5 emonyms): *feeling, fear, shock, surprise,
   happiness*.
+
+  *Shame* and *shock* each appear in two of Boriskina's prose lists:
+  *shame* in both Liquidae- and Filiformes-dominant, *shock* in both
+  Liquidae- and Parvae-dominant. Table 20 disambiguates — *shame* is
+  Fil 0.375 > Liq 0.308 (Filiformes-first) and *shock* is Par 0.333 >
+  Liq 0.308 (Parvae-first). Treat the table as authoritative.
 - **Res Acutae-dominant** (2 emonyms): *disappointment, pity*.
 
 Res Rotundae and Res Longae Penetrantes are dominant for no emonym in
@@ -1386,23 +1389,28 @@ Beyond which class is dominant, §3.5 picks out emonyms sharing the
 empirically interesting even when she cannot explain them. From the
 prose:
 
-- *Love* and *hatred* — similar by IDC "memory strength" (Table 20).
-  Both are six-class metaphoronyms.
+- *Love* and *hatred* — similar by IDC "memory strength" (Table 20):
+  both Liquidae-dominant at high values (0.615 / 0.538), both six-
+  class metaphoronyms. Their full sequences match for ranks 1–3
+  (Liq → Fil → Par) but diverge at 4–6.
 - *Hatred* shares a feature sequence with *sympathy* in Table 21
-  (CAC), but with *love* in Table 20 (IDC) — the IDC and CAC
-  groupings need not agree.
-- *Love, anger, fear* — same feature sequence in English. Boriskina
-  hedges: «случайность или непознанная закономерность» —
-  "coincidence or undiscovered pattern."
+  (CAC); per the same Table 21, *love* shares an identical sequence
+  with the six-class metaphoronyms *anger* and *fear* (Par → Liq →
+  Fil → Pen → Acu → Rot). The IDC and CAC groupings need not agree.
+- *Love, anger, fear* — same feature sequence in English **(Table 21
+  / CAC)**. Boriskina hedges: «случайность или непознанная
+  закономерность» — "coincidence or undiscovered pattern."
 - *Pleasure, excitement, grief* — similar to *love / anger / fear*
-  by hierarchy.
+  by hierarchy (also Table 21).
 - *Relief* and *pride* — different in many respects but preserve
   mythological images in the same order: liquid → prickling → woven
   (Liquidae → Acutae → Filiformes). A striking parallel between two
   semantically distant emotions.
-- *Sympathy, guilt, pleasure* — same IDC taxon (Table 20): associative
-  links with all five mythological-consciousness features are equal
-  in strength.
+- *Sympathy, guilt, pleasure* — same IDC taxon (Table 20): their
+  associative links with the five activated features rank in the
+  same strength order (Liq > Par > Acu > Pen > Fil), though absolute
+  IDC values differ (e.g. Guilt 0.615 vs Sympathy/Pleasure 0.385 at
+  rank 1).
 - *Grief, joy, passion* — close in informational content of their
   bound images. Order is liquid → graspable → thread.
 - *Grief* and *joy* — category-identical in English by IDC. Same
@@ -1413,8 +1421,9 @@ prose:
 Table 21 (CAC, ПоКА) re-ranks emonyms by **raw corpus frequency** in
 each class, where Table 20 ranks by **diversity** of classifier
 combinations. The two rankings often diverge — *guilt* is Liquidae-
-first in both, but Parvae jumps from 2nd by IDC to a much closer 2nd
-by CAC.
+first in both, but Parvae **drops** from 2nd by IDC (0.556, just behind
+Liq 0.615) to 3rd by CAC (17), where Res Longae Penetrantes (24)
+overtakes it for the second slot.
 
 Boriskina notes that the **"tactility" of most emonyms is maximally
 communicatively loaded in modern English** — meaning that, by raw
@@ -1468,7 +1477,7 @@ that emonym in the source. Verify against the PDF before citing.
 | 13 | Feeling | Par 0.556 | Liq 0.462 | Acu 0.375 | Fil 0.250 | — | — |
 | 14 | Shock | Par 0.333 | Liq 0.308 | Acu 0.250 | Pen 0.125 | Fil 0.125 | — |
 | 15 | Surprise | Par 0.333 | Liq 0.308 | Acu 0.125 | Pen 0.125 | Fil 0.125 | — |
-| 16 | Happiness | Par 0.667 | Liq 0.308 | Fil 0.125 | Pen | — | — |
+| 16 | Happiness | Par 0.667 | Liq 0.308 | Fil 0.125 | — | — | — |
 | 17 | Shame | Fil 0.375 | Liq 0.308 | Acu 0.250 | Par 0.222 | Pen | — |
 | 18 | Emotion | Fil 0.625 | Liq 0.615 | Par 0.333 | Acu 0.250 | Pen | — |
 | 19 | Desire | Fil 0.625 | Par 0.556 | Liq 0.385 | Pen 0.375 | Rot | Acu |

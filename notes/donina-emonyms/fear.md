@@ -26,9 +26,11 @@ context. Worth preserving for citation in the eventual Spanish writeup:
   physiological changes, expressive behaviour, and a specific
   experience arising from the anticipation of threat or danger.
 - **Neurobiological identity** across languages (Apresyan 2011a): the
-  amygdala is central, signalling the hypothalamus, which via cortisol
-  and adrenaline prepares the body for emergency (Aamond & Wang 2008;
-  McDonald 2008). The neurobiology is the same regardless of how
+  amygdala "focuses attention on emotionally significant events in the
+  world" and so helps decision-making under uncertainty (Aamond & Wang
+  2008: 204–205); on detecting danger it signals the hypothalamus,
+  which via cortisol and adrenaline prepares the body for emergency
+  (McDonald 2008). The neurobiology is the same regardless of how
   individual languages describe fear — this is the universalist
   premise.
 - **Philosophical lineage**: Aristotle, Plato, Epicurus, Lucretius
@@ -241,8 +243,7 @@ Cross-corpus correlations for *fear*:
 
 - COCA ↔ GloWbE: 84.4 %
 - COCA ↔ NOW: 81 %
-- COCA ↔ American-Spanish-in-NOW: 85 %  *(verify: this is COCA vs
-  the US slice of NOW per the source)*
+- COCA ↔ US-slice-of-NOW (American English in NOW): 85 %
 
 These are the validation numbers that anchor *fear* in COCA's
 reference frame; they confirm GloWbE and NOW are not diverging
