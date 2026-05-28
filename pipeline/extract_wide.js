@@ -48,9 +48,10 @@ function mapHeader(header, cryptoclass) {
   if (!lower) return null;
   if (SKIP_HEADER_RX.test(lower)) return null;
 
-  if (/спорны/.test(lower)) {
-    return { construction_type: 'disputed', disputed: true };
-  }
+  // СПОРНЫЕ ("disputed") columns are skipped at parse time per the Spanish
+  // project's Conservative policy (audit-miedo.md): borderline citations are
+  // excluded rather than carried with a flag.
+  if (/спорны/.test(lower)) return { skip: true };
 
   // Res Parvae: three subtypes of глагольные транзитивные
   if (cryptoclass === 'Res Parvae') {
@@ -317,8 +318,8 @@ function main() {
       for (let c = 0; c < headerRowVals.length; c++) {
         if (c === 0) { colTypes.push(null); continue; }  // col A = country, skip
         const m = mapHeader(headerRowVals[c], cryptoclass);
-        if (!m) {
-          if (String(headerRowVals[c] || '').trim()) {
+        if (!m || m.skip) {
+          if (m === null && String(headerRowVals[c] || '').trim()) {
             warnings.push(`${file} // ${sn}: unmapped header col ${colLetter(c)}: "${String(headerRowVals[c]).slice(0, 80)}"`);
           }
           colTypes.push(null);

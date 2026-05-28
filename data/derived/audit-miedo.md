@@ -9,13 +9,22 @@ This file is the explicit gap record required by ROADMAP Phase 1 step 1:
 "Verify *miedo* citations are present for all 8 cryptoclasses × 21
 variants (gaps recorded explicitly, not silently empty)."
 
+Numbers reflect the post-resolution state of `citations.tsv`:
+the **Conservative disputed-row policy** is now applied at parse time
+in `pipeline/extract_wide.js` — `СПОРНЫЕ` columns are skipped during
+extraction, so disputed citations never enter the TSV. For miedo this
+removed 2 rows (AR Filiformes, CO Filiformes); see §6 for the policy
+record.
+
 ## 1. Totals
 
-- **496** miedo citations after extraction.
+- **494** miedo citations after extraction (was 496 before the
+  disputed-row policy was applied — 2 rows removed).
 - All **21** national variants have at least one miedo citation.
 - All **8** cryptoclasses have miedo citations.
-- **115 / 168** cells (cryptoclass × variant) filled (**68 %**).
-- **53** cells empty (32 %).
+- **114 / 168** cells (cryptoclass × variant) filled (**67.9 %**).
+- **54** cells empty (32.1 %) — one extra empty cell since CO
+  Filiformes lost its only (disputed) row.
 
 ## 2. Coverage matrix
 
@@ -23,21 +32,21 @@ variants (gaps recorded explicitly, not silently empty)."
 |---                    |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | Res Acutae            |  2 |  1 |  1 |  4 |  · |  2 |  1 |  · |  1 |  · |  · |  3 |  · |  1 |  1 |  · |  · |  · |  2 |  2 |  1 | **22** |
 | Res Continens         | 19 |  5 | 16 | 15 |  2 |  6 |  4 |  3 | 31 |  · |  2 | 26 |  1 |  2 |  7 |  2 |  1 |  · |  4 |  7 | 21 | **174** |
-| Res Filiformes        |  4 |  · |  1 |  1 |  · |  1 |  1 |  1 |  4 |  · |  · |  2 |  · |  · |  1 |  · |  · |  1 |  · |  1 |  2 | **20** |
+| Res Filiformes        |  3 |  · |  1 |  · |  · |  1 |  1 |  1 |  4 |  · |  · |  2 |  · |  · |  1 |  · |  · |  1 |  · |  1 |  2 | **18** |
 | Res Liquidae          |  6 |  1 |  2 |  3 |  1 |  · |  1 |  1 | 12 |  · |  · |  7 |  · |  · |  1 |  · |  · |  · |  · |  5 |  6 | **46** |
 | Res Longae Penetrantes| 17 |  1 |  2 |  3 |  · |  · |  1 |  · |  6 |  · |  · |  5 |  1 |  1 |  1 |  1 |  1 |  · |  1 |  6 |  2 | **49** |
 | Res Parvae            |  1 |  · |  6 |  8 |  1 |  · |  1 |  · |  5 |  1 |  · |  3 |  · |  1 |  2 |  1 |  · |  · |  1 |  2 |  1 | **34** |
 | Res Planae            | 10 |  2 |  5 |  7 |  1 |  2 |  1 |  · | 20 |  · |  · | 14 |  3 |  2 |  6 |  1 |  2 |  2 |  1 |  4 | 11 | **94** |
 | Res Rotundae          |  6 |  · |  4 |  7 |  · |  1 |  2 |  · | 10 |  · |  2 | 11 |  · |  · |  3 |  2 |  · |  · |  · |  1 |  8 | **57** |
-| **Σ**                 | 65 | 10 | 37 | 48 |  5 | 12 | 12 |  5 | 89 |  1 |  4 | 71 |  5 |  7 | 22 |  7 |  4 |  3 |  9 | 28 | 52 | **496** |
+| **Σ**                 | 64 | 10 | 37 | 47 |  5 | 12 | 12 |  5 | 89 |  1 |  4 | 71 |  5 |  7 | 22 |  7 |  4 |  3 |  9 | 28 | 52 | **494** |
 
 ## 3. Critical-mass cells (Donina's `≥ 5` Pearson cutoff)
 
 |             | cells | share |
 |---          |---:   |---:   |
 | `≥ 5`       |  34   | 20.2 % |
-| `1–4`       |  81   | 48.2 % |
-| empty       |  53   | 31.5 % |
+| `1–4`       |  80   | 47.6 % |
+| empty       |  54   | 32.1 % |
 | **total**   | 168   | 100 %  |
 
 **Implication.** 80 % of cells are below the Pearson cutoff. Phase 6
@@ -56,7 +65,7 @@ filled in by Phase 2 pipeline collection.
 |---                      |---:         |---              |
 | Res Acutae              | 8           | CR EC GT HN NI PR PY SV |
 | Res Continens           | 2           | GT SV |
-| Res Filiformes          | 9           | BO CR GT HN NI PA PR PY UY |
+| Res Filiformes          | 10          | BO CR CO GT HN NI PA PR PY UY |
 | Res Liquidae            | 9           | CU GT HN NI PA PR PY SV UY |
 | Res Longae Penetrantes  | 6           | CR CU EC GT HN SV |
 | Res Parvae              | 7           | BO CU EC HN NI PY SV |
@@ -64,6 +73,8 @@ filled in by Phase 2 pipeline collection.
 | Res Rotundae            | 9           | BO CR EC GT NI PA PY SV UY |
 
 Recurring offenders (≥ 5 missing classes): **GT (8 of 8), SV (6), HN (6), NI (5), PY (5)**.
+The CO Filiformes cell newly emptied when the disputed-row policy removed
+its only citation (`Se amarraron a sus miedos…`).
 
 ## 4. Construction-type coverage
 
@@ -81,7 +92,9 @@ Recurring offenders (≥ 5 missing classes): **GT (8 of 8), SV (6), HN (6), NI (
 | `verbal-objective-throw`      |   5 |
 | `verbal-locative-out`         |   3 |
 | `predicative`                 |   2 |
-| `disputed`                    |   2 |
+
+The `disputed` slug no longer appears (was 2 rows; both removed by the
+parser-level Conservative policy — see §6).
 
 **Schema drift.** `verbal-objective-grasp` (24) and
 `verbal-objective-throw` (5) appear in `citations.tsv` (both Res Parvae)
@@ -101,18 +114,16 @@ additions to `data/classifiers.tsv` (see §9 for the change list):
 |---                      |---:             |---:              |---:   |
 | Res Acutae              |  8              |  0               |  22   |
 | Res Continens           | 16              |  1               | 174   |
-| Res Filiformes          |  7              |  2               |  20   |
+| Res Filiformes          |  6              |  0               |  18   |
 | Res Liquidae            |  7              |  8               |  46   |
 | Res Longae Penetrantes  |  8              |  0               |  49   |
 | Res Parvae              |  8              |  0               |  34   |
 | Res Planae              |  2              |  0               |  94   |
 | Res Rotundae            |  9              |  0               |  57   |
 
-**Total blanks dropped 231 → 11 (97 %).** The 11 remaining blanks are
-not extractor bugs — they are source-tagging issues that should stay
-blank:
+**Total blanks dropped 231 → 9 (96 %).** The 9 remaining blanks are
+not extractor bugs — they are source-tagging issues:
 
-- 2 `disputed=t` rows (no construction_type → no seed list applies)
 - 4 Liquidae `verbal-objective` rows containing `fluir` (the source
   put `fluir` examples in the objective column, but `fluir` is
   syntactically intransitive — column mis-tag)
@@ -125,7 +136,9 @@ blank:
 - 1 Liquidae `verbal-instrumental` fragment "corazones blaugranas,"
   with no anchor word at all (orphan extraction fragment)
 
-These 11 are the gold-set's natural manual-review queue.
+These 9 are the gold-set's natural manual-review queue. The 2
+disputed rows that were previously blank-lemma have been removed
+from `citations.tsv` entirely (§6).
 
 **Classifier concentration (Res Planae).** 93 of 94 Res Planae
 citations still carry the single lemma `nivel de`; one carries
@@ -142,17 +155,29 @@ Rotundae) · `estar en` (18, Continens) · `atravesar` (17, Penetrantes)
 (14, Penetrantes) · `destapar` (12, Continens) · `círculo de` (10,
 Rotundae) · `dentro de` (10, Continens).
 
-## 6. Disputed cases
+## 6. Disputed cases — Conservative policy applied
 
-Only **2** disputed=`t` rows for miedo, both in Res Filiformes:
+**Decision.** The Spanish project applies a *Conservative*
+disputed-row policy: `СПОРНЫЕ` columns in the legacy xlsx files are
+skipped at parse time by `pipeline/extract_wide.js`, so disputed
+citations never enter `citations.tsv`. The rationale: borderline
+citations dilute IDC / CAC signal more than they enrich it, and
+manual case-by-case adjudication does not scale to the larger
+disputed pool we will face after Phase 3 LLM tagging.
 
-| Country | Citation (excerpt) |
-|---      |---                 |
-| AR      | "el lema de la casa Stark, funciona como una metáfora de los miedos que penden so…" |
-| CO      | "Se amarraron a sus miedos y no escaparon." |
+For miedo this removed 2 rows (the only 2 disputed=`t` cells in the
+legacy data):
 
-**Verified against source.** Cross-checked the `СПОРНЫЕ` columns of
-all 8 legacy xlsx miedo sheets (`/tmp/sporn_audit.js`):
+| Country | Cryptoclass    | Citation                                                                                              | Why disputed                                                                                                  |
+|---      |---             |---                                                                                                    |---                                                                                                            |
+| AR      | Res Filiformes | *"el lema de la casa Stark, funciona como una metáfora de los miedos que penden sobre nuestras sociedades modernas."* | Meta-discussion of the Damocles trope rather than direct enactment of `pender de`.                            |
+| CO      | Res Filiformes | *"Se amarraron a sus miedos y no escaparon."*                                                          | Reflexive frame: experiencer binds *themselves* to the emonym, syntactically closer to Continens-into than to canonical Filiformes. |
+
+Across all five emonyms the policy removed **6 rows** total: amor 2,
+miedo 2, ira 1, tristeza 1.
+
+**Verification against source.** Cross-checked the `СПОРНЫЕ` columns
+of all 8 legacy xlsx miedo sheets (`/tmp/sporn_audit.js`):
 
 | File                    | СПОРНЫЕ column | cells / fragments |
 |---                      |---             |---:               |
@@ -165,10 +190,13 @@ all 8 legacy xlsx miedo sheets (`/tmp/sporn_audit.js`):
 | Res Planae              | (none)         | —                 |
 | Res Rotundae            | (none)         | —                 |
 
-The extractor captured everything. The thinness reflects the source —
-6 of 8 legacy sheets do not even carry a `СПОРНЫЕ` column for miedo.
-Phase 1's "resolve `СПОРНЫЕ` cases" step is therefore a 2-citation
-manual judgement, not a discovery exercise.
+6 of 8 legacy sheets do not even carry a `СПОРНЫЕ` column for miedo,
+so the disputed surface area was tiny to begin with. Phase 1's
+"resolve `СПОРНЫЕ` cases" step is closed by this policy.
+
+The `disputed` column remains in the TSV schema as a vestigial field
+(always `f`) — kept so that Phase 3 LLM tagging can repopulate it if
+a different policy is chosen for machine-generated citations.
 
 ## 7. Cross-country duplicate citations
 
@@ -239,10 +267,10 @@ Cross-emonym effect of the same changes (not just miedo):
 
 | emonym   | blank % after |
 |---       |---:           |
-| miedo    | 2.2 %         |
-| tristeza | 8.6 %         |
-| amor     | 9.8 %         |
-| ira      | 11.6 %        |
+| miedo    | 1.8 %         |
+| tristeza | 8.3 %         |
+| amor     | 9.6 %         |
+| ira      | 10.9 %        |
 | alegría  | 23.9 %        |
 
 The targeted seed additions were chosen from miedo evidence; the
@@ -260,16 +288,17 @@ In order of severity:
    collocation (`nivel de miedo`). Either document and keep, or
    exclude miedo from Planae before computing class-level statistics.
 2. **Resolve the 6 cross-country duplicates** in §7.
-3. **Resolve the 2 `disputed=t` cells** in §6.
-4. **Hand-review the 11 remaining blank-lemma rows** (§5) — most
-   reveal source mis-tagging (fluir / rebosar mis-categorised) that
-   should be parked as `disputed=t` rather than tagged.
-5. **Reconcile construction-type vocab** between `SCHEMA.md` and the
+3. **Hand-review the 9 remaining blank-lemma rows** (§5) — most
+   reveal source mis-tagging (`fluir` / `rebosar` mis-categorised in
+   the legacy xlsx); these likely need to be excluded or moved to
+   their correct construction-type column rather than tagged.
+4. **Reconcile construction-type vocab** between `SCHEMA.md` and the
    extractor (§4) — `verbal-objective-grasp`, `verbal-objective-throw`,
    `verbal-objective-collect` need to be added to the controlled-vocab
    table.
 
-Step 3 of the ROADMAP (compute IDC / CAC) is now unblocked by the
-extractor fix — 425 of 496 miedo rows have a usable lemma. Step 4
-(one-page profile) and step 5 (freeze gold set) follow once
-blockers 1–3 above are resolved.
+ROADMAP Phase 1 step 2 (resolve `СПОРНЫЕ`) is closed by the
+Conservative policy in §6. Step 3 (compute IDC / CAC) is now
+unblocked by the extractor fix — 485 of 494 miedo rows have a usable
+lemma. Steps 4 (one-page profile) and 5 (freeze gold set) follow
+once blockers 1–3 above are resolved.

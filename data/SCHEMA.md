@@ -58,7 +58,7 @@ as a covariate is the cheap defensive option.
 | 6 | `classifier_lemma` | lemma form | e.g. `tapar`, `derramar`, `nivel de`, `punzante` |
 | 7 | `citation_es` | text | verbatim Spanish; embedded newlines flattened to spaces |
 | 8 | `citation_ru` | text, optional | Russian translation (LIQUIDAE `tristeza`/`amor`/`ira` only, currently) |
-| 9 | `disputed` | `t` / `f` | replaces the legacy `СПОРНЫЕ` column |
+| 9 | `disputed` | `t` / `f` | replaces the legacy `СПОРНЫЕ` column. **Always `f` in current data**: the Spanish project applies a Conservative policy that skips `СПОРНЫЕ` columns at parse time in `pipeline/extract_wide.js` (see `data/derived/audit-miedo.md` §6). Column retained so Phase 3 LLM tagging can repopulate it later. |
 | 10 | `source_file` | filename | provenance, e.g. `RES LIQUIDAE.xlsx` |
 | 11 | `source_sheet` | sheet name | provenance, e.g. `amor` |
 | 12 | `source_locator` | `A1` cell ref or `row=15` | provenance into the legacy sheet |
