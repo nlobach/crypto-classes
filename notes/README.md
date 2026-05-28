@@ -68,9 +68,10 @@ source (no front-matter offset to compensate for).
 | `theory-boriskina.md` | Boriskina 2011 | Chapter 1 in full; Chapter 3 selectively (portrait, four principles, five types of metaphoronyms) |
 | `methodology-donina.md` | Donina 2016 | §§1.4–1.10 (methodology); §§2.2–2.3 selectively |
 | `glossary.md` | both | Trilingual RU / EN / ES terminology |
+| `corpora.md` | project decision record | Which Spanish corpora are used, country tagging, licensing, corpus-coefficient requirement |
+| `cryptoclasses/` | per-class working notes | One file per class (eight total) — see `cryptoclasses/README.md` |
 
-The `cryptoclasses/<class>.md` files referenced from the extractions do not
-yet exist and are scheduled per `../ROADMAP.md`. The earlier planning notes
-file (`plan-from-scratch.md`) has moved to `../archive/` — it is still
-referenced from the extractions as historical context, but is no longer the
-live plan; current planning lives in `../ROADMAP.md`.
+The earlier planning notes file (`plan-from-scratch.md`) has moved to
+`../archive/` — it is still referenced from the extractions as historical
+context, but is no longer the live plan; current planning lives in
+`../ROADMAP.md`.

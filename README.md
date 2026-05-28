@@ -38,9 +38,12 @@ Full breakdown in [`CLAUDE.md`](CLAUDE.md#repository-structure).
 node pipeline/extract_wide.js
 ```
 
-Reads the eight `.xlsx` files in `data/legacy-xlsx/` and overwrites
-`data/citations.tsv`. The xlsx files are the original manually-collected
-working data; the TSV is the long-form canonical form derived from them.
+Reads the wide-format `.xlsx` files in `data/legacy-xlsx/` (one per
+cryptoclass — 8 in total; the original long-form `RES LIQUIDAE.xlsx` is
+retained for provenance but skipped in favour of the wide-form
+`RES LIQUIDAE COR.xlsx`) and overwrites `data/citations.tsv`. The xlsx files
+are the original manually-collected working data; the TSV is the long-form
+canonical form derived from them.
 
 ## Status
 
