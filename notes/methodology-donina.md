@@ -1114,9 +1114,14 @@ choices specific to the Donina-style cross-variant work.
 
 ### 13.3 — Where the Spanish project breaks new ground
 
-1. **Two Spanish-specific cryptoclasses.** *Res Continens* and *Res
-   Planae* are not in Boriskina or Donina. Their factor-analysis
-   confirmation in the Spanish data is a publishable contribution.
+1. **Two extra cryptoclasses beyond Boriskina/Donina.** *Res Continens*
+   and *Res Planae* are not in Boriskina's six or in Donina's
+   cross-variant study — but they are **not Spanish-specific**: both
+   were established for **English** by the Voronezh group (Golikova
+   2018, Zadobrivskaya 2019). The publishable Spanish contribution is
+   their **factor-analysis confirmation *in the Spanish data*** — i.e.
+   whether they hold up as independent factors for Spanish emonyms,
+   not the discovery of the classes themselves.
 2. **LLM-pipeline scaling.** Donina spent 3,400 hours; the Spanish
    project plans 100-200 hours of human time + automated extraction.
    If the pipeline reaches Donina-comparable precision (≥0.90 against

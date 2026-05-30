@@ -41,9 +41,10 @@ Before any data:
    UY, VE, US.
 2. **Lock the cryptoclass inventory** — 8 classes: Boriskina's 6 (Res Liquidae,
    Res Filiformes, Res Rotundae, Res Longae Penetrantes, Res Acutae,
-   Res Parvae) plus the two Spanish additions (Res Continens, Res Planae).
-   Their inclusion is provisional and gets re-tested in Phase 7's factor
-   analysis.
+   Res Parvae) plus the two further English-attested classes Res Planae
+   (Golikova 2018) and Res Continens (Zadobrivskaya 2019) — not
+   Spanish-specific. Their *weight in the Spanish profile* is provisional
+   and gets re-tested in Phase 7's factor analysis.
 3. **Write the theory / methodology notes** — `notes/theory-boriskina.md`,
    `notes/methodology-donina.md`, `notes/glossary.md`. Conventions pinned;
    not re-derived per session.
@@ -225,10 +226,11 @@ table carefully because every later statistic reads from it.
 2. **Kendall's W** on the cryptoclass ranking per variant — measures global
    agreement of the 21 variants.
 3. **Factor analysis (Varimax)** to confirm the 8 cryptoclasses behave as
-   independent factors. **This is also the test of whether the two
-   Spanish-specific classes (*Res Continens*, *Res Planae*) earn their
-   place** — if they collapse onto Boriskina's 6 or onto each other, drop
-   them and recompute. Donina got 96-99 % loading per class for the 6 English
+   independent factors. **This is also the test of whether the two extra
+   classes beyond Boriskina's six (*Res Continens*, *Res Planae* — both
+   English-attested, Golikova 2018 / Zadobrivskaya 2019) earn their place
+   in the Spanish profile** — if they collapse onto Boriskina's 6 or onto
+   each other, drop them and recompute. Donina got 96-99 % loading per class for the 6 English
    classes; expect more variability for Spanish until the inventory settles.
 
 **Deliverable**: `outputs/stats/{pearson.csv, kendall_w.txt, factor.csv}` +

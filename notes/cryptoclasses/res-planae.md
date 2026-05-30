@@ -1,10 +1,12 @@
 # Res Planae
 
 The cryptoclass of **flat, horizontally-extended surfaces**. Categorising
-feature *плоское* / *flatness* / *layered extent*. **Spanish-specific,
-provisional**: not one of Boriskina's original six, admitted to the
-inventory on contrastive grounds and prima facie corpus evidence
-(`notes/theory-boriskina.md` §3, §7). Its place in the inventory is
+feature *плоское* / *flatness* / *layered extent*. **Not Spanish-specific**:
+this is the **seventh English cryptoclass**, established for English by
+Golikova (2018) — see `notes/theory-golikova.md`. It is one of the two
+classes the project carries *beyond* Boriskina's original six. What is
+**provisional is its weight in the *Spanish* emonym profile**, not the
+existence of the class. Its admission to the project's working inventory is
 **conditional on the Varimax factor analysis in ROADMAP §Phase 6** — and
 the risk of failing that gate is higher here than for [[res-continens]],
 because Planae's classifier inventory is dominated to a singular degree
@@ -22,11 +24,15 @@ This file is the **commentary** layer plus the **defence of inclusion**.
 - **Spanish (project canonical)**: *superficie plana* — see
   `data/cryptoclasses.tsv`. Also *llanura*, *mesa* (geographical
   table-land), *plancha*, *hoja*.
-- **No Boriskina prototype**: this class was introduced for Spanish.
-  The conceptual lineage is the topological notion of a **two-
-  dimensional extent** with a vertical-axis property (a *level* or
-  *layer*), distinguished from Res Continens (three-dimensional
-  bounded volume) and from Res Liquidae (substance, not surface).
+- **No Boriskina prototype**, but **not a project invention**: Golikova
+  (2018) established the class for English (prototype "object with flat
+  horizontal surface"; classifiers *flat / plain / level / even*). The
+  conceptual lineage is the topological notion of a **two-dimensional
+  extent** with a vertical-axis property (a *level* or *layer*),
+  distinguished from Res Continens (three-dimensional bounded volume)
+  and from Res Liquidae (substance, not surface). The project's
+  contribution is the Spanish application and the Spanish prototype
+  *superficie plana*.
 
 For *superficie plana* the [+flat] feature is constitutive. Other flat
 nouns (*hoja*, *plato*, *mesa*, *llanura*, *plancha*) are also non-
@@ -35,10 +41,12 @@ nivel de miedo*, *tristeza simple y llana*, *nivelar las emociones*.
 
 ## Provisional status and the factor-analysis gate
 
-Res Planae is the **higher-risk** of the two Spanish additions. The
-argument for inclusion is the same as for [[res-continens]] — contrastive
-typological support plus corpus productivity — but Planae faces two
-distinct threats that Continens does not:
+Res Planae is the **higher-risk** of the two extra classes (beyond
+Boriskina's six) for the *Spanish* data. The class itself is securely
+English-attested (Golikova 2018); the argument for retaining it in the
+Spanish profile is the same as for [[res-continens]] — strong typological
+support plus corpus productivity — but Planae faces two distinct threats
+that Continens does not:
 
 1. **Inventory monoculture.** Of 252 manual citations, **243 (96 %)
    are a single substantive pattern: `nivel de + N`**. The other six

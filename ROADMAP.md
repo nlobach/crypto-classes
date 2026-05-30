@@ -219,7 +219,9 @@ Statistical toolkit, mirroring Donina:
 - **Kendall's W** on the cryptoclass ranking per variant → global agreement
   among the 21 variants.
 - **Factor analysis (Varimax)** for cryptoclass independence — also Phase 5's
-  test for the two Spanish-specific classes.
+  test of whether the two extra classes beyond Boriskina's six (*Res
+  Continens*, *Res Planae* — both English-attested, Golikova 2018 /
+  Zadobrivskaya 2019) earn their place in the Spanish emonym profile.
 - **k-means + Kohonen SOM** on the variant × cryptoclass matrix to surface
   emergent variant clusters.
 

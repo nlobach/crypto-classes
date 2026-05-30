@@ -317,12 +317,22 @@ Derived from Donina's findings on English *fear*:
    priority; in web-register corpora, Res Liquidae will lead. If
    confirmed, the genre effect carries across languages and isn't
    English-specific.
-3. **H3 (Continens/Planae as Spanish-specific)**: Res Continens
+3. **H3 (Continens/Planae non-marginal for *miedo*)**: Res Continens
    and/or Res Planae will be non-marginal for *miedo* (≥ 5 % share in
-   ≥ half the variants), where Donina's English data has no analog
-   class at all. This is the project's contribution to the
-   cryptoclass inventory; confirmation here is the strongest
-   defence of the two added classes at the Phase 6 Varimax gate.
+   ≥ half the variants). Donina's *own* English data had no analog
+   class (she stayed at Boriskina's six), but **Zadobrivskaya (2019)
+   supplies the English benchmark**: for English *fear* the cryptoclass
+   portrait is **Res Continens 71.51 % (dominant), Res Planae 10.73 %
+   (second)**, with Res Acutae only 2.18 % (`notes/theory-zadobrivskaya.md`
+   §5.2). So the expectation for *miedo* is **container-dominant, flat
+   second, sharp marginal** — strongly non-marginal, not merely ≥ 5 %.
+   This recontextualises H1/H2 above (which were framed before the two
+   extra classes were on the table): the older "Res Acutae vs. Res
+   Liquidae for second place" contest is a contest for a *distant*
+   rank once Continens and Planae are included. Confirmation that
+   Spanish *miedo* replicates Zadobrivskaya's container-dominant
+   English profile is the strongest defence of the two extra classes at
+   the Phase 6 Varimax gate.
 
 ### Open questions Donina answers for English that Spanish should ask
 

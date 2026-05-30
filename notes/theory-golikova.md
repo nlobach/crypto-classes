@@ -34,19 +34,23 @@ of Golikova's findings, see `notes/cryptoclasses/res-planae.md`.
 
 Two reasons, one corrective and one constructive.
 
-**Corrective.** `CLAUDE.md` and `data/cryptoclasses.tsv` describe
-*Res Planae* as a **Spanish-specific** addition to Boriskina's six
-classes (alongside *Res Continens*). Golikova establishes
+**Corrective.** `CLAUDE.md` and `data/cryptoclasses.tsv` originally
+described *Res Planae* as a **Spanish-specific** addition to Boriskina's
+six classes (alongside *Res Continens*). Golikova establishes
 *Res Planae* for **English** in 2018 — three years before the Spanish
 project's framing was written. The honest description of the
-inventory therefore needs adjustment:
+inventory therefore needed adjustment (since carried out repo-wide):
 
 - **Boriskina 2011** — 6 English cryptoclasses.
 - **Golikova 2018** — adds *Res Planae* to the English inventory
   (7 total).
-- **This project (Spanish)** — adopts the now-7-class English
-  inventory and adds *Res Continens* as the only genuinely
-  Spanish-specific extension (8 total).
+- **Zadobrivskaya 2019** — adds *Res Continens* to the English
+  inventory (8 total; see `notes/theory-zadobrivskaya.md`).
+- **This project (Spanish)** — adopts the full 8-class English
+  inventory. **It has no Spanish-specific cryptoclass**: both classes
+  beyond Boriskina's six were established for English by the Voronezh
+  group. (This corrects the earlier framing in which *Res Continens*
+  was thought to be the project's own Spanish-specific addition.)
 
 The action item from this correction is recorded in §6 below and
 flagged in [[res-planae]]. The Spanish project's empirical work on
@@ -180,12 +184,15 @@ For the Spanish project, the immediate consequence is that the
    distinctive and (b) overtly classified in at least one other
    language.
 
-For *Res Continens* (the project's only fully Spanish-specific
-addition) this two-layer test is exactly what `notes/cryptoclasses/res-
-continens.md` should structure. The topotype is the bounded
-three-dimensional container; the typological warrant is the existence
-of container classifiers in Mandarin / Japanese counter systems and in
-the Niger-Congo bilateral-class systems.
+For *Res Continens* (now known to be the **8th English class**,
+Zadobrivskaya 2019 — not Spanish-specific) this two-layer test is
+exactly what `notes/cryptoclasses/res-continens.md` structures, and
+Zadobrivskaya already supplies both layers for English. The topotype is
+the bounded three-dimensional container; the typological warrant is
+Zadobrivskaya's overt container classifiers in Russian (*-ница*), Avar,
+Navajo, Atsugewi, and Upper Kuskokwim (`notes/theory-zadobrivskaya.md`
+§3), alongside the Mandarin / Japanese counter systems and Niger-Congo
+bilateral-class systems.
 
 ### 2.2 — *Именная классификативность* — the proposed defined term
 
@@ -724,15 +731,18 @@ variants). There is no double-counting.
 These should be reflected in `ROADMAP.md` and the relevant per-class
 notes.
 
-1. **Correct the framing of *Res Planae* as Spanish-specific.** Update
-   `CLAUDE.md` (the "*Res Continens* and *Res Planae* — Spanish-
-   specific" note), `data/cryptoclasses.tsv` if it carries a similar
-   note, `notes/cryptoclasses/res-planae.md`, and `notes/theory-
-   boriskina.md` §13 if it claims Res Planae as a Spanish addition.
-   The correct framing is: *Res Planae* was added to **English** by
-   Golikova 2018; the Spanish project adopts it and adds *Res
-   Continens* as the only fully Spanish-specific extension. (Action
-   not taken in this commit; user decision.)
+1. **Correct the framing of *Res Planae* as Spanish-specific.**
+   ✅ **Done** (together with the *Res Continens* correction prompted by
+   Zadobrivskaya 2019). The "Spanish-specific" labels were removed
+   across `CLAUDE.md`, `data/cryptoclasses.tsv`, `notes/README.md`,
+   `notes/cryptoclasses/{README,res-planae,res-continens}.md`,
+   `notes/theory-boriskina.md`, `notes/methodology-donina.md`,
+   `notes/glossary.md`, `ROADMAP.md`, and `notes/donina-emonyms/fear.md`.
+   The correct framing is: *Res Planae* was established for **English**
+   by Golikova 2018 and *Res Continens* by Zadobrivskaya 2019; the
+   Spanish project adopts the full 8-class English inventory and has
+   **no Spanish-specific cryptoclass** — only two extra classes beyond
+   Boriskina's six whose *weight in the Spanish profile* it must defend.
 
 2. **Add Golikova's English classifier inventory to the cryptoclass
    files** as the comparator for the Spanish inventory. Specifically:
@@ -871,8 +881,10 @@ to Rakhilina's *topotype* — cryptoclasses are covert reflexes of the
 cognitively distinctive topological types that language overtly
 classifies elsewhere. For the Spanish project this revises the
 inventory framing (Res Planae is **English-attested since 2018**, not
-Spanish-specific; only Res Continens remains a Spanish addition),
-supplies the classifier template the Spanish *plano / llano / liso* +
+Spanish-specific; and Res Continens is likewise English-attested since
+2019 per Zadobrivskaya — so the project has **no** Spanish-specific
+class, only two extra classes beyond Boriskina's six), supplies the
+classifier template the Spanish *plano / llano / liso* +
 *nivel de* family should be calibrated against, and predicts that the
 construction-type semantics (permanence / stability / temporality) and
 the *nivel*-as-frequent-substantive-classifier datum should replicate

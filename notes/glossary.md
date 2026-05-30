@@ -217,9 +217,9 @@ Each entry has the shape:
   the language generalises. Boriskina uses the term in the Latin form
   *эталон* (literally "standard, benchmark"). For Spanish, the prototypes
   are: *agua* (Liquidae), *hilo* (Filiformes), *pelota* (Rotundae), *lanza*
-  (Longae Penetrantes), *aguja* (Acutae), *piedra* (Parvae), and the
-  Spanish-specific *recipiente* / *caja* (Continens), *superficie* / *plano*
-  (Planae).
+  (Longae Penetrantes), *aguja* (Acutae), *piedra* (Parvae), and — for the
+  two later English-attested classes — *recipiente* / *caja* (Continens;
+  Zadobrivskaya 2019) and *superficie* / *plano* (Planae; Golikova 2018).
 
 ### Emonym
 - **RU**: эмоним
@@ -401,29 +401,34 @@ and Spanish, plus the project's data-file pointer.
   most preferred class for emotional concepts (Donina 2016, p. 10, item 6).
   Expectation: Spanish should pattern similarly, but this must be verified.
 
-### Res Continens — Spanish-specific
+### Res Continens — 8th English class (Zadobrivskaya 2019)
 - **Prototype**: вместилище / container / *recipiente*, *caja*
-- **Boriskina chapter**: not in Boriskina (no English equivalent class)
+- **Boriskina chapter**: not in Boriskina; established for English by
+  Zadobrivskaya 2019 (`notes/theory-zadobrivskaya.md`). **Not
+  Spanish-specific.**
 - **Project data**: `RES CONTINENS.xlsx`
 - **Core image**: container that can be filled, emptied, sealed, opened;
   one can be inside, fall into, escape from.
 - **Diagnostic classifiers (Spanish seeds)**: *envuelto en, lleno de, vacío
   de, sumido en, salir de, encerrado en, contenido en, en el fondo de*.
-- **Status**: provisional; admitted on the contrastive principle (containers
-  receive distinct gender/class marking in some languages) and on prima
-  facie Spanish corpus evidence. Subject to factor-analysis confirmation in
-  Phase 7 (per `archive/plan-from-scratch.md`).
+- **Status**: securely English-attested (overt container marking in Russian
+  *-ница*, Avar, Navajo, Atsugewi, Upper Kuskokwim; Spanish adds *-ero/-era*).
+  Its **weight in the Spanish profile** is provisional, subject to
+  factor-analysis confirmation in Phase 7 (per `archive/plan-from-scratch.md`).
 
-### Res Planae — Spanish-specific
+### Res Planae — 7th English class (Golikova 2018)
 - **Prototype**: плоскость, ровная поверхность / flat surface, plane /
   *superficie*, *plano*
-- **Boriskina chapter**: not in Boriskina
+- **Boriskina chapter**: not in Boriskina; established for English by
+  Golikova 2018 (`notes/theory-golikova.md`). **Not Spanish-specific.**
 - **Project data**: `Res Planae.xlsx`
 - **Core image**: flat surface with levels, depths, heights, layers; can be
   measured, walked on, layered.
 - **Diagnostic classifiers (Spanish seeds)**: *nivel de, capa de, profundo,
   plano, superficial, llano, en la superficie de*.
-- **Status**: provisional; same caveat as [[Res Continens]].
+- **Status**: English-attested (overt flat marking in Pular-Fulfulde *NGO*,
+  Japanese *枚*); weight in the Spanish profile provisional, same caveat as
+  [[Res Continens]].
 
 ---
 

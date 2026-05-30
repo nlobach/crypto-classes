@@ -413,14 +413,19 @@ For this project: the eight cryptoclasses used are admissible because:
   objects; some Athabaskan languages too.
 - *Res Parvae* — "small / graspable" is a recurrent classifier feature
   cross-linguistically (Aikhenvald 1998).
-- *Res Continens* — Spanish-specific, **provisional**. The contrastive
-  test: do any languages mark containers as a distinct gender or class?
-  Some Australian and Papuan classifier systems do; this is suggestive
-  but not yet locked. See `notes/cryptoclasses/_inventory-decisions.md`
-  (TBD).
-- *Res Planae* — Spanish-specific, **provisional**. Some classifier
-  systems (Tzeltal numeral classifiers; some Athabaskan verb-stem
-  systems) treat flat objects distinctly.
+- *Res Continens* — **8th English class** (Zadobrivskaya 2019), not
+  Spanish-specific. The contrastive test is firmly met: overt container
+  marking in Russian (*-ница*), Avar, Navajo, Atsugewi, Upper Kuskokwim,
+  plus Australian/Papuan classifier systems
+  (`notes/theory-zadobrivskaya.md` §3). Its retention in the *Spanish*
+  profile is still gated by the Varimax analysis — see
+  `notes/cryptoclasses/res-continens.md`.
+- *Res Planae* — **7th English class** (Golikova 2018), not
+  Spanish-specific. The contrastive test is met by overt flat-object
+  marking in Pular-Fulfulde (*NGO*) and Japanese (*枚*)
+  (`notes/theory-golikova.md` §4); some classifier systems (Tzeltal
+  numeral classifiers; some Athabaskan verb-stem systems) treat flat
+  objects distinctly as well.
 
 The contrastive principle is also why the cryptoclass names are kept in
 Latin: the Latin name reflects the perceptual feature (liquid, thread,
@@ -686,13 +691,19 @@ For English she ended up with six **systemic features**:
 > организации (устройства) вселенной, т.е. с топологией мира.* (p. 68)
 
 All six features are **topological** — they pick out basic spatial /
-material properties of the world. For Spanish, the project adds two:
+material properties of the world. The project carries two further
+topological features, both established for **English** by the Voronezh
+group after Boriskina (not Spanish-specific):
 
-- *Containment* / *capacity to enclose* (→ Res Continens).
-- *Flatness* / *layered extent* (→ Res Planae).
+- *Containment* / *capacity to enclose* (→ Res Continens; Zadobrivskaya
+  2019, the 8th English class).
+- *Flatness* / *layered extent* (→ Res Planae; Golikova 2018, the 7th
+  English class).
 
-Both are admissible on the contrastive principle (some classifier
-languages mark them) and on Spanish corpus evidence.
+Both are amply admissible on the contrastive principle (overtly marked
+in several classifier languages — `notes/theory-zadobrivskaya.md` §3,
+`notes/theory-golikova.md` §4); the open question for *Spanish* is their
+weight in the Spanish emonym profile, tested on corpus evidence.
 
 ### 8.2 — Stage 2: Build the classifier set (формирование набора классификаторов криптокласса)
 
@@ -1194,12 +1205,19 @@ where the Spanish work must diverge or extend.
 
 ### 13.2 — Where Spanish requires adaptation
 
-1. **Two added classes.** Res Continens and Res Planae are not in
-   Boriskina. They are admitted on (a) contrastive grounds and (b)
-   prima facie corpus evidence. Their **factor-analysis confirmation**
-   is `archive/plan-from-scratch.md` Phase 7 — they will be either
-   retained, merged, or dropped depending on whether they behave as
-   independent factors in the Varimax solution.
+1. **Two classes beyond Boriskina's six.** Res Continens and Res Planae
+   are not in Boriskina (2011), but they are **not Spanish-specific**:
+   both were established for **English** by the Voronezh group — Res
+   Planae by Golikova (2018), Res Continens by Zadobrivskaya (2019). The
+   project inherits the full 8-class English inventory. They rest on (a)
+   strong contrastive/typological grounds (overt marking in several
+   classifier languages; `notes/theory-zadobrivskaya.md` §3,
+   `notes/theory-golikova.md` §4) and (b) corpus evidence. What Spanish
+   adaptation requires is **factor-analysis confirmation that they earn
+   their place in the *Spanish* emonym profile** (`archive/plan-from-
+   scratch.md` Phase 7) — they will be retained, merged, or dropped
+   depending on whether they behave as independent factors in the
+   Spanish Varimax solution.
 
 2. **Construction-type schema is finer.** Twelve slugs (per
    `data/SCHEMA.md`) rather than Boriskina's original seven. The

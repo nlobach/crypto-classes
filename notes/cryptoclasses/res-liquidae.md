@@ -190,8 +190,8 @@ that file is created:
   vs. directed flow); 20 rows of `diluirse` with *amor* suggest the
   sub-pattern is large enough to be analytically worthwhile. Defer
   until pipeline data accumulates.
-- **Does the Spanish-specific [[res-continens]] cannibalise Liquidae
-  citations?** Many *llenar de miedo* / *vacío de amor* citations
+- **Does [[res-continens]] cannibalise Liquidae citations?** Many
+  *llenar de miedo* / *vacío de amor* citations
   could plausibly be parsed as either "container holding liquid"
   (Continens) or "liquid filling space" (Liquidae). The factor
   analysis in Phase 6 is the principled tie-breaker; for the

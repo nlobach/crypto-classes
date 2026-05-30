@@ -1,12 +1,17 @@
 # Res Continens
 
 The cryptoclass of **containers and bounded interiors**. Categorising
-feature *вместилищность* / *capacity to enclose*. **Spanish-specific,
-provisional**: not one of Boriskina's original six, admitted to the
-inventory on contrastive grounds and prima facie corpus evidence
-(`notes/theory-boriskina.md` §3, §7). Its place in the inventory is
-**conditional on the Varimax factor analysis in ROADMAP §Phase 6** — see
-*Provisional status and the factor-analysis gate* below.
+feature *вместилищность* / *capacity to enclose* — Zadobrivskaya's
+'hollow object of stable form intended for some content'. **Not
+Spanish-specific**: this is the **eighth English cryptoclass**,
+established for English by Zadobrivskaya (2019) over the same 23 emonyms
+× 20 variants as Donina (see `notes/theory-zadobrivskaya.md`). It is
+one of the two classes the project carries *beyond* Boriskina's
+original six. What is **provisional is its weight in the *Spanish*
+emonym profile**, not the existence of the class: its admission to the
+project's working inventory is **conditional on the Varimax factor
+analysis in ROADMAP §Phase 6** — see *Provisional status and the
+factor-analysis gate* below.
 
 For the framework that grounds this file see
 `notes/theory-boriskina.md`. The Spanish classifier-seed inventory lives
@@ -19,10 +24,14 @@ carry the burden of justifying it.
 
 - **Spanish (project canonical)**: *recipiente* — see
   `data/cryptoclasses.tsv`. Also *caja*, *vasija*, *cuenco*, *frasco*.
-- **No Boriskina prototype**: this class was introduced for Spanish.
-  The conceptual lineage is **Lakoff & Johnson's CONTAINER image
-  schema** (*Metaphors We Live By* 1980, §6); the cryptoclass framing
-  is the project's contribution.
+- **No Boriskina prototype**, but **not a project invention**:
+  Zadobrivskaya (2019) gives the English prototype names *cup, glass,
+  box, bowl, bucket, basket*. The conceptual lineage is **Lakoff &
+  Johnson's CONTAINER image schema** (*Metaphors We Live By* 1980, §6)
+  and Rakhilina's *topotype* "container"; the cryptoclass framing is
+  Zadobrivskaya's (for English). The project's contribution is the
+  Spanish cross-variant application and the Spanish prototype
+  *recipiente*.
 
 For *recipiente* the [+container] feature is constitutive. Other
 container nouns (*caja*, *bolsa*, *frasco*, *cuenco*, *botella*) are
@@ -36,18 +45,30 @@ Two prior commitments shape the class's admission:
 
 1. **Contrastive principle** (Boriskina §3, p. 49–52): a candidate
    cryptoclass is admissible if some natural language somewhere marks
-   the categorising feature overtly. For containment, this is satisfied
-   — Australian and Papuan classifier systems do mark containers
-   distinctly (Aikhenvald 1998; `notes/theory-boriskina.md` §3). The
-   evidence is suggestive but not yet conclusive at the typological
-   level.
-2. **Empirical motivation from Donina**: Donina's English data showed
-   that *grief* exhibits "strong Res-Continens-like patterns that
-   Donina doesn't have a class for (since she stayed at Boriskina's
-   6)" (`notes/methodology-donina.md` §8, line ~940). The Spanish
-   project's introduction of Res Continens is partly a response to
-   this gap — testing whether the patterns Donina noted-but-couldn't-
-   class deserve their own factor.
+   the categorising feature overtly. For containment this is **firmly
+   satisfied** — Zadobrivskaya (2019) catalogues overt container
+   markers in Russian (*-ница*: *чернильница, сахарница, пепельница*),
+   Avar (a local case for 'being inside a cavity that can contain'),
+   Navajo (classifier *khǫ* for 'container with hard edges'), Atsugewi
+   (*into*-type suffixes), and Upper Kuskokwim (grammatical classes for
+   stable- vs. unstable-form containers); plus the Australian/Papuan
+   systems already noted (Aikhenvald 1998). See
+   `notes/theory-zadobrivskaya.md` §3. **Spanish strengthens this from
+   within its own morphology** — the container suffix *-ero/-era*
+   (*azucarero, salero, tintero, cenicero*) is the direct cognate of
+   Russian *-ница*. The typological warrant is no longer "suggestive
+   but inconclusive"; it is solid.
+2. **Empirical resolution by Zadobrivskaya**: the "strong
+   Res-Continens-like patterns" Donina noted in English but had no
+   class for (since she stayed at Boriskina's 6;
+   `notes/methodology-donina.md` §8) were exactly what Zadobrivskaya
+   (2019) went on to formalise as the 8th English class. All 23
+   English emonyms tested positive as metaphoronyms of *Res Continens*,
+   and it is the **dominant** image for 10 of them (incl. *fear* at
+   71.51 %; `notes/theory-zadobrivskaya.md` §5). The Spanish project's
+   inclusion of the class is therefore well-founded for English; the
+   open Spanish question is purely how heavily *Spanish* emonyms load
+   on it.
 
 The class therefore enters the inventory **on probation**. The decision
 gate is the **Varimax factor analysis** in ROADMAP §Phase 6
@@ -60,6 +81,12 @@ analysis downstream of Phase 6 is therefore **contingent**.
 
 ## Cross-linguistic typological support
 
+- **Zadobrivskaya (2019)** is the primary reference: overt container
+  markers in Russian (*-ница*), Avar (local case), Navajo (*khǫ*),
+  Atsugewi (*into*-suffixes), Upper Kuskokwim (stable/unstable
+  container classes). See `notes/theory-zadobrivskaya.md` §3. **Spanish
+  *-ero/-era*** (*azucarero, salero, tintero, cenicero*) adds a
+  same-family overt cognate Zadobrivskaya could not cite.
 - **Australian and Papuan classifier systems** mark containers as a
   distinct class (Aikhenvald 1998, *Classifiers*).
 - **Lakoff & Johnson** (1980): CONTAINER is one of the foundational

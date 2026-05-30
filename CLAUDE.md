@@ -4,8 +4,10 @@
 
 Apply the **cryptoclass** framework (Boriskina 2011) and the cross-variant
 **emonym** method (Donina 2016) to **Spanish**: build a cryptoclass profile of
-Spanish emotion nouns across the 21 national variants of the language, with the
-cryptoclass inventory extended where Spanish requires it.
+Spanish emotion nouns across the 21 national variants of the language, using the
+full 8-class English inventory — Boriskina's original six plus the two later
+English additions *Res Planae* (Golikova 2018) and *Res Continens*
+(Zadobrivskaya 2019).
 
 The intended scholarly output is in **Spanish**. Working notes in this repo are
 in **English**, with canonical Russian terms preserved in the glossary so the
@@ -25,6 +27,14 @@ Located in `references/`. Untouched; treat as read-only sources.
   of emotions across language variants* (kandidat, under Boriskina). Methodological
   model: applies cryptoclass analysis to 23 English emonyms across areal
   varieties of English. This project is the Spanish counterpart.
+- `Автореферат_Голикова_О.А..pdf` — Golikova O.A. (2018), autoreferat
+  (kandidat, under Boriskina). Establishes ***Res Planae*** (flat surface) as
+  the **7th English cryptoclass**; links cryptoclass theory to Rakhilina's
+  *topotype*. See `notes/theory-golikova.md`.
+- `Avtoreferat_Zadobrivskaya_O_F.pdf` — Zadobrivskaya O.F. (2019), autoreferat
+  (kandidat, under Boriskina). Establishes ***Res Continens*** (container,
+  "Вместилище") as the **8th English cryptoclass** over the same 23 emonyms ×
+  20 variants as Donina. See `notes/theory-zadobrivskaya.md`.
 - `donina-appendices/Приложение 1 для диссера.doc`, `donina-appendices/Приложение  2.doc`,
   `donina-appendices/Приложение 3.doc` — Donina's appendices (summary tables,
   basic-emotions table, decision-tree rules, cryptoclass chains). Read on
@@ -75,7 +85,11 @@ Heavier extracted content lives in `notes/` and is read only when relevant.
 ## Working data: the `.xlsx` files
 
 Eight files in `data/legacy-xlsx/`, one per cryptoclass. Boriskina's original
-six plus two added for Spanish. These are now superseded by `data/citations.tsv`
+six plus the two further classes the project carries — *Res Planae* and *Res
+Continens*. Neither is Spanish-specific: both were established for **English**
+by the Voronezh group (Golikova 2018 and Zadobrivskaya 2019 respectively); the
+project simply applies the full 8-class inventory to Spanish. These are now
+superseded by `data/citations.tsv`
 (see `data/SCHEMA.md`) and are retained only for provenance / spot-checking:
 
 | File | Cryptoclass | Prototype |
@@ -86,8 +100,8 @@ six plus two added for Spanish. These are now superseded by `data/citations.tsv`
 | `Res Penentrantes.xlsx` *(sic)* | Res Longae Penetrantes | spear (penetrating) |
 | `Res Acutae.xlsx` | Res Acutae | needle (sharp) |
 | `Res Parvae.xlsx` | Res Parvae | pebble (small, grasped, thrown) |
-| `RES CONTINENS.xlsx` | Res Continens | container — **Spanish-specific** |
-| `Res Planae.xlsx` | Res Planae | flat surface — **Spanish-specific** |
+| `RES CONTINENS.xlsx` | Res Continens | container — **8th class, English (Zadobrivskaya 2019)** |
+| `Res Planae.xlsx` | Res Planae | flat surface — **7th class, English (Golikova 2018)** |
 
 Shared internal schema (canonical form now lives in `data/SCHEMA.md`; the
 xlsx-specific quirks below are preserved here as historical context):
@@ -134,10 +148,11 @@ and construction-type tagging. Existing manually-collected data becomes the
 gold-standard validation set for the pipeline.
 
 What is already strong despite low citation counts: the 8-class **cryptoclass
-inventory** (including the two Spanish additions *Res Continens* and
-*Res Planae*) and the **Spanish classifier seeds** captured in each xlsx's
-column headers. Those are the methodological backbone; further work is
-predominantly collection volume, not framework design.
+inventory** (Boriskina's six plus the two further classes *Res Planae* and
+*Res Continens*, both English-attested — Golikova 2018 and Zadobrivskaya 2019)
+and the **Spanish classifier seeds** captured in each xlsx's column headers.
+Those are the methodological backbone; further work is predominantly collection
+volume, not framework design.
 
 ## Working conventions
 
