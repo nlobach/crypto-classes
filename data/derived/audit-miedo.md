@@ -1,5 +1,13 @@
 # *miedo* — Phase 1 coverage audit
 
+> **⚠️ Counts superseded (2026-06-01).** This audit was run at commit
+> `5f206cb` when *miedo* had **494** citations. The dataset has since
+> grown to **510** (+16, from citations added in later commits). The
+> per-cell matrix (§2) and dependent tables (§3–§5) are therefore stale
+> on numbers; the *methodology, disputed-policy (§6), extractor change
+> log (§9), and open decisions (§10) remain valid*. For current pooled
+> counts and the aggregate CAC/IDC profile, see `profile-miedo.md`.
+
 Date: 2026-05-28
 Source: `data/citations.tsv` (commit at audit time: `5f206cb`)
 Method: SQLite (`.mode ascii` loader, per `data/SCHEMA.md`) +
