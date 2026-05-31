@@ -80,6 +80,7 @@ source (no front-matter offset to compensate for).
 | File | Source | Coverage |
 |---|---|---|
 | `theory-boriskina.md` | Boriskina 2011 | Chapter 1 in full; Chapter 3 selectively (portrait, four principles, five types of metaphoronyms, aggregate state of emotions §3.5) |
+| `hispanosphere-pustovalova-boriskina.md` | Pustovalova & Boriskina (article, VSU) | Typological model of the Hispanosphere as a structured continuum of idioms of varying status; justifies the 21-idiom scope, the term *idiom*, and the comparable-corpora requirement. |
 | `methodology-donina.md` | Donina 2016 | §§1.4–1.10 (methodology); §§2.2–2.3 selectively; per-emonym extractions split out into `donina-emonyms/` |
 | `theory-golikova.md` | Golikova 2018 (автореферат) | Full autoreferat: typological warrant for *Res Planae*, English classifier inventory (*flat / plain / level / even*), construction-type semantics, *level*-frequency datum from COCA, revised feature hierarchy ([+flat] = 2nd after [+graspable]), cryptoclass × topotype linkage, *именная классификативность* term. |
 | `theory-zadobrivskaya.md` | Zadobrivskaya 2019 (автореферат) | Full autoreferat: establishes *Res Continens* (container) as the 8th English class; categorial feature, typological warrant (Russian *-ница*, Avar, Navajo, Atsugewi, Upper Kuskokwim), classifier inventory (verbal 95.25 % / attributive 3.37 % / predicative 1.39 %), *fear* portrait (Continens 71.51 %), per-emonym dominant class, the *mutual reversibility* and *matryoshka* principles. Settles that Res Continens is not Spanish-specific. |
