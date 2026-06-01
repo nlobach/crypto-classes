@@ -179,16 +179,18 @@ citations contain unescaped `"` characters (direct speech, scare quotes), and
 both modes treat `"` as a CSV quote delimiter. The import silently merges or
 drops rows — counts will be wrong without erroring out. `.mode ascii` with
 explicit `\t` / `\n` separators disables quote interpretation and gives the
-correct row counts. Verify a load by checking `Res Continens` rows = 499.
+correct row counts. Verify a load by checking `Res Continens` rows = 563.
 
 ## Extraction status
 
 - **All 8 cryptoclasses extracted**: `pipeline/extract_wide.js` reads the
-  wide-format xlsx files in `data/legacy-xlsx/` and writes **2,906 citation
+  wide-format xlsx files in `data/legacy-xlsx/` and writes **2,993 citation
   rows** to `citations.tsv`. Re-run the script anytime to regenerate; it
-  overwrites the file. Per-class row counts: Res Liquidae 1,251 · Res Continens
-  499 · Res Filiformes 341 · Res Planae 252 · Res Longae Penetrantes 194 ·
-  Res Parvae 170 · Res Rotundae 134 · Res Acutae 65.
+  overwrites the file (verified 2026-06-01 to reproduce the committed file
+  byte-for-byte — the source of truth is the `legacy-xlsx/` files, so manual
+  edits must be made there, not in `citations.tsv`). Per-class row counts:
+  Res Liquidae 1,251 · Res Continens 563 · Res Filiformes 364 · Res Planae 252 ·
+  Res Longae Penetrantes 194 · Res Parvae 170 · Res Rotundae 134 · Res Acutae 65.
 - **Res Liquidae source**: the original long-form `RES LIQUIDAE.xlsx` is
   excluded; the cleaned wide-form counterpart `RES LIQUIDAE COR.xlsx` is the
   one extracted. The aggregate sheets inside the original (`Лист6`, `Лист7`,

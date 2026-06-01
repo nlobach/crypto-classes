@@ -122,14 +122,14 @@ the other seven — this is handled by `pipeline/extract_wide.js`.
 ## Data status
 
 After automated extraction of the manually-collected xlsx files into
-`data/citations.tsv`: ~**2,900 citations** across all 8 cryptoclasses combined
-(2,906 rows), in **482 filled (cryptoclass × emonym × variant) cells**.
+`data/citations.tsv`: ~**3,000 citations** across all 8 cryptoclasses combined
+(2,993 rows), in **484 filled (cryptoclass × emonym × variant) cells**.
 Distribution is uneven:
 
 - **Emonyms in scope**: 5 (*miedo, tristeza, amor, alegría, ira*) vs. Donina's
   23 for English. ≈ 22 % of her breadth.
-- **Per-emonym counts**: *amor* 1,125 · *alegría* 782 · *miedo* 496 ·
-  *tristeza* 374 · *ira* 129.
+- **Per-emonym counts**: *amor* 1,170 · *alegría* 785 · *miedo* 510 ·
+  *tristeza* 398 · *ira* 130.
 - **Strong variants**: AR, ES, MX, CO, CL, US (variants with large accessible
   corpora). **Weak / absent**: GT, HN, SV, NI, CR, PR, PY, EC. Central American
   coverage is essentially missing.
