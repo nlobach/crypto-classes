@@ -110,15 +110,19 @@ Residual (non-blocking, carried into Phase 2):
       survivor rule) wired into `build_gold.js` + `membership_matrix.js` via
       `pipeline/drop_ids.js`; *miedo* gold set refrozen **417→405**;
       `profile-miedo.md` + `audit-miedo.md` regenerated on the curated set.
-      Problem 1.5 (rows mis-filed under the wrong emonym) **not started** — the
-      current resume point.
+      Problem 1.5 (rows mis-filed under the wrong emonym) **done (2026-06-02)**:
+      11 rows reassigned to *tristeza*/*ira* (`emonym-reassignments.tsv` +
+      `pipeline/reassignments.js`), 3 *temor* rows excluded as a distinct lexeme
+      (Phase-4 candidate). *miedo* gold set **405→391**; it is now final pending
+      Phase-2 volume. **All *miedo* cleanup complete.**
 - [~] Repeat the end-to-end pilot for the remaining emonyms
-      (*tristeza, amor, alegría, ira*). **Partial (commit 6437567):** a pooled
-      cross-emonym membership profile for all five now exists in
-      `data/derived/membership-matrix.md` (which classes each emonym joins,
-      via which construction types, with per-cell variant coverage). Still
-      pending per emonym: the individual audit + frozen gold set (the
-      `audit-miedo.md` / `gold-miedo.*` equivalents).
+      (*tristeza, amor, alegría, ira*) — **the current resume point.**
+      **Partial (commit 6437567):** a pooled cross-emonym membership profile for
+      all five exists in `data/derived/membership-matrix.md`. Still pending per
+      emonym: the individual audit + frozen gold set (the `audit-miedo.md` /
+      `gold-miedo.*` equivalents). Note: the Problem-1.5 reassignment sidecar
+      already routes the mis-filed *tristeza*/*ira* rows into those gold sets
+      when they are built.
 
 ## Phase 2 — Automated corpus-sifting pipeline (kicked off, commit 1d54e6b)
 
