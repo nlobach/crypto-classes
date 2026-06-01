@@ -20,10 +20,10 @@ con-miedo-co-0002	con-miedo-ar-0004	3	cross-country (kept strongest variant)	mie
 con-miedo-ec-0001	con-miedo-ar-0004	3	cross-country (kept strongest variant)	miedo/EC/Res Continens	miedo/AR/Res Continens	Los combates destapan el miedo.
 con-miedo-ec-0003	con-miedo-ar-0012	2	cross-country (kept strongest variant)	miedo/EC/Res Continens	miedo/AR/Res Continens	es imposible vivir en el miedo
 con-amor-ve-0003	con-amor-mx-0010	2	cross-country (kept strongest variant)	amor/VE/Res Continens	amor/MX/Res Continens	En el amor existen factores que la mente no puede llegar a comprender 
+con-tristeza-us-0004		2	cross-country non-diagnostic; no strong-corpus home (drop all)	tristeza/US/Res Continens		La fe vacila cuando se cae en la tristeza y el desánimo.
 con-tristeza-ec-0001		2	cross-country non-diagnostic; no strong-corpus home (drop all)	tristeza/EC/Res Continens		la fe vacila cuando se cae en la tristeza y el desánimo
-con-tristeza-us-0004		2	cross-country non-diagnostic; no strong-corpus home (drop all)	tristeza/US/Res Continens		la fe vacila cuando se cae en la tristeza y el desánimo
-con-alegría-bo-0001		2	cross-country non-diagnostic; no strong-corpus home (drop all)	alegría/BO/Res Continens		vivir en la alegría de el Evangelio
 con-alegría-us-0001		2	cross-country non-diagnostic; no strong-corpus home (drop all)	alegría/US/Res Continens		vivir en la alegría de el Evangelio
+con-alegría-bo-0001		2	cross-country non-diagnostic; no strong-corpus home (drop all)	alegría/BO/Res Continens		vivir en la alegría de el Evangelio
 fil-miedo-ec-0001	fil-miedo-es-0001	2	cross-country (kept strongest variant)	miedo/EC/Res Filiformes	miedo/ES/Res Filiformes	entrelazar el miedo y el placer sin poner se en riesgo
 fil-miedo-mx-0001	fil-ira-mx-0001	2	cross-emonym (kept token-present)	miedo/MX/Res Filiformes	ira/MX/Res Filiformes	La ira y el miedo se entrelazan hoy en amplios sectores de una socieda
 fil-amor-ar-0002	fil-amor-ar-0001	3	exact-repeat-same-cell	amor/AR/Res Filiformes	amor/AR/Res Filiformes	La convivencia desata pasiones, amor y locura.
@@ -37,16 +37,16 @@ liq-amor-cl-0017	liq-amor-ar-0025	2	cross-country (kept strongest variant)	amor/
 liq-amor-mx-0065	liq-amor-ar-0047	2	cross-country (kept strongest variant)	amor/MX/Res Liquidae	amor/AR/Res Liquidae	el amor de Dios derramado en nuestros corazones'
 liq-amor-us-0005	liq-amor-cl-0003	2	cross-country (US dropped; kept strongest non-US)	amor/US/Res Liquidae	amor/CL/Res Liquidae	no me detendrán para derramar amor, luz y positividad
 liq-amor-us-0029	liq-amor-co-0023	2	cross-country (kept strongest variant)	amor/US/Res Liquidae	amor/CO/Res Liquidae	el amor fluye dependiendo de el continente en donde usted esté
-liq-amor-cr-0003		2	cross-country non-diagnostic; no strong-corpus home (drop all)	amor/CR/Res Liquidae		el amor hacia mi mamá fluye sin juicios
 liq-amor-us-0023		2	cross-country non-diagnostic; no strong-corpus home (drop all)	amor/US/Res Liquidae		el amor hacia mi mamá fluye sin juicios
+liq-amor-cr-0003		2	cross-country non-diagnostic; no strong-corpus home (drop all)	amor/CR/Res Liquidae		el amor hacia mi mamá fluye sin juicios
 liq-amor-ec-0019	liq-amor-es-0051	2	cross-country (kept strongest variant)	amor/EC/Res Liquidae	amor/ES/Res Liquidae	el amor derramado en nuestros corazones.
 liq-amor-es-0025	liq-amor-es-0023	2	exact-repeat-same-cell	amor/ES/Res Liquidae	amor/ES/Res Liquidae	Fluye el amor y la pasión en la política española
 liq-amor-gt-0004	liq-amor-sv-0004	2	cross-country (kept strongest variant)	amor/GT/Res Liquidae	amor/SV/Res Liquidae	oy el fulgor y la prosperidad de un nuevo comienzo inunde sus hogares 
 liq-amor-us-0040	liq-amor-mx-0068	2	cross-country (kept strongest variant)	amor/US/Res Liquidae	amor/MX/Res Liquidae	...hoy el fulgor y la prosperidad de un nuevo comienzo inunde sus hoga
+liq-amor-us-0043		2	cross-country non-diagnostic; no strong-corpus home (drop all)	amor/US/Res Liquidae		...¡SOLIDARIDAD! que inundaba tu corazón de amor hacia tu prójimo.
 liq-amor-pe-0045		2	cross-country non-diagnostic; no strong-corpus home (drop all)	amor/PE/Res Liquidae		...¡SOLIDARIDAD! que inundaba tu corazón de amor hacia tu prójimo...
-liq-amor-us-0043		2	cross-country non-diagnostic; no strong-corpus home (drop all)	amor/US/Res Liquidae		...¡SOLIDARIDAD! que inundaba tu corazón de amor hacia tu prójimo...
-liq-amor-ve-0027		2	cross-country non-diagnostic; no strong-corpus home (drop all)	amor/VE/Res Liquidae		pareció limpiar la mancha con el gran flujo de amor público
 liq-amor-us-0036		2	cross-country non-diagnostic; no strong-corpus home (drop all)	amor/US/Res Liquidae		pareció limpiar la mancha con el gran flujo de amor público
+liq-amor-ve-0027		2	cross-country non-diagnostic; no strong-corpus home (drop all)	amor/VE/Res Liquidae		pareció limpiar la mancha con el gran flujo de amor público
 liq-tristeza-uy-0002	liq-tristeza-cl-0002	3	cross-country (kept strongest variant)	tristeza/UY/Res Liquidae	tristeza/CL/Res Liquidae	...San Juan, inmóvil, rebosa tristeza.
 liq-tristeza-sv-0001	liq-tristeza-cl-0002	3	cross-country (kept strongest variant)	tristeza/SV/Res Liquidae	tristeza/CL/Res Liquidae	...San Juan, inmóvil, rebosa tristeza.
 liq-tristeza-uy-0001	liq-tristeza-ec-0001	3	cross-country (kept strongest variant)	tristeza/UY/Res Liquidae	tristeza/EC/Res Liquidae	La figura de San Juan, inmóvil, rebosa tristeza.
@@ -60,14 +60,14 @@ liq-alegría-py-0004	liq-alegría-co-0033	3	cross-country (kept strongest varian
 liq-alegría-cu-0008	liq-alegría-cu-0007	2	exact-repeat-same-cell	alegría/CU/Res Liquidae	alegría/CU/Res Liquidae	La alegría inunda desde la madrugada a el pueblo de Artemisa
 liq-alegría-es-0052	liq-alegría-es-0042	2	exact-repeat-same-cell	alegría/ES/Res Liquidae	alegría/ES/Res Liquidae	La alegría inunda el vestuario de el líder
 liq-alegría-es-0088	liq-alegría-es-0043	2	exact-repeat-same-cell	alegría/ES/Res Liquidae	alegría/ES/Res Liquidae	Una alegría inmensa inunda este pequeño hoga
+liq-alegría-us-0004		3	cross-country non-diagnostic; no strong-corpus home (drop all)	alegría/US/Res Liquidae		Los dos rebosan alegría y se sienten muy agradecidos
 liq-alegría-pa-0001		3	cross-country non-diagnostic; no strong-corpus home (drop all)	alegría/PA/Res Liquidae		Los dos rebosan alegría y se sienten muy agradecidos
 liq-alegría-hn-0001		3	cross-country non-diagnostic; no strong-corpus home (drop all)	alegría/HN/Res Liquidae		Los dos rebosan alegría y se sienten muy agradecidos
-liq-alegría-us-0004		3	cross-country non-diagnostic; no strong-corpus home (drop all)	alegría/US/Res Liquidae		Los dos rebosan alegría y se sienten muy agradecidos
 par-amor-us-0003	par-amor-ar-0004	2	cross-country (kept strongest variant)	amor/US/Res Parvae	amor/AR/Res Parvae	Dany hubiera imaginado que una llamada equivocada iba a traer le amor.
+par-amor-us-0002		4	cross-country non-diagnostic; no strong-corpus home (drop all)	amor/US/Res Parvae		traer amor
 par-amor-ve-0004		4	cross-country non-diagnostic; no strong-corpus home (drop all)	amor/VE/Res Parvae		traer amor
 par-amor-do-0001		4	cross-country non-diagnostic; no strong-corpus home (drop all)	amor/DO/Res Parvae		traer amor
 par-amor-ec-0001		4	cross-country non-diagnostic; no strong-corpus home (drop all)	amor/EC/Res Parvae		traer amor
-par-amor-us-0002		4	cross-country non-diagnostic; no strong-corpus home (drop all)	amor/US/Res Parvae		traer amor
 par-tristeza-ar-0001	par-alegría-ar-0002	2	cross-emonym (kept token-present)	tristeza/AR/Res Parvae	alegría/AR/Res Parvae	ARROJAR La primera jornada disputada ayer, arrojó alegrías y tristezas
 par-alegría-ec-0001	par-alegría-co-0001	2	cross-country (kept strongest variant)	alegría/EC/Res Parvae	alegría/CO/Res Parvae	Estamos soñando con entregar le una alegría más a nuestro país
 par-alegría-cr-0002	par-alegría-co-0002	2	cross-country (kept strongest variant)	alegría/CR/Res Parvae	alegría/CO/Res Parvae	MANOJO 1 Meghan y Harry hablaron de lo fascinados que están con su bun

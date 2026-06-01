@@ -9,7 +9,11 @@
 //
 // Survivor rule per duplicate group (first match wins, fully deterministic):
 //   1. cross-emonym  → keep the row whose emonym token is present in the text
-//   2. cross-country → keep the row in the strongest variant (most citations)
+//   2. cross-country → keep the row in the strongest variant (most citations),
+//                      but US never survives (syndication sink); if no
+//                      strong-corpus variant (AR/ES/MX/CO/CL) remains, the
+//                      string is non-variant-distinctive and the whole group
+//                      is dropped. Policy 2026-06-02; see _inventory-decisions.md.
 //   3. tie-break     → lowest id
 //
 // Usage: node pipeline/dedupe.js  [--write]
@@ -31,6 +35,13 @@ const rows = lines.map(l => {
 // --- corpus strength = how many citations each variant has (proxy for "likely source") ---
 const strength = {};
 for (const r of rows) strength[r.co] = (strength[r.co] || 0) + 1;
+
+// --- strong-corpus variants: the only "safe home" for a duplicated (i.e.
+// non-variant-distinctive) string. US is barred as a syndication sink — US
+// Spanish corpora largely reprint origin-country text, so US never survives a
+// cross-country duplicate, and a group with no strong-corpus member is dropped
+// wholesale. Policy decided 2026-06-02; see _inventory-decisions.md. ---
+const STRONG = new Set(['AR', 'ES', 'MX', 'CO', 'CL']);
 
 // --- emonym token presence (stem match; `ira` needs a word boundary) ---
 const STEM = { 'miedo': 'mied', 'tristeza': 'trist', 'amor': 'amor', 'alegría': 'alegr', 'ira': 'ira' };
@@ -82,20 +93,40 @@ for (const key in groups) {
   if (g.length < 2) continue;
   nGroups++;
   const cos = new Set(g.map(r => r.co)), ems = new Set(g.map(r => r.em));
-  const reason = ems.size > 1 ? 'cross-emonym (kept token-present)'
-              : cos.size > 1 ? 'cross-country (kept strongest variant)'
-              : 'exact-repeat-same-cell';
-  // pick survivor
+  const crossCountry = ems.size === 1 && cos.size > 1;
+  // rank candidates: emonym-present first, then strongest variant, then lowest id
   const ranked = g.slice().sort((a, b) =>
     (emonymPresent(b) - emonymPresent(a)) ||
     ((strength[b.co] || 0) - (strength[a.co] || 0)) ||
     (a.id < b.id ? -1 : 1));
-  const keep = ranked[0];
-  byReason[reason] = (byReason[reason] || 0) + (g.length - 1);
-  for (const r of ranked.slice(1)) {
+
+  // default survivor = top-ranked row
+  let keep = ranked[0];
+  let toDrop = ranked.slice(1);
+  let reason = ems.size > 1 ? 'cross-emonym (kept token-present)'
+             : crossCountry ? 'cross-country (kept strongest variant)'
+             : 'exact-repeat-same-cell';
+
+  // US-exclusion policy — cross-country duplicates only (a duplicated string is
+  // non-variant-distinctive, so it must not be credited to US or to a thin variant).
+  if (crossCountry && keep.co === 'US') {
+    const bestNonUs = ranked.find(r => r.co !== 'US');
+    if (bestNonUs && STRONG.has(bestNonUs.co)) {
+      keep = bestNonUs;                                  // strong home exists
+      toDrop = ranked.filter(r => r.id !== keep.id);     // drop the rest, incl. US
+      reason = 'cross-country (US dropped; kept strongest non-US)';
+    } else {
+      keep = null;                                       // no safe home → credit nobody
+      toDrop = ranked.slice();
+      reason = 'cross-country non-diagnostic; no strong-corpus home (drop all)';
+    }
+  }
+
+  byReason[reason] = (byReason[reason] || 0) + toDrop.length;
+  for (const r of toDrop) {
     drops.push({
-      drop_id: r.id, keep_id: keep.id, group_size: g.length, reason,
-      dropped: `${r.em}/${r.co}/${r.cl}`, kept: `${keep.em}/${keep.co}/${keep.cl}`,
+      drop_id: r.id, keep_id: keep ? keep.id : '', group_size: g.length, reason,
+      dropped: `${r.em}/${r.co}/${r.cl}`, kept: keep ? `${keep.em}/${keep.co}/${keep.cl}` : '',
       excerpt: r.es.slice(0, 70),
     });
   }
