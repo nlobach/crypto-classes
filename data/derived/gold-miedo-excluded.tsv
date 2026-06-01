@@ -1,4 +1,10 @@
 id	cryptoclass	emonym	country	construction_type	classifier_lemma	citation_es	source_file	source_sheet	source_locator	exclusion_reason
+con-miedo-ar-0015	Res Continens	miedo	AR	verbal-locative-state		Encontrar	RES CONTINENS.xlsx	miedo	D2	non-citation-fragment: blank lemma + no emonym token
+con-miedo-cl-0014	Res Continens	miedo	CL	verbal-locative-state		Encontrar	RES CONTINENS.xlsx	miedo	D4	non-citation-fragment: blank lemma + no emonym token
+con-miedo-co-0011	Res Continens	miedo	CO	verbal-locative-state		Encontrar	RES CONTINENS.xlsx	miedo	D5	non-citation-fragment: blank lemma + no emonym token
+con-miedo-mx-0027	Res Continens	miedo	MX	attributive		profundo miedo	RES CONTINENS.xlsx	miedo	G13	intensity-attributive: "profundo miedo" is intensity, not container schema
+fil-miedo-co-0001	Res Filiformes	miedo	CO	verbal-instrumental		Se amarraron a sus miedos y no escaparon.	Res Filiformes.xlsx	miedo	E5	disputed: reflexive-bind ("se amarraron a sus miedos") — Continens-into, not Filiformes
+liq-miedo-ve-0005	Res Liquidae	miedo	VE	verbal-instrumental		corazones blaugranas,	RES LIQUIDAE COR.xlsx	miedo	G21	non-citation-fragment: blank lemma + no emonym token
 pla-miedo-ar-0001	Res Planae	miedo	AR	substantive	nivel de	existe ese nivel de miedo o de desconfianza	Res Planae.xlsx	MIEDO	E2	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)
 pla-miedo-ar-0002	Res Planae	miedo	AR	substantive	nivel de	un elevado nivel de miedo, preocupación y ansiedad	Res Planae.xlsx	MIEDO	E2	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)
 pla-miedo-ar-0003	Res Planae	miedo	AR	substantive	nivel de	han creado un gran nivel de miedo	Res Planae.xlsx	MIEDO	E2	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)

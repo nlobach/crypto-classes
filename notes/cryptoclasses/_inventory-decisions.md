@@ -7,6 +7,101 @@ directory. Newest first.
 
 ---
 
+## 2026-06-01 — Dataset-wide duplicate policy: Problem 2 (drop-list, STAGED not applied)
+
+**Decision.** Duplicates are removed by a single deterministic pass
+(`pipeline/dedupe.js`) that emits a drop-list sidecar
+(`data/derived/duplicate-drops.tsv`); `data/citations.tsv` is left untouched and
+downstream consumers filter the listed ids. Reversible (delete a row from the
+list). **Status: drop-list generated and reviewed; NOT yet wired into
+`build_gold.js` / `membership_matrix.js` and the profile/audit are NOT yet
+regenerated.** Resume point: `notes/gold-cleanup-status.md`.
+
+**Scale.** 2,993 rows → **79 drops (2.6 %)** in four rule classes:
+
+| Rule | Drops | Survivor / decision |
+|---|---:|---|
+| non-citation fragment (no emotion word) | 16 | dropped wholesale (extractor grabbed a seed/header, e.g. `Encontrar`×9, `sacar`×2, `INUNDAR DE/CON`, `brote de`, `flujo`) |
+| cross-country duplicate | 50 | keep the **strongest variant** (most citations ≈ likely source; strips thin-variant padding) |
+| cross-emonym duplicate | 4 | keep the row whose **emonym token is present** in the text (auto-corrects the mis-file) |
+| exact same-cell repeat | 9 | keep lowest id |
+
+**Why "admit but don't double-count".** A duplicated sentence (syndicated wire
+copy, a pan-Hispanic construction, or a quotation) is not *independent* evidence
+for a second variant. It is immaterial to a pooled profile (±1 per class) but
+**manufactures spurious correlation** between variants in the Phase-6 per-variant
+Pearson matrix — worst for thin variants (e.g. EC had 5 *miedo* citations, 3 of
+them AR/ES duplicates → 2 unique). So duplicates are collapsed for statistics,
+not because the text can't legitimately recur.
+
+**Rescued from the junk rule (keep-override in `dedupe.js`).** Two rows the
+"no emotion word" rule flagged were genuine citations truncated mid-token:
+`liq-amor-es-0027` (*"…que fluya el amo[r]"*) and `fil-alegría-uy-0004`
+(*"[alegría] desatada el domingo al ganar…"*). Kept.
+
+**Not handled here.** The 3 `temor` rows filed under *miedo* (`está/sumidas en
+el temor`) are a synonym/mis-filing question, deliberately left in place. The
+broader mis-filing set (~11 rows about *tristeza*/*ira* under *miedo* that are
+**not** duplicates, e.g. `círculo de tristeza`) is a separate integrity pass.
+
+---
+
+## 2026-06-01 — *miedo* gold-set cleanup: Problem 1 (blank-lemma rows)
+
+**Decision.** Resolved all **13** blank-`classifier_lemma` *miedo* rows in the
+gold set: **7 corrected** (legacy xlsx column mis-tags), **6 excluded**.
+Implemented as downstream curation in `pipeline/build_gold.js` (`CORRECTIONS`
+map + new `exclusionReason` rules); `data/citations.tsv` is left as the faithful
+raw extraction. Gold set **417 → 411**; excluded sidecar **93 → 99**;
+blank-lemma rows in `gold-miedo.tsv` → **0**.
+
+**Corrections (7, kept).** Lemmas (`fluir`, `rebosar`) already exist in the
+Liquidae seed list under *verbal-subject-intransitive*; these rows came up
+blank only because the legacy xlsx filed them in the wrong construction-type
+column, and `detectLemma` scopes seed-matching to the row's column.
+
+| id | was ct | → ct | lemma |
+|---|---|---|---|
+| `liq-miedo-{bo,do,es,pe}-0001` | verbal-objective | verbal-subject-intransitive | `fluir` |
+| `liq-miedo-es-0012` | verbal-instrumental | verbal-subject-intransitive | `rebosar` ("a rebosar de … miedos") |
+| `liq-miedo-ve-0001` | substantive | verbal-subject-transitive | `rebosar` ("el miedo lo rebosó") |
+| `liq-miedo-mx-0004` | substantive | *(unchanged)* | `rebosar` ("el reboso", nominalisation) |
+
+**Exclusions (6, → `gold-miedo-excluded.tsv`).**
+
+| id(s) | reason |
+|---|---|
+| `con-miedo-{ar-0015,cl-0014,co-0011}`, `liq-miedo-ve-0005` | non-citation fragments — blank lemma **and** no `miedo` token ("Encontrar", "corazones blaugranas,") |
+| `fil-miedo-co-0001` | disputed reflexive-bind ("se amarraron a sus miedos") — Continens-into, not Filiformes |
+| `con-miedo-mx-0027` | `profundo miedo`: intensity attributive, not the container schema |
+
+**Two judgment calls (reversible, flagged for review).**
+- *`profundo`* — **excluded**, reversing the earlier "keep" default. `profundo`
+  is an intensity adjective, not the flat container image; adding it as a
+  Continens attributive seed would over-recruit (*profundo amor*, *profunda
+  tristeza*) across every emonym on re-extraction. To reverse: delete the
+  `con-miedo-mx-0027` rule in `build_gold.js` (and only then consider seeding).
+- *`Se amarraron a sus miedos`* (`fil-miedo-co-0001`) — re-excluded as disputed.
+  ⚠️ **Audit discrepancy:** `audit-miedo.md` §6 claims this row was deleted by
+  the Conservative disputed policy and that "0 disputed remain". It had in fact
+  re-entered `citations.tsv` (494→510 growth) as a *non-disputed* row in a
+  normal column (locator E5). The audit's claim is stale and is corrected by
+  this exclusion. **`audit-miedo.md` §6 needs a note to this effect.**
+
+**Newly surfaced, NOT fixed here (separate problem).** The same token check
+found **~11–14 rows filed under *miedo* whose citation is about another
+emotion**: 9× `círculo de tristeza` (→ *tristeza*), 2× `envuelto en ira`
+(→ *ira*), 3× `el temor` (→ *temor*, a near-synonym — defensibility open).
+These have valid lemmas so they are outside Problem 1 (blank-lemma) scope, but
+they are a gold-set integrity issue to triage separately before per-variant
+statistics.
+
+**Deferred.** Profile/audit numeric regeneration (`profile-miedo.md`,
+`audit-miedo.md`) is held until Problem 2 (cross-country duplicates) is also
+resolved, so the markdown is recomputed once, not twice.
+
+---
+
 ## 2026-06-01 — Generalise the `nivel de` exclusion to all five emonyms (class-wide)
 
 **Decision.** The `nivel de` exclusion from Res Planae (recorded below for

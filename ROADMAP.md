@@ -103,8 +103,14 @@ gold-standard validation set for the pipeline built in Phase 2.
       `nivel de` rows), via `pipeline/build_gold.js`.
 
 Residual (non-blocking, carried into Phase 2):
-- [ ] 6 cross-country duplicate citations + 9 blank-lemma rows flagged in
-      `audit-miedo.md` §5,§7 — clean up before any per-variant statistics.
+- [~] Blank-lemma + duplicate cleanup — **in progress, see
+      `notes/gold-cleanup-status.md`**. Problem 1 (blank-lemma rows) **done**:
+      *miedo* gold set 417→411, 0 blanks (downstream curation in
+      `build_gold.js`; rationale in `_inventory-decisions.md`). Problem 2
+      (duplicates) **staged not applied**: deterministic 79-row drop-list
+      (`data/derived/duplicate-drops.tsv` via `pipeline/dedupe.js`) awaiting
+      wire-in + a single profile/audit regeneration. Problem 1.5 (rows
+      mis-filed under the wrong emonym) not started.
 - [~] Repeat the end-to-end pilot for the remaining emonyms
       (*tristeza, amor, alegría, ira*). **Partial (commit 6437567):** a pooled
       cross-emonym membership profile for all five now exists in

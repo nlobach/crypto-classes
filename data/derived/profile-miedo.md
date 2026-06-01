@@ -1,5 +1,15 @@
 # *miedo* — aggregate cryptoclass profile (Spanish pooled)
 
+> **⚠️ Numbers stale (2026-06-01, gold-cleanup session).** This profile reports
+> the gold set at **417** citations. After the Problem-1 cleanup the gold set is
+> **411** (7 lemma corrections kept, 6 rows excluded — see
+> `_inventory-decisions.md`). A further dedup pass (Problem 2,
+> `data/derived/duplicate-drops.tsv`, 79 drops) is staged but **not yet
+> applied**. The CAC/IDC tables below will shift slightly on regeneration. The
+> **headline (Continens-dominant, Planae-absent) does not change.** Regeneration
+> is deliberately deferred until the dedup is wired in — see
+> `notes/gold-cleanup-status.md` for the resume point.
+
 Date: 2026-06-01
 Source: `data/citations.tsv` (regenerated after disputed-case deletion;
 8 cryptoclasses, 21 variants).

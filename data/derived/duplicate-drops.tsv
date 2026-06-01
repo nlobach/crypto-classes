@@ -1,0 +1,80 @@
+drop_id	keep_id	group_size	reason	dropped	kept	excerpt
+con-miedo-ar-0015		1	non-citation-fragment (no emotion word)	miedo/AR/Res Continens		Encontrar
+con-miedo-cl-0014		1	non-citation-fragment (no emotion word)	miedo/CL/Res Continens		Encontrar
+con-miedo-co-0011		1	non-citation-fragment (no emotion word)	miedo/CO/Res Continens		Encontrar
+con-amor-ar-0009		1	non-citation-fragment (no emotion word)	amor/AR/Res Continens		Encontrar
+con-amor-co-0003		1	non-citation-fragment (no emotion word)	amor/CO/Res Continens		Encontrar
+con-amor-pe-0001		1	non-citation-fragment (no emotion word)	amor/PE/Res Continens		encontrar
+con-ira-mx-0006		1	non-citation-fragment (no emotion word)	ira/MX/Res Continens		Encontrar
+con-tristeza-ar-0011		1	non-citation-fragment (no emotion word)	tristeza/AR/Res Continens		sacar
+con-tristeza-bo-0002		1	non-citation-fragment (no emotion word)	tristeza/BO/Res Continens		encontrar
+con-tristeza-cl-0003		1	non-citation-fragment (no emotion word)	tristeza/CL/Res Continens		sacar
+con-tristeza-es-0004		1	non-citation-fragment (no emotion word)	tristeza/ES/Res Continens		Encontrar
+liq-miedo-ve-0005		1	non-citation-fragment (no emotion word)	miedo/VE/Res Liquidae		corazones blaugranas,
+liq-amor-do-0025		1	non-citation-fragment (no emotion word)	amor/DO/Res Liquidae		INUNDAR DE /CON  3
+liq-amor-sv-0002		1	non-citation-fragment (no emotion word)	amor/SV/Res Liquidae		INUNDAR DE/ POR
+liq-alegría-bo-0008		1	non-citation-fragment (no emotion word)	alegría/BO/Res Liquidae		brote de
+liq-alegría-mx-0058		1	non-citation-fragment (no emotion word)	alegría/MX/Res Liquidae		flujo
+acu-tristeza-ve-0001	acu-tristeza-mx-0001	2	cross-country (kept strongest variant)	tristeza/VE/Res Acutae	tristeza/MX/Res Acutae	la incontenible alegría con el' Noa Noa' hasta la tristeza más aguda c
+con-miedo-co-0002	con-miedo-ar-0004	3	cross-country (kept strongest variant)	miedo/CO/Res Continens	miedo/AR/Res Continens	Los combates destapan el miedo
+con-miedo-ec-0001	con-miedo-ar-0004	3	cross-country (kept strongest variant)	miedo/EC/Res Continens	miedo/AR/Res Continens	Los combates destapan el miedo.
+con-miedo-ec-0003	con-miedo-ar-0012	2	cross-country (kept strongest variant)	miedo/EC/Res Continens	miedo/AR/Res Continens	es imposible vivir en el miedo
+con-amor-ve-0003	con-amor-mx-0010	2	cross-country (kept strongest variant)	amor/VE/Res Continens	amor/MX/Res Continens	En el amor existen factores que la mente no puede llegar a comprender 
+con-tristeza-ec-0001	con-tristeza-us-0004	2	cross-country (kept strongest variant)	tristeza/EC/Res Continens	tristeza/US/Res Continens	la fe vacila cuando se cae en la tristeza y el desánimo
+con-alegría-bo-0001	con-alegría-us-0001	2	cross-country (kept strongest variant)	alegría/BO/Res Continens	alegría/US/Res Continens	vivir en la alegría de el Evangelio
+fil-miedo-ec-0001	fil-miedo-es-0001	2	cross-country (kept strongest variant)	miedo/EC/Res Filiformes	miedo/ES/Res Filiformes	entrelazar el miedo y el placer sin poner se en riesgo
+fil-miedo-mx-0001	fil-ira-mx-0001	2	cross-emonym (kept token-present)	miedo/MX/Res Filiformes	ira/MX/Res Filiformes	La ira y el miedo se entrelazan hoy en amplios sectores de una socieda
+fil-amor-ar-0002	fil-amor-ar-0001	3	exact-repeat-same-cell	amor/AR/Res Filiformes	amor/AR/Res Filiformes	La convivencia desata pasiones, amor y locura.
+fil-amor-ar-0004	fil-amor-ar-0001	3	exact-repeat-same-cell	amor/AR/Res Filiformes	amor/AR/Res Filiformes	La convivencia desata pasiones, amor y locura
+fil-amor-co-0009	fil-amor-ar-0012	2	cross-country (kept strongest variant)	amor/CO/Res Filiformes	amor/AR/Res Filiformes	La autora ha sabido entrelazar amores y enigmas con una escritura a la
+fil-amor-us-0014	fil-amor-ar-0025	2	cross-country (kept strongest variant)	amor/US/Res Filiformes	amor/AR/Res Filiformes	Dos mundos bien diferentes, entrelazados por amores cruzados, venganza
+fil-alegría-sv-0003	fil-alegría-pe-0003	2	cross-country (kept strongest variant)	alegría/SV/Res Filiformes	alegría/PE/Res Filiformes	La alegría desatada por los estruendosos aficionados
+liq-amor-ar-0015	liq-amor-ar-0004	2	exact-repeat-same-cell	amor/AR/Res Liquidae	amor/AR/Res Liquidae	l amor de Dios que se derrama en nosotros como comunidad fraterna
+liq-amor-ar-0022	liq-amor-ar-0019	2	exact-repeat-same-cell	amor/AR/Res Liquidae	amor/AR/Res Liquidae	Entienda que debe dejar fluir el amor.
+liq-amor-cl-0017	liq-amor-ar-0025	2	cross-country (kept strongest variant)	amor/CL/Res Liquidae	amor/AR/Res Liquidae	el amor entre ambos intrusos fluía de manera ascendente
+liq-amor-mx-0065	liq-amor-ar-0047	2	cross-country (kept strongest variant)	amor/MX/Res Liquidae	amor/AR/Res Liquidae	el amor de Dios derramado en nuestros corazones'
+liq-amor-cl-0003	liq-amor-us-0005	2	cross-country (kept strongest variant)	amor/CL/Res Liquidae	amor/US/Res Liquidae	no me detendrán para derramar amor, luz y positividad
+liq-amor-us-0029	liq-amor-co-0023	2	cross-country (kept strongest variant)	amor/US/Res Liquidae	amor/CO/Res Liquidae	el amor fluye dependiendo de el continente en donde usted esté
+liq-amor-cr-0003	liq-amor-us-0023	2	cross-country (kept strongest variant)	amor/CR/Res Liquidae	amor/US/Res Liquidae	el amor hacia mi mamá fluye sin juicios
+liq-amor-ec-0019	liq-amor-es-0051	2	cross-country (kept strongest variant)	amor/EC/Res Liquidae	amor/ES/Res Liquidae	el amor derramado en nuestros corazones.
+liq-amor-es-0025	liq-amor-es-0023	2	exact-repeat-same-cell	amor/ES/Res Liquidae	amor/ES/Res Liquidae	Fluye el amor y la pasión en la política española
+liq-amor-gt-0004	liq-amor-sv-0004	2	cross-country (kept strongest variant)	amor/GT/Res Liquidae	amor/SV/Res Liquidae	oy el fulgor y la prosperidad de un nuevo comienzo inunde sus hogares 
+liq-amor-us-0040	liq-amor-mx-0068	2	cross-country (kept strongest variant)	amor/US/Res Liquidae	amor/MX/Res Liquidae	...hoy el fulgor y la prosperidad de un nuevo comienzo inunde sus hoga
+liq-amor-pe-0045	liq-amor-us-0043	2	cross-country (kept strongest variant)	amor/PE/Res Liquidae	amor/US/Res Liquidae	...¡SOLIDARIDAD! que inundaba tu corazón de amor hacia tu prójimo...
+liq-amor-ve-0027	liq-amor-us-0036	2	cross-country (kept strongest variant)	amor/VE/Res Liquidae	amor/US/Res Liquidae	pareció limpiar la mancha con el gran flujo de amor público
+liq-tristeza-uy-0002	liq-tristeza-cl-0002	3	cross-country (kept strongest variant)	tristeza/UY/Res Liquidae	tristeza/CL/Res Liquidae	...San Juan, inmóvil, rebosa tristeza.
+liq-tristeza-sv-0001	liq-tristeza-cl-0002	3	cross-country (kept strongest variant)	tristeza/SV/Res Liquidae	tristeza/CL/Res Liquidae	...San Juan, inmóvil, rebosa tristeza.
+liq-tristeza-uy-0001	liq-tristeza-ec-0001	3	cross-country (kept strongest variant)	tristeza/UY/Res Liquidae	tristeza/EC/Res Liquidae	La figura de San Juan, inmóvil, rebosa tristeza.
+liq-tristeza-sv-0002	liq-tristeza-ec-0001	3	cross-country (kept strongest variant)	tristeza/SV/Res Liquidae	tristeza/EC/Res Liquidae	La figura de San Juan, inmóvil, rebosa tristeza.
+liq-alegría-ve-0013	liq-alegría-ar-0022	2	cross-country (kept strongest variant)	alegría/VE/Res Liquidae	alegría/AR/Res Liquidae	Todo su colorido y su ruidosa y rítmica alegría se derramaba aquella t
+liq-alegría-cr-0002	liq-alegría-ar-0025	2	cross-country (kept strongest variant)	alegría/CR/Res Liquidae	alegría/AR/Res Liquidae	La alegría le brota por los poros.
+liq-alegría-sv-0002	liq-alegría-co-0012	2	cross-country (kept strongest variant)	alegría/SV/Res Liquidae	alegría/CO/Res Liquidae	la alegría que se derrama de la experiencia es clara
+liq-alegría-cr-0003	liq-alegría-co-0021	2	cross-country (kept strongest variant)	alegría/CR/Res Liquidae	alegría/CO/Res Liquidae	el alma entera se me inunda de alegría
+liq-alegría-pa-0002	liq-alegría-co-0033	3	cross-country (kept strongest variant)	alegría/PA/Res Liquidae	alegría/CO/Res Liquidae	el ambiente rebosaba de alegría'
+liq-alegría-py-0004	liq-alegría-co-0033	3	cross-country (kept strongest variant)	alegría/PY/Res Liquidae	alegría/CO/Res Liquidae	el ambiente rebosaba de alegría
+liq-alegría-cu-0008	liq-alegría-cu-0007	2	exact-repeat-same-cell	alegría/CU/Res Liquidae	alegría/CU/Res Liquidae	La alegría inunda desde la madrugada a el pueblo de Artemisa
+liq-alegría-es-0052	liq-alegría-es-0042	2	exact-repeat-same-cell	alegría/ES/Res Liquidae	alegría/ES/Res Liquidae	La alegría inunda el vestuario de el líder
+liq-alegría-es-0088	liq-alegría-es-0043	2	exact-repeat-same-cell	alegría/ES/Res Liquidae	alegría/ES/Res Liquidae	Una alegría inmensa inunda este pequeño hoga
+liq-alegría-pa-0001	liq-alegría-us-0004	3	cross-country (kept strongest variant)	alegría/PA/Res Liquidae	alegría/US/Res Liquidae	Los dos rebosan alegría y se sienten muy agradecidos
+liq-alegría-hn-0001	liq-alegría-us-0004	3	cross-country (kept strongest variant)	alegría/HN/Res Liquidae	alegría/US/Res Liquidae	Los dos rebosan alegría y se sienten muy agradecidos
+par-amor-us-0003	par-amor-ar-0004	2	cross-country (kept strongest variant)	amor/US/Res Parvae	amor/AR/Res Parvae	Dany hubiera imaginado que una llamada equivocada iba a traer le amor.
+par-amor-ve-0004	par-amor-us-0002	4	cross-country (kept strongest variant)	amor/VE/Res Parvae	amor/US/Res Parvae	traer amor
+par-amor-do-0001	par-amor-us-0002	4	cross-country (kept strongest variant)	amor/DO/Res Parvae	amor/US/Res Parvae	traer amor
+par-amor-ec-0001	par-amor-us-0002	4	cross-country (kept strongest variant)	amor/EC/Res Parvae	amor/US/Res Parvae	traer amor
+par-tristeza-ar-0001	par-alegría-ar-0002	2	cross-emonym (kept token-present)	tristeza/AR/Res Parvae	alegría/AR/Res Parvae	ARROJAR La primera jornada disputada ayer, arrojó alegrías y tristezas
+par-alegría-ec-0001	par-alegría-co-0001	2	cross-country (kept strongest variant)	alegría/EC/Res Parvae	alegría/CO/Res Parvae	Estamos soñando con entregar le una alegría más a nuestro país
+par-alegría-cr-0002	par-alegría-co-0002	2	cross-country (kept strongest variant)	alegría/CR/Res Parvae	alegría/CO/Res Parvae	MANOJO 1 Meghan y Harry hablaron de lo fascinados que están con su bun
+par-alegría-cr-0003	par-alegría-co-0003	2	cross-country (kept strongest variant)	alegría/CR/Res Parvae	alegría/CO/Res Parvae	ando la bienvenida a no uno, ni a dos, sino a tres nuevos manojos de a
+par-alegría-cr-0004	par-alegría-co-0004	2	cross-country (kept strongest variant)	alegría/CR/Res Parvae	alegría/CO/Res Parvae	Amamos tanto a este pequeño manojo de alegría que la idea de dejar lo 
+pen-miedo-pr-0001	pen-miedo-ve-0002	2	cross-country (kept strongest variant)	miedo/PR/Res Longae Penetrantes	miedo/VE/Res Longae Penetrantes	las corrientes de el miedo que han penetrado a la opinión pública,
+pen-amor-pe-0002	pen-amor-mx-0004	4	cross-country (kept strongest variant)	amor/PE/Res Longae Penetrantes	amor/MX/Res Longae Penetrantes	Un amor que penetra en cada poro de él mismo.
+pen-amor-cu-0002	pen-amor-mx-0004	4	cross-country (kept strongest variant)	amor/CU/Res Longae Penetrantes	amor/MX/Res Longae Penetrantes	Un amor que penetra en cada poro de él mismo
+pen-amor-do-0001	pen-amor-mx-0004	4	cross-country (kept strongest variant)	amor/DO/Res Longae Penetrantes	amor/MX/Res Longae Penetrantes	Un amor que penetra en cada poro de él mismo
+pla-miedo-pe-0001	pla-miedo-ar-0008	2	cross-country (kept strongest variant)	miedo/PE/Res Planae	miedo/AR/Res Planae	El nivel de miedo a lo largo de la nación también subió sustancialment
+pla-miedo-bo-0002	pla-miedo-cu-0001	2	cross-country (kept strongest variant)	miedo/BO/Res Planae	miedo/CU/Res Planae	existe tal nivel de miedo y pánico entre las familias
+pla-alegría-cl-0001	pla-miedo-co-0001	2	cross-emonym (kept token-present)	alegría/CL/Res Planae	miedo/CO/Res Planae	yo estaba completamente descompuesto por un miedo simple y llano, puro
+pla-miedo-cr-0001	pla-miedo-ni-0001	2	cross-country (kept strongest variant)	miedo/CR/Res Planae	miedo/NI/Res Planae	Ojo el nivel de miedo que yo tenía,
+pla-amor-co-0004	pla-amor-mx-0002	2	cross-country (kept strongest variant)	amor/CO/Res Planae	amor/MX/Res Planae	he alcanzado un nuevo nivel de amor, de respeto y de admiración
+pla-tristeza-ar-0002	pla-tristeza-es-0002	2	cross-country (kept strongest variant)	tristeza/AR/Res Planae	tristeza/ES/Res Planae	el nivel de tristeza se vuelve insoportable
+pla-tristeza-ve-0002	pla-tristeza-ve-0001	2	exact-repeat-same-cell	tristeza/VE/Res Planae	tristeza/VE/Res Planae	aumenta el nivel de tristeza, indiferencia o frialdad en la gente
+rot-tristeza-ec-0002	rot-amor-es-0002	2	cross-emonym (kept token-present)	tristeza/EC/Res Rotundae	amor/ES/Res Rotundae	melancolía, la apatía, el odio, la tristeza o el amor giraron siempre 

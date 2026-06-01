@@ -15,11 +15,52 @@ const REPO = path.resolve(__dirname, '..');
 const EMONYM = (process.argv[2] || 'miedo').toLowerCase();
 
 // ---- Curation rules (see _inventory-decisions.md) --------------------
+
+// Field corrections, keyed by citation id. Applied to the row BEFORE the
+// exclusion check, so a corrected (now non-blank) row is not swept up by the
+// non-citation-fragment rule below. See _inventory-decisions.md 2026-06-01
+// "Problem 1 — blank-lemma rows". These fix legacy xlsx column mis-tags; the
+// raw data/citations.tsv is left untouched.
+const CORRECTIONS = {
+  // `fluir` is intransitive but the legacy xlsx filed these in the objective
+  // column, so the (subj-intransitive-scoped) `fluir` seed never matched.
+  'liq-miedo-bo-0001': { construction_type: 'verbal-subject-intransitive', classifier_lemma: 'fluir' },
+  'liq-miedo-do-0001': { construction_type: 'verbal-subject-intransitive', classifier_lemma: 'fluir' },
+  'liq-miedo-es-0001': { construction_type: 'verbal-subject-intransitive', classifier_lemma: 'fluir' },
+  'liq-miedo-pe-0001': { construction_type: 'verbal-subject-intransitive', classifier_lemma: 'fluir' },
+  // `rebosar` is a verb: es-0012 intransitive ("a rebosar de … miedos"),
+  // ve-0001 transitive ("el miedo lo rebosó"); mx-0004 "el reboso" is the
+  // nominalisation — lemma still `rebosar`, construction stays substantive.
+  'liq-miedo-es-0012': { construction_type: 'verbal-subject-intransitive', classifier_lemma: 'rebosar' },
+  'liq-miedo-ve-0001': { construction_type: 'verbal-subject-transitive', classifier_lemma: 'rebosar' },
+  'liq-miedo-mx-0004': { classifier_lemma: 'rebosar' },
+};
+
 // Return a reason string if the row is EXCLUDED, else null.
 function exclusionReason(r) {
   // 2026-06-01: `nivel de` is a measurement collocation, not Res Planae.
   if (r.cryptoclass === 'Res Planae' && r.classifier_lemma === 'nivel de') {
     return 'measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)';
+  }
+  // 2026-06-01 Problem 1: non-citation fragments. Fires only when BOTH the
+  // classifier_lemma is blank AND the emonym token is absent from the citation
+  // text — isolates extraction garbage ("Encontrar", "corazones blaugranas,")
+  // without touching genuine blank-lemma rows (all of which contain `miedo`).
+  if (!r.classifier_lemma && !(r.citation_es || '').toLowerCase().includes(EMONYM)) {
+    return 'non-citation-fragment: blank lemma + no emonym token';
+  }
+  // 2026-06-01 Problem 1: disputed reflexive-bind frame. The experiencer binds
+  // *themselves* to the emonym ("se amarraron a sus miedos"), syntactically
+  // closer to Continens-into than to canonical Filiformes. (Audit §6 claimed
+  // this row was deleted; it had in fact re-entered as a non-disputed row.)
+  if (r.id === 'fil-miedo-co-0001') {
+    return 'disputed: reflexive-bind ("se amarraron a sus miedos") — Continens-into, not Filiformes';
+  }
+  // 2026-06-01 Problem 1: `profundo` is an intensity attributive, not the
+  // container schema; seeding it would over-recruit ("profundo amor", etc.)
+  // across emonyms on re-extraction. Excluded pending review.
+  if (r.id === 'con-miedo-mx-0027') {
+    return 'intensity-attributive: "profundo miedo" is intensity, not container schema';
   }
   return null;
 }
@@ -46,6 +87,8 @@ for (const line of lines) {
     source_sheet: cols[idx.source_sheet],
     source_locator: cols[idx.source_locator],
   };
+  const c = CORRECTIONS[r.id];
+  if (c) Object.assign(r, c);
   const reason = exclusionReason(r);
   if (reason) excluded.push({ ...r, exclusion_reason: reason });
   else kept.push(r);
