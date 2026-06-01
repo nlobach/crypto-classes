@@ -103,14 +103,15 @@ gold-standard validation set for the pipeline built in Phase 2.
       `nivel de` rows), via `pipeline/build_gold.js`.
 
 Residual (non-blocking, carried into Phase 2):
-- [~] Blank-lemma + duplicate cleanup — **in progress, see
-      `notes/gold-cleanup-status.md`**. Problem 1 (blank-lemma rows) **done**:
-      *miedo* gold set 417→411, 0 blanks (downstream curation in
-      `build_gold.js`; rationale in `_inventory-decisions.md`). Problem 2
-      (duplicates) **staged not applied**: deterministic 79-row drop-list
-      (`data/derived/duplicate-drops.tsv` via `pipeline/dedupe.js`) awaiting
-      wire-in + a single profile/audit regeneration. Problem 1.5 (rows
-      mis-filed under the wrong emonym) not started.
+- [~] Blank-lemma + duplicate cleanup — **see `notes/gold-cleanup-status.md`**.
+      Problem 1 (blank-lemma rows) **done**: 7 corrected, 6 excluded, 0 blanks.
+      Problem 2 (duplicates) **done (2026-06-02)**: 86-row drop-list
+      (`data/derived/duplicate-drops.tsv` via `pipeline/dedupe.js`, US-exclusion
+      survivor rule) wired into `build_gold.js` + `membership_matrix.js` via
+      `pipeline/drop_ids.js`; *miedo* gold set refrozen **417→405**;
+      `profile-miedo.md` + `audit-miedo.md` regenerated on the curated set.
+      Problem 1.5 (rows mis-filed under the wrong emonym) **not started** — the
+      current resume point.
 - [~] Repeat the end-to-end pilot for the remaining emonyms
       (*tristeza, amor, alegría, ira*). **Partial (commit 6437567):** a pooled
       cross-emonym membership profile for all five now exists in
