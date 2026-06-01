@@ -7,6 +7,41 @@ directory. Newest first.
 
 ---
 
+## 2026-06-01 — Generalise the `nivel de` exclusion to all five emonyms (class-wide)
+
+**Decision.** The `nivel de` exclusion from Res Planae (recorded below for
+*miedo* only) is **generalised to all five in-scope emonyms** — *miedo,
+tristeza, amor, alegría, ira* — class-wide. This resolves the first open item
+of the miedo-only entry below. The rule is now applied in the analysis by
+default (`pipeline/membership_matrix.js`; pass `--raw` to keep `nivel de`).
+
+**Evidence (all five).** `nivel de` is *the* dominant Res Planae classifier for
+every emonym, the canonical frozen-idiom signature — high raw frequency, near-
+zero classifier breadth:
+
+| emonym | `nivel de` / Res Planae total |
+|---|---|
+| miedo | 93 / 94 |
+| tristeza | 18 / 20 |
+| amor | 75 / 79 |
+| alegría | 25 / 27 |
+| **ira** | **32 / 32 (100 %)** |
+
+**Effect (preliminary answer to the Varimax-gate question).** With `nivel de`
+removed class-wide, **Res Planae recruits no emonym**: non-member for *miedo*
+and *ira*, marginal for *tristeza, amor, alegría* (see
+`data/derived/membership-matrix.md`, the cross-emonym membership matrix). On
+current Spanish data the flat-surface class does **not** project emotion — a
+clean preliminary negative result that sharpens, but does not yet settle, the
+Phase-5/6 Varimax inventory gate (`res-planae.md`). Treat as proof-of-method,
+pooled across variants, not the final per-variant finding.
+
+**Reversibility.** Unchanged from below — the raw rows stay in
+`data/citations.tsv`; the exclusion is a downstream curation rule. `node
+pipeline/membership_matrix.js --raw` reproduces the un-excluded matrix.
+
+---
+
 ## 2026-06-01 — Exclude `nivel de` from Res Planae (measurement collocation)
 
 **Decision.** The substantive classifier `nivel de` (*nivel de miedo* =
@@ -41,9 +76,12 @@ applied downstream — in `pipeline/build_gold.js` and the analysis. To
 reverse, drop the filter.
 
 **Open items.**
-- Apply the same exclusion to *amor, alegría, tristeza, ira* in Res Planae?
-  (Their `nivel de` shares are likely similar.) → decide when those
-  emonyms reach Phase 1.
+- ~~Apply the same exclusion to *amor, alegría, tristeza, ira* in Res Planae?~~
+  **Resolved 2026-06-01** — generalised class-wide; see the entry above. Their
+  `nivel de` shares were indeed similar (highest: *ira* at 32/32).
 - Does Res Planae survive at all for Spanish emonyms once `nivel de` is
   removed class-wide? This is exactly the Varimax gate question in
-  `res-planae.md` — the exclusion makes that test sharper.
+  `res-planae.md` — the exclusion makes that test sharper. **Preliminary answer
+  (2026-06-01):** no emonym is recruited (non-member or marginal across the
+  board) — see the entry above and `data/derived/membership-matrix.md`. Final
+  determination still waits on the Phase-6 Varimax run.

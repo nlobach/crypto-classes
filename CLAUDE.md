@@ -176,5 +176,6 @@ volume, not framework design.
 | Spanish/English/Russian term equivalents | `notes/glossary.md` |
 | Prototype + classifier seeds for a given class | `notes/cryptoclasses/<class>.md` *(planned)* |
 | Shape of the citation tables | `data/SCHEMA.md` |
+| Which emonyms join which cryptoclasses (pooled) | `data/derived/membership-matrix.md` |
 | Which Spanish corpora are used | `notes/corpora.md` *(planned)* |
 | What to do next | `ROADMAP.md` |

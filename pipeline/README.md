@@ -16,6 +16,13 @@ re-runnable; outputs go to `data/` (canonical) or `data/derived/` (analysis).
   21 variants. `node coverage_miedo.js [emonym]`.
 - `aggregate_profile.js` — pooled CAC / IDC / construction-type profile for
   one emonym. `node aggregate_profile.js [emonym]`.
+- `membership_matrix.js` — cross-emonym membership matrix: pooled membership
+  verdict (`++`/`+`/`~`/`·`) per `(emonym × cryptoclass)`, CAC% table,
+  per-cell variant-coverage matrix, and the "green-light" set of cells dense
+  enough for per-variant statistics. Applies the curation rules in
+  `../notes/cryptoclasses/_inventory-decisions.md` (`nivel de` excluded
+  class-wide); `--raw` keeps `nivel de`. Output written up in
+  `../data/derived/membership-matrix.md`.
 - `build_gold.js` — freezes one emonym's manual citations into the Phase 1
   gold set `../data/derived/gold-<emonym>.{tsv,jsonl}`, applying the
   curation rules in `../notes/cryptoclasses/_inventory-decisions.md`

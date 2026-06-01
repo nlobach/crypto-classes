@@ -152,6 +152,15 @@ dominated by *nivel de*, the class is defensible but unusual — its
 
 ## Current data status
 
+> **Curation note (2026-06-01).** The counts below are the *raw* extraction.
+> For all analysis, `nivel de` is now **excluded class-wide** (decision
+> generalised from *miedo* to all five emonyms —
+> `_inventory-decisions.md`). Post-exclusion, `Res Planae` is left with < 10
+> citations total and **recruits no emonym**: non-member for *miedo* / *ira*,
+> marginal for *tristeza* / *amor* / *alegría* (see
+> `data/derived/membership-matrix.md`). This is a preliminary, pooled signal
+> that sharpens — but does not settle — the Varimax gate below.
+
 From `data/citations.tsv` (rows where `cryptoclass = "Res Planae"`):
 
 - **252 citations**.
@@ -228,7 +237,11 @@ that file is created:
   Res Filiformes (flat + thin). A third failure mode added by this
   file: the class survives statistically but turns out to be
   entirely *nivel de*, which would be an interesting but methodically
-  unusual cryptoclass.
+  unusual cryptoclass. **Preliminary signal (2026-06-01, pooled):** once
+  *nivel de* is removed class-wide, nothing is left — the class recruits no
+  emonym (`data/derived/membership-matrix.md`). If the Phase-6 corpus data
+  confirms this, the "survives but is entirely *nivel de*" branch is the only
+  way Planae stays in at all.
 - **Is *nivel de + N* a classifier or a quantifier?** This is the
   inner question. The Phase 3 LLM-tagging calibration must answer it
   on a per-citation basis; the Phase 6 factor loading will answer it

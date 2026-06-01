@@ -105,8 +105,13 @@ gold-standard validation set for the pipeline built in Phase 2.
 Residual (non-blocking, carried into Phase 2):
 - [ ] 6 cross-country duplicate citations + 9 blank-lemma rows flagged in
       `audit-miedo.md` §5,§7 — clean up before any per-variant statistics.
-- [ ] Repeat the end-to-end pilot for the remaining emonyms
-      (*tristeza, amor, alegría, ira*).
+- [~] Repeat the end-to-end pilot for the remaining emonyms
+      (*tristeza, amor, alegría, ira*). **Partial (commit 6437567):** a pooled
+      cross-emonym membership profile for all five now exists in
+      `data/derived/membership-matrix.md` (which classes each emonym joins,
+      via which construction types, with per-cell variant coverage). Still
+      pending per emonym: the individual audit + frozen gold set (the
+      `audit-miedo.md` / `gold-miedo.*` equivalents).
 
 ## Phase 2 — Automated corpus-sifting pipeline (kicked off, commit 1d54e6b)
 
@@ -221,6 +226,13 @@ statistics re-run on the reduced inventory. Donina obtained 96–99 % loading
 per class for the six English classes; expect more variability for Spanish
 until the inventory settles.
 
+**Preliminary signal (commit 6437567, pooled — not the Phase-6 Varimax run):**
+the cross-emonym membership matrix (`data/derived/membership-matrix.md`)
+already shows **Res Continens** as a strong second axis (core for *miedo,
+tristeza, ira*) but **Res Planae** recruiting no emonym once the `nivel de`
+measurement collocation is excluded class-wide. This sharpens the Planae
+survival question but does not pre-empt the factor analysis.
+
 Decisions recorded in `notes/cryptoclasses/_inventory-decisions.md`.
 
 ## Phase 6 — Cross-variant comparison
@@ -246,6 +258,14 @@ Statistical toolkit, mirroring Donina:
   Zadobrivskaya 2019) earn their place in the Spanish emonym profile.
 - **k-means + Kohonen SOM** on the variant × cryptoclass matrix to surface
   emergent variant clusters.
+
+**Where to start (commit 6437567):** the "green-light" set in
+`data/derived/membership-matrix.md` already pre-screens which (emonym ×
+cryptoclass) cells have enough per-variant density to carry Pearson/Kendall
+*now* — 8 cells, dominated by the Liquidae and Continens axes (e.g. *amor* /
+*alegría* Liquidae at 18 variants ≥ 5 citations). Everything outside that set
+is pooled-only and is a Phase-2 collection target before it can enter the
+cross-variant statistics here.
 
 Compare the emergent clusters against the standard dialectological
 groupings:
