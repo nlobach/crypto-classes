@@ -10,6 +10,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { loadDropIds } = require('./drop_ids');
 
 const REPO = path.resolve(__dirname, '..');
 const EMONYM = (process.argv[2] || 'miedo').toLowerCase();
@@ -71,10 +72,14 @@ const lines = tsv.split(/\r?\n/).filter(Boolean);
 const header = lines.shift().split('\t');
 const idx = Object.fromEntries(header.map((h, i) => [h, i]));
 
+const dropIds = loadDropIds(REPO);   // duplicate drop-list (dedupe.js)
+let dropped = 0;
+
 const kept = [], excluded = [];
 for (const line of lines) {
   const cols = line.split('\t');
   if ((cols[idx.emonym] || '').toLowerCase() !== EMONYM) continue;
+  if (dropIds.has(cols[idx.id])) { dropped++; continue; }  // skip cross-dataset duplicates
   const r = {
     id: cols[idx.id],
     cryptoclass: cols[idx.cryptoclass],
@@ -122,7 +127,7 @@ fs.writeFileSync(exclTsv, [EXC_COLS.join('\t'), ...excluded.map(excRow)].join('\
 const byClass = {};
 for (const r of kept) byClass[r.cryptoclass] = (byClass[r.cryptoclass] || 0) + 1;
 process.stderr.write(
-  `gold-${EMONYM}: kept ${kept.length}, excluded ${excluded.length}\n` +
+  `gold-${EMONYM}: kept ${kept.length}, excluded ${excluded.length}, dropped ${dropped} (duplicates)\n` +
   `  ${goldTsv}\n  ${goldJsonl}\n  ${exclTsv} (negatives)\n\n` +
   `Kept by class:\n` +
   Object.entries(byClass).sort((a, b) => b[1] - a[1]).map(([k, v]) => `  ${String(v).padStart(4)}  ${k}`).join('\n') + '\n'

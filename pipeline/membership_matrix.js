@@ -26,6 +26,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { loadDropIds } = require('./drop_ids');
 
 const REPO = path.resolve(__dirname, '..');
 const KEEP_NIVEL = process.argv.includes('--raw');
@@ -43,7 +44,8 @@ const READY_VARIANTS = 6;  // variants at >=CRIT_MASS needed to call a cell per-
 const tsv = fs.readFileSync(path.join(REPO,'data','citations.tsv'),'utf8');
 const lines = tsv.split(/\r?\n/).filter(Boolean);
 const h = lines.shift().split('\t');
-const iCl=h.indexOf('cryptoclass'), iEm=h.indexOf('emonym'), iCt=h.indexOf('construction_type'), iLm=h.indexOf('classifier_lemma'), iCo=h.indexOf('country');
+const iId=h.indexOf('id'), iCl=h.indexOf('cryptoclass'), iEm=h.indexOf('emonym'), iCt=h.indexOf('construction_type'), iLm=h.indexOf('classifier_lemma'), iCo=h.indexOf('country');
+const dropIds = loadDropIds(REPO);   // duplicate drop-list (dedupe.js)
 
 // cell[emonym][class] = { n, byCT:{}, byLemma:{}, byVar:{} }
 const cell = {};
@@ -52,6 +54,7 @@ const emTotal = {}; for (const e of EMONYMS) emTotal[e]=0;
 
 for (const line of lines) {
   const cols = line.split('\t');
+  if (dropIds.has(cols[iId])) continue;   // skip cross-dataset duplicates
   const e = (cols[iEm]||'').toLowerCase();
   const c = cols[iCl];
   if (!cell[e] || !cell[e][c]) continue;

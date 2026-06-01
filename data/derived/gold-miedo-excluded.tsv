@@ -1,10 +1,6 @@
 id	cryptoclass	emonym	country	construction_type	classifier_lemma	citation_es	source_file	source_sheet	source_locator	exclusion_reason
-con-miedo-ar-0015	Res Continens	miedo	AR	verbal-locative-state		Encontrar	RES CONTINENS.xlsx	miedo	D2	non-citation-fragment: blank lemma + no emonym token
-con-miedo-cl-0014	Res Continens	miedo	CL	verbal-locative-state		Encontrar	RES CONTINENS.xlsx	miedo	D4	non-citation-fragment: blank lemma + no emonym token
-con-miedo-co-0011	Res Continens	miedo	CO	verbal-locative-state		Encontrar	RES CONTINENS.xlsx	miedo	D5	non-citation-fragment: blank lemma + no emonym token
 con-miedo-mx-0027	Res Continens	miedo	MX	attributive		profundo miedo	RES CONTINENS.xlsx	miedo	G13	intensity-attributive: "profundo miedo" is intensity, not container schema
 fil-miedo-co-0001	Res Filiformes	miedo	CO	verbal-instrumental		Se amarraron a sus miedos y no escaparon.	Res Filiformes.xlsx	miedo	E5	disputed: reflexive-bind ("se amarraron a sus miedos") — Continens-into, not Filiformes
-liq-miedo-ve-0005	Res Liquidae	miedo	VE	verbal-instrumental		corazones blaugranas,	RES LIQUIDAE COR.xlsx	miedo	G21	non-citation-fragment: blank lemma + no emonym token
 pla-miedo-ar-0001	Res Planae	miedo	AR	substantive	nivel de	existe ese nivel de miedo o de desconfianza	Res Planae.xlsx	MIEDO	E2	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)
 pla-miedo-ar-0002	Res Planae	miedo	AR	substantive	nivel de	un elevado nivel de miedo, preocupación y ansiedad	Res Planae.xlsx	MIEDO	E2	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)
 pla-miedo-ar-0003	Res Planae	miedo	AR	substantive	nivel de	han creado un gran nivel de miedo	Res Planae.xlsx	MIEDO	E2	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)
@@ -16,7 +12,6 @@ pla-miedo-ar-0008	Res Planae	miedo	AR	substantive	nivel de	El nivel de miedo a l
 pla-miedo-ar-0009	Res Planae	miedo	AR	substantive	nivel de	problemas sencillos que terminan en incidentes de gravedad, por el nivel de miedo	Res Planae.xlsx	MIEDO	E2	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)
 pla-miedo-ar-0010	Res Planae	miedo	AR	substantive	nivel de	el nivel de miedo e inseguridad entre las turistas	Res Planae.xlsx	MIEDO	E2	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)
 pla-miedo-bo-0001	Res Planae	miedo	BO	substantive	nivel de	a presencia de un elevado nivel de miedo,	Res Planae.xlsx	MIEDO	E3	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)
-pla-miedo-bo-0002	Res Planae	miedo	BO	substantive	nivel de	existe tal nivel de miedo y pánico entre las familias	Res Planae.xlsx	MIEDO	E3	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)
 pla-miedo-cl-0001	Res Planae	miedo	CL	substantive	nivel de	El nivel de miedo que sentimos en cualquier situación	Res Planae.xlsx	MIEDO	E4	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)
 pla-miedo-cl-0002	Res Planae	miedo	CL	substantive	nivel de	Pese a el bajo nivel de miedo a el fracaso que existe entre los chilenos	Res Planae.xlsx	MIEDO	E4	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)
 pla-miedo-cl-0003	Res Planae	miedo	CL	substantive	nivel de	la campaña había producido un " alarmante nivel de ansiedad y miedo " entre los niños de color,	Res Planae.xlsx	MIEDO	E4	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)
@@ -28,7 +23,6 @@ pla-miedo-co-0004	Res Planae	miedo	CO	substantive	nivel de	produjo un " alarmant
 pla-miedo-co-0005	Res Planae	miedo	CO	substantive	nivel de	l nivel de miedo es terrible,	Res Planae.xlsx	MIEDO	E5	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)
 pla-miedo-co-0006	Res Planae	miedo	CO	substantive	nivel de	# El nivel de miedo a lo largo de la nación también subió sustancialmente	Res Planae.xlsx	MIEDO	E5	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)
 pla-miedo-co-0007	Res Planae	miedo	CO	substantive	nivel de	Los otros dos pacientes con daños en la amígdala también experimentaron un mayor nivel de miedo que los sujetos de control	Res Planae.xlsx	MIEDO	E5	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)
-pla-miedo-cr-0001	Res Planae	miedo	CR	substantive	nivel de	Ojo el nivel de miedo que yo tenía,	Res Planae.xlsx	MIEDO	E6	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)
 pla-miedo-cu-0001	Res Planae	miedo	CU	substantive	nivel de	existe tal nivel de miedo y pánico entre las familias	Res Planae.xlsx	MIEDO	E7	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)
 pla-miedo-cu-0002	Res Planae	miedo	CU	substantive	nivel de	ha generado un nivel de miedo que ha sido explotado y sostenido	Res Planae.xlsx	MIEDO	E7	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)
 pla-miedo-do-0001	Res Planae	miedo	DO	substantive	nivel de	el nivel de la dignidad por encima de el nivel de el miedo	Res Planae.xlsx	MIEDO	E8	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)
@@ -71,7 +65,6 @@ pla-miedo-ni-0002	Res Planae	miedo	NI	substantive	nivel de	A nivel sicológico t
 pla-miedo-ni-0003	Res Planae	miedo	NI	substantive	nivel de	e el nivel de miedo que prevalece en la actualidad no se compara con nada	Res Planae.xlsx	MIEDO	E14	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)
 pla-miedo-pa-0001	Res Planae	miedo	PA	substantive	nivel de	Clinton no reconoció el nivel de miedo que muchos estadounidenses de la clase obrera experimentan	Res Planae.xlsx	MIEDO	E15	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)
 pla-miedo-pa-0002	Res Planae	miedo	PA	substantive	nivel de	e dirigieron a recoger a la estudiante debido a el nivel de miedo que le causó la situación violenta.	Res Planae.xlsx	MIEDO	E15	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)
-pla-miedo-pe-0001	Res Planae	miedo	PE	substantive	nivel de	El nivel de miedo a lo largo de la nación también subió sustancialmente	Res Planae.xlsx	MIEDO	E16	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)
 pla-miedo-pe-0002	Res Planae	miedo	PE	substantive	nivel de	tuve en el mar durante la guerra y nunca había sentido ese nivel de fatiga o miedo ",	Res Planae.xlsx	MIEDO	E16	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)
 pla-miedo-pe-0003	Res Planae	miedo	PE	substantive	nivel de	el consumo de calorías estaría relacionado con el nivel de miedo que provoque la película	Res Planae.xlsx	MIEDO	E16	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)
 pla-miedo-pe-0004	Res Planae	miedo	PE	substantive	nivel de	la campaña política en EEUU estaba propiciando un " alarmante nivel de miedo y ansiedad entre niños	Res Planae.xlsx	MIEDO	E16	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)
