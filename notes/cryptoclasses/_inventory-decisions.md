@@ -7,7 +7,53 @@ directory. Newest first.
 
 ---
 
+## 2026-06-02 — Duplicate policy: US-exclusion rule + Problem 2 APPLIED
+
+**Refinement to the cross-country survivor rule.** A duplicated string is, by
+definition, not variant-distinctive, so it must not be credited to a variant
+where it could distort a per-variant threshold. The rule (baked into
+`pipeline/dedupe.js`, so the drop-list regenerates faithfully):
+
+1. **US never survives** a cross-country duplicate. US Spanish corpora are
+   dominated by syndicated / republished origin-country text, so a string shared
+   with another variant is treated as that variant's; the US copy is the artefact.
+2. Among the remaining members, **keep the strongest-corpus variant** — but only
+   if it is one of `AR, ES, MX, CO, CL` (the variants with large independent
+   corpora, a genuinely "safe home").
+3. If no strong-corpus member remains, the string is pan-Hispanic /
+   non-diagnostic with no safe home → **drop the whole group** (credit nobody).
+
+**Why not keep the *weaker* variant** (the initial instinct): that maximises the
+exact failure mode we want to avoid — manufacturing coverage for a thin variant
+from non-independent evidence, which is where a spurious Phase-6 membership
+signal would come from. Keeping the redundant copy in an already-saturated strong
+variant cannot trip a threshold; keeping it in a thin one can.
+
+**Effect on the drop-list.** 8 US-keeper groups re-tagged: 1 flips to keep CL
+(strong home present), 7 drop entirely. Drop-list **79 → 86 rows**. Row-identical
+to a hand-tagged check on `drop_id/keep_id/reason`.
+
+**Problem 2 now APPLIED** (was "staged, not applied" in the entry below):
+
+- New shared helper `pipeline/drop_ids.js` (`loadDropIds()`); both
+  `build_gold.js` and `membership_matrix.js` skip any id on the drop-list.
+- `gold-miedo` refrozen **411 → 405** (6 genuine *miedo* duplicates dropped; the
+  other 7 of 13 *miedo* drops overlapped the existing exclusion set, so the
+  excluded sidecar went 99 → 92). Membership matrix unchanged — green-light set
+  still 8 cells, no verdict flipped (the dedup was conservative).
+- `profile-miedo.md` + `audit-miedo.md` regenerated on the curated gold set via
+  `coverage_miedo.js --from-gold` / `aggregate_profile.js --from-gold`; staleness
+  banners removed; **`audit-miedo.md` §6 corrected** (only the AR disputed row was
+  parse-skipped; `fil-miedo-co-0001` re-entered and is a downstream exclusion).
+
+---
+
 ## 2026-06-01 — Dataset-wide duplicate policy: Problem 2 (drop-list, STAGED not applied)
+
+> **Superseded 2026-06-02** (entry above): the drop-list is now applied, and the
+> cross-country survivor rule was revised (US never survives; drop-all when no
+> strong-corpus home). The 50/keep-strongest figures below are the pre-revision
+> record.
 
 **Decision.** Duplicates are removed by a single deterministic pass
 (`pipeline/dedupe.js`) that emits a drop-list sidecar

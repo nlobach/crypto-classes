@@ -8,7 +8,8 @@ const fs = require('fs');
 const path = require('path');
 
 const REPO = path.resolve(__dirname, '..');
-const EMONYM = (process.argv[2] || 'miedo').toLowerCase();
+const FROM_GOLD = process.argv.includes('--from-gold');
+const EMONYM = (process.argv.slice(2).find(a => !a.startsWith('--')) || 'miedo').toLowerCase();
 
 const CLASSES = ['Res Liquidae','Res Filiformes','Res Rotundae','Res Longae Penetrantes','Res Acutae','Res Parvae','Res Planae','Res Continens'];
 
@@ -29,8 +30,13 @@ function loadInventory() {
 }
 
 // ---- Load citations for the emonym ----
+// --from-gold reads the curated gold set (exclusions + duplicate drop-list
+// already applied by build_gold.js); default reads the raw extraction.
 function loadCitations() {
-  const tsv = fs.readFileSync(path.join(REPO,'data','citations.tsv'),'utf8');
+  const src = FROM_GOLD
+    ? path.join(REPO, 'data', 'derived', `gold-${EMONYM}.tsv`)
+    : path.join(REPO, 'data', 'citations.tsv');
+  const tsv = fs.readFileSync(src, 'utf8');
   const lines = tsv.split(/\r?\n/).filter(Boolean);
   const h = lines.shift().split('\t');
   const iCl=h.indexOf('cryptoclass'), iEm=h.indexOf('emonym'), iCt=h.indexOf('construction_type'), iLm=h.indexOf('classifier_lemma');
@@ -68,7 +74,7 @@ for (const r of rows) {
 const padR=(s,n)=>String(s).padEnd(n), padL=(s,n)=>String(s).padStart(n);
 const ABBR={'Res Liquidae':'LIQ','Res Filiformes':'FIL','Res Rotundae':'ROT','Res Longae Penetrantes':'PEN','Res Acutae':'ACU','Res Parvae':'PAR','Res Planae':'PLA','Res Continens':'CON'};
 
-console.log(`\n=== Aggregate cryptoclass profile: "${EMONYM}" (Spanish pooled) ===`);
+console.log(`\n=== Aggregate cryptoclass profile: "${EMONYM}" (Spanish pooled${FROM_GOLD ? ', curated gold set' : ', raw extraction'}) ===`);
 console.log(`Total citations: ${total}\n`);
 
 // CAC table, ranked

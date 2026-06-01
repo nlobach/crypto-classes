@@ -6,8 +6,13 @@ const fs = require('fs');
 const path = require('path');
 
 const REPO = path.resolve(__dirname, '..');
-const TSV = path.join(REPO, 'data', 'citations.tsv');
-const EMONYM = (process.argv[2] || 'miedo').toLowerCase();
+const FROM_GOLD = process.argv.includes('--from-gold');
+const EMONYM = (process.argv.slice(2).find(a => !a.startsWith('--')) || 'miedo').toLowerCase();
+// --from-gold reads the curated gold set (exclusions + duplicate drop-list
+// already applied by build_gold.js); default reads the raw extraction.
+const TSV = FROM_GOLD
+  ? path.join(REPO, 'data', 'derived', `gold-${EMONYM}.tsv`)
+  : path.join(REPO, 'data', 'citations.tsv');
 
 const COUNTRIES = ['AR','BO','CL','CO','CR','CU','DO','EC','ES','GT','HN','MX','NI','PA','PE','PR','PY','SV','UY','VE','US'];
 const CLASSES = ['Res Liquidae','Res Filiformes','Res Rotundae','Res Longae Penetrantes','Res Acutae','Res Parvae','Res Planae','Res Continens'];
@@ -41,7 +46,7 @@ for (const line of lines) {
 const pad = (s, n) => String(s).padStart(n);
 const padR = (s, n) => String(s).padEnd(n);
 
-console.log(`\nCoverage matrix for "${EMONYM}"  (${total} citations)\n`);
+console.log(`\nCoverage matrix for "${EMONYM}"  (${total} citations${FROM_GOLD ? ', curated gold set' : ', raw extraction'})\n`);
 
 // header row
 let h = padR('', 5);

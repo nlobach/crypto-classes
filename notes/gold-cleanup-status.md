@@ -5,7 +5,7 @@ this first to pick up where the last session stopped. Decisions and rationale
 live in `notes/cryptoclasses/_inventory-decisions.md`; this file is the
 where-are-we / what's-next.
 
-Last updated: 2026-06-01 (gold-cleanup session).
+Last updated: 2026-06-02 (Problem 2 applied + profile/audit regenerated).
 
 ## Architecture (the rule for all of this work)
 
@@ -20,8 +20,8 @@ is reversible and reproducible. This mirrors the existing `nivel de` precedent.
 | # | Problem | Status |
 |---|---|---|
 | 1 | 13 blank-`classifier_lemma` *miedo* rows | ✅ **DONE & committed** |
-| 2 | Cross-dataset duplicates (79 rows) | 🟡 **drop-list generated, NOT applied** |
-| 1.5 | Mis-filed rows (citation about another emotion) | ⬜ **not started** |
+| 2 | Cross-dataset duplicates (86 rows) | ✅ **DONE & committed** (2026-06-02) |
+| 1.5 | Mis-filed rows (citation about another emotion) | ⬜ **not started** ← **RESUME HERE** |
 
 ## Problem 1 — DONE
 
@@ -43,29 +43,28 @@ disputed remain" claim was stale) in `_inventory-decisions.md`.
 pre-cleanup numbers (417 / 494). They carry staleness banners. Regeneration is
 deferred to after Problem 2 (so the markdown is recomputed once, not twice).
 
-## Problem 2 — drop-list staged, NOT applied  ← **RESUME HERE**
+## Problem 2 — DONE (2026-06-02)
 
 `pipeline/dedupe.js` produces `data/derived/duplicate-drops.tsv` — a
-deterministic **79-row** drop-list (run `node pipeline/dedupe.js --write` to
-regenerate). Rules + counts are in `_inventory-decisions.md` (16 junk / 50
-cross-country / 4 cross-emonym / 9 exact-repeat). Two truncated-but-real rows
-were rescued via `KEEP_OVERRIDE` in `dedupe.js`.
+deterministic **86-row** drop-list (run `node pipeline/dedupe.js --write` to
+regenerate). The cross-country survivor rule now applies the US-exclusion policy
+(US never survives; keep strongest non-US in `AR/ES/MX/CO/CL`; else drop-all) —
+baked into `dedupe.js`, see `_inventory-decisions.md` (2026-06-02). Two
+truncated-but-real rows are rescued via `KEEP_OVERRIDE`.
 
-**What is NOT yet done (the next session's task):**
+**All four steps complete:**
 
-1. **Wire the drop-list into consumers** — `build_gold.js` and
-   `pipeline/membership_matrix.js` should load `duplicate-drops.tsv` and skip any
-   row whose id is in it (one filter each). Suggested: a tiny shared helper
-   `loadDropIds()` both call.
-2. **Refreeze** `gold-miedo.*` (`node pipeline/build_gold.js miedo`) — expect a
-   small drop from 411 (the cross-country/exact-repeat *miedo* rows in the list).
-3. **Regenerate `profile-miedo.md` and `audit-miedo.md`** in a single pass now
-   that both Problem 1 and Problem 2 are reflected. Point the profile/coverage
-   scripts at the curated set (add a `--from-gold` flag or have them honor the
-   drop-list), then remove the staleness banners.
-4. **Correct `audit-miedo.md` §6** — its "0 disputed remain / CO Filiformes lost
-   its only row" claim is stale; `fil-miedo-co-0001` re-entered and is now
-   excluded (see Problem 1).
+1. ✅ **Wired into consumers** — shared helper `pipeline/drop_ids.js`
+   (`loadDropIds()`); `build_gold.js` and `membership_matrix.js` skip any listed
+   id (one filter each).
+2. ✅ **Refrozen** `gold-miedo.*` — **411 → 405** (6 genuine *miedo* duplicates;
+   excluded sidecar 99 → 92).
+3. ✅ **Regenerated** `profile-miedo.md` + `audit-miedo.md` on the curated set via
+   the new `--from-gold` flag on `coverage_miedo.js` / `aggregate_profile.js`;
+   staleness banners removed.
+4. ✅ **`audit-miedo.md` §6 corrected** — only the AR disputed row was
+   parse-skipped; `fil-miedo-co-0001` re-entered as `disputed=f` and is now a
+   downstream `build_gold.js` exclusion. End state (CO Filiformes empty) unchanged.
 
 ## Problem 1.5 — mis-filed rows (not started)
 
