@@ -76,37 +76,59 @@ Exit criterion: a new contributor (or a future Claude session) can do
 end-to-end work on the project by reading only `CLAUDE.md` plus the relevant
 `notes/` file(s), never reopening the source PDFs.
 
-## Phase 1 — Pilot: complete *miedo* manually, end-to-end
+## Phase 1 — Pilot: complete *miedo* manually, end-to-end ✅ (commit 1d54e6b)
 
 Goal: finish the most-advanced emonym in the current data. The output of this
 phase serves two purposes — a stand-alone proof-of-concept *and* the
 gold-standard validation set for the pipeline built in Phase 2.
 
-- [ ] Verify *miedo* citations are present for all 8 cryptoclasses × 21
-      variants (gaps recorded explicitly, not silently empty).
-- [ ] Resolve the `СПОРНЫЕ` cases for *miedo* using the criteria written into
-      `notes/methodology-donina.md`.
-- [ ] Compute IDC and CAC for *miedo* per variant.
-- [ ] Produce a one-page cryptoclass profile for *miedo*.
-- [ ] Freeze the resulting `(emonym, classifier, variant, citation,
-      construction-type)` records as the **gold set** in
-      `data/derived/gold-miedo.{tsv,jsonl}`.
+- [x] Verify *miedo* citations are present for all 8 cryptoclasses × 21
+      variants (gaps recorded explicitly, not silently empty). →
+      `data/derived/audit-miedo.md` (per-cell matrix) + `profile-miedo.md` §1,§5.
+      All 21 variants × 8 classes have ≥ 1 citation; 115/168 cells filled.
+- [x] Resolve the `СПОРНЫЕ` cases for *miedo* using the criteria written into
+      `notes/methodology-donina.md`. → disputed cases deleted from source
+      (commit 9c84303); 0 remain.
+- [x] Compute IDC and CAC for *miedo*. → `profile-miedo.md` §2 (CAC) / §3 (IDC),
+      via `coverage_miedo.js` + `aggregate_profile.js`. **Scope:** computed at
+      the **aggregate / Spanish-pooled** level only — per-variant cell density
+      is too thin for defensible variant-level stats, so per-variant IDC/CAC is
+      deferred to Phase 2 (sparsity itself recorded as a finding, `profile` §5).
+- [x] Produce a one-page cryptoclass profile for *miedo*. →
+      `data/derived/profile-miedo.md`. Headline: with the `nivel de` artefact
+      excluded, *miedo* is dominantly **Res Continens** (45.1 %), not Res Parvae
+      as in English *fear* — divergence flagged suggestive, not yet a finding.
+- [x] Freeze the gold set in `data/derived/gold-miedo.{tsv,jsonl}` (417
+      citations) + negative-calibration set `gold-miedo-excluded.tsv` (93
+      `nivel de` rows), via `pipeline/build_gold.js`.
 
-## Phase 2 — Automated corpus-sifting pipeline
+Residual (non-blocking, carried into Phase 2):
+- [ ] 6 cross-country duplicate citations + 9 blank-lemma rows flagged in
+      `audit-miedo.md` §5,§7 — clean up before any per-variant statistics.
+- [ ] Repeat the end-to-end pilot for the remaining emonyms
+      (*tristeza, amor, alegría, ira*).
+
+## Phase 2 — Automated corpus-sifting pipeline (kicked off, commit 1d54e6b)
 
 Goal: scale collection from ~2,900 citations to the 5 000–15 000 range needed
 for variant-level statistics, without re-doing the manual labour.
 
-Architecture (high level — detailed design in `pipeline/README.md`, to be
-created):
+**Status:** the full stage contract is written (`pipeline/README.md`) and step 2
+is done — `pipeline/generate_queries.js` has produced
+`data/derived/query-manifest.tsv` (**17,325 queries** = 5 emonyms × 165
+classifier-patterns × 21 variants). The remaining **blocker** is the
+corpus-choice decision (step 3); the corpus-access adapter is pending it.
+
+Architecture (high level — detailed design in `pipeline/README.md`):
 
 1. **Classifier catalogue.** For each (cryptoclass, construction-type) the
    `notes/cryptoclasses/<class>.md` files define a list of Spanish classifier
    lexemes / patterns (e.g. *envuelto en*, *nivel de*, *a punta de*, *plano*).
-2. **Query generation.** For each `(emonym × classifier-pattern × variant)`,
+2. **Query generation. ✅** For each `(emonym × classifier-pattern × variant)`,
    build a corpus query — co-occurrence within a window, with country
-   filtering where the corpus supports it.
-3. **Corpus access layer.** Adapter per corpus (CORPES XXI scraping or HTTP,
+   filtering where the corpus supports it. → `query-manifest.tsv`.
+3. **Corpus access layer. ← current blocker (needs corpus-choice decision).**
+   Adapter per corpus (CORPES XXI scraping or HTTP,
    Corpus del Español Web/Dialects, Sketch Engine API, possibly raw web
    crawl with country-TLD heuristics for variants the academic corpora cover
    poorly). Cache responses locally.

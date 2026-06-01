@@ -2,10 +2,14 @@
 
 Extraction from Ю.А. Пустовалова, О.О. Борискина, "Испаноязычное
 пространство: единство в многообразии" / "Hispanosphere: Unity in
-Diversity," Voronezh State University. Working paper / conference
-article [exact journal/year not specified in the document; internal
-reference code [4] in the Voronezh group bibliography]. Russian text
-with English abstract and parallel bibliography.
+Diversity," Voronezh State University. Formatted as a journal article
+(УДК/ББК codes, RU + EN abstract, keywords, parallel RU/EN
+bibliography, author block) in the *Вестник ВГУ* style; the exact
+issue/year is not stated in the document. Russian text with English
+abstract and parallel bibliography. (This file extracts the
+*Hispanosphere* article **itself** — not to be confused with reference
+[4] in its bibliography, which is the separate Пустовалова & Борискина
+2023 *Res Continens* paper; see §0.)
 
 This file is the project's working reference for the sociolinguistic
 and typological framing of Spanish variability that underlies the
@@ -40,12 +44,18 @@ for the project:
    defensible.
 
 The explicit link between this article and the cryptoclass project
-appears in the abstract (both Russian and English) and in the
-conclusion: *"Предложенная типологически ориентированная модель
+appears in the Russian and English abstract, and is restated (in
+modified wording) in the conclusion. The abstract version: *"Предложенная
+в данном исследовании типологически ориентированная модель
 описания испаноязычного континуума (как системы разностатусных
 идиомов и норм) будет использована в дальнейшем как методологическая
 основа для реализации исследования категоризации эмоций в
-испаноязычных идиомах на материале сопоставимых корпусов."*
+испаноязычных идиомах на материале сопоставимых корпусов."* (The
+conclusion rephrases this — *«…будет использована в дальнейшем
+исследовании для описания вероятных различий и закономерностей в
+категоризации эмоций на материале сопоставимых корпусов испанского
+языка»* — and writes *испаносферы* in place of *испаноязычного
+континуума*.)
 
 A companion article (reference [4] in the Voronezh bibliography) —
 Пустовалова & Борискина (2023), "Именной криптокласс «Res Continens»
@@ -71,8 +81,12 @@ language's system and structure"* (Dorofeev, citing the definition at
 [14, с.103]). But this framing implies a single invariant and
 hierarchises all variants against it.
 
-The article instead proposes **идиом** (*idiom*, borrowed from
-European typology) as the descriptive unit. Quoting Vinogradov's
+The article instead proposes **идиом** (*idiom*) as the descriptive
+unit — a generalising term for any natural-language sign system that
+*"gained currency in 20th-century linguistics,"* and whose use the
+article calls characteristic of the **domestic (Russian) typological
+tradition** (*«практика использования данного термина характерна для
+отечественной типологии»*). Quoting Vinogradov's
 *Linguistic Encyclopedic Dictionary* [19]:
 
 > *«Идиом — понятие чисто функциональное и не предполагающее никаких
@@ -125,13 +139,18 @@ across idioms support this assessment.
 
 The **evidence base** the article uses:
 - Ethnologue (7 159 languages as of 07.12.2025): lists nine Spanish-
-  related entries (Spanish, Spanish-based creoles, Spanish Charapa,
-  Spanish Sign Language, Spanish Quichua, Spanish Caló,
-  Cebuano-Spanish-English, Judeo Spanish, Abakay Spanish).
+  related entries (Spanish, Spanish Based [creoles], Spanish Charapa,
+  Sign Language, Spanish Quichua, Spanish Caló, Cebuano-Spanish-English,
+  Judeo Spanish, Abakay Spanish). (The source writes simply "Sign
+  Language" in the Ethnologue list; "Spanish Sign Language" is the
+  *ISO 639-3* form below.)
 - ISO 639-3: three entries (Spanish Castilian, Loreto-Ucayali
   Spanish, Spanish Sign Language).
-- The *Nueva gramática de la lengua española* (RAE, 2009–2011) [24],
-  which explicitly declares a polycentric approach: *"Various uses
+- The *Nueva gramática de la lengua española* (RAE, 2009–2011) —
+  bibliography ref **[26]**; the article's running text mis-cites it
+  as [24], whereas bibliography entry [24] is actually the RAE *DPD*
+  «español» URL — which explicitly declares a polycentric approach:
+  *"Various uses
   of the language in different regions are considered fully
   legitimate provided they are widespread among educated speakers
   in that region and do not threaten the integrity of the system
@@ -141,8 +160,14 @@ The **evidence base** the article uses:
 
 ## 3 — Supranational standard (наднациональный стандарт)
 
-The top tier. The article distinguishes several closely related labels,
-all circling the same referent:
+The top tier. The article enumerates **eight** terminological variants
+for supranational / de-localised Spanish — *español panhispánico,
+español global, español glocal, español internacional, español general,
+español estándar, español latino, español neutro* — each (in the
+article's words) reflecting *"its own methodological optic"* and a
+distinct socio-linguistic status. Five of the eight are characterised
+in detail (the table below); *global*, *glocal*, and *estándar* are
+only named:
 
 | Term | Context / use |
 |---|---|
@@ -175,7 +200,14 @@ the distinctiveness of national-level idioms.
 ## 4 — National literary norms / national standards (литературные нормы)
 
 Twenty-one national standards are recognised: **Spain** plus
-**twenty independent states** of the Americas and Africa.
+**twenty independent states** of the Americas and Africa (body text,
+*Литературные нормы* section). ⚠ Source-internal inconsistency: the
+Russian and English **abstract** and the **conclusion** instead give
+*"Spain + nineteen Spanish-speaking countries of Latin America"*
+(= 20), apparently not counting Equatorial Guinea, while the body's
+*"Spain + twenty states of America and **Africa**"* (= 21) does. The
+21-vs-20 question thus turns on whether Equatorial Guinea is counted,
+not (as one might assume) on US Spanish; see §6 and §13.2.
 
 The article gives a detailed overview of the **constitutional status**
 of Spanish in Latin American countries:
@@ -244,6 +276,13 @@ idiom that lacks:
 - a national literary norm;
 - use as the mother tongue by "an absolute number of inhabitants."
 
+Within Latin America the article names several candidate territorial
+idioms — Southern Cone Spanish, a *prototypical* Central American
+Spanish, Andean Spanish, the Spanish of Lima, and Amazonian Spanish —
+and stresses that delimiting them cannot rest on linguistic criteria
+alone: extra-linguistic factors (the norm as a marker of community
+identity, institutional support) prove decisive.
+
 **Equatorial Guinea** is the central case. The article notes a
 controversy between the RAE's conservative position and J. Lipski's
 [39] substantial empirical evidence that Equatorial Guinea Spanish
@@ -279,19 +318,32 @@ annual report, identifies Spanish identity idioms in:
 
 These are *colonial traces* — remnants of Spanish imperial expansion
 that have not fully stabilised into either national standards or
-creoles. They are:
+creoles. The article says the language habits of these communities:
 
-> *«Неукоснительно "отмирают" и вытесняются либо креолами на
-> испаноязычной основе, либо конкурирующими языками.»*
+> *«…неукоснительно "отмирают" и вытесняются креольскими разновидностями
+> на испаноязычной основе (например, Филиппинский Chavacano) на фоне
+> общего снижения межпоколенческой передачи идиома.»*
 
-The Philippine Chavacano (a creolised form) is given as an example
-of a former identity idiom now reclassified as a creole.
+— die off and are displaced by Spanish-based creole varieties (e.g.
+Philippine Chavacano) amid a general decline in intergenerational
+transmission. In a *separate* sentence the article adds that the
+spread of such idioms is further constrained by competition from
+English and French (*«ограничена конкуренцией со стороны английского и
+французского»*). Note: Chavacano is named here as the **creole that is
+replacing** a dying identity idiom — the article does not call
+Chavacano a former identity idiom; it is listed as a creole (see §8).
 
-The article notes that **US Spanish** is in a transitional zone — the
-southwestern states idiom is an identity idiom, while broader US
-Spanish functions as a national standard for the purposes of academic
-research and media. The present project treats US as a national
-standard (code: US in the 21-code list).
+In the article, **US Spanish** (the southwestern-states idiom:
+California, Texas, New Mexico, Arizona, Florida) is classed as an
+**identity idiom** — *«явлении, ждущем своего исследователя»* ("a
+phenomenon still awaiting its researcher") — *not* as a national
+standard. The article only adds that the Latin-American-identity idiom
+is increasingly used in US media, education, and administration, and
+that on current projections the US may have the world's largest
+Spanish-speaking population by mid-century [41]. Treating US as a
+national standard (code: US in the 21-code list) is therefore the
+**project's** decision, extrapolated from that demographic weight —
+not a classification the article makes.
 
 ---
 
@@ -304,8 +356,8 @@ Spanish-based creoles documented in Ethnologue and the literature:
 | Chavacano | Philippines | Most studied; used in Zamboanga City; classified as creole in Ethnologue. |
 | Palenquero | Colombia | African-Spanish creole; Palenque de San Basilio. |
 | Spanish Caló | Iberian Peninsula | Para-Romani language, Romani-influenced. |
-| Abakay Spanish | — | Ethnologue entry; details not elaborated in article. |
-| Judeo Spanish (Ladino) | Former Ottoman territories | Ethnologue entry; historical Sephardic diaspora. |
+| Abakay Spanish | Colombia | Article groups it with Palenquero as a *«креольский язык Колумбии»* (creole language of Colombia). [sic — Ethnologue actually locates Abakay Spanish in the Philippines (Davao); the article's grouping with Colombia appears to be an error.] |
+| Judeo Spanish (Ladino) | Iberian Peninsula (Sephardim) | Article calls it the *«язык сефардов Пиренейского полуострова»* (language of the Sephardim of the Iberian Peninsula) — i.e. by origin, not the later Ottoman-diaspora location. |
 | Spanish Charapa | Peru (Loreto, Ucayali) | Amazon Spanish variety; also ISO 639-3 entry. |
 | Papiamento | Curaçao, Aruba, Bonaire | Spanish/Portuguese/Dutch/African mix; not in Ethnologue Spanish section but discussed. |
 
@@ -331,10 +383,12 @@ communication,"* also called *fronterizo* (ES) / *fronteirço* (PT) in
 Uruguay. *Cocoliche*, an Italian-Spanish hybrid from mass Italian
 immigration, is noted as a River Plate precedent.
 
-**Espaguifranglés** (Equatorial Guinea): Mohamadou's term [45] for a
-Spanish-French-English-pichinglis (*pichinglis* = pijin English) hybrid
-of Equatorial Guinea; described as a *"norma viva"* — not an
-accidental mixture but a stabilising local norm.
+**Espaguifranglés** (Equatorial Guinea): the hybrid Mohamadou [45]
+analyses under his coined term *español funcional* — formed by contact
+of Spanish with French and English (often in its pidgin form,
+*pichinglis*) and local languages; described not as an accidental
+mixture but as a *«норму живого типа»* ("living-type norm"), a
+stabilising local norm.
 
 **Project implication.** Hybrids are outside the project's scope for
 the same reason as creoles.
@@ -352,10 +406,12 @@ XI Congress) both analytically and critically. On the one hand:
 
 The article is not naïvely pro-RAE; it acknowledges that the unity
 narrative also serves the RAE's institutional interests. But it
-concludes that the label *"Spanish language"* is justified both
-practically and scientifically: lexical similarity ≈ 90%, mutual
-intelligibility high enough to sustain a single publishing market,
-and no idiom has yet undergone sufficient change to become a distinct
+concludes that the label *"Spanish language"* is justified *«с
+практической точки зрения»* (on practical grounds), and backs this
+with a linguistic argument — *«С лингвистической точки зрения, различия
+не настолько глубоки, чтобы повлиять на структуру языка»* [27, с.4] —
+that ≈ 90% lexical similarity and high mutual intelligibility mean no
+idiom has yet undergone sufficient change to become a distinct
 language.
 
 The article's **consensus summary** (citing the broader field):
@@ -440,18 +496,28 @@ ranking any of the 21 national standards as more or less "correct"
 than others. In the Spanish-language scholarly output (manuscript/),
 the equivalent term is *variedad* or *idiolecto* depending on context;
 the article does not resolve this for Spanish — it writes in Russian
-and uses *idиом* as a Russian technical term.
+and uses *идиом* as a Russian technical term.
 
 ### 13.2 — 21 vs. 20 vs. 22
 
-- **21** is the project's operational count (CLAUDE.md).
-- **20** is the Davies corpus count (excludes Equatorial Guinea).
-- **22** is the RAE's count of Academies (includes Philippines and US,
-  which some lists omit).
+- **21** is the project's operational count (CLAUDE.md); it matches the
+  article's *body* text (*"Spain + twenty states of America and Africa"*).
+- **20** appears twice in the article: as the Davies corpus count
+  (twenty variants, excluding Equatorial Guinea) **and** in the
+  article's own abstract/conclusion (*"Spain + nineteen Latin American
+  countries"*).
+- **22** is the RAE's count of Academies (includes the Philippine and
+  US academies, which some lists omit).
 
-The article supports 21 as the right number for a corpus-based
-academic study: 20 from Davies + US as a 21st (explicitly discussed
-in the article as a demographically significant idiom).
+Caveat: the article does **not** itself lay out a 21-member list that
+admits US Spanish as a national standard — US is discussed under
+*identity idioms* (§7), and the article's headline counts give 20
+(Spain + 19 LA) or 21 (Spain + 20 incl. Equatorial Guinea). The
+project's 21 (the 20 Latin-American-plus-Spain set with **US** added
+as the 21st) is therefore a project framing; what the article supplies
+is the justification for *why US Spanish is worth including* (its
+projected demographic weight [41]), not a ready-made 21-standard
+inventory.
 
 ### 13.3 — Comparable corpora as a prerequisite
 
@@ -465,17 +531,98 @@ this criterion.
 
 ### 13.4 — Corpus coverage of weak variants
 
-The article explicitly acknowledges that Central American, Caribbean,
-and African idioms are underrepresented in the major corpora. This
-directly explains the **weak / absent** variants in the project's
-current data (GT, HN, SV, NI, CR, PR per `CLAUDE.md`). The
-article's corpus analysis confirms these gaps are systemic, not
-accidental — they reflect unequal institutional documentation of
-Spanish idioms.
+The article does not tabulate corpus coverage variant by variant, but
+it does flag under-documentation where it bears on idiom status:
+**African** (Equatorial Guinea) Spanish is absent from CREA and enters
+CORPES XXI only at territorial level (§6), and the identity idioms (US
+southwest, Philippines, Western Sahara, Morocco, Andorra) suffer from
+*«отсутствие актуальных социолингвистических данных»* (a lack of
+current sociolinguistic data, §7). Extrapolating from this, the
+project's **weak / absent** variants (GT, HN, SV, NI, CR, PR per
+`CLAUDE.md`) plausibly reflect the same systemic, institutionally
+uneven documentation of Spanish idioms — though the Central American
+and Caribbean corpus gaps *specifically* are the project's own
+observation, not something the article spells out.
 
 ---
 
-## 14 — Reading map
+## 14 — Footnotes in the source
+
+The article carries five footnotes, none of which were in the original
+extraction. In order of appearance:
+
+1. **Definition of pluricentric languages** (the marker sits on
+   *полицентричных языках* in the Введение / intro):
+
+   > *«полицентричные (плюрицентрические) языки — это языки с несколькими
+   > равноправными литературными нормами, существующие в разных странах
+   > или регионах, но сохраняющие общность.»*
+
+   — "pluricentric (polycentric) languages are languages with several
+   **co-equal literary norms**, existing in different countries or
+   regions but retaining a shared commonality." This is the working
+   definition behind the whole continuum model (§2).
+
+2. **Sign languages excluded from the study** (attaches to the *Sign
+   Language* / *Spanish Sign Language* entries in §2):
+
+   > *«незвуковые сконструированные испаноязычные идиомы (глухонемых) не
+   > рассматриваются в рамках настоящего исследования»*
+
+   — "non-vocal constructed Spanish idioms (of the deaf) are not
+   considered within this study." This explains why the sign-language
+   entries are *counted* in the Ethnologue/ISO tallies but fall outside
+   the analysis — consistent with the project's spoken-corpus scope.
+
+3. **«castellano» vs. «español»** (the marker sits where the article
+   notes that Spanish has a *«второе имя»* — *кастильский* / Castilian,
+   §2; cites [23, 24]). The RAE's
+   gloss opens: *«Королевская академия испанского языка поясняет, что
+   взаимозаменяемые термины «castellano» и «español» называют одно и то
+   же явление…»* In summary — the two terms name the same language, a
+   blend of several tongues reflecting the worldview of the peoples who
+   inhabited the Iberian Peninsula before the 15th c. (*кельты, иберы,
+   римляне, вестготы и, главным образом, племена аравийского ареала* —
+   Celts, Iberians, Romans, Visigoths, and chiefly peoples of the
+   Arabian area). *español* is **recommended** for its cross-linguistic
+   recognisability (Spanish, espagnol, Spanisch, spagnolo…), whereas
+   *castellano* denotes primarily the medieval Romance dialect of the
+   Kingdom of Castile, or secondarily the modern dialect of that region
+   of Spain *vis-à-vis* the other languages of the autonomous
+   territories (Catalan, Galician, Basque). In several Latin American
+   countries, though, *castellano* is used as a synonym of *español* for
+   the state/literary standard. Castilian was the language of the
+   conquistadors who landed with Columbus in 1492, and was declared the
+   official language of the Spanish Empire (the Americas, the
+   Philippines, Asia, European possessions) in **1770**.
+   **Project relevance:** this is the article's basis for preferring
+   *español* over *castellano*; it bears on the manuscript's term choice
+   (cf. §13.1 and `notes/glossary.md`).
+
+4. **Spanish original of the *Nueva gramática* quote** (attaches to the
+   polycentric-approach quote rendered in Russian at the *"Various
+   uses…"* passage in §2):
+
+   > *«Se consideran, pues, plenamente legítimos los diferentes usos de
+   > las regiones lingüísticas, con la única condición de que estén
+   > generalizados entre los hablantes cultos de su área y no supongan
+   > una ruptura del sistema en su conjunto, es decir, que ponga en
+   > peligro su unidad.»*
+
+   This is the verbatim Spanish behind the §2 [26] quote — directly
+   usable in the Spanish-language manuscript.
+
+5. **DIES-M expanded** (attaches to *español internacional* in §3):
+
+   > *«Difusión Internacional del Español a través de los Medios»*
+
+   — "International Diffusion of Spanish through the Media" (source
+   gloss: *«Международное распространение испанского языка посредством
+   средств массовой информации»*).
+
+---
+
+## 15 — Reading map
 
 The article is a single text without numbered sections; the following
 maps content to themes for future reference:
@@ -494,7 +641,7 @@ maps content to themes for future reference:
 
 ---
 
-## 15 — Follow-up TODOs
+## 16 — Follow-up TODOs
 
 1. **Locate and read Pustovalova & Boriskina 2023** (*Vestnik VGU*
    4:66–73) — the article on *Res Continens* in Spanish. This is
