@@ -1,7 +1,7 @@
 # *miedo* — Phase 1 coverage audit
 
 Date: 2026-06-02 (regenerated on the curated gold set).
-Source: `data/derived/gold-miedo.tsv` (n = 405) via
+Source: `data/derived/gold-miedo.tsv` (n = 391) via
 `pipeline/coverage_miedo.js --from-gold`; cross-checked against the legacy
 xlsx files in `data/legacy-xlsx/`.
 
@@ -9,47 +9,48 @@ This file is the explicit gap record required by ROADMAP Phase 1 step 1:
 "Verify *miedo* citations are present for all 8 cryptoclasses × 21
 variants (gaps recorded explicitly, not silently empty)."
 
-The matrix and dependent tables (§1–§5) now report the **curated gold
-set**: the raw extraction (`citations.tsv`, 510 *miedo* rows) minus the
-`nivel de` exclusion (§6 of `profile-miedo.md`), the Problem-1 lemma
-cleanup, and the Problem-2 duplicate drop-list — all applied downstream by
+The matrix and dependent tables (§1–§5) report the **curated gold set**:
+the raw extraction (`citations.tsv`, 510 *miedo* rows) minus the `nivel de`
+exclusion, the Problem-1 lemma cleanup, the Problem-2 duplicate drop-list,
+and the Problem-1.5 mis-file cleanup (11 rows reassigned to *tristeza*/*ira*,
+3 `temor` rows excluded) — all applied downstream by
 `pipeline/build_gold.js`. Methodological sections (§6 disputed policy, §9
 extractor change log) describe the raw extraction and remain valid.
 
 ## 1. Totals
 
-- **405** *miedo* citations in the curated gold set (510 raw).
+- **391** *miedo* citations in the curated gold set (510 raw).
 - All **21** national variants have at least one *miedo* citation.
 - **7** of 8 cryptoclasses are populated; **Res Planae** holds 1 citation
   (`llano`) once `nivel de` is excluded — effectively absent.
-- **95 / 168** cells (cryptoclass × variant) filled (**56.5 %**).
-- **73** cells empty (43.5 %). The jump from the pre-cleanup 32 % empty is
+- **94 / 168** cells (cryptoclass × variant) filled (**56.0 %**).
+- **74** cells empty (44.0 %). The jump from the pre-cleanup 32 % empty is
   almost entirely the Res Planae row collapsing once the `nivel de`
   measurement collocation (93 rows, 17 variants) is removed.
 
 ## 2. Coverage matrix
 
-Curated gold set (n = 405).
+Curated gold set (n = 391).
 
 |                       | AR | BO | CL | CO | CR | CU | DO | EC | ES | GT | HN | MX | NI | PA | PE | PR | PY | SV | UY | VE | US | **Σ** |
 |---                    |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | Res Acutae            |  2 |  1 |  1 |  4 |  · |  2 |  1 |  · |  1 |  · |  · |  3 |  · |  1 |  1 |  · |  · |  · |  2 |  2 |  1 | **22** |
-| Res Continens         | 23 |  5 | 17 | 17 |  2 |  6 |  4 |  1 | 32 |  · |  2 | 26 |  1 |  2 |  7 |  2 |  1 |  · |  4 |  7 | 22 | **181** |
+| Res Continens         | 23 |  5 | 17 | 17 |  1 |  6 |  4 |  1 | 32 |  · |  1 | 26 |  1 |  2 |  7 |  2 |  · |  · |  4 |  7 | 22 | **178** |
 | Res Filiformes        |  3 |  · |  1 |  · |  · |  1 |  1 |  · |  4 |  · |  · |  1 |  · |  · |  1 |  · |  · |  1 |  · |  2 |  2 | **17** |
 | Res Liquidae          |  6 |  1 |  2 |  3 |  1 |  · |  1 |  1 | 12 |  · |  · |  7 |  · |  · |  1 |  · |  · |  · |  · |  4 |  6 | **45** |
 | Res Longae Penetrantes| 17 |  1 |  2 |  3 |  · |  · |  1 |  · |  6 |  · |  · |  5 |  1 |  1 |  1 |  · |  1 |  · |  1 |  6 |  2 | **48** |
 | Res Parvae            |  1 |  · |  6 |  8 |  1 |  · |  1 |  · |  5 |  1 |  · |  3 |  · |  1 |  2 |  1 |  · |  · |  1 |  2 |  1 | **34** |
 | Res Planae            |  · |  · |  · |  1 |  · |  · |  · |  · |  · |  · |  · |  · |  · |  · |  · |  · |  · |  · |  · |  · |  · | **1** |
-| Res Rotundae          |  6 |  · |  4 |  7 |  · |  1 |  2 |  · | 10 |  · |  2 | 11 |  · |  · |  3 |  2 |  · |  · |  · |  1 |  8 | **57** |
-| **Σ**                 | 58 |  8 | 33 | 43 |  4 | 10 | 11 |  2 | 70 |  1 |  4 | 56 |  2 |  5 | 16 |  5 |  2 |  1 |  8 | 24 | 42 | **405** |
+| Res Rotundae          |  6 |  · |  4 |  5 |  · |  1 |  1 |  · |  8 |  · |  2 | 10 |  · |  · |  3 |  2 |  · |  · |  · |  1 |  3 | **46** |
+| **Σ**                 | 58 |  8 | 33 | 41 |  3 | 10 | 10 |  2 | 68 |  1 |  3 | 55 |  2 |  5 | 16 |  5 |  1 |  1 |  8 | 24 | 37 | **391** |
 
 ## 3. Critical-mass cells (Donina's `≥ 5` Pearson cutoff)
 
 |             | cells | share |
 |---          |---:   |---:   |
-| `≥ 5`       |  26   | 15.5 % |
+| `≥ 5`       |  25   | 14.9 % |
 | `1–4`       |  69   | 41.1 % |
-| empty       |  73   | 43.5 % |
+| empty       |  74   | 44.0 % |
 | **total**   | 168   | 100 %  |
 
 **Implication.** 85 % of cells are below the Pearson cutoff. Phase 6
@@ -60,8 +61,8 @@ collection.
 
 ### Variants below critical mass *in total*
 
-- **GT** (1), **SV** (1), **EC** (2), **NI** (2), **PY** (2), **CR** (4),
-  **HN** (4) — unusable for any variant-level statistic on *miedo*
+- **GT** (1), **SV** (1), **PY** (1), **EC** (2), **NI** (2), **CR** (3),
+  **HN** (3) — unusable for any variant-level statistic on *miedo*
   without Phase 2 collection.
 
 ### Gaps by cryptoclass (cells with zero *miedo* citations)
@@ -69,7 +70,7 @@ collection.
 | Cryptoclass             | empty cells | variants missed |
 |---                      |---:         |---              |
 | Res Acutae              | 8           | CR EC GT HN NI PR PY SV |
-| Res Continens           | 2           | GT SV |
+| Res Continens           | 3           | GT PY SV |
 | Res Filiformes          | 11          | BO CO CR EC GT HN NI PA PR PY UY |
 | Res Liquidae            | 9           | CU GT HN NI PA PR PY SV UY |
 | Res Longae Penetrantes  | 7           | CR CU EC GT HN PR SV |
@@ -77,29 +78,29 @@ collection.
 | Res Planae              | 20          | all except CO |
 | Res Rotundae            | 9           | BO CR EC GT NI PA PY SV UY |
 
-Recurring offenders (≥ 5 missing classes): **GT (7 of 8), SV (7), EC (6),
-HN (6), NI (6), PY (6), CR (5), PR (5)**.
+Recurring offenders (≥ 5 missing classes): **GT (7 of 8), SV (7), PY (7),
+EC (6), HN (6), NI (6), CR (5), PR (5)**.
 
 ## 4. Construction-type coverage
 
-Curated gold set (n = 405).
+Curated gold set (n = 391).
 
 | construction_type             | n   |
 |---                            |---: |
-| `verbal-locative-state`       | 113 |
-| `verbal-instrumental`         |  63 |
+| `verbal-locative-state`       | 110 |
+| `verbal-instrumental`         |  61 |
 | `verbal-subject-intransitive` |  45 |
 | `verbal-subject-transitive`   |  35 |
-| `substantive`                 |  32 |
 | `verbal-objective`            |  32 |
 | `verbal-locative-into`        |  27 |
 | `verbal-objective-grasp`      |  24 |
+| `substantive`                 |  23 |
 | `attributive`                 |  17 |
 | `verbal-locative-out`         |  10 |
 | `verbal-objective-throw`      |   5 |
 | `predicative`                 |   2 |
 
-`substantive` falls from 125 (raw) to 32 because the 93 `nivel de`
+`substantive` falls from 125 (raw) to 23 because the 93 `nivel de`
 substantive rows are excluded. The `disputed` slug does not appear (the
 2 raw disputed rows are handled per §6).
 
@@ -114,19 +115,19 @@ updating to either document these three slugs or collapse them into
 
 ## 5. Classifier-lemma diversity
 
-Curated gold set (n = 405). All blank-lemma rows are resolved (Problem 1):
+Curated gold set (n = 391). All blank-lemma rows are resolved (Problem 1):
 7 corrected, 6 excluded; **0 blanks remain in the gold set**.
 
 | Cryptoclass             | distinct lemmas | blank-lemma rows | total |
 |---                      |---:             |---:              |---:   |
 | Res Acutae              |  8              |  0               |  22   |
-| Res Continens           | 16              |  0               | 181   |
+| Res Continens           | 15              |  0               | 178   |
 | Res Filiformes          |  8              |  0               |  17   |
 | Res Liquidae            |  8              |  0               |  45   |
 | Res Longae Penetrantes  |  8              |  0               |  48   |
 | Res Parvae              |  8              |  0               |  34   |
 | Res Planae              |  1              |  0               |   1   |
-| Res Rotundae            |  9              |  0               |  57   |
+| Res Rotundae            |  9              |  0               |  46   |
 
 For the history of how the raw blank rate fell from 231 → 9 (extractor
 rewrite) and then 9 → 0 (Problem-1 curation), see §9 and
@@ -139,11 +140,11 @@ Res Planae retains a single citation (`llano`, attributive). The
 negative-calibration set `gold-miedo-excluded.tsv`.
 
 Top concrete lemmas overall (curated): `vivir en` (69, Continens) ·
-`caer en` (27, Continens) · `envuelto en` (20, Rotundae) · `inundar de`
-(20, Liquidae) · `envolver` (19, Rotundae) · `estar en` (18, Continens)
-· `atravesar` (17, Penetrantes) · `coger` (17, Parvae) · `tapar` (15,
-Continens) · `atravesado por` (14, Penetrantes) · `encontrarse en` (11,
-Continens) · `círculo de` (10, Rotundae) · `destapar` (10, Continens).
+`caer en` (27, Continens) · `inundar de` (20, Liquidae) · `envolver`
+(19, Rotundae) · `envuelto en` (18, Rotundae) · `estar en` (17,
+Continens) · `atravesar` (17, Penetrantes) · `coger` (17, Parvae) ·
+`tapar` (15, Continens) · `atravesado por` (14, Penetrantes) ·
+`encontrarse en` (11, Continens) · `destapar` (10, Continens).
 
 ## 6. Disputed cases — Conservative policy applied
 
@@ -212,6 +213,24 @@ extraction). These are now resolved by the deterministic drop-list
 Survivor rule (US-exclusion / keep-strongest, decided 2026-06-02) is
 documented in `_inventory-decisions.md`. No *miedo* group fell to the
 drop-all case. The gold-set cells are no longer inflated by these.
+
+## 7b. Mis-filed rows — resolved (Problem 1.5)
+
+A token check found **14 *miedo*-filed rows whose citation is about
+another lexeme** (no `miedo` token present, valid classifier lemma — so
+outside Problem-1 / Problem-2 scope):
+
+| Rows | Lemma / text | Disposition |
+|---|---|---|
+| 9 (`rot-miedo-{do-0002,es-0009,es-0010,mx-0011,us-0004..0008}`) | `círculo de` *tristeza* | **reassigned → tristeza** |
+| 2 (`rot-miedo-{co-0005,co-0006}`) | `envuelto en` *ira* | **reassigned → ira** |
+| 3 (`con-miedo-{cr-0001,hn-0001,py-0001}`) | `temor` (synonym lexeme) | **excluded** (distinct lexeme; *temor* is a Phase-4 candidate) |
+
+Reassignments live in `data/derived/emonym-reassignments.tsv` (loaded by
+`pipeline/reassignments.js`); they leave the *miedo* gold set and will
+join the *tristeza* / *ira* gold sets when those are built. This removed
+11 rows from Res Rotundae (chiefly `círculo de` mis-files) and 3 from Res
+Continens. Citation ids are unchanged for provenance.
 
 ## 8. Provenance integrity
 
@@ -282,18 +301,17 @@ Resolved since the original audit:
    *miedo* does not project into Res Planae (1 residual citation).
 2. **Cross-country duplicates — resolved** (§7, drop-list applied).
 3. **Blank-lemma rows — resolved** (§5; 7 corrected, 6 excluded).
+4. **Mis-filed rows — resolved** (§7b; 11 reassigned, 3 `temor` excluded).
 
 Still open:
 
-4. **Reconcile construction-type vocab** between `SCHEMA.md` and the
+5. **Reconcile construction-type vocab** between `SCHEMA.md` and the
    extractor (§4) — `verbal-objective-grasp`, `verbal-objective-throw`,
    `verbal-objective-collect` need to be added to the controlled-vocab
    table.
-5. **Mis-filed rows (Problem 1.5)** — ~11–14 rows filed under *miedo*
-   whose citation is about another emotion (`círculo de tristeza`,
-   `envuelto en ira`, `el temor`) need a reassign-or-exclude pass; see
-   `notes/gold-cleanup-status.md`.
 
-ROADMAP Phase 1 steps 1–5 for *miedo* are complete; items 4–5 above are
-carried forward (4 is a schema-hygiene task, 5 is the remaining
-gold-cleanup pass).
+ROADMAP Phase 1 steps 1–5 for *miedo* are complete; the *miedo* gold set
+is final pending Phase-2 collection volume. Item 5 above is a
+schema-hygiene task carried forward. The per-emonym pilots for
+*tristeza, amor, alegría, ira* (their own audit + frozen gold set) remain
+the next ROADMAP residual.

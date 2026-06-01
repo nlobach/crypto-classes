@@ -5,7 +5,7 @@ this first to pick up where the last session stopped. Decisions and rationale
 live in `notes/cryptoclasses/_inventory-decisions.md`; this file is the
 where-are-we / what's-next.
 
-Last updated: 2026-06-02 (Problem 2 applied + profile/audit regenerated).
+Last updated: 2026-06-02 (Problems 2 and 1.5 done; *miedo* gold set final).
 
 ## Architecture (the rule for all of this work)
 
@@ -21,7 +21,12 @@ is reversible and reproducible. This mirrors the existing `nivel de` precedent.
 |---|---|---|
 | 1 | 13 blank-`classifier_lemma` *miedo* rows | ✅ **DONE & committed** |
 | 2 | Cross-dataset duplicates (86 rows) | ✅ **DONE & committed** (2026-06-02) |
-| 1.5 | Mis-filed rows (citation about another emotion) | ⬜ **not started** ← **RESUME HERE** |
+| 1.5 | Mis-filed rows (citation about another emotion) | ✅ **DONE & committed** (2026-06-02) |
+
+**All three problems resolved — the *miedo* gold set (391) is final pending
+Phase-2 collection volume.** Next ROADMAP residual: the per-emonym pilots for
+*tristeza, amor, alegría, ira* (each needs its own audit + frozen gold set, the
+`audit-miedo.md` / `gold-miedo.*` equivalents).
 
 ## Problem 1 — DONE
 
@@ -66,16 +71,22 @@ truncated-but-real rows are rescued via `KEEP_OVERRIDE`.
    parse-skipped; `fil-miedo-co-0001` re-entered as `disputed=f` and is now a
    downstream `build_gold.js` exclusion. End state (CO Filiformes empty) unchanged.
 
-## Problem 1.5 — mis-filed rows (not started)
+## Problem 1.5 — mis-filed rows — DONE (2026-06-02)
 
-A token check surfaced ~11–14 rows filed under *miedo* whose citation is about
-another emotion: 9× `círculo de tristeza` (→ *tristeza*), 2× `envuelto en ira`
-(→ *ira*), 3× `el temor` (synonym — defensibility open). These have valid
-lemmas, so they are **outside** Problem 1 (blank-lemma) and Problem 2
-(duplicate) scope. The cross-emonym dedup rule already fixes the ones that
-happen to be duplicates; the rest need a dedicated reassign-or-exclude pass
-before any per-variant statistics. Decide the *temor*-as-miedo-synonym question
-here too.
+A token check surfaced **14** rows filed under *miedo* whose citation is about
+another lexeme (valid lemma, no `miedo` token — so outside Problem 1 / Problem 2
+scope). Resolved:
+
+- **9× `círculo de tristeza` → reassigned to *tristeza*.**
+- **2× `envuelto en ira` → reassigned to *ira*.**
+- **3× `temor` → excluded** from *miedo* as a distinct lexeme (decided: *temor*
+  is not *miedo*; recorded as a Phase-4 emonym candidate).
+
+Reassignments are a new sidecar `data/derived/emonym-reassignments.tsv` + loader
+`pipeline/reassignments.js`, honoured by `build_gold.js` and
+`membership_matrix.js` (effective-emonym override before binning). *miedo* gold
+set 405 → **391**. Rationale + the *temor* decision in `_inventory-decisions.md`
+(2026-06-02). Profile/audit regenerated at n = 391.
 
 ## Files touched this session (this commit)
 

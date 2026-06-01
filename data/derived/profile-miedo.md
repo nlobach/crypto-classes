@@ -1,8 +1,9 @@
 # *miedo* — aggregate cryptoclass profile (Spanish pooled)
 
 Date: 2026-06-02 (regenerated on the curated gold set: Problem-1 lemma
-cleanup + Problem-2 duplicate drop-list both applied).
-Source: `data/derived/gold-miedo.tsv` (curated gold set, n = 405).
+cleanup, Problem-2 duplicate drop-list, and Problem-1.5 mis-file cleanup
+all applied).
+Source: `data/derived/gold-miedo.tsv` (curated gold set, n = 391).
 Method: `pipeline/aggregate_profile.js --from-gold` +
 `pipeline/coverage_miedo.js --from-gold`.
 Indices per Boriskina (2011) §8.5 — see `notes/theory-boriskina.md`.
@@ -21,15 +22,17 @@ deferred to the Phase 2 pipeline; absence is recorded, not filled.
 ## 1. Totals & coverage snapshot
 
 - **510** raw *miedo* citations in the full extraction (`citations.tsv`).
-- **405** in the curated **gold set** — the basis for every table below.
+- **391** in the curated **gold set** — the basis for every table below.
   The curation chain from 510: the `nivel de` measurement collocation is
   excluded (§4, 93 rows → negative-calibration set), Problem-1 lemma
-  cleanup (7 corrections kept, 6 fragments/borderline rows excluded), and
-  the Problem-2 duplicate drop-list (6 genuine *miedo* duplicates removed).
+  cleanup (7 corrections kept, 6 fragments/borderline rows excluded), the
+  Problem-2 duplicate drop-list (6 genuine *miedo* duplicates removed), and
+  the Problem-1.5 mis-file cleanup (11 rows reassigned to *tristeza*/*ira*,
+  3 `temor` rows excluded as a distinct lexeme).
 - All **21** variants and **7** of the 8 cryptoclasses have ≥ 1 citation;
   **Res Planae** is effectively absent (1 citation, see §4).
-- **95 / 168** (cryptoclass × variant) cells filled (**56.5 %**);
-  73 empty. (The drop from the pre-cleanup 68.5 % is almost entirely the
+- **94 / 168** (cryptoclass × variant) cells filled (**56.0 %**);
+  74 empty. (The drop from the pre-cleanup 68.5 % is almost entirely the
   Res Planae row collapsing once `nivel de` is removed.)
 - Empty cells cluster in the under-resourced variants
   (`GT, HN, SV, NI, CR, PR, PY, EC, BO`) — Central America + the small
@@ -42,19 +45,19 @@ deferred to the Phase 2 pipeline; absence is recorded, not filled.
 `Sᵢ = Σⱼ cᵢⱼ` (citation count per class); `CAC = Sᵢ / Σ Sᵢ`. Raw
 (un-normalised) pooled shares — corpus coefficients are a per-variant
 correction and do not apply to a single-emonym pooled profile.
-**Curated gold set, n = 405**; the `nivel de` collocation is removed from
+**Curated gold set, n = 391**; the `nivel de` collocation is removed from
 Res Planae per §4.
 
 | Rank | Cryptoclass | Sᵢ | CAC |
 |---|---|---:|---:|
-| 1 | Res Continens | 181 | **44.7 %** |
-| 2 | Res Rotundae | 57 | 14.1 % |
-| 3 | Res Longae Penetrantes | 48 | 11.9 % |
-| 4 | Res Liquidae | 45 | 11.1 % |
-| 5 | Res Parvae | 34 | 8.4 % |
-| 6 | Res Acutae | 22 | 5.4 % |
-| 7 | Res Filiformes | 17 | 4.2 % |
-| 8 | Res Planae | 1 | 0.2 % |
+| 1 | Res Continens | 178 | **45.5 %** |
+| 2 | Res Longae Penetrantes | 48 | 12.3 % |
+| 3 | Res Rotundae | 46 | 11.8 % |
+| 4 | Res Liquidae | 45 | 11.5 % |
+| 5 | Res Parvae | 34 | 8.7 % |
+| 6 | Res Acutae | 22 | 5.6 % |
+| 7 | Res Filiformes | 17 | 4.3 % |
+| 8 | Res Planae | 1 | 0.3 % |
 
 For reference, the **pre-exclusion** shares (raw, n = 510, `nivel de`
 still in) were: Continens 36.9 %, **Planae 18.4 %** (the `nivel de`
@@ -71,9 +74,9 @@ inventory in `data/classifiers.tsv`.
 |---|---:|---:|---:|
 | Res Longae Penetrantes | 8 | 13 | **0.615** |
 | Res Parvae | 8 | 14 | 0.571 |
-| Res Continens | 16 | 32 | 0.500 |
 | Res Rotundae | 9 | 18 | 0.500 |
 | Res Acutae | 8 | 17 | 0.471 |
+| Res Continens | 15 | 32 | 0.469 |
 | Res Filiformes | 8 | 26 | 0.308 |
 | Res Liquidae | 8 | 30 | 0.267 |
 | Res Planae | 1 | 9 | **0.111** |
@@ -106,7 +109,7 @@ artefacts. Two classes tell opposite stories:
   are kept as a negative-calibration set in
   `data/derived/gold-miedo-excluded.tsv`.
 
-- **Res Continens — high CAC (44.7 %) AND high IDC (0.500, 16/32
+- **Res Continens — high CAC (45.5 %) AND high IDC (0.469, 15/32
   classifiers).** This is genuine broad membership: *miedo* spreads
   across locative-state (`vivir en`, `caer en`, `estar en`,
   `encontrarse en`), objective (`tapar`, `destapar`), and motion
@@ -115,16 +118,16 @@ artefacts. Two classes tell opposite stories:
 
 So the honest headline is: **with the `nivel de` artefact removed,
 *miedo* is dominantly a Res Continens (container) emotion in pooled
-Spanish (44.7 %), with a long even tail across Rotundae / Penetrantes /
-Liquidae / Parvae (~8–14 % each) and weak Acutae / Filiformes / Planae
+Spanish (45.5 %), with a long even tail across Penetrantes / Rotundae /
+Liquidae / Parvae (~9–12 % each) and weak Acutae / Filiformes / Planae
 presence.**
 
 ### Contrast with Boriskina/Donina (English)
 English *fear* is dominant in **Res Parvae** (graspable / anthropocentric
 default; Donina thesis 5–6). Spanish *miedo* here shows Res Parvae at
-only 8.4 %. This divergence is **suggestive, not yet a finding** — it is
+only 8.7 %. This divergence is **suggestive, not yet a finding** — it is
 confounded by (a) collection emphasis: Res Continens, the project's
-widest-covered class (CON 19/21), likely drew the most-sought citations;
+widest-covered class (CON 18/21), likely drew the most-sought citations;
 and (b) the now-removed `nivel de` idiom. A fair comparison needs
 balanced collection across all 8 classes (Phase 2).
 
@@ -133,29 +136,29 @@ balanced collection across all 8 classes (Phase 2).
 Three empty/near-empty patterns are recorded as findings, not noise:
 
 1. **Central America is structurally missing.** `GT` (1 citation total),
-   `SV` (1), `HN` (4), `PY` (2) cannot support any variant-level
+   `SV` (1), `HN` (3), `PY` (1) cannot support any variant-level
    statistic. This mirrors the corpus reality (these variants are thin in
    Davies's *Corpus del Español*) and is the predictable gap Donina
    flagged for under-resourced variants (`methodology-donina.md` §5.7).
 2. **Critical mass is rare.** Only ~15 % of cells clear Donina's ≥ 5
-   threshold (26/168); ~41 % hold 1–4 citations; 43 % are empty.
+   threshold (25/168); ~41 % hold 1–4 citations; 44 % are empty.
    Variant-level Pearson/Kendall on *miedo* is defensible for the ~6
    strong variants only — and even then mainly in the CON column.
 3. **Class asymmetry of the emonym.** *miedo*'s weakest classes
-   (Filiformes 4.2 %, Acutae 5.4 %) are weak *everywhere*, not just in
+   (Filiformes 4.3 %, Acutae 5.6 %) are weak *everywhere*, not just in
    thin variants — i.e. fear is genuinely not strongly thread-like or
    sharp in Spanish, independent of collection volume. This is a real
    (if provisional) semantic result.
 
 ## 6. Construction-type & top classifiers (per class)
 
-Curated gold set (n = 405).
+Curated gold set (n = 391).
 
 | Class | n | Dominant construction(s) | Top classifiers |
 |---|---:|---|---|
-| Res Continens | 181 | locative-state 113, locative-into 27, objective 26 | vivir en 69, caer en 27, estar en 18, tapar 15, encontrarse en 11 |
-| Res Rotundae | 57 | instrumental 24, subj-intransitive 23, substantive 10 | envuelto en 20, envolver 19, círculo de 10 |
+| Res Continens | 178 | locative-state 110, locative-into 27, objective 26 | vivir en 69, caer en 27, estar en 17, tapar 15, encontrarse en 11 |
 | Res Longae Penetrantes | 48 | subj-transitive 23, instrumental 17 | atravesar 17, atravesado por 14, penetrar 6 |
+| Res Rotundae | 46 | subj-intransitive 23, instrumental 22 | envolver 19, envuelto en 18, girar en torno a 2 |
 | Res Liquidae | 45 | instrumental 22, subj-intransitive 13, substantive 8 | inundar de 20, brotar 7, gota de 5 |
 | Res Parvae | 34 | objective-grasp 24, objective-throw 5, substantive 5 | coger 17, traer 5, puñado de 3 |
 | Res Acutae | 22 | attributive 10, substantive 8 | punta de 8, agudo 7, punzante 2 |
@@ -171,17 +174,18 @@ Curated gold set (n = 405).
 - Step 3 (compute IDC / CAC) — **done** (§2, §3), with the M-caveat.
 - Step 4 (one-page profile) — **this file**.
 - Step 5 (freeze gold set) — **done**: `data/derived/gold-miedo.tsv` +
-  `.jsonl` (**405** citations), built by `pipeline/build_gold.js` with the
-  `nivel de` exclusion (§4), the Problem-1 lemma cleanup, and the
-  Problem-2 duplicate drop-list all applied. Excluded rows retained as
-  `gold-miedo-excluded.tsv` (92) for pipeline negative-calibration.
+  `.jsonl` (**391** citations), built by `pipeline/build_gold.js` with the
+  `nivel de` exclusion (§4), the Problem-1 lemma cleanup, the Problem-2
+  duplicate drop-list, and the Problem-1.5 mis-file cleanup all applied.
+  Excluded rows retained as `gold-miedo-excluded.tsv` (95) for pipeline
+  negative-calibration.
 
-### Residual cleanup
-- **Blank-lemma rows — resolved.** The gold set has 0 blank-lemma rows
-  (7 corrected, 6 excluded; see `_inventory-decisions.md` Problem 1).
-- **Cross-dataset duplicates — resolved.** The `duplicate-drops.tsv`
-  drop-list is now honoured by `build_gold.js` (see
-  `notes/gold-cleanup-status.md` Problem 2).
-- **Mis-filed rows (Problem 1.5) — open.** ~11–14 rows filed under *miedo*
-  whose citation is about another emotion still need a reassign-or-exclude
-  pass (`gold-cleanup-status.md`).
+### Residual cleanup — complete
+- **Blank-lemma rows — resolved** (Problem 1; 7 corrected, 6 excluded).
+- **Cross-dataset duplicates — resolved** (Problem 2; drop-list honoured
+  by `build_gold.js`).
+- **Mis-filed rows — resolved** (Problem 1.5; 11 reassigned to
+  *tristeza*/*ira* via `data/derived/emonym-reassignments.tsv`, 3 `temor`
+  rows excluded). *temor* is recorded as a Phase-4 emonym candidate.
+
+The *miedo* gold set is now final pending Phase-2 collection volume.

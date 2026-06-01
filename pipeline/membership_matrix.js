@@ -27,6 +27,7 @@
 const fs = require('fs');
 const path = require('path');
 const { loadDropIds } = require('./drop_ids');
+const { loadReassignments } = require('./reassignments');
 
 const REPO = path.resolve(__dirname, '..');
 const KEEP_NIVEL = process.argv.includes('--raw');
@@ -46,6 +47,7 @@ const lines = tsv.split(/\r?\n/).filter(Boolean);
 const h = lines.shift().split('\t');
 const iId=h.indexOf('id'), iCl=h.indexOf('cryptoclass'), iEm=h.indexOf('emonym'), iCt=h.indexOf('construction_type'), iLm=h.indexOf('classifier_lemma'), iCo=h.indexOf('country');
 const dropIds = loadDropIds(REPO);   // duplicate drop-list (dedupe.js)
+const reassign = loadReassignments(REPO);  // mis-filed-emonym corrections
 
 // cell[emonym][class] = { n, byCT:{}, byLemma:{}, byVar:{} }
 const cell = {};
@@ -55,7 +57,7 @@ const emTotal = {}; for (const e of EMONYMS) emTotal[e]=0;
 for (const line of lines) {
   const cols = line.split('\t');
   if (dropIds.has(cols[iId])) continue;   // skip cross-dataset duplicates
-  const e = (cols[iEm]||'').toLowerCase();
+  const e = (reassign.get(cols[iId]) || cols[iEm] || '').toLowerCase();  // honor mis-file corrections
   const c = cols[iCl];
   if (!cell[e] || !cell[e][c]) continue;
   const lemma = (cols[iLm]||'').trim();

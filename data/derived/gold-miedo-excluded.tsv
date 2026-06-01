@@ -1,5 +1,8 @@
 id	cryptoclass	emonym	country	construction_type	classifier_lemma	citation_es	source_file	source_sheet	source_locator	exclusion_reason
+con-miedo-cr-0001	Res Continens	miedo	CR	verbal-locative-state	estar en	está en el temor	RES CONTINENS.xlsx	miedo	D6	wrong-lexeme: citation is about "temor", a distinct lexeme (Phase-4 candidate)
+con-miedo-hn-0001	Res Continens	miedo	HN	verbal-locative-state	sumirse en	sumidas en el temor	RES CONTINENS.xlsx	miedo	D12	wrong-lexeme: citation is about "temor", a distinct lexeme (Phase-4 candidate)
 con-miedo-mx-0027	Res Continens	miedo	MX	attributive		profundo miedo	RES CONTINENS.xlsx	miedo	G13	intensity-attributive: "profundo miedo" is intensity, not container schema
+con-miedo-py-0001	Res Continens	miedo	PY	verbal-locative-state	sumirse en	sumidos en el temor	RES CONTINENS.xlsx	miedo	D18	wrong-lexeme: citation is about "temor", a distinct lexeme (Phase-4 candidate)
 fil-miedo-co-0001	Res Filiformes	miedo	CO	verbal-instrumental		Se amarraron a sus miedos y no escaparon.	Res Filiformes.xlsx	miedo	E5	disputed: reflexive-bind ("se amarraron a sus miedos") — Continens-into, not Filiformes
 pla-miedo-ar-0001	Res Planae	miedo	AR	substantive	nivel de	existe ese nivel de miedo o de desconfianza	Res Planae.xlsx	MIEDO	E2	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)
 pla-miedo-ar-0002	Res Planae	miedo	AR	substantive	nivel de	un elevado nivel de miedo, preocupación y ansiedad	Res Planae.xlsx	MIEDO	E2	measurement-collocation: nivel de (see _inventory-decisions.md 2026-06-01)

@@ -7,6 +7,45 @@ directory. Newest first.
 
 ---
 
+## 2026-06-02 — *miedo* gold-set cleanup: Problem 1.5 (mis-filed rows)
+
+**Decision.** 14 rows filed under *miedo* whose citation is about a different
+lexeme (valid classifier lemma, but no `miedo` token) are corrected as
+downstream curation:
+
+| Rows | Text | Disposition |
+|---|---|---|
+| 9 `círculo de tristeza` | *"círculo (vicioso) de tristeza"* | **reassigned → tristeza** |
+| 2 `envuelto en ira` | *"envuelto/s en ira"* | **reassigned → ira** |
+| 3 `temor` | *"está/sumidos en el temor"* | **excluded** (distinct lexeme) |
+
+**Reassignment mechanism.** New sidecar `data/derived/emonym-reassignments.tsv`
+(id → correct emonym) + loader `pipeline/reassignments.js`. `build_gold.js` and
+`membership_matrix.js` set each row's *effective* emonym from this map before
+binning, so a reassigned row leaves *miedo* and joins the target emonym's gold
+set when that set is built. `citations.tsv` is untouched; ids keep their
+original (now-misleading) `*-miedo-*` slug for provenance. Reversible (delete a
+TSV row).
+
+**Why reassign, not delete.** These are genuine *Res Rotundae* citations — just
+for the wrong emonym. Deleting would lose real *tristeza*/*ira* evidence;
+reassigning preserves it under the correct lexeme.
+
+**Why `temor` is excluded, not reassigned.** *temor* is a near-synonym of
+*miedo* but a **distinct lexeme**, and Donina's method profiles one lexeme per
+emonym. It is outside the current 5-emonym scope, so the 3 rows are excluded
+from *miedo* (in `build_gold.js`, reason `wrong-lexeme`) rather than routed.
+**`temor` is recorded as a Phase-4 emonym candidate** (alongside the
+*cariño*/*rabia* splits already noted in `CLAUDE.md`).
+
+**Effect on the *miedo* gold set.** 405 → **391** (11 reassigned out, 3 `temor`
+excluded). Res Rotundae 57 → 46 (9 of *miedo*'s 10 `círculo de` rows were
+actually *tristeza*); Res Continens 181 → 178. No membership verdict flips.
+`profile-miedo.md` and `audit-miedo.md` regenerated at n = 391. With Problems 1,
+2, and 1.5 all resolved, the *miedo* gold set is final pending Phase-2 volume.
+
+---
+
 ## 2026-06-02 — Duplicate policy: US-exclusion rule + Problem 2 APPLIED
 
 **Refinement to the cross-country survivor rule.** A duplicated string is, by

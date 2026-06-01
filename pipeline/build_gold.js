@@ -11,6 +11,7 @@
 const fs = require('fs');
 const path = require('path');
 const { loadDropIds } = require('./drop_ids');
+const { loadReassignments } = require('./reassignments');
 
 const REPO = path.resolve(__dirname, '..');
 const EMONYM = (process.argv[2] || 'miedo').toLowerCase();
@@ -63,6 +64,12 @@ function exclusionReason(r) {
   if (r.id === 'con-miedo-mx-0027') {
     return 'intensity-attributive: "profundo miedo" is intensity, not container schema';
   }
+  // 2026-06-02 Problem 1.5: rows whose citation is about `temor`, a distinct
+  // lexeme (near-synonym of miedo). Donina's method profiles one lexeme per
+  // emonym, so these leave the miedo gold set. temor is a Phase-4 candidate.
+  if (['con-miedo-cr-0001', 'con-miedo-hn-0001', 'con-miedo-py-0001'].includes(r.id)) {
+    return 'wrong-lexeme: citation is about "temor", a distinct lexeme (Phase-4 candidate)';
+  }
   return null;
 }
 
@@ -73,17 +80,21 @@ const header = lines.shift().split('\t');
 const idx = Object.fromEntries(header.map((h, i) => [h, i]));
 
 const dropIds = loadDropIds(REPO);   // duplicate drop-list (dedupe.js)
+const reassign = loadReassignments(REPO);  // mis-filed-emonym corrections
 let dropped = 0;
 
 const kept = [], excluded = [];
 for (const line of lines) {
   const cols = line.split('\t');
-  if ((cols[idx.emonym] || '').toLowerCase() !== EMONYM) continue;
+  // effective emonym: a reassigned row leaves its mis-filed sheet and joins
+  // the correct emonym's gold set.
+  const effEmonym = (reassign.get(cols[idx.id]) || cols[idx.emonym] || '').toLowerCase();
+  if (effEmonym !== EMONYM) continue;
   if (dropIds.has(cols[idx.id])) { dropped++; continue; }  // skip cross-dataset duplicates
   const r = {
     id: cols[idx.id],
     cryptoclass: cols[idx.cryptoclass],
-    emonym: cols[idx.emonym],
+    emonym: effEmonym,
     country: cols[idx.country],
     construction_type: cols[idx.construction_type],
     classifier_lemma: (cols[idx.classifier_lemma] || '').trim(),
