@@ -193,6 +193,51 @@ parts.push('</table>');
 parts.push(`<p style="font-size:9pt;">Критерий: член (+ / ★) И ≥ ${READY_VARIANTS} вариантов по отдельности с ≥ ${CRIT_MASS} контекстами. Эти ячейки выдерживают коэффициент корреляции Пирсона <em>r</em> и коэффициент конкордации Кендалла <em>W</em> на имеющихся данных. Всё остальное — задача для сбора данных на Фазе&nbsp;2.</p>`);
 parts.push(`<p style="font-size:10pt;text-align:justify;">Таблица перечисляет восемь ячеек (эмоним × криптокласс), которые одновременно являются членами и подкреплены ≥${READY_VARIANTS} вариантами с ≥${CRIT_MASS} контекстами, т.&nbsp;е. готовы к межвариантному статистическому анализу (коэффициент корреляции Пирсона, коэффициент конкордации Кендалла) на имеющихся данных. Эти восемь ячеек — в точности две ядерные оси плюс <em>Res&nbsp;Filiformes</em>: <em>Liquidae</em> для <em>amor/alegría/tristeza</em>, <em>Continens</em> для <em>miedo/tristeza/amor</em>, <em>Filiformes</em> для <em>amor/alegría</em>. Они задают <strong>допустимые границы любых вариантных выводов</strong> на текущем этапе; наиболее обеспеченные (<em>amor</em>/<em>alegría</em> × <em>Liquidae</em>, 18 вариантов) проникают и в недопредставленный блок. Дополнение этой таблицы — всё, что в неё не вошло, включая все ячейки <em>ira</em> и все <em>Acutae/Rotundae/Parvae</em>, — одновременно является <strong>списком приоритетов для сбора данных на Фазе&nbsp;2</strong>.</p>`);
 
+// ---- Table 5: Construction-type productivity per emonym ----
+const CT_RU = {
+  'verbal-locative-state':'локативно-статальная',
+  'verbal-locative-into':'локативно-вводная',
+  'verbal-locative-out':'локативно-выводная',
+  'verbal-instrumental':'инструментальная',
+  'verbal-subject-intransitive':'субъектно-интранзитивная',
+  'verbal-subject-transitive':'субъектно-транзитивная',
+  'verbal-objective':'объектная',
+  'verbal-objective-grasp':'объектная (схватывание)',
+  'verbal-objective-throw':'объектная (бросание)',
+  'verbal-objective-collect':'объектная (собирание)',
+  'attributive':'атрибутивная',
+  'predicative':'предикативная',
+  'substantive':'субстантивная',
+};
+const IMAGE = {
+  'miedo':'пребывание внутри вместилища (<em>vivir en el miedo</em>)',
+  'tristeza':'затопление (<em>la tristeza inunda</em>) и впадение (<em>caer en la tristeza</em>)',
+  'amor':'самопроизвольное течение (<em>el amor fluye, brota</em>)',
+  'alegría':'наполнение / затопление (<em>inundado de alegría</em>)',
+  'ira':'вскипание (<em>la ira brota</em>)',
+};
+parts.push(`<h3 style="font-family:Arial,sans-serif;">Таблица 5. Продуктивность конструкций по эмонимам</h3>`);
+parts.push(`<table style="${tableStyle}"><tr>
+  <th style="${hStyle}">эмоним</th>
+  <th style="${hStyle};text-align:left;">ведущие конструкции (доля)</th>
+  <th style="${hStyle};text-align:left;">образ</th>
+</tr>`);
+for (const e of EMONYMS){
+  const dist = {};
+  for (const c of CLASSES) for (const [t,n] of Object.entries(cell[e][c].byCT)) dist[t]=(dist[t]||0)+n;
+  const total = emTotal[e];
+  const top = Object.entries(dist).sort((a,b)=>b[1]-a[1]).slice(0,2)
+    .map(([t,n])=>`${CT_RU[t]||t} ${(100*n/total).toFixed(1)}%`).join(', ');
+  parts.push(`<tr>
+    <td style="${emStyle}">${e}</td>
+    <td style="${cellStyle}text-align:left;">${top}</td>
+    <td style="${cellStyle}text-align:left;">${IMAGE[e]||''}</td>
+  </tr>`);
+}
+parts.push('</table>');
+parts.push(`<p style="font-size:9pt;">Доля — % от всех контекстов эмонима (после исключения <em>nivel&nbsp;de</em>). Именно тип конструкции, а не только лексема-классификатор, относит эмоним к криптоклассу.</p>`);
+parts.push(`<p style="font-size:10pt;text-align:justify;">Распределение конструкций обнаруживает закономерность, <strong>не сводимую к выбору криптокласса</strong>: один и тот же «жидкостный» образ реализуется у разных эмонимов через разную синтаксическую роль эмонима. У <em>amor</em> и <em>ira</em> эмоним выступает <strong>интранзитивным субъектом</strong> — эмоция возникает и течёт сама собой (<em>el amor fluye</em>, <em>la ira brota</em>); у <em>tristeza</em> и <em>alegría</em> преобладает <strong>транзитивная</strong> модель, где эмоция затопляет переживающего как внешняя сила (<em>la tristeza lo inunda</em>); у <em>miedo</em> доминирует <strong>локативная</strong> модель, где эмоция предстаёт вместилищем, внутри которого пребывает субъект (<em>vivir en el miedo</em>). Таким образом, продуктивная конструкция фиксирует не только класс, но и <strong>степень агентивности</strong> эмоции в языковой картине мира: любовь и гнев концептуализируются как самозарождающиеся, грусть и радость — как извне затопляющие, страх — как объемлющее пространство.</p>`);
+
 parts.push('</body></html>');
 
 const outPath = path.join(REPO,'data','derived','autoreferat-tables.html');
