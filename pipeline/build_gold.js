@@ -70,6 +70,26 @@ function exclusionReason(r) {
   if (['con-miedo-cr-0001', 'con-miedo-hn-0001', 'con-miedo-py-0001'].includes(r.id)) {
     return 'wrong-lexeme: citation is about "temor", a distinct lexeme (Phase-4 candidate)';
   }
+  // 2026-06-02 curation sweep B1: `círculo de` is the "círculo vicioso"
+  // (vicious-cycle) idiom — names a self-perpetuating cycle, not the
+  // round-object image that defines Res Rotundae. Frozen-collocation
+  // exclusion applied CLASS-WIDE, parallel to `nivel de` (user decision).
+  // Catches the reassigned tristeza rows (×10) + 1 native miedo row
+  // (`rot-miedo-ar-0006`, "círculo de miedo"). The `rot-miedo-us-0003` row
+  // keeps its `envuelto en` match (círculo there is incidental context).
+  if (r.cryptoclass === 'Res Rotundae' && r.classifier_lemma === 'círculo de') {
+    return 'frozen-collocation: círculo (vicioso) de — cycle idiom, not round-object image';
+  }
+  // 2026-06-02 sweep A2: "Al pie de mi amor clavado" reads as "my nailed
+  // beloved" (a person / Christ image), not the emotion amor (user decision).
+  if (r.id === 'pen-amor-mx-0006') {
+    return 'wrong-referent: "mi amor clavado" = beloved person, not the emotion';
+  }
+  // 2026-06-02 sweep B2: in "lágrimas de tristeza rodaban", `rodar` scopes
+  // the tears, not tristeza itself — not a Res Rotundae use (user decision).
+  if (r.id === 'rot-tristeza-ec-0001') {
+    return 'classifier-scopes-other-noun: rodar applies to lágrimas, not tristeza';
+  }
   return null;
 }
 

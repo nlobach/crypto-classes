@@ -22,13 +22,17 @@ deferred to the Phase 2 pipeline; absence is recorded, not filled.
 ## 1. Totals & coverage snapshot
 
 - **510** raw *miedo* citations in the full extraction (`citations.tsv`).
-- **391** in the curated **gold set** — the basis for every table below.
+- **390** in the curated **gold set** — the basis for every table below.
   The curation chain from 510: the `nivel de` measurement collocation is
   excluded (§4, 93 rows → negative-calibration set), Problem-1 lemma
   cleanup (7 corrections kept, 6 fragments/borderline rows excluded), the
-  Problem-2 duplicate drop-list (6 genuine *miedo* duplicates removed), and
-  the Problem-1.5 mis-file cleanup (11 rows reassigned to *tristeza*/*ira*,
-  3 `temor` rows excluded as a distinct lexeme).
+  Problem-2 duplicate drop-list (6 genuine *miedo* duplicates removed), the
+  Problem-1.5 mis-file cleanup (11 rows reassigned to *tristeza*/*ira*,
+  3 `temor` rows excluded as a distinct lexeme), and — **added 2026-06-02**
+  in the cross-emonym curation sweep — the class-wide `círculo de`
+  exclusion, removing 1 *miedo* Res Rotundae row (`rot-miedo-ar-0006`,
+  "círculo de miedo"; the *vicious-cycle* idiom, parallel to `nivel de`).
+  Hence 391 → 390.
 - All **21** variants and **7** of the 8 cryptoclasses have ≥ 1 citation;
   **Res Planae** is effectively absent (1 citation, see §4).
 - **94 / 168** (cryptoclass × variant) cells filled (**56.0 %**);
@@ -45,18 +49,18 @@ deferred to the Phase 2 pipeline; absence is recorded, not filled.
 `Sᵢ = Σⱼ cᵢⱼ` (citation count per class); `CAC = Sᵢ / Σ Sᵢ`. Raw
 (un-normalised) pooled shares — corpus coefficients are a per-variant
 correction and do not apply to a single-emonym pooled profile.
-**Curated gold set, n = 391**; the `nivel de` collocation is removed from
-Res Planae per §4.
+**Curated gold set, n = 390**; the `nivel de` collocation is removed from
+Res Planae per §4, and `círculo de` from Res Rotundae per §1.
 
 | Rank | Cryptoclass | Sᵢ | CAC |
 |---|---|---:|---:|
-| 1 | Res Continens | 178 | **45.5 %** |
+| 1 | Res Continens | 178 | **45.6 %** |
 | 2 | Res Longae Penetrantes | 48 | 12.3 % |
-| 3 | Res Rotundae | 46 | 11.8 % |
-| 4 | Res Liquidae | 45 | 11.5 % |
+| 3 | Res Liquidae | 45 | 11.5 % |
+| 3 | Res Rotundae | 45 | 11.5 % |
 | 5 | Res Parvae | 34 | 8.7 % |
 | 6 | Res Acutae | 22 | 5.6 % |
-| 7 | Res Filiformes | 17 | 4.3 % |
+| 7 | Res Filiformes | 17 | 4.4 % |
 | 8 | Res Planae | 1 | 0.3 % |
 
 For reference, the **pre-exclusion** shares (raw, n = 510, `nivel de`
@@ -74,9 +78,9 @@ inventory in `data/classifiers.tsv`.
 |---|---:|---:|---:|
 | Res Longae Penetrantes | 8 | 13 | **0.615** |
 | Res Parvae | 8 | 14 | 0.571 |
-| Res Rotundae | 9 | 18 | 0.500 |
 | Res Acutae | 8 | 17 | 0.471 |
 | Res Continens | 15 | 32 | 0.469 |
+| Res Rotundae | 8 | 18 | 0.444 |
 | Res Filiformes | 8 | 26 | 0.308 |
 | Res Liquidae | 8 | 30 | 0.267 |
 | Res Planae | 1 | 9 | **0.111** |
@@ -109,7 +113,7 @@ artefacts. Two classes tell opposite stories:
   are kept as a negative-calibration set in
   `data/derived/gold-miedo-excluded.tsv`.
 
-- **Res Continens — high CAC (45.5 %) AND high IDC (0.469, 15/32
+- **Res Continens — high CAC (45.6 %) AND high IDC (0.469, 15/32
   classifiers).** This is genuine broad membership: *miedo* spreads
   across locative-state (`vivir en`, `caer en`, `estar en`,
   `encontrarse en`), objective (`tapar`, `destapar`), and motion
@@ -118,7 +122,7 @@ artefacts. Two classes tell opposite stories:
 
 So the honest headline is: **with the `nivel de` artefact removed,
 *miedo* is dominantly a Res Continens (container) emotion in pooled
-Spanish (45.5 %), with a long even tail across Penetrantes / Rotundae /
+Spanish (45.6 %), with a long even tail across Penetrantes / Rotundae /
 Liquidae / Parvae (~9–12 % each) and weak Acutae / Filiformes / Planae
 presence.**
 
@@ -152,13 +156,13 @@ Three empty/near-empty patterns are recorded as findings, not noise:
 
 ## 6. Construction-type & top classifiers (per class)
 
-Curated gold set (n = 391).
+Curated gold set (n = 390).
 
 | Class | n | Dominant construction(s) | Top classifiers |
 |---|---:|---|---|
 | Res Continens | 178 | locative-state 110, locative-into 27, objective 26 | vivir en 69, caer en 27, estar en 17, tapar 15, encontrarse en 11 |
 | Res Longae Penetrantes | 48 | subj-transitive 23, instrumental 17 | atravesar 17, atravesado por 14, penetrar 6 |
-| Res Rotundae | 46 | subj-intransitive 23, instrumental 22 | envolver 19, envuelto en 18, girar en torno a 2 |
+| Res Rotundae | 45 | subj-intransitive 23, instrumental 22 | envolver 19, envuelto en 18, girar en torno a 2 |
 | Res Liquidae | 45 | instrumental 22, subj-intransitive 13, substantive 8 | inundar de 20, brotar 7, gota de 5 |
 | Res Parvae | 34 | objective-grasp 24, objective-throw 5, substantive 5 | coger 17, traer 5, puñado de 3 |
 | Res Acutae | 22 | attributive 10, substantive 8 | punta de 8, agudo 7, punzante 2 |
@@ -174,11 +178,11 @@ Curated gold set (n = 391).
 - Step 3 (compute IDC / CAC) — **done** (§2, §3), with the M-caveat.
 - Step 4 (one-page profile) — **this file**.
 - Step 5 (freeze gold set) — **done**: `data/derived/gold-miedo.tsv` +
-  `.jsonl` (**391** citations), built by `pipeline/build_gold.js` with the
+  `.jsonl` (**390** citations), built by `pipeline/build_gold.js` with the
   `nivel de` exclusion (§4), the Problem-1 lemma cleanup, the Problem-2
-  duplicate drop-list, and the Problem-1.5 mis-file cleanup all applied.
-  Excluded rows retained as `gold-miedo-excluded.tsv` (95) for pipeline
-  negative-calibration.
+  duplicate drop-list, the Problem-1.5 mis-file cleanup, and the 2026-06-02
+  class-wide `círculo de` exclusion all applied. Excluded rows retained as
+  `gold-miedo-excluded.tsv` (96) for pipeline negative-calibration.
 
 ### Residual cleanup — complete
 - **Blank-lemma rows — resolved** (Problem 1; 7 corrected, 6 excluded).
@@ -187,5 +191,9 @@ Curated gold set (n = 391).
 - **Mis-filed rows — resolved** (Problem 1.5; 11 reassigned to
   *tristeza*/*ira* via `data/derived/emonym-reassignments.tsv`, 3 `temor`
   rows excluded). *temor* is recorded as a Phase-4 emonym candidate.
+- **`círculo de` — excluded class-wide (2026-06-02)**: the cross-emonym
+  curation sweep removed the *vicious-cycle* idiom from Res Rotundae for
+  all emonyms (1 *miedo* row, `rot-miedo-ar-0006`); 391 → 390. Parallel to
+  the `nivel de` treatment.
 
 The *miedo* gold set is now final pending Phase-2 collection volume.

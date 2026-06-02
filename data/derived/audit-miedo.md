@@ -19,7 +19,9 @@ extractor change log) describe the raw extraction and remain valid.
 
 ## 1. Totals
 
-- **391** *miedo* citations in the curated gold set (510 raw).
+- **390** *miedo* citations in the curated gold set (510 raw; was 391
+  before the 2026-06-02 class-wide `círculo de` exclusion removed 1 Res
+  Rotundae row, `rot-miedo-ar-0006` — see profile §1 / §10).
 - All **21** national variants have at least one *miedo* citation.
 - **7** of 8 cryptoclasses are populated; **Res Planae** holds 1 citation
   (`llano`) once `nivel de` is excluded — effectively absent.
@@ -30,7 +32,7 @@ extractor change log) describe the raw extraction and remain valid.
 
 ## 2. Coverage matrix
 
-Curated gold set (n = 391).
+Curated gold set (n = 390).
 
 |                       | AR | BO | CL | CO | CR | CU | DO | EC | ES | GT | HN | MX | NI | PA | PE | PR | PY | SV | UY | VE | US | **Σ** |
 |---                    |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -41,8 +43,8 @@ Curated gold set (n = 391).
 | Res Longae Penetrantes| 17 |  1 |  2 |  3 |  · |  · |  1 |  · |  6 |  · |  · |  5 |  1 |  1 |  1 |  · |  1 |  · |  1 |  6 |  2 | **48** |
 | Res Parvae            |  1 |  · |  6 |  8 |  1 |  · |  1 |  · |  5 |  1 |  · |  3 |  · |  1 |  2 |  1 |  · |  · |  1 |  2 |  1 | **34** |
 | Res Planae            |  · |  · |  · |  1 |  · |  · |  · |  · |  · |  · |  · |  · |  · |  · |  · |  · |  · |  · |  · |  · |  · | **1** |
-| Res Rotundae          |  6 |  · |  4 |  5 |  · |  1 |  1 |  · |  8 |  · |  2 | 10 |  · |  · |  3 |  2 |  · |  · |  · |  1 |  3 | **46** |
-| **Σ**                 | 58 |  8 | 33 | 41 |  3 | 10 | 10 |  2 | 68 |  1 |  3 | 55 |  2 |  5 | 16 |  5 |  1 |  1 |  8 | 24 | 37 | **391** |
+| Res Rotundae          |  5 |  · |  4 |  5 |  · |  1 |  1 |  · |  8 |  · |  2 | 10 |  · |  · |  3 |  2 |  · |  · |  · |  1 |  3 | **45** |
+| **Σ**                 | 57 |  8 | 33 | 41 |  3 | 10 | 10 |  2 | 68 |  1 |  3 | 55 |  2 |  5 | 16 |  5 |  1 |  1 |  8 | 24 | 37 | **390** |
 
 ## 3. Critical-mass cells (Donina's `≥ 5` Pearson cutoff)
 
@@ -127,7 +129,7 @@ Curated gold set (n = 391). All blank-lemma rows are resolved (Problem 1):
 | Res Longae Penetrantes  |  8              |  0               |  48   |
 | Res Parvae              |  8              |  0               |  34   |
 | Res Planae              |  1              |  0               |   1   |
-| Res Rotundae            |  9              |  0               |  46   |
+| Res Rotundae            |  8              |  0               |  45   |
 
 For the history of how the raw blank rate fell from 231 → 9 (extractor
 rewrite) and then 9 → 0 (Problem-1 curation), see §9 and
@@ -290,8 +292,11 @@ Cross-emonym effect of the same changes (not just *miedo*), raw blank %:
 The targeted seed additions were chosen from *miedo* evidence; the
 detection-logic changes (compound-stem, stem-change, WB anchoring)
 help all five emonyms uniformly. *alegría* still has a high blank
-rate because its productive idioms (`saltar de`, `un brinco de`,
-`dar saltos de`, `bailar de`) aren't yet seeded.
+rate — **corrected 2026-06-02** (see `audit-alegría.md` §7.1): the cause
+is **not** the jumping idioms (`saltar/bailar de`) guessed here but an
+unseeded Liquidae verb, **`rebosar (de)`** (114 of alegría's 136 blank LIQ
+rows), plus `desbordar`, `aluvión de`, `salpicar`. All genuine Liquidae;
+seeding them is a Phase-2 action.
 
 ## 10. Phase 1 status & remaining work
 
@@ -302,6 +307,10 @@ Resolved since the original audit:
 2. **Cross-country duplicates — resolved** (§7, drop-list applied).
 3. **Blank-lemma rows — resolved** (§5; 7 corrected, 6 excluded).
 4. **Mis-filed rows — resolved** (§7b; 11 reassigned, 3 `temor` excluded).
+4b. **`círculo de` — excluded class-wide (2026-06-02).** The cross-emonym
+   curation sweep removed the *vicious-cycle* idiom from Res Rotundae for
+   all emonyms; for *miedo* this drops 1 row (`rot-miedo-ar-0006`, "círculo
+   de miedo"), 391 → 390, Res Rotundae 46 → 45. Parallel to `nivel de`.
 
 Still open:
 

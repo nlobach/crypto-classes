@@ -115,14 +115,36 @@ Residual (non-blocking, carried into Phase 2):
       `pipeline/reassignments.js`), 3 *temor* rows excluded as a distinct lexeme
       (Phase-4 candidate). *miedo* gold set **405→391**; it is now final pending
       Phase-2 volume. **All *miedo* cleanup complete.**
-- [~] Repeat the end-to-end pilot for the remaining emonyms
-      (*tristeza, amor, alegría, ira*) — **the current resume point.**
-      **Partial (commit 6437567):** a pooled cross-emonym membership profile for
-      all five exists in `data/derived/membership-matrix.md`. Still pending per
-      emonym: the individual audit + frozen gold set (the `audit-miedo.md` /
-      `gold-miedo.*` equivalents). Note: the Problem-1.5 reassignment sidecar
-      already routes the mis-filed *tristeza*/*ira* rows into those gold sets
-      when they are built.
+- [x] Repeat the end-to-end pilot for the remaining emonyms
+      (*tristeza, amor, alegría, ira*). **Done (2026-06-02).** Each of the
+      four has a frozen gold set (`gold-<emonym>.{tsv,jsonl}` +
+      `-excluded.tsv`), a coverage audit (`audit-<emonym>.md`), and an
+      aggregate profile (`profile-<emonym>.md`) — the `*-miedo` equivalents.
+      The Problem-1.5 reassignment sidecar correctly routed the mis-filed
+      rows in (9 `círculo de` → *tristeza* ROT, 2 `envuelto en` → *ira* ROT).
+      **Deeper curation sweeps then run (each audit §7 = RESOLVED):**
+      - **Wrong-lexeme sweeps — all clean** (0 synonym rows in any of the
+        four). User-confirmed: the `temor`/*miedo* pair (already excluded)
+        was the project's only synonym artefact — a leftover from an early
+        plan to analyse *temor* alongside *miedo*.
+      - **`círculo de` excluded class-wide** (the *vicious-cycle* idiom,
+        parallel to `nivel de`): tristeza Res Rotundae 12 → 1; 1 native
+        *miedo* row removed (miedo **391 → 390**); + 1 tristeza
+        `lágrimas…rodaban` row (rodar scopes the tears).
+      - ***alegría*'s 136-row Liquidae tail = a seeding gap, not
+        misclassification** — all genuine liquid uses, 114 `rebosar (de)`
+        (unseeded), *not* the *saltar/bailar* idioms earlier guessed.
+        Liquidae 67.6 % stands.
+      - **`pen-amor-mx-0006`** excluded ("mi amor clavado" = beloved person;
+        amor 1060 → 1059). **`entregar`/`traer` kept** as Res Parvae
+        classifiers (user decision); bleached-vs-live give-verbs to be
+        discussed in the writeup.
+      Final gold-set sizes: **amor 1059, alegría 737, tristeza 363, miedo
+      390, ira 99**. All five gold sets are final pending Phase-2 volume.
+      **Next resume point:** the Phase-2 corpus-choice decision (its own
+      blocker), with these gold sets as the validation baseline. The only
+      carried-forward curation items are Phase-2 *seeding* actions
+      (`rebosar`-family for Liquidae, `entregar` for Parvae) — not exclusions.
 
 ## Phase 2 — Automated corpus-sifting pipeline (kicked off, commit 1d54e6b)
 
