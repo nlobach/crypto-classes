@@ -15,6 +15,10 @@
 //     flat-surface image of Res Planae. Excluded class-wide from Res Planae
 //     (notes/cryptoclasses/_inventory-decisions.md, 2026-06-01; this script
 //     applies the deferred class-wide generalisation the decision flagged).
+//   - círculo-de exclusion: `círculo (vicioso) de` is the vicious-cycle
+//     idiom, not the round-object image of Res Rotundae. Excluded class-wide
+//     from Res Rotundae (curation sweep 2026-06-02, parallel to nivel de;
+//     wired into build_gold.js for the per-emonym gold sets).
 //
 // Verdict glyphs:
 //   ++  core member   (member AND class is in the emonym's top tier, CAC >= 15%)
@@ -22,7 +26,7 @@
 //   ~   marginal      (S_i >= 5 but single-classifier-driven, OR 2 <= S_i < 5)
 //   .   non-member    (S_i < 2)
 //
-// Usage: node pipeline/membership_matrix.js [--raw]   (--raw keeps nivel de)
+// Usage: node pipeline/membership_matrix.js [--raw]   (--raw keeps nivel de + círculo de)
 
 const fs = require('fs');
 const path = require('path');
@@ -30,7 +34,7 @@ const { loadDropIds } = require('./drop_ids');
 const { loadReassignments } = require('./reassignments');
 
 const REPO = path.resolve(__dirname, '..');
-const KEEP_NIVEL = process.argv.includes('--raw');
+const RAW = process.argv.includes('--raw');
 
 const CLASSES = ['Res Liquidae','Res Filiformes','Res Rotundae','Res Longae Penetrantes','Res Acutae','Res Parvae','Res Planae','Res Continens'];
 const ABBR = {'Res Liquidae':'LIQ','Res Filiformes':'FIL','Res Rotundae':'ROT','Res Longae Penetrantes':'PEN','Res Acutae':'ACU','Res Parvae':'PAR','Res Planae':'PLA','Res Continens':'CON'};
@@ -61,7 +65,8 @@ for (const line of lines) {
   const c = cols[iCl];
   if (!cell[e] || !cell[e][c]) continue;
   const lemma = (cols[iLm]||'').trim();
-  if (!KEEP_NIVEL && c==='Res Planae' && lemma==='nivel de') continue; // exclusion
+  if (!RAW && c==='Res Planae' && lemma==='nivel de') continue;       // measurement-collocation exclusion
+  if (!RAW && c==='Res Rotundae' && lemma==='círculo de') continue;   // vicious-cycle-idiom exclusion
   const ct = cols[iCt];
   const co = (cols[iCo]||'').trim().toUpperCase();
   const cc = cell[e][c];
@@ -96,7 +101,7 @@ function verdict(cc){
 
 const padR=(s,n)=>String(s).padEnd(n), padL=(s,n)=>String(s).padStart(n);
 
-console.log(`\n=== Cryptoclass MEMBERSHIP matrix (Spanish pooled${KEEP_NIVEL?', RAW incl. nivel de':", nivel de excluded"}) ===`);
+console.log(`\n=== Cryptoclass MEMBERSHIP matrix (Spanish pooled${RAW?', RAW incl. nivel de + círculo de':", nivel de + círculo de excluded"}) ===`);
 console.log(`Critical mass >= ${CRIT_MASS}; idiom guard at single-classifier share >= ${IDIOM_SHARE*100}%; core CAC >= ${CORE_CAC*100}%\n`);
 
 // Matrix of glyphs
