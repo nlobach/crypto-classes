@@ -62,7 +62,55 @@ as a covariate is the cheap defensive option.
 | 10 | `source_file` | filename | provenance, e.g. `RES LIQUIDAE.xlsx` |
 | 11 | `source_sheet` | sheet name | provenance, e.g. `amor` |
 | 12 | `source_locator` | `A1` cell ref or `row=15` | provenance into the legacy sheet |
-| 13 | `notes` | text, optional | anything that doesn't fit above |
+| 13 | `notes` | text, optional | anything that doesn't fit above; frequency-parsed rows carry a `freq:…` / `FLAG:…` trace |
+| 14 | `frequency` | int, default `1` | corpus occurrences this row represents. `1` for ordinary example rows (and all non-frequency-parsed classes); `N` for an authoritative count; `0` for a negative attestation or an illustrative sample. **All quantitative aggregation is `SUM(frequency)`, not `COUNT(*)`.** |
+| 15 | `freq_role` | controlled vocab | how `frequency` was derived: `example` (one quoted occurrence, weight 1) · `inline` (authoritative `<classifier> N`) · `total` (authoritative `Total: N` line) · `illustrative` (sample sentence under an explicit total, weight 0) · `absent` (construction searched, 0 hits, weight 0) |
+
+### Frequency formats (`frequency` / `freq_role`)
+
+Some legacy wide cells encode an explicit **corpus frequency** instead of (or
+alongside) pasted example sentences — the count is the productivity signal that
+membership/IDC/CAC depend on. The earlier extractor discarded these counts
+(it kept only the typed sentences), so a cell reading `traer alegría 480`
+contributed *nothing*. `pipeline/extract_wide.js` now parses them for the files
+in `FREQ_PARSE_FILES` (currently `Res Parvae.xlsx` and `Res Acutae.xlsx`; the
+remaining classes still use one-fragment-=-one-occurrence, i.e. `frequency = 1`,
+and are converted one at a time — see the rollout note below). Block-header
+detection is seed-driven (`buildHeadSet` from each column's `classifiers.tsv`
+seeds), so the parser generalises across classes without hand-listing verbs.
+A cell is segmented into classifier blocks; each block's frequency is resolved
+by precedence:
+
+| precedence | cell shape | `frequency` | `freq_role` | examples |
+|---|---|--:|---|---|
+| 1 | `…` examples `…` + `Total: N` | `N` | `total` | shown examples → `illustrative` (0) |
+| 2 | `coger miedo 199` (inline `N`) | `N` | `inline` | — |
+| 2 | `SOLTAR 0` / `coger ira 0` | `0` | `absent` | negative attestation |
+| 3 | examples only, no number | #examples | `example` (1 each) | each quoted line counts |
+| — | inline `N` **>** #examples shown | `N` | `inline` | extras → `illustrative` (0) |
+
+A leading `1` that opens a `1, 2, 3…` numbered run is **example-numbering**, not
+a frequency (resolves to precedence 3). When an authoritative `N` is present,
+the shown sentences are a *sample* (`illustrative`, weight 0) so they are never
+double-counted; when no count is given, the sentences *are* the count.
+
+**Rollout (one class at a time).** Conversion proceeds class by class so each is
+validated before the next. Done: **Res Parvae**, **Res Acutae**. A recon scan of
+the cell formats shows **Res Planae**, **Res Rotundae** and **Res Longae
+Penetrantes** carry *no* explicit counts (pure example cells) and so need no
+conversion — their `frequency = 1` is already correct. The substantive remaining
+work is **Res Liquidae** (heavy `INUNDAR 14`-style inline counts) and **Res
+Filiformes** (adds Format 4 — a trailing per-classifier summary like `TEJER 3`);
+**Res Continens** has 2 trivial count cells.
+
+**Consequence — scale mixing.** Until the count-bearing classes are all
+frequency-parsed, cross-class shares (CAC %) mix occurrence-weighted classes with
+sentence-counted ones and are *provisional*: an emonym with a large frequency
+count (e.g. *alegría*, `traer alegría` ≈ 3 200 in Res Parvae) shows an inflated
+share for that class. Per-cell verdicts (critical mass, distinct-classifier
+guard, variant spread) are valid in isolation now; the cross-class matrix settles
+once Res Liquidae and Res Filiformes are converted. See
+`data/derived/freq-audit-parvae.md`.
 
 ### Construction-type controlled vocab
 
@@ -184,13 +232,17 @@ correct row counts. Verify a load by checking `Res Continens` rows = 563.
 ## Extraction status
 
 - **All 8 cryptoclasses extracted**: `pipeline/extract_wide.js` reads the
-  wide-format xlsx files in `data/legacy-xlsx/` and writes **2,993 citation
+  wide-format xlsx files in `data/legacy-xlsx/` and writes **3,296 citation
   rows** to `citations.tsv`. Re-run the script anytime to regenerate; it
-  overwrites the file (verified 2026-06-01 to reproduce the committed file
-  byte-for-byte — the source of truth is the `legacy-xlsx/` files, so manual
-  edits must be made there, not in `citations.tsv`). Per-class row counts:
-  Res Liquidae 1,251 · Res Continens 563 · Res Filiformes 364 · Res Planae 252 ·
-  Res Longae Penetrantes 194 · Res Parvae 170 · Res Rotundae 134 · Res Acutae 65.
+  overwrites the file (the source of truth is the `legacy-xlsx/` files, so
+  manual edits must be made there, not in `citations.tsv`). Per-class row
+  counts: Res Liquidae 1,251 · Res Continens 563 · Res Parvae 468 ·
+  Res Filiformes 364 · Res Planae 252 · Res Longae Penetrantes 194 ·
+  Res Rotundae 134 · Res Acutae 70. Frequency-parsed classes (Res Parvae,
+  Res Acutae) emit authoritative-count and negative-attestation rows, so their
+  **row counts** diverge from occurrence counts — use **Σfrequency**, not row
+  count (see "Frequency formats" above). Classes not yet frequency-parsed are
+  byte-for-byte unchanged but for the two new trailing columns.
 - **Res Liquidae source**: the original long-form `RES LIQUIDAE.xlsx` is
   excluded; the cleaned wide-form counterpart `RES LIQUIDAE COR.xlsx` is the
   one extracted. The aggregate sheets inside the original (`Лист6`, `Лист7`,

@@ -33,7 +33,7 @@ Res Acutae	attributive	puntiagudo, punzante, cortante, afilado, agudo	Атриб
 Res Acutae	predicative	es punzante, es agudo	предикативные	
 Res Acutae	substantive	punta de, filo de	субстантивные	"a punta de miedo" idiom.
 Res Acutae	idiomatic	a punta de, al filo de	идиомы	Frozen prepositional idioms.
-Res Parvae	verbal-objective-grasp	tomar, coger, agarrar, asir, sujetar, traer	глагольные транзитивные (захват, удерживание)	Grasping/holding/bringing the small object. "traer el miedo" is productive in legacy data.
+Res Parvae	verbal-objective-grasp	tomar, coger, agarrar, asir, sujetar, traer, entregar	глагольные транзитивные (захват, удерживание)	Grasping/holding/bringing the small object. "traer el miedo" is productive in legacy data. `entregar` ("hand over / deliver to a recipient") is filed in column B in the source alongside `traer`; dominant for alegría (entregar alegría) and present for amor/tristeza.
 Res Parvae	verbal-objective-throw	soltar, tirar, lanzar, arrojar	глагольные транзитивные (отпускание, бросок)	Releasing/throwing.
 Res Parvae	verbal-objective-collect	captar, recoger	глагольные транзитивные (собирать)	Collecting.
 Res Parvae	substantive	puñado de, manojo de	субстантивные	

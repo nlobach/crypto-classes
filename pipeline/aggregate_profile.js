@@ -39,19 +39,22 @@ function loadCitations() {
   const tsv = fs.readFileSync(src, 'utf8');
   const lines = tsv.split(/\r?\n/).filter(Boolean);
   const h = lines.shift().split('\t');
-  const iCl=h.indexOf('cryptoclass'), iEm=h.indexOf('emonym'), iCt=h.indexOf('construction_type'), iLm=h.indexOf('classifier_lemma');
+  const iCl=h.indexOf('cryptoclass'), iEm=h.indexOf('emonym'), iCt=h.indexOf('construction_type'), iLm=h.indexOf('classifier_lemma'), iFr=h.indexOf('frequency');
   const rows = [];
   for (const line of lines) {
     const cols = line.split('\t');
     if ((cols[iEm]||'').toLowerCase() !== EMONYM) continue;
-    rows.push({ cls: cols[iCl], ct: cols[iCt], lemma: (cols[iLm]||'').trim() });
+    // frequency defaults to 1 when absent (gold files predating the column).
+    const frRaw = iFr >= 0 ? parseInt(cols[iFr], 10) : 1;
+    const f = Number.isFinite(frRaw) ? frRaw : 1;
+    rows.push({ cls: cols[iCl], ct: cols[iCt], lemma: (cols[iLm]||'').trim(), freq: f });
   }
   return rows;
 }
 
 const inv = loadInventory();
 const rows = loadCitations();
-const total = rows.length;
+const total = rows.reduce((a, r) => a + r.freq, 0);   // Σ corpus frequency
 
 // Per-class aggregates
 const S = {};            // S_i = citation count (≈ Σ c_ij)
@@ -62,11 +65,11 @@ for (const c of CLASSES) { S[c]=0; observedLemmas[c]=new Set(); byCT[c]={}; lemm
 
 for (const r of rows) {
   if (!S.hasOwnProperty(r.cls)) continue;
-  S[r.cls]++;
-  byCT[r.cls][r.ct] = (byCT[r.cls][r.ct]||0)+1;
-  if (r.lemma) {
+  S[r.cls] += r.freq;
+  byCT[r.cls][r.ct] = (byCT[r.cls][r.ct]||0) + r.freq;
+  if (r.lemma && r.freq > 0) {            // zero-freq rows = negative attestation
     observedLemmas[r.cls].add(r.lemma);
-    lemmaCounts[r.cls][r.lemma] = (lemmaCounts[r.cls][r.lemma]||0)+1;
+    lemmaCounts[r.cls][r.lemma] = (lemmaCounts[r.cls][r.lemma]||0) + r.freq;
   }
 }
 

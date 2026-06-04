@@ -49,7 +49,7 @@ const READY_VARIANTS = 6;  // variants at >=CRIT_MASS needed to call a cell per-
 const tsv = fs.readFileSync(path.join(REPO,'data','citations.tsv'),'utf8');
 const lines = tsv.split(/\r?\n/).filter(Boolean);
 const h = lines.shift().split('\t');
-const iId=h.indexOf('id'), iCl=h.indexOf('cryptoclass'), iEm=h.indexOf('emonym'), iCt=h.indexOf('construction_type'), iLm=h.indexOf('classifier_lemma'), iCo=h.indexOf('country');
+const iId=h.indexOf('id'), iCl=h.indexOf('cryptoclass'), iEm=h.indexOf('emonym'), iCt=h.indexOf('construction_type'), iLm=h.indexOf('classifier_lemma'), iCo=h.indexOf('country'), iFr=h.indexOf('frequency');
 const dropIds = loadDropIds(REPO);   // duplicate drop-list (dedupe.js)
 const reassign = loadReassignments(REPO);  // mis-filed-emonym corrections
 
@@ -69,11 +69,17 @@ for (const line of lines) {
   if (!RAW && c==='Res Rotundae' && lemma==='círculo de') continue;   // vicious-cycle-idiom exclusion
   const ct = cols[iCt];
   const co = (cols[iCo]||'').trim().toUpperCase();
+  // Weight by corpus frequency (extract_wide.js): legacy/example rows carry
+  // frequency 1, so row-counted classes are unchanged; frequency-parsed classes
+  // (Res Parvae) contribute true occurrence counts. Zero-frequency rows are
+  // negative attestations (freq_role=absent/illustrative) — they add nothing.
+  const frRaw = parseInt(cols[iFr], 10);
+  const f = Number.isFinite(frRaw) ? frRaw : 1;
   const cc = cell[e][c];
-  cc.n++; emTotal[e]++;
-  cc.byCT[ct]=(cc.byCT[ct]||0)+1;
-  if (lemma) cc.byLemma[lemma]=(cc.byLemma[lemma]||0)+1;
-  if (co) cc.byVar[co]=(cc.byVar[co]||0)+1;
+  cc.n+=f; emTotal[e]+=f;
+  cc.byCT[ct]=(cc.byCT[ct]||0)+f;
+  if (lemma && f>0) cc.byLemma[lemma]=(cc.byLemma[lemma]||0)+f;
+  if (co && f>0) cc.byVar[co]=(cc.byVar[co]||0)+f;
 }
 
 // per-cell variant coverage helpers

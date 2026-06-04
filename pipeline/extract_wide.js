@@ -246,6 +246,178 @@ function detectLemma(citation, seeds) {
   return '';
 }
 
+// ---- Frequency-aware cell parsing ------------------------------------
+// Some wide cells encode explicit corpus frequencies rather than (or in
+// addition to) pasted example sentences. See data/SCHEMA.md "Frequency
+// formats". This parser segments a cell into classifier blocks and assigns
+// each a corpus frequency, so downstream SUM(frequency) reflects construction
+// productivity instead of merely counting the example sentences that happened
+// to be typed. Gated to FREQ_PARSE_FILES; all other files keep splitCitations
+// (each fragment = one occurrence, frequency 1). Rolled out one class at a time.
+const FREQ_PARSE_FILES = new Set(['Res Parvae.xlsx', 'Res Acutae.xlsx']);
+
+function firstWordLower(s) {
+  const m = String(s || '').match(/\p{L}+/u);
+  return m ? m[0].toLowerCase() : '';
+}
+
+// Classifier-head set for a column, derived from that column's seed lemmas:
+// the first content word of each seed (e.g. `inundar`, `coger`, `puñado` from
+// `puñado de`). Function words are dropped so multi-word seeds like `a punta de`
+// don't register `a` as a head.
+const HEAD_STOP = new Set(['de','en','es','al','por','con','la','el','un','una','a','se','que']);
+function buildHeadSet(seeds) {
+  const s = new Set();
+  for (const seed of (seeds || [])) {
+    const w = (String(seed).trim().split(/\s+/)[0] || '').toLowerCase();
+    if (w.length >= 3 && !HEAD_STOP.has(w)) s.add(w);
+  }
+  // `entregar` heads grasp blocks in the legacy data; it is also a seed now, so
+  // this set picks it up automatically.
+  return s;
+}
+
+// A line opens a new classifier block only if it *looks like a heading* — not
+// merely a prose sentence that happens to start with a classifier word. The
+// first word must be a known head AND the line must be: (a) a classifier phrase
+// followed by a count ("coger miedo 199", "INUNDAR 14"); (b) an ALLCAPS label
+// ("AGARRAR AMOR", "SOLTAR"); or (c) a bare 1–2-word label ("traer amor").
+function looksLikeHeader(line, headSet) {
+  const t = String(line).trim();
+  if (!headSet.has(firstWordLower(t))) return false;
+  if (/^[\p{L}]+(?:\s+[\p{L}.]+){0,2}\s+\d/u.test(t)) return true;   // (a) count
+  if (/^[A-ZÁÉÍÓÚÑ]{3,}\b/u.test(t)) return true;                     // (b) ALLCAPS
+  if (t.split(/\s+/).length <= 2) return true;                       // (c) bare label
+  return false;
+}
+
+// A line that is a section-marker / bare classifier label rather than a real
+// occurrence: ALLCAPS with no lowercase letters ("A PUNTA DE", "APUNTAR",
+// "AL FILO DE"). These announce a group of examples; they are not citations
+// themselves and must not be counted. (Headed count lines like "INUNDAR 14"
+// are intercepted earlier by looksLikeHeader, so they never reach here.)
+function isNoiseLabel(s) {
+  const t = String(s).trim();
+  return t.length <= 30 && /\p{Lu}/u.test(t) && !/\p{Ll}/u.test(t);
+}
+
+// Strip leading numbering ("1 ", "2) ", "#3 ") and a wrapping pair of parens.
+function cleanExample(s) {
+  let t = String(s || '').trim();
+  t = t.replace(/^[#º]?\s*\d+\s*[\.\):]?\s+/, '').trim();
+  const p = t.match(/^\((.+)\)$/);
+  if (p) t = p[1].trim();
+  else t = t.replace(/^\(/, '').replace(/\)\s*$/, '').trim();  // unbalanced parens
+  return t;
+}
+
+// Resolve one classifier block to citation records:
+//   { citation, frequency, freq_role, lemma, note }
+// freq_role: inline | total | example | illustrative | absent
+function resolveBlock(head, rest, seeds, headSet, emonym) {
+  const recs = [];
+  const headWord = firstWordLower(head);
+  const fullText = [head, ...rest].join(' ');
+  // Lemma priority: a seed matched in the header, else the explicit classifier
+  // head word itself (e.g. `entregar`, a real classifier head), and only as a
+  // last resort — for headerless orphan blocks — scan the example prose.
+  // Scanning prose for a headed block mis-fires: short verb stems like `tra-`
+  // (traer) false-match words such as "trabajo".
+  const lemma = detectLemma(head, seeds)
+              || (headSet.has(headWord) ? headWord : '')
+              || detectLemma(fullText, seeds);
+  // Label for authoritative/absent rows that have no quoted sentence. When the
+  // block has no explicit classifier head (examples-first cells), fall back to
+  // the lemma detected from the example text.
+  const label = `${(headWord || lemma || '?')}${emonym ? ' ' + emonym : ''}`;
+
+  // Header shape: <head> [<emonym-word>] [number] [inline example prose]
+  const hm = head.match(/^(\p{L}+)(?:\s+(\p{L}+))?\s*(?:[–-]\s*)?(\d+)?\s*(.*)$/su);
+  const headNum = hm && hm[3] != null && hm[3] !== '' ? parseInt(hm[3], 10) : null;
+  let headInline = hm ? (hm[4] || '').trim() : '';
+  // If the "second word" the regex grabbed was prose (not the emonym) and no
+  // number followed, fold it back into the inline remainder.
+  if (hm && hm[2] && hm[2].toLowerCase() !== emonym && headNum == null) {
+    headInline = (hm[2] + ' ' + headInline).trim();
+  }
+
+  // Example lines = inline header prose + rest, MINUS any "Total: N" footer
+  // (a count line, never an example).
+  const isTotalLine = s => /^total\s*:?\s*\d+/i.test(String(s).trim());
+  const exLines = [];
+  if (headInline) exLines.push(headInline);
+  for (const r of rest) if (!isTotalLine(r)) exLines.push(r);
+  const examples = exLines.map(cleanExample).filter(s => s && !isNoiseLabel(s));
+
+  // A "Total: N" line overrides everything (authoritative corpus total).
+  const totalM = fullText.match(/\btotal\s*:?\s*(\d+)/i);
+  // A leading "1" that opens a 1,2,3 run is example-numbering, not a frequency.
+  const numIsNumbering = headNum === 1 && rest.some(r => /^\s*2\b/.test(r));
+
+  if (totalM) {
+    const N = parseInt(totalM[1], 10);
+    recs.push({ citation: label, frequency: N, freq_role: 'total', lemma, note: `freq:total ${N}` });
+    for (const ex of examples) recs.push({ citation: ex, frequency: 0, freq_role: 'illustrative', lemma, note: '' });
+    return recs;
+  }
+
+  if (headNum != null && !numIsNumbering) {
+    if (headNum === 0) {
+      recs.push({ citation: label, frequency: 0, freq_role: 'absent', lemma, note: 'freq:absent (searched, 0)' });
+      for (const ex of examples) recs.push({ citation: ex, frequency: 1, freq_role: 'example', lemma, note: 'FLAG: example under 0-label' });
+      return recs;
+    }
+    if (examples.length === 0) {
+      recs.push({ citation: label, frequency: headNum, freq_role: 'inline', lemma, note: `freq:inline ${headNum}` });
+      return recs;
+    }
+    if (headNum === examples.length) {           // exhaustive: examples ARE the count
+      for (const ex of examples) recs.push({ citation: ex, frequency: 1, freq_role: 'example', lemma, note: '' });
+      return recs;
+    }
+    if (headNum > examples.length) {             // stated total > sample shown
+      recs.push({ citation: label, frequency: headNum, freq_role: 'inline', lemma, note: `freq:inline ${headNum} (+${examples.length} illustrative)` });
+      for (const ex of examples) recs.push({ citation: ex, frequency: 0, freq_role: 'illustrative', lemma, note: '' });
+      return recs;
+    }
+    // headNum < examples.length (and not 1-numbering) — data inconsistency.
+    recs.push({ citation: label, frequency: headNum, freq_role: 'inline', lemma, note: `FLAG: stated ${headNum} < ${examples.length} examples shown` });
+    for (const ex of examples) recs.push({ citation: ex, frequency: 0, freq_role: 'illustrative', lemma, note: '' });
+    return recs;
+  }
+
+  // No usable header number (absent, or numbering) — count examples, weight 1.
+  if (examples.length === 0) {
+    recs.push({ citation: label, frequency: 0, freq_role: 'absent', lemma, note: 'freq:absent (no number, no example)' });
+    return recs;
+  }
+  for (const ex of examples) recs.push({ citation: ex, frequency: 1, freq_role: 'example', lemma, note: '' });
+  return recs;
+}
+
+function parseFreqCell(cellText, seeds, emonym) {
+  const raw = String(cellText || '');
+  if (!raw.trim() || raw.trim() === '—') return [];
+  const lines = raw.replace(/\r/g, '').split('\n').map(s => s.trim())
+                   .filter(s => s && s !== '—' && s !== '-');
+  if (!lines.length) return [];
+  const headSet = buildHeadSet(seeds);
+  const blocks = []; let cur = null;
+  for (const ln of lines) {
+    if (looksLikeHeader(ln, headSet)) { cur = { head: ln, rest: [] }; blocks.push(cur); }
+    else if (cur) { cur.rest.push(ln); }
+    else { cur = { head: '', rest: [ln] }; blocks.push(cur); }   // orphan
+  }
+  const recs = [];
+  for (const b of blocks) {
+    // Orphan blocks (examples-first cells, classifier implied by the column)
+    // go through the same resolver with an empty head, so a trailing "Total: N"
+    // is still honored and the lemma is recovered from the example text.
+    recs.push(...resolveBlock(b.head, b.rest, seeds, headSet, emonym));
+  }
+  return recs;
+}
+
 // ---- Main ------------------------------------------------------------
 
 function tsvEsc(s) {
@@ -268,7 +440,7 @@ function colLetter(n) {
 function main() {
   const seedMap = loadSeedLemmas();
   const out = [];
-  const headerRow = ['id','cryptoclass','emonym','country','construction_type','classifier_lemma','citation_es','citation_ru','disputed','source_file','source_sheet','source_locator','notes'];
+  const headerRow = ['id','cryptoclass','emonym','country','construction_type','classifier_lemma','citation_es','citation_ru','disputed','source_file','source_sheet','source_locator','notes','frequency','freq_role'];
   out.push(headerRow.join('\t'));
 
   const warnings = [];
@@ -276,6 +448,7 @@ function main() {
   const idCounters = new Map();   // class+emonym+country → int
 
   for (const { file, cryptoclass, abbrev } of FILES) {
+    const useFreq = FREQ_PARSE_FILES.has(file);
     const fpath = path.join(REFS, file);
     if (!fs.existsSync(fpath)) { warnings.push(`missing file: ${file}`); continue; }
     const wb = XLSX.readFile(fpath);
@@ -337,12 +510,22 @@ function main() {
           const colType = colTypes[c];
           if (!colType) continue;
           const cell = rows[r][c];
-          const fragments = splitCitations(cell);
-          if (!fragments.length) continue;
-
           const seeds = seedMap.get(cryptoclass + '||' + colType.construction_type) || [];
-          for (const frag of fragments) {
-            const lemma = detectLemma(frag, seeds);
+
+          // Frequency-aware files resolve explicit corpus counts; all others
+          // keep the legacy convention of one fragment = one occurrence.
+          let records;
+          if (useFreq) {
+            records = parseFreqCell(cell, seeds, emonymLower);
+          } else {
+            records = splitCitations(cell).map(frag => ({
+              citation: frag, frequency: 1, freq_role: 'example',
+              lemma: detectLemma(frag, seeds), note: '',
+            }));
+          }
+          if (!records.length) continue;
+
+          for (const rec of records) {
             const key = `${abbrev}-${emonymLower}-${cc.toLowerCase()}`;
             const n = (idCounters.get(key) || 0) + 1;
             idCounters.set(key, n);
@@ -354,14 +537,16 @@ function main() {
               emonymLower,
               cc,
               colType.construction_type,
-              lemma,
-              tsvEsc(frag),
+              rec.lemma || '',
+              tsvEsc(rec.citation),
               '',                                  // citation_ru: filled by LIQUIDAE extractor only
               colType.disputed ? 't' : 'f',
               file,
               sn,
               `${colLetter(c)}${r + 1}`,
-              '',
+              tsvEsc(rec.note || ''),
+              String(rec.frequency),
+              rec.freq_role,
             ].join('\t'));
 
             stats.rows++;
