@@ -603,23 +603,51 @@ not a productive construction but a lexicalised one. This is distinct from
 ## 5 — Language-variation terms (Donina-specific)
 
 ### Idiom (language variety)
-- **RU**: идиом
+- **RU**: идиом *(м. р.; мн. ч. идиомы, род. мн. идиомов)*
 - **EN**: idiom (in the sense of "language variety"; not the English
   "idiomatic expression")
 - **ES**: idioma *(?)* — but with caution; in Spanish, *idioma* usually
   means "language" tout court. A safer rendering is *variedad lingüística*
   or simply *variedad*.
-- **Source**: Donina 2016 p. 344 (glossary)
-- **Definition**: *Общий термин для обозначения различных языковых
-  образований (языка, диалекта, говора и т.д.); применяется для
-  нейтрализации оппозиции язык – диалект – говор* (Donina 2016: 344). A
-  cover term for any language formation — language, dialect, sub-dialect —
-  used to **neutralise** the often-contested distinction between language,
-  dialect, and sub-dialect.
-- **Notes**: Critical translation gotcha: Donina's *идиом* is not the
-  English "idiom" (frozen expression). In Spanish-language writing, prefer
-  *variedad* / *idioma* contextually, and add a footnote on first use. The
-  Spanish technical term *idioma* is unfortunately a near-false-friend.
+- **Source**: Donina 2016 p. 344 (glossary); **Пустовалова & Борискина**,
+  *Статья* (`references/Пустовалова, Борискина_Статья  corr (1).docx`) —
+  the Spanish-specific justification of the term, quoting [19].
+- **Definition**: A cover term for **any natural-language sign system**, used
+  in 20th-c. linguistics to neutralise the contested *язык – диалект – говор*
+  opposition. Donina: *Общий термин для обозначения различных языковых
+  образований (языка, диалекта, говора и т.д.); применяется для нейтрализации
+  оппозиции язык – диалект – говор* (Donina 2016: 344). Pustovalova &
+  Boriskina give the fuller functional definition: *«понятие чисто
+  функциональное и не предполагающее никаких специальных структурных
+  характеристик»* — a **discrete unit, a form of existence of a language
+  formation, corresponding to a part of the language continuum, fixed in a
+  nomination as a territorial, national, official, etc. variant of a
+  polycentric language**. They note the term unites the Voronezh school and
+  is terminologically apt in *лингвовариантология* (the typological study of
+  language variation).
+- **Spanish-continuum typology** (Pustovalova & Boriskina): the
+  hispanophone continuum is a system of *разностатусные идиомы и нормы* —
+  наднациональный стандарт (*norma panhispánica*) → национальные стандарты
+  (Spain + 19 Latin-American states) → региональные идиомы (= dialects:
+  andaluz, canario, murciano, leonés) → территориальные идиомы (e.g. Spanish
+  of Equatorial Guinea) → идиомы «национальной идентичности» (Morocco, W.
+  Sahara, Andorra, Philippines, SW-US Spanish) → creoles (Chavacano,
+  Palenquero) and hybrids.
+- **Project usage**: this project's **21 country-level units are национальные
+  идиомы** of the Spanish continuum (US Spanish is strictly an *идиом
+  национальной идентичности*, but the cover term subsumes it). In RU
+  scholarly output prefer **идиом** over «вариант» (so: *аргентинский идиом*,
+  *кубинский идиом*); derived adjectives **поидиомный / межидиомный**.
+  Applied throughout `data/derived/autoreferat-prose-ru.md`. See the related
+  narrower term [[language-variant]] (*языковой вариант* — codified national
+  standard only).
+- **Notes**: Critical translation gotcha — Donina's *идиом* (m.) is **not**
+  the English "idiom" (frozen expression), nor the Russian *идиома* (f.,
+  phraseme). The homonym matters when both senses co-occur: keep the
+  phraseological sense only inside "idiomatic collocation" and avoid
+  «застывшая идиома» (use *застывшая/идиоматизированная коллокация*). In
+  Spanish-language writing, *idioma* is a near-false-friend ("language"), so
+  render the variety sense as *variedad* and footnote on first use.
 
 ### Language variant
 - **RU**: языковой вариант
