@@ -116,7 +116,7 @@ parts.push(`<!DOCTYPE html>
 Источник: data/derived/gold-*.tsv (выверенный gold-набор) &nbsp;|&nbsp;
 основа подсчёта: <strong>Σ корпусной частоты</strong>, двухслойно — токенный слой / слой живого образа &nbsp;|&nbsp;
 критическая масса ≥ ${CRIT_MASS}; порог идиоматичности ≥ ${IDIOM_SHARE*100}%; ядерный ПоКА ≥ ${CORE_CAC*100}%; «зелёный свет» ≥ ${READY_VARIANTS} вариантов при ≥ ${CRIT_MASS}</p>
-<p style="font-size:9pt;color:#555;">Развёрнутое описание таблиц, интерпретация и примеры — в <code>data/derived/autoreferat-prose-ru.md</code>. Слой живого образа дисконтирует обеленные глаголы поддержки <em>coger/agarrar miedo</em>, <em>traer/dar/entregar alegría</em> (§ 1.3 прозы).</p>
+<p style="font-size:9pt;color:#555;">Развёрнутое описание таблиц, интерпретация и примеры — в <code>data/derived/autoreferat-prose-ru.md</code>. Слой живого образа дисконтирует десемантизированные глаголы поддержки <em>coger/agarrar miedo</em>, <em>traer/dar/entregar alegría</em> (§ 1.3 прозы).</p>
 `);
 
 // ---- Table 1: Membership matrix ----
@@ -135,10 +135,10 @@ for (const e of EMONYMS){
 parts.push('</table>');
 parts.push(`<p style="font-size:9pt;">★ = ядерный член (ПоКА ≥ 15%); + = член (S<sub>i</sub> ≥ 5, ≥ 2 классификаторов); ~ = периферийный; · = не входит.<br>
 Сокращения криптоклассов: LIQ Res&nbsp;Liquidae · FIL Res&nbsp;Filiformes · ROT Res&nbsp;Rotundae · PEN Res&nbsp;Longae&nbsp;Penetrantes · ACU Res&nbsp;Acutae · PAR Res&nbsp;Parvae · PLA Res&nbsp;Planae · CON Res&nbsp;Continens</p>`);
-parts.push(`<p style="font-size:10pt;text-align:justify;">Символ — вердикт по слою живого образа; принадлежность оценивается по четырёхуровневой шкале (★ ядерный / + член / ~ периферийный / · не входит). По живому образу испанская категоризация эмоций держится на <strong>трёх осях</strong> — <em>Res&nbsp;Liquidae</em>, <em>Res&nbsp;Continens</em> и <em>Res&nbsp;Filiformes</em> (<em>desatar</em>); кажущаяся токенная доминанта <em>Res&nbsp;Parvae</em> у <em>miedo</em> и <em>alegría</em> — артефакт обеленных глаголов поддержки (<em>coger&nbsp;miedo</em>, <em>traer&nbsp;alegría</em>) и в живом слое падает до периферии. Развёрнутая интерпретация — в <code>autoreferat-prose-ru.md</code> § 2.</p>`);
+parts.push(`<p style="font-size:10pt;text-align:justify;">Символ — вердикт по слою живого образа; принадлежность оценивается по четырёхуровневой шкале (★ ядерный / + член / ~ периферийный / · не входит). По живому образу испанская категоризация эмоций держится на <strong>трёх осях</strong> — <em>Res&nbsp;Liquidae</em>, <em>Res&nbsp;Continens</em> и <em>Res&nbsp;Filiformes</em> (<em>desatar</em>); кажущаяся токенная доминанта <em>Res&nbsp;Parvae</em> у <em>miedo</em> и <em>alegría</em> — артефакт десемантизированных глаголов поддержки (<em>coger&nbsp;miedo</em>, <em>traer&nbsp;alegría</em>) и в живом слое падает до периферии. Развёрнутая интерпретация — в <code>autoreferat-prose-ru.md</code> § 2.</p>`);
 
 // ---- Table 2: dual CAC% (token / live-imagery) ----
-parts.push(`<h3 style="font-family:Arial,sans-serif;">Таблица 2. ПоКА (%) — токенная доля / доля живого образа (после дисконтирования обеленных глаголов поддержки)</h3>`);
+parts.push(`<h3 style="font-family:Arial,sans-serif;">Таблица 2. ПоКА (%) — токенная доля / доля живого образа (после дисконтирования десемантизированных глаголов поддержки)</h3>`);
 parts.push(`<table style="${tableStyle}"><tr><th style="${hStyle}">эмоним</th>`);
 for (const c of CLASSES) parts.push(`<th style="${hStyle}">${ABBR[c]}</th>`);
 parts.push(`<th style="${hStyle}">N</th></tr>`);
@@ -157,7 +157,7 @@ for (const e of EMONYMS){
 }
 parts.push('</table>');
 parts.push(`<p style="font-size:9pt;">В каждой ячейке — <strong>токенная доля / доля живого образа</strong> (%). <strong>Полужирный</strong> + голубая заливка = ядерный класс по живому образу (≥ 15%). N — суммарная корпусная частота (токен).</p>`);
-parts.push(`<p style="font-size:10pt;text-align:justify;">Сопоставление двух долей в каждой ячейке — главный результат: где они резко расходятся (<em>miedo</em>&nbsp;PAR 52/2, <em>alegría</em>&nbsp;PAR 68/1), токенная доля держится на обеленном глаголе поддержки и в живом слое схлопывается; где совпадают (<em>amor</em>&nbsp;LIQ 45/51, <em>ira</em>&nbsp;FIL 94/95) — образ и частотен, и жив. Развёрнутый разбор по слоям и эмонимам — в <code>autoreferat-prose-ru.md</code> §§ 3, 8.</p>`);
+parts.push(`<p style="font-size:10pt;text-align:justify;">Сопоставление двух долей в каждой ячейке — главный результат: где они резко расходятся (<em>miedo</em>&nbsp;PAR 52/2, <em>alegría</em>&nbsp;PAR 68/1), токенная доля держится на десемантизированном глаголе поддержки и в живом слое схлопывается; где совпадают (<em>amor</em>&nbsp;LIQ 45/51, <em>ira</em>&nbsp;FIL 94/95) — образ и частотен, и жив. Развёрнутый разбор по слоям и эмонимам — в <code>autoreferat-prose-ru.md</code> §§ 3, 8.</p>`);
 
 // ---- Table 3: Variant coverage ----
 parts.push(`<h3 style="font-family:Arial,sans-serif;">Таблица 3. Покрытие по вариантам — представленность / критическая масса (из ${TOTAL_VARIANTS})</h3>`);
@@ -222,8 +222,8 @@ for (const g of green){
   </tr>`);
 }
 parts.push('</table>');
-parts.push(`<p style="font-size:9pt;">Критерий: член (+ / ★, по живому образу) И ≥ ${READY_VARIANTS} идиомов по отдельности с ≥ ${CRIT_MASS} употреблениями. Колонка <em>природа</em>: «мнимый» = ячейка проходит лишь за счёт обеленного глагола поддержки (живая частота &lt; ${CRIT_MASS}) и для содержательного межидиомного вывода непригодна.</p>`);
-parts.push(`<p style="font-size:10pt;text-align:justify;">Колонка «природа» расслаивает набор: ячейки <em>Res&nbsp;Parvae</em> попадают в него лишь благодаря обеленным оборотам (<em>traer&nbsp;alegría</em>, <em>coger&nbsp;miedo</em>) и помечены как мнимые; полнокровны живые жидкостные, вместилищные и нитевидные ячейки. Полный разбор с квалификацией каждой ячейки — <code>autoreferat-prose-ru.md</code> § 6. Дополнение набора (все <em>Acutae/Rotundae/Planae</em> и почти весь профиль <em>ira</em>) — список приоритетов Фазы&nbsp;2.</p>`);
+parts.push(`<p style="font-size:9pt;">Критерий: член (+ / ★, по живому образу) И ≥ ${READY_VARIANTS} идиомов по отдельности с ≥ ${CRIT_MASS} употреблениями. Колонка <em>природа</em>: «мнимый» = ячейка проходит лишь за счёт десемантизированного глагола поддержки (живая частота &lt; ${CRIT_MASS}) и для содержательного межидиомного вывода непригодна.</p>`);
+parts.push(`<p style="font-size:10pt;text-align:justify;">Колонка «природа» расслаивает набор: ячейки <em>Res&nbsp;Parvae</em> попадают в него лишь благодаря десемантизированным оборотам (<em>traer&nbsp;alegría</em>, <em>coger&nbsp;miedo</em>) и помечены как мнимые; полнокровны живые жидкостные, вместилищные и нитевидные ячейки. Полный разбор с квалификацией каждой ячейки — <code>autoreferat-prose-ru.md</code> § 6. Дополнение набора (все <em>Acutae/Rotundae/Planae</em> и почти весь профиль <em>ira</em>) — список приоритетов Фазы&nbsp;2.</p>`);
 
 // ---- Table 5: Construction-type productivity per emonym ----
 const CT_RU = {
