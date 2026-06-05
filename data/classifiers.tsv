@@ -9,7 +9,7 @@ Res Filiformes	verbal-objective	desatar, entrelazar, tejer, retorcer, hilvanar, 
 Res Filiformes	verbal-subject-intransitive	desatarse, tejerse, enrollarse, entrelazarse	Субъектные интранзитивные	Thread does itself. "Se entrelazan miedos y obsesiones" is the productive form in legacy data.
 Res Filiformes	verbal-subject-transitive	tensar, amarrar, atar, desatar, enhebrar	Субъектные транзитивные	Thread ties/binds something.
 Res Filiformes	verbal-instrumental	atado con, tejido con, pender de	Инструментальные	
-Res Filiformes	attributive	tenso, tejido, atado, entrelazado, retorcido	Атрибутивные	Lat. tensus. `retorcido` is the past-participle attributive of `retorcer` (in verbal-objective).
+Res Filiformes	attributive	tenso, tejido, atado, entrelazado, retorcido, desatado	Атрибутивные	Lat. tensus. `retorcido` is the past-participle attributive of `retorcer` (in verbal-objective). `desatado` ("la ira desatada") added 2026-06 — the attributive participle of `desatar`; previously fell back to lemma `desatar`.
 Res Filiformes	substantive	hilo de, madeja de, carrete de, ovillo de	Субстантивные	
 Res Rotundae	verbal-objective	rodar, envolver	Глагольные объектные классификаторы	rodar la pelota, envolver un plato.
 Res Rotundae	verbal-subject-intransitive	girar en torno a, girar alrededor de, girar, rodar, envolver	Субъектные интранзитивные	Emonym revolves. Compound forms listed first so the detector picks the prepositional form when it is present. `envolver` reflects the legacy source's tagging of "el miedo envuelve a X" as intransitive (the emonym as enveloping agent), even though syntactically transitive — preserve source intent.

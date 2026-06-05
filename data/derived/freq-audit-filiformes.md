@@ -18,7 +18,7 @@ occurrence, weight 1) · `illustrative` (sample under an explicit count, weight
 | miedo | **199** | 57 | 0 |
 | tristeza | **38** | 42 | 0 |
 | amor | **210** | 261 | 0 |
-| alegría | **1203** | 152 | 0 |
+| alegría | **1202** | 144 | 0 |
 | ira | **1565** | 50 | 0 |
 
 Distribution of `freq_role` across all Res Filiformes rows:
@@ -27,16 +27,16 @@ Distribution of `freq_role` across all Res Filiformes rows:
 |---|--:|---|
 | inline | 142 | authoritative count from `<classifier> N` |
 | total | 46 | authoritative count from a `Total: N` line |
-| example | 147 | one quoted occurrence (weight 1) |
-| illustrative | 227 | sample sentence under an explicit total (weight 0) |
+| example | 146 | one quoted occurrence (weight 1) |
+| illustrative | 220 | sample sentence under an explicit total (weight 0) |
 
 ## Weighted classifier breakdown per emonym (Σfreq, freq>0)
 
 - **miedo** (Σ=199; lead desatar 72%): desatar 144, desatarse 40, atar 8, tejer 2, entrelazarse 2, amarrar 1, tejerse 1, ovillo de 1
-- **tristeza** (Σ=38; lead desatar 63%): desatar 24, desatarse 5, hilo 3, hilo de 2, enrollarse 1, entrelazar 1, tejerse 1, enhebrar 1
+- **tristeza** (Σ=38; lead desatar 61%): desatar 23, desatarse 5, hilo 3, hilo de 2, enrollarse 1, entrelazar 1, tejerse 1, enhebrar 1, desatado 1
 - **amor** (Σ=210; lead desatar 30%): desatar 62, tejer 29, hilo 28, desatarse 21, entrelazar 20, tejerse 14, atado con 7, entrelazarse 7, amarrar 6, hilvanar 5, atar 4, entrelazado 3, pender de 1, tejido 1, hilo de 1, retorcer 1
-- **alegría** (Σ=1203; lead desatar 95%): desatar 1137, desatarse 52, tenso 3, hilo 3, entrelazar 2, (blank) 2, tejer 1, hilo de 1, amarrar 1, retorcer 1
-- **ira** (Σ=1565; lead desatar 97%): desatar 1513, desatarse 51, (blank) 1
+- **alegría** (Σ=1202; lead desatar 92%): desatar 1111, desatarse 52, desatado 25, tenso 3, hilo 3, entrelazar 2, (blank) 2, tejer 1, hilo de 1, amarrar 1, retorcer 1
+- **ira** (Σ=1565; lead desatar 95%): desatar 1491, desatarse 51, desatado 22, (blank) 1
 
 > The lead-classifier share drives the membership verdict: a lead share ≥ 90 %
 > trips the idiom guard (marginal `~`) — the emonym attaches to the class
@@ -219,7 +219,7 @@ cell at the given locator.
 **MX** (Σ=4)
 
 - `   1` example      desatar      [B13] el nivel bajó considerablemente de una semana a otra, y desató así la tristeza e
-- `   1` example      desatar      [F13] Fue tal la desazón y la tristeza justamente desatada ante la posible desaparició
+- `   1` example      desatado     [F13] Fue tal la desazón y la tristeza justamente desatada ante la posible desaparició
 - `   1` example      hilo de      [G13] cabeza era un nido de confusiones, un tobogán de felicidad entrelazada con trist
 - `   1` example      hilo de      [G13] el' luto' de la alcaldesa refleja una serie de desastres y tristezas hilvanadas 
 
@@ -568,11 +568,10 @@ cell at the given locator.
 - `   ·` illustrative desatar      [B2] Ojalá que Messi desate una gran alegría para los argentinos.
 - `   ·` illustrative desatar      [B2] Familias enteras desatan su alegría a puro grito y charla
 - `  18` total        desatarse    [C2] desatar alegría
-- `   ·` illustrative desatarse    [C2] 18
 - `   ·` illustrative desatarse    [C2] en la última fecha se desató la alegría en el fútbol
 - `   ·` illustrative desatarse    [C2] El sufrimiento de estar afuera hizo que se desate la alegría
-- `   1` example      desatar      [F2] 1se sacó anoche este plantel, por eso la alegría desatada a el final de la noche
-- `   1` example      desatar      [F2] tras la clasificación y la alegría desatada entre los rosarinos
+- `   1` example      desatado     [F2] 1se sacó anoche este plantel, por eso la alegría desatada a el final de la noche
+- `   1` example      desatado     [F2] tras la clasificación y la alegría desatada entre los rosarinos
 - `   1` total        tenso        [F2] tensa alegría
 - `   ·` illustrative tenso        [F2] de música, de sensualidad y de alegría tensa, traída desde la raíz profunda de l
 
@@ -585,7 +584,7 @@ cell at the given locator.
 - `   ·` illustrative desatar      [B3] los brasileños desataron toda su alegría por la conquista
 - `   1` total        desatarse    [C3] desatarse alegría
 - `   ·` illustrative desatarse    [C3] la alegría se desata en el campo de juego
-- `   1` example      desatar      [F3] ayer revivió su éxito a el ver la alegría desatada por el triunfo de su compatri
+- `   1` example      desatado     [F3] ayer revivió su éxito a el ver la alegría desatada por el triunfo de su compatri
 - `   1` total        tenso        [F3] tensa alegría
 - `   ·` illustrative tenso        [F3] es heredera de la alegría tensa de los bodegones gitanos
 - `   1` example      hilo         [G3] episodios de una historia que se tejen con hilos de gracia, alegría y emoció
@@ -600,8 +599,8 @@ cell at the given locator.
 - `   ·` illustrative entrelazar   [B4] Un destello que entrelaza la alegría y la nostalgia
 - `   1` total        desatarse    [C4] desatarse alegría
 - `   ·` illustrative desatarse    [C4] Minuto 18 de partido y se desataba la alegría de la Roja.
-- `   6` total        desatar      [F4] desatar alegría
-- `   ·` illustrative desatar      [F4] La alegría desatada por los " citizens " no gustó para nada
+- `   6` total        desatado     [F4] desatado alegría
+- `   ·` illustrative desatado     [F4] La alegría desatada por los " citizens " no gustó para nada
 - `   1` total        tenso        [F4] tensa alegría
 - `   ·` illustrative tenso        [F4] en el dramatismo, en la intimidad y en una tensa alegría.
 
@@ -616,8 +615,8 @@ cell at the given locator.
 - `   2` total        desatarse    [C5] desatar alegría
 - `   ·` illustrative desatarse    [C5] entre los madridistas se desató la alegría
 - `   ·` illustrative desatarse    [C5] Tras esa primera anotación se desató una gran alegría,
-- `   2` total        desatar      [F5] desatar alegría
-- `   ·` illustrative desatar      [F5] se concilian los rigores de la música rusa y la alegría latina desatada
+- `   2` total        desatado     [F5] desatado alegría
+- `   ·` illustrative desatado     [F5] se concilian los rigores de la música rusa y la alegría latina desatada
 - `   1` example      hilo de      [G5] hilvanar esa madeja de alegrías cantada
 - `   1` example      hilo         [G5] Has dejado hilos de tristeza, alegrías, sueños y esperanzas esparcidas entre las
 
@@ -638,7 +637,7 @@ cell at the given locator.
 - `   ·` illustrative entrelazar   [B7] múltiples actividades donde se entrelazan la alegría, el júbilo y el compromiso 
 - `   1` total        desatarse    [C7] desatar alegría
 - `   ·` illustrative desatarse    [C7] luego se desató la alegría a base de las más de diez manifestaciones artísticas
-- `   1` example      desatar      [F7] mostrar una alegría desatada en la victoria
+- `   1` example      desatado     [F7] mostrar una alegría desatada en la victoria
 
 **DO** (Σ=6)
 
@@ -652,8 +651,6 @@ cell at the given locator.
 
 - `  27` total        desatar      [B9] desatar alegría
 - `   ·` illustrative desatar      [B9] el' 10' argentino desató su alegría por el' milagro' alcanzado
-- `   ·` illustrative desatar      [B9] 17
-- `   ·` illustrative desatar      [B9] 18
 - `   ·` illustrative desatar      [B9] remontar el marcador a los 84 minutos y así desatar la alegría entre los locales
 - `   ·` illustrative desatar      [B9] la banda de pueblo que desata la alegría..
 - `   4` total        desatarse    [C9] desatar alegría
@@ -663,7 +660,7 @@ cell at the given locator.
 - `   ·` illustrative desatarse    [C9] Cuando el árbitro argentino Pitana indicó el final de el encuentro, se desató la
 - `   1` total        —            [E9] ? alegría
 - `   ·` illustrative —            [E9] demuestran la " fuerza " del pueblo ecuatoriano, que tira de " alegría " para af
-- `   1` example      desatar      [F9] se hace eco de la alegría desatada en Kenia por la proeza
+- `   1` example      desatado     [F9] se hace eco de la alegría desatada en Kenia por la proeza
 
 **ES** (Σ=67)
 
@@ -678,8 +675,8 @@ cell at the given locator.
 - `   ·` illustrative desatarse    [C10] El número afortunado se desataba la alegría entre el público asistente
 - `   1` total        —            [E10] ? alegría
 - `   ·` illustrative —            [E10] así que la presentadora ha tirado de la alegría que le caracteriza para combatir
-- `   1` example      desatar      [F10] la alegría desatada da paso a el miedo, la intranquilidad y la zozobra
-- `   1` example      desatar      [F10] abordar la alegría desatada desde todos los ángulos posibles
+- `   1` example      desatado     [F10] la alegría desatada da paso a el miedo, la intranquilidad y la zozobra
+- `   1` example      desatado     [F10] abordar la alegría desatada desde todos los ángulos posibles
 - `   1` example      hilo         [G10] gran cantidad de gente " contagiada por el sólido hilo de la alegría.
 
 **GT** (Σ=7)
@@ -691,7 +688,6 @@ cell at the given locator.
 
 - `  11` total        desatar      [B12] desatar alegría
 - `   ·` illustrative desatar      [B12] Al llegar las 12: 00 la medianoche, se desató la alegría en los hogares
-- `   ·` illustrative desatar      [B12] 8
 - `   ·` illustrative desatar      [B12] desatar la alegría de el público angelino
 
 **MX** (Σ=235)
@@ -700,31 +696,28 @@ cell at the given locator.
 - `   ·` illustrative desatar      [B13] desató la alegría en las gradas.
 - `   ·` illustrative desatar      [B13] penalti en el minuto 86 que desató la alegría nigeriana en el hote
 - `   ·` illustrative desatar      [B13] hecho que desató la alegría entre los integrantes de el club
-- `   ·` illustrative desatar      [B13] 4-11
 - `   ·` illustrative desatar      [B13] volvió a desatar la alegría de Maradona
-- `   1` example      desatar      [F13] la alegría desatada luego de que Perú consiguiera sellar su boleto a Rusia 2018
+- `   1` example      desatado     [F13] la alegría desatada luego de que Perú consiguiera sellar su boleto a Rusia 2018
 
 **NI** (Σ=6)
 
 - `   5` total        desatar      [B14] desatar alegría
 - `   ·` illustrative desatar      [B14] Cuando llegó a el pedestal se desató la alegría.
-- `   1` example      desatar      [F14] Con la alegría desatada por la liberación de los manifestantes presos,
+- `   1` example      desatado     [F14] Con la alegría desatada por la liberación de los manifestantes presos,
 
 **PA** (Σ=7)
 
 - `   6` total        desatar      [B15] desatar alegría
 - `   ·` illustrative desatar      [B15] hizo el trabajo con potente trallazo que desató la alegría de el escaso público
-- `   ·` illustrative desatar      [B15] 3
-- `   1` example      desatar      [F15] provocó escenas de alegría desatada en la capital
+- `   1` example      desatado     [F15] provocó escenas de alegría desatada en la capital
 
 **PE** (Σ=171)
 
 - ` 158` total        desatar      [B16] desatar alegría
-- `   ·` illustrative desatar      [B16] 74
 - `   ·` illustrative desatar      [B16] Fernando Pacheco (52') se encargó de desatar la alegría peruana
 - `  12` total        desatarse    [C16] desatar alegría
 - `   ·` illustrative desatarse    [C16] n Pueblo Nuevo de Colán se desata la alegría en los meses de febrero y marzo
-- `   1` example      desatar      [F16] La alegría desatada por los estruendosos aficionados'
+- `   1` example      desatado     [F16] La alegría desatada por los estruendosos aficionados'
 
 **PR** (Σ=3)
 
@@ -733,7 +726,7 @@ cell at the given locator.
 - `   ·` illustrative desatar      [B17] lanzaron el cohete desde el balcón de el ayuntamiento a mediodía, desatando la a
 - `   1` total        desatarse    [C17] desatarse alegría
 - `   ·` illustrative desatarse    [C17] mientras la alegría continúa desatándose un rato más
-- `   1` example      desatar      [F17] La magnitud de la alegría desatada
+- `   1` example      desatado     [F17] La magnitud de la alegría desatada
 
 **PY** (Σ=47)
 
@@ -747,15 +740,15 @@ cell at the given locator.
 - `   ·` illustrative desatar      [B19] terminó en el fondo de una portería, lo que desató la alegría de sus compañero
 - `   1` total        desatarse    [C19] desatarse alegría
 - `   ·` illustrative desatarse    [C19] Pitana indicó el final del encuentro y se desató la alegría francesa
-- `   1` example      desatar      [F19] La alegría desatada por los estruendosos aficionados
+- `   1` example      desatado     [F19] La alegría desatada por los estruendosos aficionados
 
 **UY** (Σ=15)
 
 - `  13` total        desatar      [B20] desatar alegría
 - `   ·` illustrative desatar      [B20] Tabú volvió a ganar y eso desató una alegría generalizada y un largo festejo
 - `   ·` illustrative desatar      [B20] s el lugar elegido para desatar la alegría por el triunfo de la selección urugua
-- `   1` example      desatar      [F20] unes su día nacional alargando la alegría
-- `   1` example      desatar      [F20] desatada el domingo a el ganar su selección la primera edición
+- `   1` example      desatado     [F20] unes su día nacional alargando la alegría
+- `   1` example      desatado     [F20] desatada el domingo a el ganar su selección la primera edición
 
 **VE** (Σ=18)
 
@@ -763,17 +756,16 @@ cell at the given locator.
 - `   ·` illustrative desatar      [B21] El pitazo final desató la alegría en la banca nacional liderada por un Pizzi
 - `   1` total        retorcer     [B21] retorcer alegría
 - `   ·` illustrative retorcer     [B21] Se retuercen alegría con la caída de el precio de el petróleo y el alza psicopát
-- `   1` example      desatar      [F21] La alegría desatada por los grandes medios 2) a el servicio de las trasnacionale
+- `   1` example      desatado     [F21] La alegría desatada por los grandes medios 2) a el servicio de las trasnacionale
 
-**US** (Σ=22)
+**US** (Σ=21)
 
 - `  18` total        desatar      [B22] desatar alegría
 - `   ·` illustrative desatar      [B22] desatando la alegría de las miles de personas que atestaban la plaza
 - `   2` total        desatarse    [C22] desatarse alegría
 - `   ·` illustrative desatarse    [C22] la alegría que se desataba cuando llovía
 - `   ·` illustrative desatarse    [C22] desatándose la alegría final en la cancha y la tribuna
-- `   1` example      desatar      [F22] alargando la alegría desatada el domingo tras ganar
-- `   1` example      desatar      [F22] 3
+- `   1` example      desatado     [F22] alargando la alegría desatada el domingo tras ganar
 
 ### ira
 
@@ -781,7 +773,7 @@ cell at the given locator.
 
 - ` 183` inline       desatar      [B2] desatar ira
 - `   7` inline       desatarse    [C2] desatar ira
-- `   2` inline       desatar      [F2] desatada ira
+- `   2` inline       desatado     [F2] desatada ira
 
 **BO** (Σ=23)
 
@@ -796,7 +788,7 @@ cell at the given locator.
 
 - ` 118` inline       desatar      [B5] desatar ira
 - `   2` inline       desatarse    [C5] desatar ira
-- `   3` inline       desatar      [F5] desatada ira
+- `   3` inline       desatado     [F5] desatada ira
 
 **CR** (Σ=27)
 
@@ -806,13 +798,13 @@ cell at the given locator.
 **CU** (Σ=20)
 
 - `  17` inline       desatar      [B7] desatar ira
-- `   3` inline       desatar      [F7] desatada ira
+- `   3` inline       desatado     [F7] desatada ira
 
 **DO** (Σ=169)
 
 - ` 165` inline       desatar      [B8] desatar ira
 - `   2` inline       desatarse    [C8] desatar ira
-- `   2` inline       desatar      [F8] desatada ira
+- `   2` inline       desatado     [F8] desatada ira
 
 **EC** (Σ=18)
 
@@ -823,7 +815,7 @@ cell at the given locator.
 
 - ` 181` inline       desatar      [B10] desatar ira
 - `  11` inline       desatarse    [C10] desatar ira
-- `   5` inline       desatar      [F10] desatada ira
+- `   5` inline       desatado     [F10] desatada ira
 
 **GT** (Σ=7)
 
@@ -839,7 +831,7 @@ cell at the given locator.
 - ` 157` inline       desatar      [B13] desatar ira
 - `   2` inline       desatarse    [C13] desatar ira
 - `   ·` illustrative desatarse    [C13] La ira y el miedo se entrelazan hoy en amplios sectores de una sociedad mexicana
-- `   2` inline       desatar      [F13] desatada ira
+- `   2` inline       desatado     [F13] desatada ira
 
 **NI** (Σ=7)
 
@@ -855,13 +847,13 @@ cell at the given locator.
 
 - ` 227` inline       desatar      [B16] desatar ira
 - `   2` inline       desatarse    [C16] desatar ira
-- `   2` inline       desatar      [F16] desatada ira
+- `   2` inline       desatado     [F16] desatada ira
 
 **PR** (Σ=9)
 
 - `   7` inline       desatar      [B17] desatar ira
 - `   1` inline       desatarse    [C17] desatar ira
-- `   1` inline       desatar      [F17] desatada ira
+- `   1` inline       desatado     [F17] desatada ira
 
 **PY** (Σ=21)
 
@@ -881,12 +873,12 @@ cell at the given locator.
 
 - `  27` inline       desatar      [B21] desatar ira
 - `   6` inline       desatarse    [C21] desatar ira
-- `   1` inline       desatar      [F21] desatada ira
+- `   1` inline       desatado     [F21] desatada ira
 
 **US** (Σ=82)
 
 - `  78` inline       desatar      [B22] desatar ira
 - `   2` inline       desatarse    [C22] desatar ira
 - `   1` example      —            [D22] la ira divina pende sobre nosotros a menos y hasta que sea quitada
-- `   1` inline       desatar      [F22] desatada ira
+- `   1` inline       desatado     [F22] desatada ira
 
