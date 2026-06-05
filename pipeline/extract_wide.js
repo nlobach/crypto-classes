@@ -254,7 +254,7 @@ function detectLemma(citation, seeds) {
 // productivity instead of merely counting the example sentences that happened
 // to be typed. Gated to FREQ_PARSE_FILES; all other files keep splitCitations
 // (each fragment = one occurrence, frequency 1). Rolled out one class at a time.
-const FREQ_PARSE_FILES = new Set(['Res Parvae.xlsx', 'Res Acutae.xlsx']);
+const FREQ_PARSE_FILES = new Set(['Res Parvae.xlsx', 'Res Acutae.xlsx', 'RES LIQUIDAE COR.xlsx']);
 
 function firstWordLower(s) {
   const m = String(s || '').match(/\p{L}+/u);
@@ -314,18 +314,21 @@ function cleanExample(s) {
 // Resolve one classifier block to citation records:
 //   { citation, frequency, freq_role, lemma, note }
 // freq_role: inline | total | example | illustrative | absent
-function resolveBlock(head, rest, seeds, headSet, emonym) {
+function resolveBlock(head, rest, seeds, classSeeds, headSet, emonym) {
   const recs = [];
   const headWord = firstWordLower(head);
   const fullText = [head, ...rest].join(' ');
-  // Lemma priority: a seed matched in the header, else the explicit classifier
-  // head word itself (e.g. `entregar`, a real classifier head), and only as a
-  // last resort — for headerless orphan blocks — scan the example prose.
-  // Scanning prose for a headed block mis-fires: short verb stems like `tra-`
-  // (traer) false-match words such as "trabajo".
+  // Lemma priority: a seed matched in the header (column seeds first, then the
+  // class-wide inventory for classifiers the compiler filed under another
+  // column — e.g. REBOSAR inside the Liquidae instrumental column), else the
+  // explicit classifier head word, and only as a last resort — for headerless
+  // orphan blocks — scan the example prose (which can mis-fire: short verb stems
+  // like `tra-` (traer) false-match words such as "trabajo").
   const lemma = detectLemma(head, seeds)
               || (headSet.has(headWord) ? headWord : '')
-              || detectLemma(fullText, seeds);
+              || detectLemma(fullText, seeds)
+              || detectLemma(head, classSeeds)
+              || detectLemma(fullText, classSeeds);
   // Label for authoritative/absent rows that have no quoted sentence. When the
   // block has no explicit classifier head (examples-first cells), fall back to
   // the lemma detected from the example text.
@@ -395,25 +398,70 @@ function resolveBlock(head, rest, seeds, headSet, emonym) {
   return recs;
 }
 
-function parseFreqCell(cellText, seeds, emonym) {
+// Does a header line carry an explicit count, and does it have inline example
+// prose after that count? (Used to detect a "pure summary" label — number, no
+// inline example — which may summarize the examples that *precede* it.)
+function headHasNum(head) {
+  const hm = String(head).match(/^(\p{L}+)(?:\s+(\p{L}+))?\s*(?:[–-]\s*)?(\d+)?\s*(.*)$/su);
+  return hm && hm[3] != null && hm[3] !== '';
+}
+function headHasInline(head) {
+  const hm = String(head).match(/^(\p{L}+)(?:\s+(\p{L}+))?\s*(?:[–-]\s*)?(\d+)?\s*(.*)$/su);
+  if (!hm) return false;
+  if (hm[3] != null && hm[3] !== '') return (hm[4] || '').trim().length > 0;  // prose after the count
+  return false;
+}
+
+function parseFreqCell(cellText, seeds, classSeeds, emonym) {
   const raw = String(cellText || '');
   if (!raw.trim() || raw.trim() === '—') return [];
   const lines = raw.replace(/\r/g, '').split('\n').map(s => s.trim())
                    .filter(s => s && s !== '—' && s !== '-');
   if (!lines.length) return [];
-  const headSet = buildHeadSet(seeds);
-  const blocks = []; let cur = null;
-  for (const ln of lines) {
-    if (looksLikeHeader(ln, headSet)) { cur = { head: ln, rest: [] }; blocks.push(cur); }
-    else if (cur) { cur.rest.push(ln); }
-    else { cur = { head: '', rest: [ln] }; blocks.push(cur); }   // orphan
+  // Head detection uses the class-wide seed inventory so a classifier filed in
+  // the "wrong" column is still recognised as a heading.
+  const headSet = buildHeadSet(classSeeds && classSeeds.length ? classSeeds : seeds);
+
+  // Tag each line as a heading or an example.
+  const items = lines.map(ln => looksLikeHeader(ln, headSet)
+    ? { type: 'label', head: ln } : { type: 'ex', line: ln });
+
+  // Build blocks, attaching each label's example lines. Examples after a label
+  // belong to it (count-first, Format 2). Examples *before* a label belong to it
+  // only when it is a "pure summary" — has a count, no inline example, and no
+  // following examples (Format 4: examples then `DERRAMAR 5`); otherwise those
+  // leading examples are an orphan block (classifier implied by the column).
+  const blocks = [];
+  let i = 0, pending = [];
+  while (i < items.length) {
+    if (items[i].type === 'ex') { pending.push(items[i].line); i++; continue; }
+    const head = items[i].head; i++;
+    const after = [];
+    while (i < items.length && items[i].type === 'ex') { after.push(items[i].line); i++; }
+    // Format 4 (examples then `DERRAMAR 5`) only when the label is a pure summary
+    // AND the preceding examples are the *same* classifier — otherwise the
+    // examples belong to the column's implied classifier (e.g. coger examples
+    // before an `agarrar miedo 2` label are not agarrar's).
+    const isSummary = headHasNum(head) && !headHasInline(head) && after.length === 0;
+    const labelLemma = detectLemma(head, classSeeds) || (headSet.has(firstWordLower(head)) ? firstWordLower(head) : '');
+    // The preceding examples belong to this summary only if the label's OWN
+    // classifier actually occurs in them. Test just that one lemma — testing the
+    // whole inventory lets a short stem of another seed (e.g. manar's `man-`)
+    // false-match a word like "manos" and wrongly reject the claim → double count.
+    const pendMatches = pending.length && labelLemma && detectLemma(pending.join(' '), [labelLemma]);
+    if (pending.length && isSummary && pendMatches) {
+      blocks.push({ head, rest: pending });   // Format 4: claim preceding examples
+      pending = [];
+    } else {
+      if (pending.length) { blocks.push({ head: '', rest: pending }); pending = []; }
+      blocks.push({ head, rest: after });
+    }
   }
+  if (pending.length) blocks.push({ head: '', rest: pending });
+
   const recs = [];
   for (const b of blocks) {
-    // Orphan blocks (examples-first cells, classifier implied by the column)
-    // go through the same resolver with an empty head, so a trailing "Total: N"
-    // is still honored and the lemma is recovered from the example text.
-    recs.push(...resolveBlock(b.head, b.rest, seeds, headSet, emonym));
+    recs.push(...resolveBlock(b.head, b.rest, seeds, classSeeds, headSet, emonym));
   }
   return recs;
 }
@@ -439,6 +487,14 @@ function colLetter(n) {
 
 function main() {
   const seedMap = loadSeedLemmas();
+  // Class-wide seed inventory (union across all construction types), used by the
+  // frequency parser to recognise classifiers filed under another column.
+  const classSeedMap = new Map();
+  for (const [k, v] of seedMap) {
+    const cls = k.split('||')[0];
+    if (!classSeedMap.has(cls)) classSeedMap.set(cls, []);
+    classSeedMap.get(cls).push(...v);
+  }
   const out = [];
   const headerRow = ['id','cryptoclass','emonym','country','construction_type','classifier_lemma','citation_es','citation_ru','disputed','source_file','source_sheet','source_locator','notes','frequency','freq_role'];
   out.push(headerRow.join('\t'));
@@ -516,7 +572,7 @@ function main() {
           // keep the legacy convention of one fragment = one occurrence.
           let records;
           if (useFreq) {
-            records = parseFreqCell(cell, seeds, emonymLower);
+            records = parseFreqCell(cell, seeds, classSeedMap.get(cryptoclass) || [], emonymLower);
           } else {
             records = splitCitations(cell).map(frag => ({
               citation: frag, frequency: 1, freq_role: 'example',
