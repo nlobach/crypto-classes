@@ -254,7 +254,7 @@ function detectLemma(citation, seeds) {
 // productivity instead of merely counting the example sentences that happened
 // to be typed. Gated to FREQ_PARSE_FILES; all other files keep splitCitations
 // (each fragment = one occurrence, frequency 1). Rolled out one class at a time.
-const FREQ_PARSE_FILES = new Set(['Res Parvae.xlsx', 'Res Acutae.xlsx', 'RES LIQUIDAE COR.xlsx']);
+const FREQ_PARSE_FILES = new Set(['Res Parvae.xlsx', 'Res Acutae.xlsx', 'RES LIQUIDAE COR.xlsx', 'Res Filiformes.xlsx']);
 
 function firstWordLower(s) {
   const m = String(s || '').match(/\p{L}+/u);
@@ -277,14 +277,32 @@ function buildHeadSet(seeds) {
   return s;
 }
 
+// Seed-head *stems*, so an inflected surface label (`ENROLLAR` for the seed
+// `enrollarse`, `TENSA` for `tensar`) is still recognised as a classifier
+// heading. Combined with the label-shape rules in looksLikeHeader, the broader
+// match cannot promote a prose sentence to a heading.
+function buildHeadStems(seeds) {
+  const out = new Set();
+  for (const seed of (seeds || [])) {
+    const w = (String(seed).trim().split(/\s+/)[0] || '').toLowerCase();
+    if (w.length < 3 || HEAD_STOP.has(w)) continue;
+    out.add(w);
+    for (const st of generateStems(w)) if (st.length >= 3 && !HEAD_STOP.has(st)) out.add(st);
+  }
+  return [...out];
+}
+function headWordMatches(word, headStems) {
+  return !!word && headStems.some(st => word === st || word.startsWith(st));
+}
+
 // A line opens a new classifier block only if it *looks like a heading* — not
 // merely a prose sentence that happens to start with a classifier word. The
 // first word must be a known head AND the line must be: (a) a classifier phrase
 // followed by a count ("coger miedo 199", "INUNDAR 14"); (b) an ALLCAPS label
 // ("AGARRAR AMOR", "SOLTAR"); or (c) a bare 1–2-word label ("traer amor").
-function looksLikeHeader(line, headSet) {
+function looksLikeHeader(line, headStems) {
   const t = String(line).trim();
-  if (!headSet.has(firstWordLower(t))) return false;
+  if (!headWordMatches(firstWordLower(t), headStems)) return false;
   if (/^[\p{L}]+(?:\s+[\p{L}.]+){0,2}\s+\d/u.test(t)) return true;   // (a) count
   if (/^[A-ZÁÉÍÓÚÑ]{3,}\b/u.test(t)) return true;                     // (b) ALLCAPS
   if (t.split(/\s+/).length <= 2) return true;                       // (c) bare label
@@ -412,6 +430,38 @@ function headHasInline(head) {
   return false;
 }
 
+// Format 4 (multi-label): examples followed by a *run* of summary labels
+//   [examples…] DESATAR 10 / ENTRELAZAR 3   (each count = #examples of that
+// classifier above; counts sum to the example total). The labels carry the
+// authoritative per-classifier counts; the preceding examples are kept as
+// illustrative (weight 0), attributed to whichever run-classifier occurs in them
+// so they are never double-counted.
+function resolveSummaryRun(runHeads, examples, seeds, classSeeds, headSet, emonym) {
+  const recs = [];
+  const labels = runHeads.map(h => {
+    const hm = h.match(/^(\p{L}+)(?:\s+(\p{L}+))?\s*(?:[–-]\s*)?(\d+)?\s*(.*)$/su);
+    const num = hm && hm[3] != null && hm[3] !== '' ? parseInt(hm[3], 10) : 0;
+    const lemma = detectLemma(h, seeds) || detectLemma(h, classSeeds)
+                || (headSet.has(firstWordLower(h)) ? firstWordLower(h) : '');
+    return { lemma, num, head: h };
+  });
+  for (const L of labels) {
+    recs.push({ citation: `${(L.lemma || firstWordLower(L.head))} ${emonym}`.trim(),
+      frequency: L.num, freq_role: 'inline', lemma: L.lemma, note: `freq:summary ${L.num}` });
+  }
+  const cleaned = examples.map(cleanExample).filter(s => s && !isNoiseLabel(s));
+  for (const ex of cleaned) {
+    let lem = '';
+    for (const L of labels) { if (L.lemma && detectLemma(ex, [L.lemma])) { lem = L.lemma; break; } }
+    recs.push({ citation: ex, frequency: 0, freq_role: 'illustrative', lemma: lem, note: '' });
+  }
+  const sumN = labels.reduce((a, L) => a + L.num, 0);
+  if (sumN !== cleaned.length && recs.length) {
+    recs[0].note += ` | FLAG: summary Σ${sumN} ≠ ${cleaned.length} examples shown`;
+  }
+  return recs;
+}
+
 function parseFreqCell(cellText, seeds, classSeeds, emonym) {
   const raw = String(cellText || '');
   if (!raw.trim() || raw.trim() === '—') return [];
@@ -419,11 +469,15 @@ function parseFreqCell(cellText, seeds, classSeeds, emonym) {
                    .filter(s => s && s !== '—' && s !== '-');
   if (!lines.length) return [];
   // Head detection uses the class-wide seed inventory so a classifier filed in
-  // the "wrong" column is still recognised as a heading.
-  const headSet = buildHeadSet(classSeeds && classSeeds.length ? classSeeds : seeds);
+  // the "wrong" column is still recognised as a heading. `headStems` drives
+  // line classification (tolerates inflected labels); `headSet` (exact) is the
+  // lemma fallback in resolveBlock.
+  const baseSeeds = classSeeds && classSeeds.length ? classSeeds : seeds;
+  const headSet = buildHeadSet(baseSeeds);
+  const headStems = buildHeadStems(baseSeeds);
 
   // Tag each line as a heading or an example.
-  const items = lines.map(ln => looksLikeHeader(ln, headSet)
+  const items = lines.map(ln => looksLikeHeader(ln, headStems)
     ? { type: 'label', head: ln } : { type: 'ex', line: ln });
 
   // Build blocks, attaching each label's example lines. Examples after a label
@@ -435,6 +489,16 @@ function parseFreqCell(cellText, seeds, classSeeds, emonym) {
   let i = 0, pending = [];
   while (i < items.length) {
     if (items[i].type === 'ex') { pending.push(items[i].line); i++; continue; }
+    // Trailing run of ≥2 pure-summary labels after some examples → Format 4
+    // (multi-label). Only when no examples follow the run (so the last label is
+    // a summary, not count-first). Gated to ≥2 so single-summary cells (Liquidae
+    // `DERRAMAR 5`) keep the existing path and stay byte-identical.
+    let j = i; const run = [];
+    while (j < items.length && items[j].type === 'label'
+           && headHasNum(items[j].head) && !headHasInline(items[j].head)) { run.push(items[j].head); j++; }
+    if (run.length >= 2 && pending.length && (j >= items.length || items[j].type !== 'ex')) {
+      blocks.push({ summaryRun: run, rest: pending }); pending = []; i = j; continue;
+    }
     const head = items[i].head; i++;
     const after = [];
     while (i < items.length && items[i].type === 'ex') { after.push(items[i].line); i++; }
@@ -461,7 +525,8 @@ function parseFreqCell(cellText, seeds, classSeeds, emonym) {
 
   const recs = [];
   for (const b of blocks) {
-    recs.push(...resolveBlock(b.head, b.rest, seeds, classSeeds, headSet, emonym));
+    if (b.summaryRun) recs.push(...resolveSummaryRun(b.summaryRun, b.rest, seeds, classSeeds, headSet, emonym));
+    else recs.push(...resolveBlock(b.head, b.rest, seeds, classSeeds, headSet, emonym));
   }
   return recs;
 }

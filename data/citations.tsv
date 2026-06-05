@@ -633,369 +633,567 @@ con-alegría-us-0003	Res Continens	alegría	US	verbal-locative-state	vivir en	ab
 con-alegría-us-0004	Res Continens	alegría	US	verbal-locative-state	vivir en	valiente apóstol de tu misericordia, que viva en la alegría		f	RES CONTINENS.xlsx	alegría	C22		1	example
 con-alegría-us-0005	Res Continens	alegría	US	verbal-locative-state	estar en	Cuando estoy en la alegría de una fiesta social me imagino estar revestido de ornamentos de obispo,		f	RES CONTINENS.xlsx	alegría	C22		1	example
 fil-miedo-ar-0001	Res Filiformes	miedo	AR	verbal-objective	tejer	deshacer la operación que el olvido, la indiferencia y el miedo tejieron a lo largo de décadas en nuestra sociedad		f	Res Filiformes.xlsx	miedo	B2		1	example
-fil-miedo-ar-0002	Res Filiformes	miedo	AR	verbal-subject-intransitive	entrelazarse	Alegría, satisfacción, placer, disfrute, se entrelazan con, miedos, incertidumbres, ansiedad, enojos, celos, desagrados		f	Res Filiformes.xlsx	miedo	C2		1	example
-fil-miedo-ar-0003	Res Filiformes	miedo	AR	verbal-subject-intransitive	entrelazarse	a magia y el miedo se entrelazan tal como lo indica la cosmogonía prehispánica.		f	Res Filiformes.xlsx	miedo	C2		1	example
-fil-miedo-cl-0001	Res Filiformes	miedo	CL	verbal-subject-intransitive	entrelazarse	es la censura y de cómo en esta se entrelazan miedos y obsesiones de vieja procedencia		f	Res Filiformes.xlsx	miedo	C4		1	example
-fil-miedo-co-0001	Res Filiformes	miedo	CO	verbal-instrumental		Se amarraron a sus miedos y no escaparon.		f	Res Filiformes.xlsx	miedo	E5		1	example
+fil-miedo-ar-0002	Res Filiformes	miedo	AR	verbal-objective	desatar	desatar miedo		f	Res Filiformes.xlsx	miedo	B2	freq:inline 26	26	inline
+fil-miedo-ar-0003	Res Filiformes	miedo	AR	verbal-subject-intransitive	desatarse	desatar miedo		f	Res Filiformes.xlsx	miedo	C2	freq:inline 6 (+2 illustrative)	6	inline
+fil-miedo-ar-0004	Res Filiformes	miedo	AR	verbal-subject-intransitive	desatarse	Alegría, satisfacción, placer, disfrute, se entrelazan con, miedos, incertidumbres, ansiedad, enojos, celos, desagrados		f	Res Filiformes.xlsx	miedo	C2		0	illustrative
+fil-miedo-ar-0005	Res Filiformes	miedo	AR	verbal-subject-intransitive	desatarse	a magia y el miedo se entrelazan tal como lo indica la cosmogonía prehispánica.		f	Res Filiformes.xlsx	miedo	C2		0	illustrative
+fil-miedo-bo-0001	Res Filiformes	miedo	BO	verbal-objective	desatar	desatar miedo		f	Res Filiformes.xlsx	miedo	B3	freq:inline 2	2	inline
+fil-miedo-bo-0002	Res Filiformes	miedo	BO	verbal-subject-intransitive	desatarse	desatar miedo		f	Res Filiformes.xlsx	miedo	C3	freq:inline 1	1	inline
+fil-miedo-cl-0001	Res Filiformes	miedo	CL	verbal-objective	desatar	desatar miedo		f	Res Filiformes.xlsx	miedo	B4	freq:inline 6	6	inline
+fil-miedo-cl-0002	Res Filiformes	miedo	CL	verbal-subject-intransitive	desatarse	desatar miedo		f	Res Filiformes.xlsx	miedo	C4	freq:inline 2 (+1 illustrative)	2	inline
+fil-miedo-cl-0003	Res Filiformes	miedo	CL	verbal-subject-intransitive	desatarse	es la censura y de cómo en esta se entrelazan miedos y obsesiones de vieja procedencia		f	Res Filiformes.xlsx	miedo	C4		0	illustrative
+fil-miedo-cl-0004	Res Filiformes	miedo	CL	attributive	desatar	desatar miedo		f	Res Filiformes.xlsx	miedo	F4	freq:inline 1	1	inline
+fil-miedo-co-0001	Res Filiformes	miedo	CO	verbal-objective	desatar	desatar miedo		f	Res Filiformes.xlsx	miedo	B5	freq:inline 7	7	inline
+fil-miedo-co-0002	Res Filiformes	miedo	CO	verbal-subject-intransitive	desatarse	desatar miedo		f	Res Filiformes.xlsx	miedo	C5	freq:inline 2	2	inline
+fil-miedo-co-0003	Res Filiformes	miedo	CO	verbal-instrumental	amarrar	Se amarraron a sus miedos y no escaparon.		f	Res Filiformes.xlsx	miedo	E5		1	example
+fil-miedo-co-0004	Res Filiformes	miedo	CO	attributive	desatar	desatar miedo		f	Res Filiformes.xlsx	miedo	F5	freq:inline 2	2	inline
 fil-miedo-cu-0001	Res Filiformes	miedo	CU	verbal-objective	tejer	la propaganda de el miedo que tejieron contra Petro los grandes medios de comunicación		f	Res Filiformes.xlsx	miedo	B7		1	example
-fil-miedo-do-0001	Res Filiformes	miedo	DO	verbal-subject-transitive	atar	Los miedos nos atan		f	Res Filiformes.xlsx	miedo	D8		1	example
-fil-miedo-ec-0001	Res Filiformes	miedo	EC	verbal-objective	entrelazar	entrelazar el miedo y el placer sin poner se en riesgo		f	Res Filiformes.xlsx	miedo	B9		1	example
-fil-miedo-es-0001	Res Filiformes	miedo	ES	verbal-objective	entrelazar	entrelazar el miedo y el placer sin poner se en riesgo		f	Res Filiformes.xlsx	miedo	B10		1	example
-fil-miedo-es-0002	Res Filiformes	miedo	ES	verbal-objective	retorcer	resucitando los más bajos instintos contra las las minorías y los peores miedos,, que retuercen y exageran,, buscando un enemigo común		f	Res Filiformes.xlsx	miedo	B10		1	example
-fil-miedo-es-0003	Res Filiformes	miedo	ES	verbal-subject-transitive	atar	El miedo les ató las piernas		f	Res Filiformes.xlsx	miedo	D10		1	example
-fil-miedo-es-0004	Res Filiformes	miedo	ES	attributive	retorcido	retorcido (Frente a el miedo retorcido que retuerce las palabras y nos retuerce el cuello)		f	Res Filiformes.xlsx	miedo	F10		1	example
-fil-miedo-mx-0001	Res Filiformes	miedo	MX	verbal-subject-intransitive	entrelazarse	La ira y el miedo se entrelazan hoy en amplios sectores de una sociedad mexicana		f	Res Filiformes.xlsx	miedo	C13		1	example
-fil-miedo-mx-0002	Res Filiformes	miedo	MX	verbal-subject-transitive	atar	los miedos que me ataban; El miedo paraliza, ata de manos, detiene el bienestar, impide el progreso		f	Res Filiformes.xlsx	miedo	D13		1	example
-fil-miedo-pe-0001	Res Filiformes	miedo	PE	verbal-subject-intransitive	tejerse	tejer (miedos que se tejen alrededor de la donación )		f	Res Filiformes.xlsx	miedo	C16		1	example
+fil-miedo-cu-0002	Res Filiformes	miedo	CU	verbal-objective	desatar	desatar miedo		f	Res Filiformes.xlsx	miedo	B7	freq:inline 5	5	inline
+fil-miedo-cu-0003	Res Filiformes	miedo	CU	verbal-subject-intransitive	desatarse	desatar miedo		f	Res Filiformes.xlsx	miedo	C7	freq:inline 2	2	inline
+fil-miedo-do-0001	Res Filiformes	miedo	DO	verbal-objective	desatar	desatar miedo		f	Res Filiformes.xlsx	miedo	B8	freq:inline 3	3	inline
+fil-miedo-do-0002	Res Filiformes	miedo	DO	verbal-subject-transitive	atar	Los miedos nos atan		f	Res Filiformes.xlsx	miedo	D8		1	example
+fil-miedo-ec-0001	Res Filiformes	miedo	EC	verbal-objective	desatar	desatar miedo		f	Res Filiformes.xlsx	miedo	B9	freq:inline 4 (+1 illustrative)	4	inline
+fil-miedo-ec-0002	Res Filiformes	miedo	EC	verbal-objective	desatar	entrelazar el miedo y el placer sin poner se en riesgo		f	Res Filiformes.xlsx	miedo	B9		0	illustrative
+fil-miedo-ec-0003	Res Filiformes	miedo	EC	verbal-subject-intransitive	desatarse	desatar miedo		f	Res Filiformes.xlsx	miedo	C9	freq:inline 1	1	inline
+fil-miedo-es-0001	Res Filiformes	miedo	ES	verbal-objective	desatar	desatar miedo		f	Res Filiformes.xlsx	miedo	B10	freq:inline 32 (+2 illustrative)	32	inline
+fil-miedo-es-0002	Res Filiformes	miedo	ES	verbal-objective	desatar	entrelazar el miedo y el placer sin poner se en riesgo		f	Res Filiformes.xlsx	miedo	B10		0	illustrative
+fil-miedo-es-0003	Res Filiformes	miedo	ES	verbal-objective	desatar	resucitando los más bajos instintos contra las las minorías y los peores miedos,, que retuercen y exageran,, buscando un enemigo común		f	Res Filiformes.xlsx	miedo	B10		0	illustrative
+fil-miedo-es-0004	Res Filiformes	miedo	ES	verbal-subject-intransitive	desatarse	desatar miedo		f	Res Filiformes.xlsx	miedo	C10	freq:inline 9	9	inline
+fil-miedo-es-0005	Res Filiformes	miedo	ES	verbal-subject-transitive	atar	El miedo les ató las piernas		f	Res Filiformes.xlsx	miedo	D10		1	example
+fil-miedo-es-0006	Res Filiformes	miedo	ES	attributive	desatar	desatar miedo		f	Res Filiformes.xlsx	miedo	F10	freq:inline 2 (+1 illustrative)	2	inline
+fil-miedo-es-0007	Res Filiformes	miedo	ES	attributive	desatar	retorcido (Frente a el miedo retorcido que retuerce las palabras y nos retuerce el cuello		f	Res Filiformes.xlsx	miedo	F10		0	illustrative
+fil-miedo-gt-0001	Res Filiformes	miedo	GT	verbal-objective	desatar	desatar miedo		f	Res Filiformes.xlsx	miedo	B11	freq:inline 1	1	inline
+fil-miedo-hn-0001	Res Filiformes	miedo	HN	verbal-objective	desatar	desatar miedo		f	Res Filiformes.xlsx	miedo	B12	freq:inline 4	4	inline
+fil-miedo-mx-0001	Res Filiformes	miedo	MX	verbal-objective	desatar	desatar miedo		f	Res Filiformes.xlsx	miedo	B13	freq:inline 16	16	inline
+fil-miedo-mx-0002	Res Filiformes	miedo	MX	verbal-subject-intransitive	desatarse	desatar miedo		f	Res Filiformes.xlsx	miedo	C13	freq:inline 9	9	inline
+fil-miedo-mx-0003	Res Filiformes	miedo	MX	verbal-subject-intransitive	entrelazarse	La ira y el miedo se entrelazan hoy en amplios sectores de una sociedad mexicana		f	Res Filiformes.xlsx	miedo	C13		1	example
+fil-miedo-mx-0004	Res Filiformes	miedo	MX	verbal-subject-transitive	atar	atar miedo		f	Res Filiformes.xlsx	miedo	D13	freq:inline 2 (+1 illustrative)	2	inline
+fil-miedo-mx-0005	Res Filiformes	miedo	MX	verbal-subject-transitive	atar	los miedos que me ataban; El miedo paraliza, ata de manos, detiene el bienestar, impide el progreso		f	Res Filiformes.xlsx	miedo	D13		0	illustrative
+fil-miedo-mx-0006	Res Filiformes	miedo	MX	attributive	desatar	desatar miedo		f	Res Filiformes.xlsx	miedo	F13	freq:inline 1	1	inline
+fil-miedo-ni-0001	Res Filiformes	miedo	NI	verbal-objective	desatar	desatar miedo		f	Res Filiformes.xlsx	miedo	B14	freq:inline 4	4	inline
+fil-miedo-ni-0002	Res Filiformes	miedo	NI	verbal-subject-intransitive	desatarse	desatar miedo		f	Res Filiformes.xlsx	miedo	C14	freq:inline 1	1	inline
+fil-miedo-ni-0003	Res Filiformes	miedo	NI	attributive	desatar	desatar miedo		f	Res Filiformes.xlsx	miedo	F14	freq:inline 1	1	inline
+fil-miedo-pe-0001	Res Filiformes	miedo	PE	verbal-objective	desatar	desatar miedo		f	Res Filiformes.xlsx	miedo	B16	freq:inline 11	11	inline
+fil-miedo-pe-0002	Res Filiformes	miedo	PE	verbal-subject-intransitive	tejerse	tejer (miedos que se tejen alrededor de la donación		f	Res Filiformes.xlsx	miedo	C16		1	example
+fil-miedo-pe-0003	Res Filiformes	miedo	PE	verbal-subject-intransitive	desatarse	desatar miedo		f	Res Filiformes.xlsx	miedo	C16	freq:inline 3	3	inline
+fil-miedo-pr-0001	Res Filiformes	miedo	PR	verbal-subject-intransitive	desatarse	desatar miedo		f	Res Filiformes.xlsx	miedo	C17	freq:inline 1	1	inline
 fil-miedo-sv-0001	Res Filiformes	miedo	SV	verbal-subject-transitive	atar	Enfrentar y superar tantos miedos que nos atan para vivir una experiencia de familia intensa		f	Res Filiformes.xlsx	miedo	D19		1	example
-fil-miedo-ve-0001	Res Filiformes	miedo	VE	verbal-subject-transitive	atar	liberado de todos esos miedos que te ataban; debemos vencer los miedos que nos atan		f	Res Filiformes.xlsx	miedo	D21		1	example
-fil-miedo-ve-0002	Res Filiformes	miedo	VE	substantive	ovillo de	también se convierten Pedro, Santiago y Juan, pasando de ser ovillos de miedo, a discípulos de el Señor Jesucristo.		f	Res Filiformes.xlsx	miedo	G21		1	example
-fil-miedo-us-0001	Res Filiformes	miedo	US	verbal-subject-intransitive	entrelazarse	los miedos que se entrelazan como enredadera a el tronco de mi alma		f	Res Filiformes.xlsx	miedo	C22		1	example
-fil-miedo-us-0002	Res Filiformes	miedo	US	verbal-subject-transitive	atar	atar  (liberar se de el miedo que los ata)		f	Res Filiformes.xlsx	miedo	D22		1	example
-fil-amor-ar-0001	Res Filiformes	amor	AR	verbal-objective	desatar	La convivencia desata pasiones, amor y locura.		f	Res Filiformes.xlsx	AMOR	B2		1	example
-fil-amor-ar-0002	Res Filiformes	amor	AR	verbal-objective	desatar	La convivencia desata pasiones, amor y locura.		f	Res Filiformes.xlsx	AMOR	B2		1	example
-fil-amor-ar-0003	Res Filiformes	amor	AR	verbal-objective	desatar	López desató los odios y amoreS .		f	Res Filiformes.xlsx	AMOR	B2		1	example
-fil-amor-ar-0004	Res Filiformes	amor	AR	verbal-objective	desatar	La convivencia desata pasiones, amor y locura		f	Res Filiformes.xlsx	AMOR	B2		1	example
-fil-amor-ar-0005	Res Filiformes	amor	AR	verbal-objective	desatar	En las fiestas, muchas parejas desatan todo su amor		f	Res Filiformes.xlsx	AMOR	B2		1	example
-fil-amor-ar-0006	Res Filiformes	amor	AR	verbal-objective	desatar	el amor que desató a su paso, la " resurrección " de la Iglesia,		f	Res Filiformes.xlsx	AMOR	B2		1	example
-fil-amor-ar-0007	Res Filiformes	amor	AR	verbal-objective	desatar	la desgracia que desata el amor prohibido		f	Res Filiformes.xlsx	AMOR	B2		1	example
-fil-amor-ar-0008	Res Filiformes	amor	AR	verbal-objective	desatar	el drama que desata un apasionado amor entre hermanos		f	Res Filiformes.xlsx	AMOR	B2		1	example
-fil-amor-ar-0009	Res Filiformes	amor	AR	verbal-objective	desatar	dos ráfagas de viento, en distintos momentos de una vida, desatan literalmente un amor profundo		f	Res Filiformes.xlsx	AMOR	B2		1	example
-fil-amor-ar-0010	Res Filiformes	amor	AR	verbal-objective	desatar	Lo conocen todos. Por supuesto que desata amores y odios		f	Res Filiformes.xlsx	AMOR	B2		1	example
-fil-amor-ar-0011	Res Filiformes	amor	AR	verbal-objective	entrelazar	Woody Allen reflexiona sobre el umbral de tolerancia en el amor conyugal, entrelazándo lo provocativamente con el delito económico.		f	Res Filiformes.xlsx	AMOR	B2		1	example
-fil-amor-ar-0012	Res Filiformes	amor	AR	verbal-objective	entrelazar	La autora ha sabido entrelazar amores y enigmas con una escritura a la vez compleja y transparente.		f	Res Filiformes.xlsx	AMOR	B2		1	example
-fil-amor-ar-0013	Res Filiformes	amor	AR	verbal-objective	entrelazar	un contexto de cambio que entrelaza el amor de los jóvenes, y un Estado protector		f	Res Filiformes.xlsx	AMOR	B2		1	example
-fil-amor-ar-0014	Res Filiformes	amor	AR	verbal-subject-intransitive	tejerse	Las historias de amor se tejen durante media hora de lunes a viernes con diferentes protagonistas		f	Res Filiformes.xlsx	AMOR	C2		1	example
-fil-amor-ar-0015	Res Filiformes	amor	AR	verbal-subject-intransitive	tejerse	la posibilidad de bucear historias de fe y amor, tejidas a lo largo de casi cuatro centurias.		f	Res Filiformes.xlsx	AMOR	C2		1	example
-fil-amor-ar-0016	Res Filiformes	amor	AR	verbal-subject-intransitive	tejerse	Historiasde amor que se tejen y entrelazan en plena historia argentina.		f	Res Filiformes.xlsx	AMOR	C2		1	example
-fil-amor-ar-0017	Res Filiformes	amor	AR	verbal-subject-intransitive	tejerse	en el marco de la campaña " Tejiendo amor ".		f	Res Filiformes.xlsx	AMOR	C2		1	example
-fil-amor-ar-0018	Res Filiformes	amor	AR	verbal-subject-intransitive	desatarse	Se desata el amor para 3 signos de el zodiaco este fin de semana		f	Res Filiformes.xlsx	AMOR	C2		1	example
-fil-amor-ar-0019	Res Filiformes	amor	AR	verbal-subject-intransitive	desatarse	entre cuerdas aéreas, aros flotantes, trampolines dobles y el cuenco de agua se desata el amor		f	Res Filiformes.xlsx	AMOR	C2		1	example
-fil-amor-ar-0020	Res Filiformes	amor	AR	verbal-subject-intransitive	entrelazarse	historias de amor que se entrelazan aquí		f	Res Filiformes.xlsx	AMOR	C2		1	example
-fil-amor-ar-0021	Res Filiformes	amor	AR	verbal-subject-intransitive	entrelazarse	marco donde se entrelazan historias de amor, pasión e intrig		f	Res Filiformes.xlsx	AMOR	C2		1	example
-fil-amor-ar-0022	Res Filiformes	amor	AR	verbal-subject-transitive		en este mundo la civilización del amor que pende de la cruz y de la resurrección de tu Divino Hijo		f	Res Filiformes.xlsx	AMOR	D2		1	example
-fil-amor-ar-0023	Res Filiformes	amor	AR	verbal-instrumental	atado con	atados con un amor que rebasa la filiación		f	Res Filiformes.xlsx	AMOR	E2		1	example
-fil-amor-ar-0024	Res Filiformes	amor	AR	verbal-instrumental		Clara y Rosa también estuvieron entrelazadas por el amor		f	Res Filiformes.xlsx	AMOR	E2		1	example
-fil-amor-ar-0025	Res Filiformes	amor	AR	verbal-instrumental		Dos mundos bien diferentes, entrelazados por amores cruzados, venganzas y traiciones		f	Res Filiformes.xlsx	AMOR	E2		1	example
-fil-amor-ar-0026	Res Filiformes	amor	AR	verbal-instrumental		una historia de amor extraordinaria entrelazada con la historia de el vino en la Argentina.		f	Res Filiformes.xlsx	AMOR	E2		1	example
-fil-amor-ar-0027	Res Filiformes	amor	AR	verbal-instrumental		asumí la tarea pastoral familiar y en medios de comunicación social, ambas entrelazadas por el amor a Cristo.		f	Res Filiformes.xlsx	AMOR	E2		1	example
-fil-amor-ar-0028	Res Filiformes	amor	AR	verbal-instrumental		u historia abrazaba un pasado y un presente entrelazados por el amor		f	Res Filiformes.xlsx	AMOR	E2		1	example
-fil-amor-ar-0029	Res Filiformes	amor	AR	verbal-instrumental		hermanos y hermanas en una maravillosa peregrinación, entrelazados por el amor que Dios tiene a cada una de sus criaturas		f	Res Filiformes.xlsx	AMOR	E2		1	example
-fil-amor-ar-0030	Res Filiformes	amor	AR	attributive		los amores que ata este hilo, quedarán amarrados para siempre.		f	Res Filiformes.xlsx	AMOR	F2		1	example
-fil-amor-ar-0031	Res Filiformes	amor	AR	substantive	hilo de	Bordando Nanas (con hilos de amor)		f	Res Filiformes.xlsx	AMOR	G2		1	example
-fil-amor-ar-0032	Res Filiformes	amor	AR	substantive	hilo de	un hilo conductor de amor y desamor		f	Res Filiformes.xlsx	AMOR	G2		1	example
-fil-amor-ar-0033	Res Filiformes	amor	AR	substantive	hilo de	el hilo conductor de el amor y el coraje		f	Res Filiformes.xlsx	AMOR	G2		1	example
-fil-amor-ar-0034	Res Filiformes	amor	AR	substantive	hilo de	el hilo invisible de el amor fraternal		f	Res Filiformes.xlsx	AMOR	G2		1	example
-fil-amor-ar-0035	Res Filiformes	amor	AR	substantive		El amor con sus hilos los une en su nombre.		f	Res Filiformes.xlsx	AMOR	G2		1	example
-fil-amor-ar-0036	Res Filiformes	amor	AR	substantive	hilo de	tropezar nuevamente con los hilos de el amor.		f	Res Filiformes.xlsx	AMOR	G2		1	example
+fil-miedo-ve-0001	Res Filiformes	miedo	VE	verbal-objective	desatar	desatar miedo		f	Res Filiformes.xlsx	miedo	B21	freq:inline 5	5	inline
+fil-miedo-ve-0002	Res Filiformes	miedo	VE	verbal-subject-intransitive	desatarse	desatar miedo		f	Res Filiformes.xlsx	miedo	C21	freq:inline 2	2	inline
+fil-miedo-ve-0003	Res Filiformes	miedo	VE	verbal-subject-transitive	atar	atar miedo		f	Res Filiformes.xlsx	miedo	D21	freq:inline 2 (+1 illustrative)	2	inline
+fil-miedo-ve-0004	Res Filiformes	miedo	VE	verbal-subject-transitive	atar	liberado de todos esos miedos que te ataban; debemos vencer los miedos que nos atan		f	Res Filiformes.xlsx	miedo	D21		0	illustrative
+fil-miedo-ve-0005	Res Filiformes	miedo	VE	attributive	desatar	desatar miedo		f	Res Filiformes.xlsx	miedo	F21	freq:inline 1	1	inline
+fil-miedo-ve-0006	Res Filiformes	miedo	VE	substantive	ovillo de	también se convierten Pedro, Santiago y Juan, pasando de ser ovillos de miedo, a discípulos de el Señor Jesucristo.		f	Res Filiformes.xlsx	miedo	G21		1	example
+fil-miedo-us-0001	Res Filiformes	miedo	US	verbal-objective	desatar	desatar miedo		f	Res Filiformes.xlsx	miedo	B22	freq:inline 9	9	inline
+fil-miedo-us-0002	Res Filiformes	miedo	US	verbal-subject-intransitive	desatarse	desatar miedo		f	Res Filiformes.xlsx	miedo	C22	freq:inline 1	1	inline
+fil-miedo-us-0003	Res Filiformes	miedo	US	verbal-subject-intransitive	entrelazarse	los miedos que se entrelazan como enredadera a el tronco de mi alma		f	Res Filiformes.xlsx	miedo	C22		1	example
+fil-miedo-us-0004	Res Filiformes	miedo	US	verbal-subject-transitive	atar	atar  (liberar se de el miedo que los ata		f	Res Filiformes.xlsx	miedo	D22		1	example
+fil-miedo-us-0005	Res Filiformes	miedo	US	attributive	desatar	desatar miedo		f	Res Filiformes.xlsx	miedo	F22	freq:inline 1	1	inline
+fil-amor-ar-0001	Res Filiformes	amor	AR	verbal-objective	desatar	desatar amor		f	Res Filiformes.xlsx	AMOR	B2	freq:summary 10	10	inline
+fil-amor-ar-0002	Res Filiformes	amor	AR	verbal-objective	entrelazar	entrelazar amor		f	Res Filiformes.xlsx	AMOR	B2	freq:summary 3	3	inline
+fil-amor-ar-0003	Res Filiformes	amor	AR	verbal-objective	desatar	La convivencia desata pasiones, amor y locura.		f	Res Filiformes.xlsx	AMOR	B2		0	illustrative
+fil-amor-ar-0004	Res Filiformes	amor	AR	verbal-objective	desatar	La convivencia desata pasiones, amor y locura.		f	Res Filiformes.xlsx	AMOR	B2		0	illustrative
+fil-amor-ar-0005	Res Filiformes	amor	AR	verbal-objective	desatar	López desató los odios y amoreS .		f	Res Filiformes.xlsx	AMOR	B2		0	illustrative
+fil-amor-ar-0006	Res Filiformes	amor	AR	verbal-objective	desatar	La convivencia desata pasiones, amor y locura		f	Res Filiformes.xlsx	AMOR	B2		0	illustrative
+fil-amor-ar-0007	Res Filiformes	amor	AR	verbal-objective	desatar	En las fiestas, muchas parejas desatan todo su amor		f	Res Filiformes.xlsx	AMOR	B2		0	illustrative
+fil-amor-ar-0008	Res Filiformes	amor	AR	verbal-objective	desatar	el amor que desató a su paso, la " resurrección " de la Iglesia,		f	Res Filiformes.xlsx	AMOR	B2		0	illustrative
+fil-amor-ar-0009	Res Filiformes	amor	AR	verbal-objective	desatar	la desgracia que desata el amor prohibido		f	Res Filiformes.xlsx	AMOR	B2		0	illustrative
+fil-amor-ar-0010	Res Filiformes	amor	AR	verbal-objective	desatar	el drama que desata un apasionado amor entre hermanos		f	Res Filiformes.xlsx	AMOR	B2		0	illustrative
+fil-amor-ar-0011	Res Filiformes	amor	AR	verbal-objective	desatar	dos ráfagas de viento, en distintos momentos de una vida, desatan literalmente un amor profundo		f	Res Filiformes.xlsx	AMOR	B2		0	illustrative
+fil-amor-ar-0012	Res Filiformes	amor	AR	verbal-objective	desatar	Lo conocen todos. Por supuesto que desata amores y odios		f	Res Filiformes.xlsx	AMOR	B2		0	illustrative
+fil-amor-ar-0013	Res Filiformes	amor	AR	verbal-objective	entrelazar	Woody Allen reflexiona sobre el umbral de tolerancia en el amor conyugal, entrelazándo lo provocativamente con el delito económico.		f	Res Filiformes.xlsx	AMOR	B2		0	illustrative
+fil-amor-ar-0014	Res Filiformes	amor	AR	verbal-objective	entrelazar	La autora ha sabido entrelazar amores y enigmas con una escritura a la vez compleja y transparente.		f	Res Filiformes.xlsx	AMOR	B2		0	illustrative
+fil-amor-ar-0015	Res Filiformes	amor	AR	verbal-objective	entrelazar	un contexto de cambio que entrelaza el amor de los jóvenes, y un Estado protector		f	Res Filiformes.xlsx	AMOR	B2		0	illustrative
+fil-amor-ar-0016	Res Filiformes	amor	AR	verbal-subject-intransitive	desatarse	Las historias de amor se tejen durante media hora de lunes a viernes con diferentes protagonistas		f	Res Filiformes.xlsx	AMOR	C2		1	example
+fil-amor-ar-0017	Res Filiformes	amor	AR	verbal-subject-intransitive	desatarse	la posibilidad de bucear historias de fe y amor, tejidas a lo largo de casi cuatro centurias.		f	Res Filiformes.xlsx	AMOR	C2		1	example
+fil-amor-ar-0018	Res Filiformes	amor	AR	verbal-subject-intransitive	desatarse	Historiasde amor que se tejen y entrelazan en plena historia argentina.		f	Res Filiformes.xlsx	AMOR	C2		1	example
+fil-amor-ar-0019	Res Filiformes	amor	AR	verbal-subject-intransitive	desatarse	en el marco de la campaña " Tejiendo amor ".		f	Res Filiformes.xlsx	AMOR	C2		1	example
+fil-amor-ar-0020	Res Filiformes	amor	AR	verbal-subject-intransitive	desatarse	Se desata el amor para 3 signos de el zodiaco este fin de semana		f	Res Filiformes.xlsx	AMOR	C2		1	example
+fil-amor-ar-0021	Res Filiformes	amor	AR	verbal-subject-intransitive	desatarse	entre cuerdas aéreas, aros flotantes, trampolines dobles y el cuenco de agua se desata el amor		f	Res Filiformes.xlsx	AMOR	C2		1	example
+fil-amor-ar-0022	Res Filiformes	amor	AR	verbal-subject-intransitive	desatarse	historias de amor que se entrelazan aquí		f	Res Filiformes.xlsx	AMOR	C2		1	example
+fil-amor-ar-0023	Res Filiformes	amor	AR	verbal-subject-intransitive	desatarse	marco donde se entrelazan historias de amor, pasión e intrig		f	Res Filiformes.xlsx	AMOR	C2		1	example
+fil-amor-ar-0024	Res Filiformes	amor	AR	verbal-subject-transitive	pender de	en este mundo la civilización del amor que pende de la cruz y de la resurrección de tu Divino Hijo		f	Res Filiformes.xlsx	AMOR	D2		1	example
+fil-amor-ar-0025	Res Filiformes	amor	AR	verbal-instrumental	atado con	atados con un amor que rebasa la filiación		f	Res Filiformes.xlsx	AMOR	E2		1	example
+fil-amor-ar-0026	Res Filiformes	amor	AR	verbal-instrumental	atado con	Clara y Rosa también estuvieron entrelazadas por el amor		f	Res Filiformes.xlsx	AMOR	E2		1	example
+fil-amor-ar-0027	Res Filiformes	amor	AR	verbal-instrumental	atado con	Dos mundos bien diferentes, entrelazados por amores cruzados, venganzas y traiciones		f	Res Filiformes.xlsx	AMOR	E2		1	example
+fil-amor-ar-0028	Res Filiformes	amor	AR	verbal-instrumental	atado con	una historia de amor extraordinaria entrelazada con la historia de el vino en la Argentina.		f	Res Filiformes.xlsx	AMOR	E2		1	example
+fil-amor-ar-0029	Res Filiformes	amor	AR	verbal-instrumental	atado con	asumí la tarea pastoral familiar y en medios de comunicación social, ambas entrelazadas por el amor a Cristo.		f	Res Filiformes.xlsx	AMOR	E2		1	example
+fil-amor-ar-0030	Res Filiformes	amor	AR	verbal-instrumental	atado con	u historia abrazaba un pasado y un presente entrelazados por el amor		f	Res Filiformes.xlsx	AMOR	E2		1	example
+fil-amor-ar-0031	Res Filiformes	amor	AR	verbal-instrumental	atado con	hermanos y hermanas en una maravillosa peregrinación, entrelazados por el amor que Dios tiene a cada una de sus criaturas		f	Res Filiformes.xlsx	AMOR	E2		1	example
+fil-amor-ar-0032	Res Filiformes	amor	AR	attributive	amarrar	los amores que ata este hilo, quedarán amarrados para siempre.		f	Res Filiformes.xlsx	AMOR	F2		1	example
+fil-amor-ar-0033	Res Filiformes	amor	AR	substantive	hilo	Bordando Nanas (con hilos de amor		f	Res Filiformes.xlsx	AMOR	G2		1	example
+fil-amor-ar-0034	Res Filiformes	amor	AR	substantive	hilo	un hilo conductor de amor y desamor		f	Res Filiformes.xlsx	AMOR	G2		1	example
+fil-amor-ar-0035	Res Filiformes	amor	AR	substantive	hilo	el hilo conductor de el amor y el coraje		f	Res Filiformes.xlsx	AMOR	G2		1	example
+fil-amor-ar-0036	Res Filiformes	amor	AR	substantive	hilo	el hilo invisible de el amor fraternal		f	Res Filiformes.xlsx	AMOR	G2		1	example
+fil-amor-ar-0037	Res Filiformes	amor	AR	substantive	hilo	El amor con sus hilos los une en su nombre.		f	Res Filiformes.xlsx	AMOR	G2		1	example
+fil-amor-ar-0038	Res Filiformes	amor	AR	substantive	hilo	tropezar nuevamente con los hilos de el amor.		f	Res Filiformes.xlsx	AMOR	G2		1	example
 fil-amor-bo-0001	Res Filiformes	amor	BO	verbal-objective	desatar	el hombre que desata odio y amor entre los gobiernos		f	Res Filiformes.xlsx	AMOR	B3		1	example
-fil-amor-cl-0001	Res Filiformes	amor	CL	verbal-objective	desatar	desatando el amor absoluto de sus fans		f	Res Filiformes.xlsx	AMOR	B4		1	example
-fil-amor-cl-0002	Res Filiformes	amor	CL	verbal-objective	desatar	ese amor que desata una guerra a orillas de el Lago Chungará y de la hermosa mujer		f	Res Filiformes.xlsx	AMOR	B4		1	example
-fil-amor-cl-0003	Res Filiformes	amor	CL	verbal-objective	desatar	l resultado de estas personas que desataron su amor y fanatismo por la mujer		f	Res Filiformes.xlsx	AMOR	B4		1	example
-fil-amor-cl-0004	Res Filiformes	amor	CL	verbal-objective	desatar	Para proteger a nuestras mascotas y evitar que desaten su amor por las alturas		f	Res Filiformes.xlsx	AMOR	B4		1	example
-fil-amor-cl-0005	Res Filiformes	amor	CL	verbal-objective	desatar	a joven artista de 27 años demuestre que la actuación corre en sus venas, desatando amor y odio con este polémico personaj		f	Res Filiformes.xlsx	AMOR	B4		1	example
-fil-amor-cl-0006	Res Filiformes	amor	CL	verbal-objective	desatar	desatando todo el amor de la muchacha		f	Res Filiformes.xlsx	AMOR	B4		1	example
-fil-amor-cl-0007	Res Filiformes	amor	CL	verbal-objective	desatar	Todos los realities tienen a su antagonista, los que desatan amor y odio en el público.		f	Res Filiformes.xlsx	AMOR	B4		1	example
-fil-amor-cl-0008	Res Filiformes	amor	CL	verbal-objective	desatar	capitalizar el amor y odio que desatan en el público		f	Res Filiformes.xlsx	AMOR	B4		1	example
-fil-amor-cl-0009	Res Filiformes	amor	CL	verbal-objective	desatar	se mantiene firme en sus convicciones, desatando amores y odios.		f	Res Filiformes.xlsx	AMOR	B4		1	example
-fil-amor-cl-0010	Res Filiformes	amor	CL	verbal-objective	desatar	Vesta Lugg y Kel Calderón desataron su amor por Edu Vargas y el Pitbull		f	Res Filiformes.xlsx	AMOR	B4		1	example
-fil-amor-cl-0011	Res Filiformes	amor	CL	verbal-objective	desatar	Ahora los perros que desataron su amor fueron dos pomerianos		f	Res Filiformes.xlsx	AMOR	B4		1	example
-fil-amor-cl-0012	Res Filiformes	amor	CL	verbal-objective	desatar	desatan su amor detrás de cámaras		f	Res Filiformes.xlsx	AMOR	B4		1	example
-fil-amor-cl-0013	Res Filiformes	amor	CL	verbal-objective	desatar	Pedro " y " Antonia " desataron su amor		f	Res Filiformes.xlsx	AMOR	B4		1	example
-fil-amor-cl-0014	Res Filiformes	amor	CL	verbal-objective	desatar	esde ya desata amor y odio en las redes sociales.		f	Res Filiformes.xlsx	AMOR	B4		1	example
-fil-amor-cl-0015	Res Filiformes	amor	CL	verbal-objective	entrelazar	entrelazando emociones de amor y tragedia		f	Res Filiformes.xlsx	AMOR	B4		1	example
-fil-amor-cl-0016	Res Filiformes	amor	CL	verbal-instrumental		debe primar la armonía entrelazada con el amor		f	Res Filiformes.xlsx	AMOR	E4		1	example
-fil-amor-cl-0017	Res Filiformes	amor	CL	attributive	entrelazado	amor, poder, lealtad, erotismo, venganza y amor filial, entrelazados en un espiral de sucesos y dolor		f	Res Filiformes.xlsx	AMOR	F4		1	example
-fil-amor-cl-0018	Res Filiformes	amor	CL	attributive	retorcido	los amores retorcidos de la adultez.		f	Res Filiformes.xlsx	AMOR	F4		1	example
-fil-amor-cl-0019	Res Filiformes	amor	CL	substantive	hilo de	llevando un hilo conductor de amor y desamor		f	Res Filiformes.xlsx	AMOR	G4		1	example
-fil-amor-co-0001	Res Filiformes	amor	CO	verbal-objective	tejer	Es el amor que va tejiendo a el mezclar los colore		f	Res Filiformes.xlsx	AMOR	B5		1	example
-fil-amor-co-0002	Res Filiformes	amor	CO	verbal-objective	tejer	el Magdalena no deja de atrapar a propios y viajeros y tejer amores de temporad		f	Res Filiformes.xlsx	AMOR	B5		1	example
-fil-amor-co-0003	Res Filiformes	amor	CO	verbal-objective	desatar	El joven activista, que desata odios y amores		f	Res Filiformes.xlsx	AMOR	B5		1	example
-fil-amor-co-0004	Res Filiformes	amor	CO	verbal-objective	desatar	San Antonio también ocupa lugar preponderante en la santería cubana y brasilera, para desatar amores		f	Res Filiformes.xlsx	AMOR	B5		1	example
-fil-amor-co-0005	Res Filiformes	amor	CO	verbal-objective	desatar	l significado de el perdón que desata amor puro		f	Res Filiformes.xlsx	AMOR	B5		1	example
-fil-amor-co-0006	Res Filiformes	amor	CO	verbal-objective	desatar	Uribe no es de tintas medias y siempre desata odios y amores		f	Res Filiformes.xlsx	AMOR	B5		1	example
-fil-amor-co-0007	Res Filiformes	amor	CO	verbal-objective	desatar	La exitosa producción desató amores y odios		f	Res Filiformes.xlsx	AMOR	B5		1	example
-fil-amor-co-0008	Res Filiformes	amor	CO	verbal-objective	entrelazar	una historia ambientada en Santiago de Chile que entrelaza amores y enigmas,		f	Res Filiformes.xlsx	AMOR	B5		1	example
-fil-amor-co-0009	Res Filiformes	amor	CO	verbal-objective	entrelazar	La autora ha sabido entrelazar amores y enigmas con una escritura a la vez compleja y transparente		f	Res Filiformes.xlsx	AMOR	B5		1	example
-fil-amor-co-0010	Res Filiformes	amor	CO	verbal-objective	hilvanar	la elección de entregar se a el otro sin condiciones para hilvanar el amor hasta que este quede diluído en una cotidianidad		f	Res Filiformes.xlsx	AMOR	B5		1	example
-fil-amor-co-0011	Res Filiformes	amor	CO	verbal-subject-intransitive	tejerse	las intrincadas relaciones de amor que se tejen alrededor de él		f	Res Filiformes.xlsx	AMOR	C5		1	example
-fil-amor-co-0012	Res Filiformes	amor	CO	verbal-subject-transitive	atar	es más el miedo y tal vez el amor lo que la ata a él,		f	Res Filiformes.xlsx	AMOR	D5		1	example
-fil-amor-co-0013	Res Filiformes	amor	CO	verbal-subject-transitive	amarrar	lo único que quería era volver a vivir en paz, sin amores que lo amarraran tanto		f	Res Filiformes.xlsx	AMOR	D5		1	example
-fil-amor-co-0014	Res Filiformes	amor	CO	attributive	tejido	una historia de amor tejida entre versos musicales		f	Res Filiformes.xlsx	AMOR	F5		1	example
-fil-amor-co-0015	Res Filiformes	amor	CO	substantive	hilo de	uno va haciéndo se zancadillas en cada página, enredándo se con la madeja de un amor que nadie atina a hilvanar		f	Res Filiformes.xlsx	AMOR	G5		1	example
-fil-amor-co-0016	Res Filiformes	amor	CO	substantive	hilo de	les mando hilos de amor y cariño		f	Res Filiformes.xlsx	AMOR	G5		1	example
-fil-amor-co-0017	Res Filiformes	amor	CO	substantive	hilo de	el hilo sagrado de tu amor		f	Res Filiformes.xlsx	AMOR	G5		1	example
-fil-amor-co-0018	Res Filiformes	amor	CO	substantive	hilo de	el extremo contrario de su hilo de el amor.		f	Res Filiformes.xlsx	AMOR	G5		1	example
-fil-amor-co-0019	Res Filiformes	amor	CO	substantive	hilo de	suspiro suavemente de pie ante el hilo de el amor		f	Res Filiformes.xlsx	AMOR	G5		1	example
+fil-amor-cl-0001	Res Filiformes	amor	CL	verbal-objective	desatar	desatar amor		f	Res Filiformes.xlsx	AMOR	B4	freq:summary 14	14	inline
+fil-amor-cl-0002	Res Filiformes	amor	CL	verbal-objective	entrelazar	entrelazar amor		f	Res Filiformes.xlsx	AMOR	B4	freq:summary 1	1	inline
+fil-amor-cl-0003	Res Filiformes	amor	CL	verbal-objective	desatar	desatando el amor absoluto de sus fans		f	Res Filiformes.xlsx	AMOR	B4		0	illustrative
+fil-amor-cl-0004	Res Filiformes	amor	CL	verbal-objective	desatar	ese amor que desata una guerra a orillas de el Lago Chungará y de la hermosa mujer		f	Res Filiformes.xlsx	AMOR	B4		0	illustrative
+fil-amor-cl-0005	Res Filiformes	amor	CL	verbal-objective	desatar	l resultado de estas personas que desataron su amor y fanatismo por la mujer		f	Res Filiformes.xlsx	AMOR	B4		0	illustrative
+fil-amor-cl-0006	Res Filiformes	amor	CL	verbal-objective	desatar	Para proteger a nuestras mascotas y evitar que desaten su amor por las alturas		f	Res Filiformes.xlsx	AMOR	B4		0	illustrative
+fil-amor-cl-0007	Res Filiformes	amor	CL	verbal-objective	desatar	a joven artista de 27 años demuestre que la actuación corre en sus venas, desatando amor y odio con este polémico personaj		f	Res Filiformes.xlsx	AMOR	B4		0	illustrative
+fil-amor-cl-0008	Res Filiformes	amor	CL	verbal-objective	desatar	desatando todo el amor de la muchacha		f	Res Filiformes.xlsx	AMOR	B4		0	illustrative
+fil-amor-cl-0009	Res Filiformes	amor	CL	verbal-objective	desatar	Todos los realities tienen a su antagonista, los que desatan amor y odio en el público.		f	Res Filiformes.xlsx	AMOR	B4		0	illustrative
+fil-amor-cl-0010	Res Filiformes	amor	CL	verbal-objective	desatar	capitalizar el amor y odio que desatan en el público		f	Res Filiformes.xlsx	AMOR	B4		0	illustrative
+fil-amor-cl-0011	Res Filiformes	amor	CL	verbal-objective	desatar	se mantiene firme en sus convicciones, desatando amores y odios.		f	Res Filiformes.xlsx	AMOR	B4		0	illustrative
+fil-amor-cl-0012	Res Filiformes	amor	CL	verbal-objective	desatar	Vesta Lugg y Kel Calderón desataron su amor por Edu Vargas y el Pitbull		f	Res Filiformes.xlsx	AMOR	B4		0	illustrative
+fil-amor-cl-0013	Res Filiformes	amor	CL	verbal-objective	desatar	Ahora los perros que desataron su amor fueron dos pomerianos		f	Res Filiformes.xlsx	AMOR	B4		0	illustrative
+fil-amor-cl-0014	Res Filiformes	amor	CL	verbal-objective	desatar	desatan su amor detrás de cámaras		f	Res Filiformes.xlsx	AMOR	B4		0	illustrative
+fil-amor-cl-0015	Res Filiformes	amor	CL	verbal-objective	desatar	Pedro " y " Antonia " desataron su amor		f	Res Filiformes.xlsx	AMOR	B4		0	illustrative
+fil-amor-cl-0016	Res Filiformes	amor	CL	verbal-objective	desatar	esde ya desata amor y odio en las redes sociales.		f	Res Filiformes.xlsx	AMOR	B4		0	illustrative
+fil-amor-cl-0017	Res Filiformes	amor	CL	verbal-objective	entrelazar	entrelazando emociones de amor y tragedia		f	Res Filiformes.xlsx	AMOR	B4		0	illustrative
+fil-amor-cl-0018	Res Filiformes	amor	CL	verbal-instrumental	entrelazar	debe primar la armonía entrelazada con el amor		f	Res Filiformes.xlsx	AMOR	E4		1	example
+fil-amor-cl-0019	Res Filiformes	amor	CL	attributive	entrelazado	amor, poder, lealtad, erotismo, venganza y amor filial, entrelazados en un espiral de sucesos y dolor		f	Res Filiformes.xlsx	AMOR	F4		1	example
+fil-amor-cl-0020	Res Filiformes	amor	CL	attributive	entrelazado	los amores retorcidos de la adultez.		f	Res Filiformes.xlsx	AMOR	F4		1	example
+fil-amor-cl-0021	Res Filiformes	amor	CL	substantive	hilo	llevando un hilo conductor de amor y desamor		f	Res Filiformes.xlsx	AMOR	G4		1	example
+fil-amor-co-0001	Res Filiformes	amor	CO	verbal-objective	tejer	tejer amor		f	Res Filiformes.xlsx	AMOR	B5	freq:summary 2	2	inline
+fil-amor-co-0002	Res Filiformes	amor	CO	verbal-objective	desatar	desatar amor		f	Res Filiformes.xlsx	AMOR	B5	freq:summary 5	5	inline
+fil-amor-co-0003	Res Filiformes	amor	CO	verbal-objective	entrelazar	entrelazar amor		f	Res Filiformes.xlsx	AMOR	B5	freq:summary 2	2	inline
+fil-amor-co-0004	Res Filiformes	amor	CO	verbal-objective	hilvanar	hilvanar amor		f	Res Filiformes.xlsx	AMOR	B5	freq:summary 1	1	inline
+fil-amor-co-0005	Res Filiformes	amor	CO	verbal-objective	tejer	Es el amor que va tejiendo a el mezclar los colore		f	Res Filiformes.xlsx	AMOR	B5		0	illustrative
+fil-amor-co-0006	Res Filiformes	amor	CO	verbal-objective	tejer	el Magdalena no deja de atrapar a propios y viajeros y tejer amores de temporad		f	Res Filiformes.xlsx	AMOR	B5		0	illustrative
+fil-amor-co-0007	Res Filiformes	amor	CO	verbal-objective	desatar	El joven activista, que desata odios y amores		f	Res Filiformes.xlsx	AMOR	B5		0	illustrative
+fil-amor-co-0008	Res Filiformes	amor	CO	verbal-objective	desatar	San Antonio también ocupa lugar preponderante en la santería cubana y brasilera, para desatar amores		f	Res Filiformes.xlsx	AMOR	B5		0	illustrative
+fil-amor-co-0009	Res Filiformes	amor	CO	verbal-objective	desatar	l significado de el perdón que desata amor puro		f	Res Filiformes.xlsx	AMOR	B5		0	illustrative
+fil-amor-co-0010	Res Filiformes	amor	CO	verbal-objective	desatar	Uribe no es de tintas medias y siempre desata odios y amores		f	Res Filiformes.xlsx	AMOR	B5		0	illustrative
+fil-amor-co-0011	Res Filiformes	amor	CO	verbal-objective	desatar	La exitosa producción desató amores y odios		f	Res Filiformes.xlsx	AMOR	B5		0	illustrative
+fil-amor-co-0012	Res Filiformes	amor	CO	verbal-objective	entrelazar	una historia ambientada en Santiago de Chile que entrelaza amores y enigmas,		f	Res Filiformes.xlsx	AMOR	B5		0	illustrative
+fil-amor-co-0013	Res Filiformes	amor	CO	verbal-objective	entrelazar	La autora ha sabido entrelazar amores y enigmas con una escritura a la vez compleja y transparente		f	Res Filiformes.xlsx	AMOR	B5		0	illustrative
+fil-amor-co-0014	Res Filiformes	amor	CO	verbal-objective	hilvanar	la elección de entregar se a el otro sin condiciones para hilvanar el amor hasta que este quede diluído en una cotidianidad		f	Res Filiformes.xlsx	AMOR	B5		0	illustrative
+fil-amor-co-0015	Res Filiformes	amor	CO	verbal-subject-intransitive	tejerse	las intrincadas relaciones de amor que se tejen alrededor de él		f	Res Filiformes.xlsx	AMOR	C5		1	example
+fil-amor-co-0016	Res Filiformes	amor	CO	verbal-subject-transitive	atar	atar amor		f	Res Filiformes.xlsx	AMOR	D5	freq:summary 1	1	inline
+fil-amor-co-0017	Res Filiformes	amor	CO	verbal-subject-transitive	amarrar	amarrar amor		f	Res Filiformes.xlsx	AMOR	D5	freq:summary 1	1	inline
+fil-amor-co-0018	Res Filiformes	amor	CO	verbal-subject-transitive	atar	es más el miedo y tal vez el amor lo que la ata a él,		f	Res Filiformes.xlsx	AMOR	D5		0	illustrative
+fil-amor-co-0019	Res Filiformes	amor	CO	verbal-subject-transitive	amarrar	lo único que quería era volver a vivir en paz, sin amores que lo amarraran tanto		f	Res Filiformes.xlsx	AMOR	D5		0	illustrative
+fil-amor-co-0020	Res Filiformes	amor	CO	attributive	tejido	una historia de amor tejida entre versos musicales		f	Res Filiformes.xlsx	AMOR	F5		1	example
+fil-amor-co-0021	Res Filiformes	amor	CO	substantive	hilo de	uno va haciéndo se zancadillas en cada página, enredándo se con la madeja de un amor que nadie atina a hilvanar		f	Res Filiformes.xlsx	AMOR	G5		1	example
+fil-amor-co-0022	Res Filiformes	amor	CO	substantive	hilo	les mando hilos de amor y cariño		f	Res Filiformes.xlsx	AMOR	G5		1	example
+fil-amor-co-0023	Res Filiformes	amor	CO	substantive	hilo	el hilo sagrado de tu amor		f	Res Filiformes.xlsx	AMOR	G5		1	example
+fil-amor-co-0024	Res Filiformes	amor	CO	substantive	hilo	el extremo contrario de su hilo de el amor.		f	Res Filiformes.xlsx	AMOR	G5		1	example
+fil-amor-co-0025	Res Filiformes	amor	CO	substantive	hilo	suspiro suavemente de pie ante el hilo de el amor		f	Res Filiformes.xlsx	AMOR	G5		1	example
 fil-amor-cr-0001	Res Filiformes	amor	CR	verbal-objective	tejer	la historia de amor que tejieron en su momento Zamora y su hoy exesposa		f	Res Filiformes.xlsx	AMOR	B6		1	example
 fil-amor-cr-0002	Res Filiformes	amor	CR	verbal-objective	tejer	Esa calle –sin salida– que en la serie tejió historias de amor, celos, solidaridad, generosidad		f	Res Filiformes.xlsx	AMOR	B6		1	example
 fil-amor-cr-0003	Res Filiformes	amor	CR	verbal-objective	tejer	on el alma más bella de el mundo, capaz de tejer un amor sin límites en la inocencia inesperada.		f	Res Filiformes.xlsx	AMOR	B6		1	example
 fil-amor-cr-0004	Res Filiformes	amor	CR	verbal-objective	tejer	En el seno de el hogar se tejió un amor		f	Res Filiformes.xlsx	AMOR	B6		1	example
-fil-amor-cr-0005	Res Filiformes	amor	CR	verbal-subject-intransitive	entrelazarse	una mezcla de humor y tragedia en la que se entrelazan el amor y los sueños de la adolescencia		f	Res Filiformes.xlsx	AMOR	C6		1	example
-fil-amor-cr-0006	Res Filiformes	amor	CR	verbal-subject-intransitive	tejerse	el sustrato indígena y la influencia negra, son el espectro en donde se tejen amores, alianzas y traiciones		f	Res Filiformes.xlsx	AMOR	C6		1	example
-fil-amor-cu-0001	Res Filiformes	amor	CU	verbal-objective	tejer	1CNo se entristezca, pues llegó diciembre con su magia, tejiendo hilos de amor y amistad, coloreando los corazones		f	Res Filiformes.xlsx	AMOR	B7		1	example
-fil-amor-cu-0002	Res Filiformes	amor	CU	verbal-objective	entrelazar	entrelazó su amor a la patria con su don de escribir		f	Res Filiformes.xlsx	AMOR	B7		1	example
-fil-amor-cu-0003	Res Filiformes	amor	CU	verbal-subject-intransitive	entrelazarse	el clavel, rojo se entrelaza con el amor y rosado con el amor maternal,		f	Res Filiformes.xlsx	AMOR	C7		1	example
-fil-amor-cu-0004	Res Filiformes	amor	CU	verbal-instrumental		un proceso mucho más rápido para seguir desempolvando los paquetes que las manos de Celia ataran con amor		f	Res Filiformes.xlsx	AMOR	E7		1	example
-fil-amor-cu-0005	Res Filiformes	amor	CU	substantive	hilo de	, tejiendo hilos de amor y amistad		f	Res Filiformes.xlsx	AMOR	G7		1	example
-fil-amor-cu-0006	Res Filiformes	amor	CU	substantive	hilo de	En Camagüey se cosen muñecas con hilos de amor		f	Res Filiformes.xlsx	AMOR	G7		1	example
-fil-amor-cu-0007	Res Filiformes	amor	CU	substantive	hilo de	estaremos unidos con hilos de amor y humilda		f	Res Filiformes.xlsx	AMOR	G7		1	example
+fil-amor-cr-0005	Res Filiformes	amor	CR	verbal-subject-intransitive	tejerse	tejerse amor		f	Res Filiformes.xlsx	AMOR	C6	freq:summary 1	1	inline
+fil-amor-cr-0006	Res Filiformes	amor	CR	verbal-subject-intransitive	entrelazarse	entrelazarse amor		f	Res Filiformes.xlsx	AMOR	C6	freq:summary 1	1	inline
+fil-amor-cr-0007	Res Filiformes	amor	CR	verbal-subject-intransitive	entrelazarse	una mezcla de humor y tragedia en la que se entrelazan el amor y los sueños de la adolescencia		f	Res Filiformes.xlsx	AMOR	C6		0	illustrative
+fil-amor-cr-0008	Res Filiformes	amor	CR	verbal-subject-intransitive	tejerse	el sustrato indígena y la influencia negra, son el espectro en donde se tejen amores, alianzas y traiciones		f	Res Filiformes.xlsx	AMOR	C6		0	illustrative
+fil-amor-cu-0001	Res Filiformes	amor	CU	verbal-objective	tejer	tejer amor		f	Res Filiformes.xlsx	AMOR	B7	freq:summary 1	1	inline
+fil-amor-cu-0002	Res Filiformes	amor	CU	verbal-objective	entrelazar	entrelazar amor		f	Res Filiformes.xlsx	AMOR	B7	freq:summary 1	1	inline
+fil-amor-cu-0003	Res Filiformes	amor	CU	verbal-objective	tejer	1CNo se entristezca, pues llegó diciembre con su magia, tejiendo hilos de amor y amistad, coloreando los corazones		f	Res Filiformes.xlsx	AMOR	B7		0	illustrative
+fil-amor-cu-0004	Res Filiformes	amor	CU	verbal-objective	entrelazar	entrelazó su amor a la patria con su don de escribir		f	Res Filiformes.xlsx	AMOR	B7		0	illustrative
+fil-amor-cu-0005	Res Filiformes	amor	CU	verbal-subject-intransitive	entrelazarse	el clavel, rojo se entrelaza con el amor y rosado con el amor maternal,		f	Res Filiformes.xlsx	AMOR	C7		1	example
+fil-amor-cu-0006	Res Filiformes	amor	CU	verbal-instrumental	atar	un proceso mucho más rápido para seguir desempolvando los paquetes que las manos de Celia ataran con amor		f	Res Filiformes.xlsx	AMOR	E7		1	example
+fil-amor-cu-0007	Res Filiformes	amor	CU	substantive	hilo	, tejiendo hilos de amor y amistad		f	Res Filiformes.xlsx	AMOR	G7		1	example
+fil-amor-cu-0008	Res Filiformes	amor	CU	substantive	hilo	En Camagüey se cosen muñecas con hilos de amor		f	Res Filiformes.xlsx	AMOR	G7		1	example
+fil-amor-cu-0009	Res Filiformes	amor	CU	substantive	hilo	estaremos unidos con hilos de amor y humilda		f	Res Filiformes.xlsx	AMOR	G7		1	example
 fil-amor-do-0001	Res Filiformes	amor	DO	verbal-subject-intransitive	entrelazarse	a humildad, el servicio y el amor se entrelazan aquí para mostrar nos el camino efectivo a el ciel		f	Res Filiformes.xlsx	AMOR	C8		1	example
 fil-amor-do-0002	Res Filiformes	amor	DO	verbal-subject-transitive	atar	Un amor lo ató a Colombia		f	Res Filiformes.xlsx	AMOR	D8		1	example
-fil-amor-do-0003	Res Filiformes	amor	DO	verbal-instrumental		sentimientos entrelazados de el amor con la costumbre		f	Res Filiformes.xlsx	AMOR	E8		1	example
-fil-amor-do-0004	Res Filiformes	amor	DO	substantive	hilo de	os unía un hilo intelectual de amor a las palabras y a la cultur		f	Res Filiformes.xlsx	AMOR	G8		1	example
-fil-amor-do-0005	Res Filiformes	amor	DO	substantive	hilo de	Ambos se han unido por ese hilo conductual de el amor fraterno		f	Res Filiformes.xlsx	AMOR	G8		1	example
+fil-amor-do-0003	Res Filiformes	amor	DO	verbal-instrumental	entrelazado	sentimientos entrelazados de el amor con la costumbre		f	Res Filiformes.xlsx	AMOR	E8		1	example
+fil-amor-do-0004	Res Filiformes	amor	DO	substantive	hilo	os unía un hilo intelectual de amor a las palabras y a la cultur		f	Res Filiformes.xlsx	AMOR	G8		1	example
+fil-amor-do-0005	Res Filiformes	amor	DO	substantive	hilo	Ambos se han unido por ese hilo conductual de el amor fraterno		f	Res Filiformes.xlsx	AMOR	G8		1	example
 fil-amor-ec-0001	Res Filiformes	amor	EC	verbal-objective	desatar	un legado que desata odios y amores		f	Res Filiformes.xlsx	AMOR	B9		1	example
-fil-amor-ec-0002	Res Filiformes	amor	EC	verbal-instrumental		Decidimos, atados por el amor, no abandonar el uno a el otro		f	Res Filiformes.xlsx	AMOR	E9		1	example
-fil-amor-ec-0003	Res Filiformes	amor	EC	substantive	hilo de	unida por los hilos de el amor,		f	Res Filiformes.xlsx	AMOR	G9		1	example
-fil-amor-es-0001	Res Filiformes	amor	ES	verbal-objective	tejer	puede tejer un amor romántico,		f	Res Filiformes.xlsx	AMOR	B10		1	example
-fil-amor-es-0002	Res Filiformes	amor	ES	verbal-objective	tejer	una pastora y un Príncipe que tejen un amor lleno de intrigas y referencias a un pasado desconocido		f	Res Filiformes.xlsx	AMOR	B10		1	example
-fil-amor-es-0003	Res Filiformes	amor	ES	verbal-objective	desatar	a los protagonistas les da igual a la hora de desatar su amor.		f	Res Filiformes.xlsx	AMOR	B10		1	example
-fil-amor-es-0004	Res Filiformes	amor	ES	verbal-objective	desatar	el amor que desataría la Gran Esfinge de Guiza		f	Res Filiformes.xlsx	AMOR	B10		1	example
-fil-amor-es-0005	Res Filiformes	amor	ES	verbal-objective	desatar	tempestad que esperaba que desatara su verdadero amor		f	Res Filiformes.xlsx	AMOR	B10		1	example
-fil-amor-es-0006	Res Filiformes	amor	ES	verbal-objective	desatar	José López desata amores y odios		f	Res Filiformes.xlsx	AMOR	B10		1	example
-fil-amor-es-0007	Res Filiformes	amor	ES	verbal-objective	entrelazar	entrelazando amor y muerte		f	Res Filiformes.xlsx	AMOR	B10		1	example
-fil-amor-es-0008	Res Filiformes	amor	ES	verbal-objective	entrelazar	La autora ha sabido entrelazar amores y enigmas con una escritura a la vez compleja y transparent		f	Res Filiformes.xlsx	AMOR	B10		1	example
-fil-amor-es-0009	Res Filiformes	amor	ES	verbal-objective		" amarrar el amor a el sexo ha sido una de las ocurrencias más extravagantes		f	Res Filiformes.xlsx	AMOR	B10		1	example
-fil-amor-es-0010	Res Filiformes	amor	ES	verbal-subject-intransitive	tejerse	A su alrededor se tejen o desmadejan amores, infelicidades y pasiones, destacando el bello amor de un joven		f	Res Filiformes.xlsx	AMOR	C10		1	example
-fil-amor-es-0011	Res Filiformes	amor	ES	verbal-subject-intransitive	tejerse	El rencor, la venganza, el amor y la decepción tejen un mosaico de intensas pasiones que se expresan a través de un vocabulario gestual fértil		f	Res Filiformes.xlsx	AMOR	C10		1	example
-fil-amor-es-0012	Res Filiformes	amor	ES	verbal-subject-intransitive	tejerse	El amor se teje entre do		f	Res Filiformes.xlsx	AMOR	C10		1	example
-fil-amor-es-0013	Res Filiformes	amor	ES	verbal-subject-intransitive	desatarse	Las pasiones y amores se desataban también entre los vapores de las terma		f	Res Filiformes.xlsx	AMOR	C10		1	example
-fil-amor-es-0014	Res Filiformes	amor	ES	verbal-subject-intransitive	desatarse	se desató su amor por la música clásica.		f	Res Filiformes.xlsx	AMOR	C10		1	example
-fil-amor-es-0015	Res Filiformes	amor	ES	verbal-subject-intransitive	desatarse	, un instrumento que revolucionó la música moderna y en torno a el que se desatan historias de amor		f	Res Filiformes.xlsx	AMOR	C10		1	example
-fil-amor-es-0016	Res Filiformes	amor	ES	verbal-subject-intransitive	entrelazarse	Los reproches y el amor se entrelazan en esta fraternal historia		f	Res Filiformes.xlsx	AMOR	C10		1	example
-fil-amor-es-0017	Res Filiformes	amor	ES	verbal-subject-intransitive	entrelazarse	Amistad, amor y desamor se entrelaza a lo largo de el trayecto		f	Res Filiformes.xlsx	AMOR	C10		1	example
-fil-amor-es-0018	Res Filiformes	amor	ES	verbal-subject-intransitive	entrelazarse	Los precipicios de la vida y las profundidades de el amor se entrelazan sobre las tablas de la Sala I		f	Res Filiformes.xlsx	AMOR	C10		1	example
-fil-amor-es-0019	Res Filiformes	amor	ES	verbal-subject-intransitive		El amor de conveniencia o amor racional cose la convivencia a través de intereses reconocidos, el amor pasión se hilvana, por el contrario, a través de una aguja de luz que fulge y desaparece''.		f	Res Filiformes.xlsx	AMOR	C10		1	example
-fil-amor-es-0020	Res Filiformes	amor	ES	verbal-subject-transitive		El amor imposible teje varias historias que se superponen		f	Res Filiformes.xlsx	AMOR	D10		1	example
-fil-amor-es-0021	Res Filiformes	amor	ES	verbal-subject-transitive		Y ese amor de madre va tejiendo el vínculo entre ellos		f	Res Filiformes.xlsx	AMOR	D10		1	example
-fil-amor-es-0022	Res Filiformes	amor	ES	verbal-subject-transitive		Jerry y Emma se aman y su amor teje un laberinto de traiciones,		f	Res Filiformes.xlsx	AMOR	D10		1	example
-fil-amor-es-0023	Res Filiformes	amor	ES	verbal-subject-transitive		Esto es regar cada día ese amor que nos entrelaza como pareja		f	Res Filiformes.xlsx	AMOR	D10		1	example
-fil-amor-es-0024	Res Filiformes	amor	ES	verbal-instrumental		Su dolor se tejió con amor, pérdida, culpa y redención.		f	Res Filiformes.xlsx	AMOR	E10		1	example
-fil-amor-es-0025	Res Filiformes	amor	ES	verbal-instrumental		intentan sorprender a sus clientas y que tejen con amor cuatro artesanas.		f	Res Filiformes.xlsx	AMOR	E10		1	example
-fil-amor-es-0026	Res Filiformes	amor	ES	verbal-instrumental		miles de flores, más unas que otras, se entrelazan con el amor		f	Res Filiformes.xlsx	AMOR	E10		1	example
-fil-amor-es-0027	Res Filiformes	amor	ES	verbal-instrumental		nos dioses entrelazados por el amor, la amistad, la envidia, el odio y la fragilidad		f	Res Filiformes.xlsx	AMOR	E10		1	example
-fil-amor-es-0028	Res Filiformes	amor	ES	verbal-instrumental		La carga de una cadencia que está hilvanada por la tristeza, por el dolo		f	Res Filiformes.xlsx	AMOR	E10		1	example
-fil-amor-es-0029	Res Filiformes	amor	ES	attributive	tejido	contemplar una historia tejida de amor por miles de nuestros conciudadanos		f	Res Filiformes.xlsx	AMOR	F10		1	example
-fil-amor-es-0030	Res Filiformes	amor	ES	attributive		el amor desatado por su segunda esposa		f	Res Filiformes.xlsx	AMOR	F10		1	example
-fil-amor-es-0031	Res Filiformes	amor	ES	attributive		su amor fue loco y desatado		f	Res Filiformes.xlsx	AMOR	F10		1	example
-fil-amor-es-0032	Res Filiformes	amor	ES	attributive		La jornada de este miércoles se presentaba plena de amores marianos desatados en la ciudad de Huelva		f	Res Filiformes.xlsx	AMOR	F10		1	example
-fil-amor-es-0033	Res Filiformes	amor	ES	attributive	retorcido	me encanta la oscuridad que hay tras este amor retorcido y siempre pendiendo de un hilo		f	Res Filiformes.xlsx	AMOR	F10		1	example
-fil-amor-es-0034	Res Filiformes	amor	ES	substantive	hilo de	El amor es el hilo conductor, que puede dar plenitud a el corazón de las personas		f	Res Filiformes.xlsx	AMOR	G10		1	example
-fil-amor-es-0035	Res Filiformes	amor	ES	substantive	hilo de	el invisible hilo de nuestro profundo amor.		f	Res Filiformes.xlsx	AMOR	G10		1	example
-fil-amor-es-0036	Res Filiformes	amor	ES	substantive		El amor es el hilo que enlaza los días y nos ayuda a no perder nos		f	Res Filiformes.xlsx	AMOR	G10		1	example
-fil-amor-es-0037	Res Filiformes	amor	ES	substantive		el hilo conductor es el amor		f	Res Filiformes.xlsx	AMOR	G10		1	example
-fil-amor-mx-0001	Res Filiformes	amor	MX	verbal-objective	tejer	ran ídolo de México, que vivió a el máximo su vida y tejió grandes amores		f	Res Filiformes.xlsx	AMOR	B13		1	example
-fil-amor-mx-0002	Res Filiformes	amor	MX	verbal-objective	tejer	2Confiamos en Dios, con la certeza que él teje historias de amor personal con cada una		f	Res Filiformes.xlsx	AMOR	B13		1	example
-fil-amor-mx-0003	Res Filiformes	amor	MX	verbal-objective	desatar	n legado que desató odios y amores.		f	Res Filiformes.xlsx	AMOR	B13		1	example
-fil-amor-mx-0004	Res Filiformes	amor	MX	verbal-objective	desatar	la lectura conmueve, desata el amor		f	Res Filiformes.xlsx	AMOR	B13		1	example
-fil-amor-mx-0005	Res Filiformes	amor	MX	verbal-objective	desatar	la pasión que desata el amor		f	Res Filiformes.xlsx	AMOR	B13		1	example
-fil-amor-mx-0006	Res Filiformes	amor	MX	verbal-objective	desatar	Este tipo de amor desata pasión y el deseo		f	Res Filiformes.xlsx	AMOR	B13		1	example
-fil-amor-mx-0007	Res Filiformes	amor	MX	verbal-objective	desatar	; vincula e incluye, despierta el orgullo y desata el amor a la patria		f	Res Filiformes.xlsx	AMOR	B13		1	example
-fil-amor-mx-0008	Res Filiformes	amor	MX	verbal-objective		ntrelaza amores y enigmas en una historia que abarca tres generaciones		f	Res Filiformes.xlsx	AMOR	B13		1	example
-fil-amor-mx-0009	Res Filiformes	amor	MX	verbal-objective	entrelazar	La autora ha sabido entrelazar amores y enigmas		f	Res Filiformes.xlsx	AMOR	B13		1	example
-fil-amor-mx-0010	Res Filiformes	amor	MX	verbal-subject-intransitive	tejerse	en cada página se tejen historias de amor, traición y amistad		f	Res Filiformes.xlsx	AMOR	C13		1	example
-fil-amor-mx-0011	Res Filiformes	amor	MX	verbal-subject-intransitive	desatarse	na serie de relaciones de poder, amor y odio se desatarán.		f	Res Filiformes.xlsx	AMOR	C13		1	example
-fil-amor-mx-0012	Res Filiformes	amor	MX	verbal-subject-intransitive	entrelazarse	es un canto maravilloso en el que se entrelazan el amor divino, la alegría, la conversión, el perdó		f	Res Filiformes.xlsx	AMOR	C13		1	example
-fil-amor-mx-0013	Res Filiformes	amor	MX	verbal-subject-intransitive	entrelazarse	La amistad, la lealtad y el amor se entrelazaron con el bel canto para llevar a escena		f	Res Filiformes.xlsx	AMOR	C13		1	example
-fil-amor-mx-0014	Res Filiformes	amor	MX	verbal-subject-intransitive	entrelazarse	es una mezcla de humor y tragedia en la que se entrelazan el amor y los sueños de una adolescencia marcada por el cánce		f	Res Filiformes.xlsx	AMOR	C13		1	example
-fil-amor-mx-0015	Res Filiformes	amor	MX	verbal-subject-transitive		Mal de amores teje, recorta y borda cojines, cobijas, llaveros		f	Res Filiformes.xlsx	AMOR	D13		1	example
-fil-amor-mx-0016	Res Filiformes	amor	MX	verbal-subject-transitive	amarrar	el amor patrio, está amarrando su bandera para tratar de alzar la aquí dentro de el escombro		f	Res Filiformes.xlsx	AMOR	D13		1	example
-fil-amor-mx-0017	Res Filiformes	amor	MX	verbal-subject-transitive	amarrar	Habla de un amor que te amarra y no te suelta		f	Res Filiformes.xlsx	AMOR	D13		1	example
-fil-amor-mx-0018	Res Filiformes	amor	MX	verbal-instrumental		la manera de cómo tejer con amor, empeño y dedicación		f	Res Filiformes.xlsx	AMOR	E13		1	example
+fil-amor-ec-0002	Res Filiformes	amor	EC	verbal-instrumental	atar	Decidimos, atados por el amor, no abandonar el uno a el otro		f	Res Filiformes.xlsx	AMOR	E9		1	example
+fil-amor-ec-0003	Res Filiformes	amor	EC	substantive	hilo	unida por los hilos de el amor,		f	Res Filiformes.xlsx	AMOR	G9		1	example
+fil-amor-es-0001	Res Filiformes	amor	ES	verbal-objective	tejer	tejer amor		f	Res Filiformes.xlsx	AMOR	B10	freq:summary 2	2	inline
+fil-amor-es-0002	Res Filiformes	amor	ES	verbal-objective	desatar	desatar amor		f	Res Filiformes.xlsx	AMOR	B10	freq:summary 4	4	inline
+fil-amor-es-0003	Res Filiformes	amor	ES	verbal-objective	entrelazar	entrelazar amor		f	Res Filiformes.xlsx	AMOR	B10	freq:summary 2	2	inline
+fil-amor-es-0004	Res Filiformes	amor	ES	verbal-objective	amarrar	amarrar amor		f	Res Filiformes.xlsx	AMOR	B10	freq:summary 1	1	inline
+fil-amor-es-0005	Res Filiformes	amor	ES	verbal-objective	tejer	puede tejer un amor romántico,		f	Res Filiformes.xlsx	AMOR	B10		0	illustrative
+fil-amor-es-0006	Res Filiformes	amor	ES	verbal-objective	tejer	una pastora y un Príncipe que tejen un amor lleno de intrigas y referencias a un pasado desconocido		f	Res Filiformes.xlsx	AMOR	B10		0	illustrative
+fil-amor-es-0007	Res Filiformes	amor	ES	verbal-objective	desatar	a los protagonistas les da igual a la hora de desatar su amor.		f	Res Filiformes.xlsx	AMOR	B10		0	illustrative
+fil-amor-es-0008	Res Filiformes	amor	ES	verbal-objective	desatar	el amor que desataría la Gran Esfinge de Guiza		f	Res Filiformes.xlsx	AMOR	B10		0	illustrative
+fil-amor-es-0009	Res Filiformes	amor	ES	verbal-objective	desatar	tempestad que esperaba que desatara su verdadero amor		f	Res Filiformes.xlsx	AMOR	B10		0	illustrative
+fil-amor-es-0010	Res Filiformes	amor	ES	verbal-objective	desatar	José López desata amores y odios		f	Res Filiformes.xlsx	AMOR	B10		0	illustrative
+fil-amor-es-0011	Res Filiformes	amor	ES	verbal-objective	entrelazar	entrelazando amor y muerte		f	Res Filiformes.xlsx	AMOR	B10		0	illustrative
+fil-amor-es-0012	Res Filiformes	amor	ES	verbal-objective	entrelazar	La autora ha sabido entrelazar amores y enigmas con una escritura a la vez compleja y transparent		f	Res Filiformes.xlsx	AMOR	B10		0	illustrative
+fil-amor-es-0013	Res Filiformes	amor	ES	verbal-objective	amarrar	" amarrar el amor a el sexo ha sido una de las ocurrencias más extravagantes		f	Res Filiformes.xlsx	AMOR	B10		0	illustrative
+fil-amor-es-0014	Res Filiformes	amor	ES	verbal-subject-intransitive	tejerse	tejerse amor		f	Res Filiformes.xlsx	AMOR	C10	freq:summary 3	3	inline
+fil-amor-es-0015	Res Filiformes	amor	ES	verbal-subject-intransitive	desatarse	desatarse amor		f	Res Filiformes.xlsx	AMOR	C10	freq:summary 3	3	inline
+fil-amor-es-0016	Res Filiformes	amor	ES	verbal-subject-intransitive	entrelazarse	entrelazarse amor		f	Res Filiformes.xlsx	AMOR	C10	freq:summary 3	3	inline
+fil-amor-es-0017	Res Filiformes	amor	ES	verbal-subject-intransitive	hilvanar	hilvanar amor		f	Res Filiformes.xlsx	AMOR	C10	freq:summary 1	1	inline
+fil-amor-es-0018	Res Filiformes	amor	ES	verbal-subject-intransitive	tejerse	A su alrededor se tejen o desmadejan amores, infelicidades y pasiones, destacando el bello amor de un joven		f	Res Filiformes.xlsx	AMOR	C10		0	illustrative
+fil-amor-es-0019	Res Filiformes	amor	ES	verbal-subject-intransitive	tejerse	El rencor, la venganza, el amor y la decepción tejen un mosaico de intensas pasiones que se expresan a través de un vocabulario gestual fértil		f	Res Filiformes.xlsx	AMOR	C10		0	illustrative
+fil-amor-es-0020	Res Filiformes	amor	ES	verbal-subject-intransitive	tejerse	El amor se teje entre do		f	Res Filiformes.xlsx	AMOR	C10		0	illustrative
+fil-amor-es-0021	Res Filiformes	amor	ES	verbal-subject-intransitive	desatarse	Las pasiones y amores se desataban también entre los vapores de las terma		f	Res Filiformes.xlsx	AMOR	C10		0	illustrative
+fil-amor-es-0022	Res Filiformes	amor	ES	verbal-subject-intransitive	desatarse	se desató su amor por la música clásica.		f	Res Filiformes.xlsx	AMOR	C10		0	illustrative
+fil-amor-es-0023	Res Filiformes	amor	ES	verbal-subject-intransitive	desatarse	, un instrumento que revolucionó la música moderna y en torno a el que se desatan historias de amor		f	Res Filiformes.xlsx	AMOR	C10		0	illustrative
+fil-amor-es-0024	Res Filiformes	amor	ES	verbal-subject-intransitive	entrelazarse	Los reproches y el amor se entrelazan en esta fraternal historia		f	Res Filiformes.xlsx	AMOR	C10		0	illustrative
+fil-amor-es-0025	Res Filiformes	amor	ES	verbal-subject-intransitive	entrelazarse	Amistad, amor y desamor se entrelaza a lo largo de el trayecto		f	Res Filiformes.xlsx	AMOR	C10		0	illustrative
+fil-amor-es-0026	Res Filiformes	amor	ES	verbal-subject-intransitive	entrelazarse	Los precipicios de la vida y las profundidades de el amor se entrelazan sobre las tablas de la Sala I		f	Res Filiformes.xlsx	AMOR	C10		0	illustrative
+fil-amor-es-0027	Res Filiformes	amor	ES	verbal-subject-intransitive	hilvanar	El amor de conveniencia o amor racional cose la convivencia a través de intereses reconocidos, el amor pasión se hilvana, por el contrario, a través de una aguja de luz que fulge y desaparece''.		f	Res Filiformes.xlsx	AMOR	C10		0	illustrative
+fil-amor-es-0028	Res Filiformes	amor	ES	verbal-subject-transitive	tejer	tejer amor		f	Res Filiformes.xlsx	AMOR	D10	freq:summary 3	3	inline
+fil-amor-es-0029	Res Filiformes	amor	ES	verbal-subject-transitive	entrelazar	entrelazar amor		f	Res Filiformes.xlsx	AMOR	D10	freq:summary 1	1	inline
+fil-amor-es-0030	Res Filiformes	amor	ES	verbal-subject-transitive	tejer	El amor imposible teje varias historias que se superponen		f	Res Filiformes.xlsx	AMOR	D10		0	illustrative
+fil-amor-es-0031	Res Filiformes	amor	ES	verbal-subject-transitive	tejer	Y ese amor de madre va tejiendo el vínculo entre ellos		f	Res Filiformes.xlsx	AMOR	D10		0	illustrative
+fil-amor-es-0032	Res Filiformes	amor	ES	verbal-subject-transitive	tejer	Jerry y Emma se aman y su amor teje un laberinto de traiciones,		f	Res Filiformes.xlsx	AMOR	D10		0	illustrative
+fil-amor-es-0033	Res Filiformes	amor	ES	verbal-subject-transitive	entrelazar	Esto es regar cada día ese amor que nos entrelaza como pareja		f	Res Filiformes.xlsx	AMOR	D10		0	illustrative
+fil-amor-es-0034	Res Filiformes	amor	ES	verbal-instrumental	tejer	tejer amor		f	Res Filiformes.xlsx	AMOR	E10	freq:summary 2 | FLAG: summary Σ4 ≠ 5 examples shown	2	inline
+fil-amor-es-0035	Res Filiformes	amor	ES	verbal-instrumental	entrelazar	entrelazar amor		f	Res Filiformes.xlsx	AMOR	E10	freq:summary 1	1	inline
+fil-amor-es-0036	Res Filiformes	amor	ES	verbal-instrumental	hilvanar	hilvanar amor		f	Res Filiformes.xlsx	AMOR	E10	freq:summary 1	1	inline
+fil-amor-es-0037	Res Filiformes	amor	ES	verbal-instrumental	tejer	Su dolor se tejió con amor, pérdida, culpa y redención.		f	Res Filiformes.xlsx	AMOR	E10		0	illustrative
+fil-amor-es-0038	Res Filiformes	amor	ES	verbal-instrumental	tejer	intentan sorprender a sus clientas y que tejen con amor cuatro artesanas.		f	Res Filiformes.xlsx	AMOR	E10		0	illustrative
+fil-amor-es-0039	Res Filiformes	amor	ES	verbal-instrumental	entrelazar	miles de flores, más unas que otras, se entrelazan con el amor		f	Res Filiformes.xlsx	AMOR	E10		0	illustrative
+fil-amor-es-0040	Res Filiformes	amor	ES	verbal-instrumental	entrelazar	nos dioses entrelazados por el amor, la amistad, la envidia, el odio y la fragilidad		f	Res Filiformes.xlsx	AMOR	E10		0	illustrative
+fil-amor-es-0041	Res Filiformes	amor	ES	verbal-instrumental	hilvanar	La carga de una cadencia que está hilvanada por la tristeza, por el dolo		f	Res Filiformes.xlsx	AMOR	E10		0	illustrative
+fil-amor-es-0042	Res Filiformes	amor	ES	attributive	tejer	tejer amor		f	Res Filiformes.xlsx	AMOR	F10	freq:summary 1	1	inline
+fil-amor-es-0043	Res Filiformes	amor	ES	attributive	desatar	desatar amor		f	Res Filiformes.xlsx	AMOR	F10	freq:summary 3	3	inline
+fil-amor-es-0044	Res Filiformes	amor	ES	attributive	retorcer	retorcer amor		f	Res Filiformes.xlsx	AMOR	F10	freq:summary 1	1	inline
+fil-amor-es-0045	Res Filiformes	amor	ES	attributive	tejer	contemplar una historia tejida de amor por miles de nuestros conciudadanos		f	Res Filiformes.xlsx	AMOR	F10		0	illustrative
+fil-amor-es-0046	Res Filiformes	amor	ES	attributive	desatar	el amor desatado por su segunda esposa		f	Res Filiformes.xlsx	AMOR	F10		0	illustrative
+fil-amor-es-0047	Res Filiformes	amor	ES	attributive	desatar	su amor fue loco y desatado		f	Res Filiformes.xlsx	AMOR	F10		0	illustrative
+fil-amor-es-0048	Res Filiformes	amor	ES	attributive	desatar	La jornada de este miércoles se presentaba plena de amores marianos desatados en la ciudad de Huelva		f	Res Filiformes.xlsx	AMOR	F10		0	illustrative
+fil-amor-es-0049	Res Filiformes	amor	ES	attributive	retorcer	me encanta la oscuridad que hay tras este amor retorcido y siempre pendiendo de un hilo		f	Res Filiformes.xlsx	AMOR	F10		0	illustrative
+fil-amor-es-0050	Res Filiformes	amor	ES	substantive	hilo	El amor es el hilo conductor, que puede dar plenitud a el corazón de las personas		f	Res Filiformes.xlsx	AMOR	G10		1	example
+fil-amor-es-0051	Res Filiformes	amor	ES	substantive	hilo	el invisible hilo de nuestro profundo amor.		f	Res Filiformes.xlsx	AMOR	G10		1	example
+fil-amor-es-0052	Res Filiformes	amor	ES	substantive	hilo	El amor es el hilo que enlaza los días y nos ayuda a no perder nos		f	Res Filiformes.xlsx	AMOR	G10		1	example
+fil-amor-es-0053	Res Filiformes	amor	ES	substantive	hilo	el hilo conductor es el amor		f	Res Filiformes.xlsx	AMOR	G10		1	example
+fil-amor-mx-0001	Res Filiformes	amor	MX	verbal-objective	tejer	tejer amor		f	Res Filiformes.xlsx	AMOR	B13	freq:summary 2	2	inline
+fil-amor-mx-0002	Res Filiformes	amor	MX	verbal-objective	desatar	desatar amor		f	Res Filiformes.xlsx	AMOR	B13	freq:summary 5	5	inline
+fil-amor-mx-0003	Res Filiformes	amor	MX	verbal-objective	entrelazar	entrelazar amor		f	Res Filiformes.xlsx	AMOR	B13	freq:summary 2	2	inline
+fil-amor-mx-0004	Res Filiformes	amor	MX	verbal-objective	tejer	ran ídolo de México, que vivió a el máximo su vida y tejió grandes amores		f	Res Filiformes.xlsx	AMOR	B13		0	illustrative
+fil-amor-mx-0005	Res Filiformes	amor	MX	verbal-objective	tejer	2Confiamos en Dios, con la certeza que él teje historias de amor personal con cada una		f	Res Filiformes.xlsx	AMOR	B13		0	illustrative
+fil-amor-mx-0006	Res Filiformes	amor	MX	verbal-objective	desatar	n legado que desató odios y amores.		f	Res Filiformes.xlsx	AMOR	B13		0	illustrative
+fil-amor-mx-0007	Res Filiformes	amor	MX	verbal-objective	desatar	la lectura conmueve, desata el amor		f	Res Filiformes.xlsx	AMOR	B13		0	illustrative
+fil-amor-mx-0008	Res Filiformes	amor	MX	verbal-objective	desatar	la pasión que desata el amor		f	Res Filiformes.xlsx	AMOR	B13		0	illustrative
+fil-amor-mx-0009	Res Filiformes	amor	MX	verbal-objective	desatar	Este tipo de amor desata pasión y el deseo		f	Res Filiformes.xlsx	AMOR	B13		0	illustrative
+fil-amor-mx-0010	Res Filiformes	amor	MX	verbal-objective	desatar	; vincula e incluye, despierta el orgullo y desata el amor a la patria		f	Res Filiformes.xlsx	AMOR	B13		0	illustrative
+fil-amor-mx-0011	Res Filiformes	amor	MX	verbal-objective		ntrelaza amores y enigmas en una historia que abarca tres generaciones		f	Res Filiformes.xlsx	AMOR	B13		0	illustrative
+fil-amor-mx-0012	Res Filiformes	amor	MX	verbal-objective	entrelazar	La autora ha sabido entrelazar amores y enigmas		f	Res Filiformes.xlsx	AMOR	B13		0	illustrative
+fil-amor-mx-0013	Res Filiformes	amor	MX	verbal-subject-intransitive	desatarse	en cada página se tejen historias de amor, traición y amistad		f	Res Filiformes.xlsx	AMOR	C13		1	example
+fil-amor-mx-0014	Res Filiformes	amor	MX	verbal-subject-intransitive	desatarse	na serie de relaciones de poder, amor y odio se desatarán.		f	Res Filiformes.xlsx	AMOR	C13		1	example
+fil-amor-mx-0015	Res Filiformes	amor	MX	verbal-subject-intransitive	desatarse	es un canto maravilloso en el que se entrelazan el amor divino, la alegría, la conversión, el perdó		f	Res Filiformes.xlsx	AMOR	C13		1	example
+fil-amor-mx-0016	Res Filiformes	amor	MX	verbal-subject-intransitive	desatarse	La amistad, la lealtad y el amor se entrelazaron con el bel canto para llevar a escena		f	Res Filiformes.xlsx	AMOR	C13		1	example
+fil-amor-mx-0017	Res Filiformes	amor	MX	verbal-subject-intransitive	desatarse	es una mezcla de humor y tragedia en la que se entrelazan el amor y los sueños de una adolescencia marcada por el cánce		f	Res Filiformes.xlsx	AMOR	C13		1	example
+fil-amor-mx-0018	Res Filiformes	amor	MX	verbal-subject-transitive	amarrar	Mal de amores teje, recorta y borda cojines, cobijas, llaveros		f	Res Filiformes.xlsx	AMOR	D13		1	example
+fil-amor-mx-0019	Res Filiformes	amor	MX	verbal-subject-transitive	amarrar	el amor patrio, está amarrando su bandera para tratar de alzar la aquí dentro de el escombro		f	Res Filiformes.xlsx	AMOR	D13		1	example
+fil-amor-mx-0020	Res Filiformes	amor	MX	verbal-subject-transitive	amarrar	Habla de un amor que te amarra y no te suelta		f	Res Filiformes.xlsx	AMOR	D13		1	example
+fil-amor-mx-0021	Res Filiformes	amor	MX	verbal-instrumental	tejer	la manera de cómo tejer con amor, empeño y dedicación		f	Res Filiformes.xlsx	AMOR	E13		1	example
 fil-amor-ni-0001	Res Filiformes	amor	NI	verbal-objective	tejer	Ser pescador de hombres es tejer redes de amor y amistad que permitan socializar en armonía con aquellos		f	Res Filiformes.xlsx	AMOR	B14		1	example
 fil-amor-ni-0002	Res Filiformes	amor	NI	verbal-subject-intransitive	tejerse	Una historia de amor se teje en la leyenda náhuatl sobre el cempasúchilL		f	Res Filiformes.xlsx	AMOR	C14		1	example
 fil-amor-pa-0001	Res Filiformes	amor	PA	verbal-objective	entrelazar	La autora ha sabido entrelazar amores y enigmas con una escritura		f	Res Filiformes.xlsx	AMOR	B15		1	example
-fil-amor-pe-0001	Res Filiformes	amor	PE	verbal-objective	desatar	desatado tanto amores como odios extremos		f	Res Filiformes.xlsx	AMOR	B16		1	example
-fil-amor-pe-0002	Res Filiformes	amor	PE	verbal-objective	desatar	Un personaje polémico que desata amor y odio i		f	Res Filiformes.xlsx	AMOR	B16		1	example
-fil-amor-pe-0003	Res Filiformes	amor	PE	verbal-objective	desatar	Lena Headey es uno de los que más odio y amor desata entre los seguidores de la serie		f	Res Filiformes.xlsx	AMOR	B16		1	example
-fil-amor-pe-0004	Res Filiformes	amor	PE	verbal-objective	desatar	, placer y' locura' transitoria, parecido a lo que desata el amor romántico en las parejas.		f	Res Filiformes.xlsx	AMOR	B16		1	example
-fil-amor-pe-0005	Res Filiformes	amor	PE	verbal-objective	desatar	Esos incomprendidos animales que desatan amor y odio		f	Res Filiformes.xlsx	AMOR	B16		1	example
-fil-amor-pe-0006	Res Filiformes	amor	PE	verbal-objective	desatar	Los sucesos que desatarán dicho amor lo llevarán a creer en la existencia de una energía invisible		f	Res Filiformes.xlsx	AMOR	B16		1	example
-fil-amor-pe-0007	Res Filiformes	amor	PE	verbal-objective	desatar	poder de un apellido que desata tanto amor como odio		f	Res Filiformes.xlsx	AMOR	B16		1	example
-fil-amor-pe-0008	Res Filiformes	amor	PE	verbal-objective	desatar	el amor desata casos clínicos en los que el árbol siempre tapa el bosque.		f	Res Filiformes.xlsx	AMOR	B16		1	example
-fil-amor-pe-0009	Res Filiformes	amor	PE	verbal-objective	desatar	artista que desató odios y amores en la misma magnitud		f	Res Filiformes.xlsx	AMOR	B16		1	example
-fil-amor-pe-0010	Res Filiformes	amor	PE	verbal-objective	desatar	un medio que desata amores y pasiones en Atlético Nacional,		f	Res Filiformes.xlsx	AMOR	B16		1	example
-fil-amor-pe-0011	Res Filiformes	amor	PE	verbal-objective	entrelazar	autora ha sabido entrelazar amores y enigmas con una escritura		f	Res Filiformes.xlsx	AMOR	B16		1	example
-fil-amor-pe-0012	Res Filiformes	amor	PE	verbal-subject-intransitive	tejerse	historia de amor se teje en la leyenda náhuatl sobre el cempasúchi		f	Res Filiformes.xlsx	AMOR	C16		1	example
-fil-amor-pe-0013	Res Filiformes	amor	PE	verbal-subject-intransitive	tejerse	este mundo paralelo, complejo y sórdido en el que se tejen relaciones de amor y odio		f	Res Filiformes.xlsx	AMOR	C16		1	example
-fil-amor-pe-0014	Res Filiformes	amor	PE	verbal-subject-intransitive	tejerse	Y así nuestra historia de amor se tejió por seis meses.		f	Res Filiformes.xlsx	AMOR	C16		1	example
-fil-amor-pr-0001	Res Filiformes	amor	PR	verbal-objective	tejer	Ella era tejedora, toda la vida se pasó tejiendo amor y verticalidad en su pueblo		f	Res Filiformes.xlsx	AMOR	B17		1	example
-fil-amor-pr-0002	Res Filiformes	amor	PR	verbal-objective	desatar	elenco capitalino que desata amores y odios		f	Res Filiformes.xlsx	AMOR	B17		1	example
-fil-amor-pr-0003	Res Filiformes	amor	PR	verbal-instrumental		hermanos y hermanas en un maravilloso peregrinaje, entrelazados con el amor de Dios		f	Res Filiformes.xlsx	AMOR	E17		1	example
+fil-amor-pe-0001	Res Filiformes	amor	PE	verbal-objective	desatar	desatar amor		f	Res Filiformes.xlsx	AMOR	B16	freq:summary 10	10	inline
+fil-amor-pe-0002	Res Filiformes	amor	PE	verbal-objective	entrelazar	entrelazar amor		f	Res Filiformes.xlsx	AMOR	B16	freq:summary 1	1	inline
+fil-amor-pe-0003	Res Filiformes	amor	PE	verbal-objective	desatar	desatado tanto amores como odios extremos		f	Res Filiformes.xlsx	AMOR	B16		0	illustrative
+fil-amor-pe-0004	Res Filiformes	amor	PE	verbal-objective	desatar	Un personaje polémico que desata amor y odio i		f	Res Filiformes.xlsx	AMOR	B16		0	illustrative
+fil-amor-pe-0005	Res Filiformes	amor	PE	verbal-objective	desatar	Lena Headey es uno de los que más odio y amor desata entre los seguidores de la serie		f	Res Filiformes.xlsx	AMOR	B16		0	illustrative
+fil-amor-pe-0006	Res Filiformes	amor	PE	verbal-objective	desatar	, placer y' locura' transitoria, parecido a lo que desata el amor romántico en las parejas.		f	Res Filiformes.xlsx	AMOR	B16		0	illustrative
+fil-amor-pe-0007	Res Filiformes	amor	PE	verbal-objective	desatar	Esos incomprendidos animales que desatan amor y odio		f	Res Filiformes.xlsx	AMOR	B16		0	illustrative
+fil-amor-pe-0008	Res Filiformes	amor	PE	verbal-objective	desatar	Los sucesos que desatarán dicho amor lo llevarán a creer en la existencia de una energía invisible		f	Res Filiformes.xlsx	AMOR	B16		0	illustrative
+fil-amor-pe-0009	Res Filiformes	amor	PE	verbal-objective	desatar	poder de un apellido que desata tanto amor como odio		f	Res Filiformes.xlsx	AMOR	B16		0	illustrative
+fil-amor-pe-0010	Res Filiformes	amor	PE	verbal-objective	desatar	el amor desata casos clínicos en los que el árbol siempre tapa el bosque.		f	Res Filiformes.xlsx	AMOR	B16		0	illustrative
+fil-amor-pe-0011	Res Filiformes	amor	PE	verbal-objective	desatar	artista que desató odios y amores en la misma magnitud		f	Res Filiformes.xlsx	AMOR	B16		0	illustrative
+fil-amor-pe-0012	Res Filiformes	amor	PE	verbal-objective	desatar	un medio que desata amores y pasiones en Atlético Nacional,		f	Res Filiformes.xlsx	AMOR	B16		0	illustrative
+fil-amor-pe-0013	Res Filiformes	amor	PE	verbal-objective	entrelazar	autora ha sabido entrelazar amores y enigmas con una escritura		f	Res Filiformes.xlsx	AMOR	B16		0	illustrative
+fil-amor-pe-0014	Res Filiformes	amor	PE	verbal-subject-intransitive	tejerse	historia de amor se teje en la leyenda náhuatl sobre el cempasúchi		f	Res Filiformes.xlsx	AMOR	C16		1	example
+fil-amor-pe-0015	Res Filiformes	amor	PE	verbal-subject-intransitive	tejerse	este mundo paralelo, complejo y sórdido en el que se tejen relaciones de amor y odio		f	Res Filiformes.xlsx	AMOR	C16		1	example
+fil-amor-pe-0016	Res Filiformes	amor	PE	verbal-subject-intransitive	tejerse	Y así nuestra historia de amor se tejió por seis meses.		f	Res Filiformes.xlsx	AMOR	C16		1	example
+fil-amor-pr-0001	Res Filiformes	amor	PR	verbal-objective	tejer	tejer amor		f	Res Filiformes.xlsx	AMOR	B17	freq:summary 1	1	inline
+fil-amor-pr-0002	Res Filiformes	amor	PR	verbal-objective	desatar	desatar amor		f	Res Filiformes.xlsx	AMOR	B17	freq:summary 1	1	inline
+fil-amor-pr-0003	Res Filiformes	amor	PR	verbal-objective	tejer	Ella era tejedora, toda la vida se pasó tejiendo amor y verticalidad en su pueblo		f	Res Filiformes.xlsx	AMOR	B17		0	illustrative
+fil-amor-pr-0004	Res Filiformes	amor	PR	verbal-objective	desatar	elenco capitalino que desata amores y odios		f	Res Filiformes.xlsx	AMOR	B17		0	illustrative
+fil-amor-pr-0005	Res Filiformes	amor	PR	verbal-instrumental	entrelazar	hermanos y hermanas en un maravilloso peregrinaje, entrelazados con el amor de Dios		f	Res Filiformes.xlsx	AMOR	E17		1	example
 fil-amor-py-0001	Res Filiformes	amor	PY	verbal-objective	desatar	manos de bolivianos, desata su apasionado amor por la Patria		f	Res Filiformes.xlsx	AMOR	B18		1	example
-fil-amor-sv-0001	Res Filiformes	amor	SV	verbal-subject-intransitive		La historia de amor comienza a hilvanar se		f	Res Filiformes.xlsx	AMOR	C19		1	example
+fil-amor-sv-0001	Res Filiformes	amor	SV	verbal-subject-intransitive	hilvanar	La historia de amor comienza a hilvanar se		f	Res Filiformes.xlsx	AMOR	C19		1	example
 fil-amor-uy-0001	Res Filiformes	amor	UY	verbal-objective	desatar	nos abrazamos de una guitarra y de una canasta llena de libros para desatar un amor de humano		f	Res Filiformes.xlsx	AMOR	B20		1	example
-fil-amor-uy-0002	Res Filiformes	amor	UY	verbal-subject-intransitive	desatarse	el nuevo y verdadero amor que se desata; después de una disputa territorial entre chicas, se desata furiosamente el amor		f	Res Filiformes.xlsx	AMOR	C20		1	example
+fil-amor-uy-0002	Res Filiformes	amor	UY	verbal-subject-intransitive	desatarse	desatar amor		f	Res Filiformes.xlsx	AMOR	C20	freq:inline 2 (+1 illustrative)	2	inline
+fil-amor-uy-0003	Res Filiformes	amor	UY	verbal-subject-intransitive	desatarse	el nuevo y verdadero amor que se desata; después de una disputa territorial entre chicas, se desata furiosamente el amor		f	Res Filiformes.xlsx	AMOR	C20		0	illustrative
 fil-amor-ve-0001	Res Filiformes	amor	VE	verbal-objective	tejer	personajes, quienes durante el trascurso de el año escolar irán tejiendo odios y amores		f	Res Filiformes.xlsx	AMOR	B21		1	example
 fil-amor-ve-0002	Res Filiformes	amor	VE	verbal-objective	desatar	agrandando sus sueños y compromisos con la Patria, desatando un amor sincero y frenético de su pueblo		f	Res Filiformes.xlsx	AMOR	B21		1	example
-fil-amor-ve-0003	Res Filiformes	amor	VE	verbal-objective	entrelazar	historia ambientada en Santiago de Chile que entrelaza amores y enigmas; a autora ha sabido entrelazar amores y enigmas con una escritura		f	Res Filiformes.xlsx	AMOR	B21		1	example
-fil-amor-ve-0004	Res Filiformes	amor	VE	verbal-subject-intransitive	tejerse	na fusión de rasgos, creencias, amores y caracteres que tejen en el telar de la historia los filamentos		f	Res Filiformes.xlsx	AMOR	C21		1	example
-fil-amor-ve-0005	Res Filiformes	amor	VE	verbal-subject-intransitive	tejerse	Una historia de amor se teje en la leyenda náhuatl sobre el cempasúchi		f	Res Filiformes.xlsx	AMOR	C21		1	example
-fil-amor-ve-0006	Res Filiformes	amor	VE	verbal-subject-intransitive	tejerse	La historia de amor que se tejerá entre Camila Espino (Irene Esser		f	Res Filiformes.xlsx	AMOR	C21		1	example
-fil-amor-ve-0007	Res Filiformes	amor	VE	verbal-subject-intransitive	tejerse	a la historia de amor que se teje entre Sierva María de Todos los Ángeles y el cura		f	Res Filiformes.xlsx	AMOR	C21		1	example
-fil-amor-ve-0008	Res Filiformes	amor	VE	verbal-subject-intransitive	desatarse	e desató el amor de Japón por los vehículos motorizados		f	Res Filiformes.xlsx	AMOR	C21		1	example
-fil-amor-ve-0009	Res Filiformes	amor	VE	verbal-subject-intransitive	desatarse	Un amor político se desata contra el imperialismo		f	Res Filiformes.xlsx	AMOR	C21		1	example
-fil-amor-ve-0010	Res Filiformes	amor	VE	verbal-subject-transitive		El amor de seguro tejía algunas alientas.		f	Res Filiformes.xlsx	AMOR	D21		1	example
-fil-amor-ve-0011	Res Filiformes	amor	VE	verbal-subject-transitive		El amor teje la comunión, es comunión.		f	Res Filiformes.xlsx	AMOR	D21		1	example
-fil-amor-ve-0012	Res Filiformes	amor	VE	substantive	hilo de	no desea pasar por el hilo de el amor para reconciliar se		f	Res Filiformes.xlsx	AMOR	G21		1	example
-fil-amor-ve-0013	Res Filiformes	amor	VE	substantive	hilo de	desentrañar el hilo de el amor logrando su propia redención.		f	Res Filiformes.xlsx	AMOR	G21		1	example
-fil-amor-ve-0014	Res Filiformes	amor	VE	substantive	hilo de	nidos por los hilos trenzados de el amor y el humor,		f	Res Filiformes.xlsx	AMOR	G21		1	example
-fil-amor-us-0001	Res Filiformes	amor	US	verbal-objective	tejer	tejió el gran amor de su vida		f	Res Filiformes.xlsx	AMOR	B22		1	example
-fil-amor-us-0002	Res Filiformes	amor	US	verbal-objective	tejer	su leyenda para tejer amores tras una bahía, s		f	Res Filiformes.xlsx	AMOR	B22		1	example
-fil-amor-us-0003	Res Filiformes	amor	US	verbal-objective	tejer	Opuestos escindidos construyen la metáfora que transita lo bucólico, lo urbano y teje el amor a la manera de el bolero		f	Res Filiformes.xlsx	AMOR	B22		1	example
-fil-amor-us-0004	Res Filiformes	amor	US	verbal-objective	desatar	el amor que los niños desatan en el corazón de sus padres.		f	Res Filiformes.xlsx	AMOR	B22		1	example
-fil-amor-us-0005	Res Filiformes	amor	US	verbal-objective	desatar	La típica escena de la pareja desatando su amor en la estrecha cabina de los baños		f	Res Filiformes.xlsx	AMOR	B22		1	example
-fil-amor-us-0006	Res Filiformes	amor	US	verbal-objective	desatar	símbolos que forjaron la identidad de el club, que desataron el amor de multitudes		f	Res Filiformes.xlsx	AMOR	B22		1	example
-fil-amor-us-0007	Res Filiformes	amor	US	verbal-objective	desatar	el alcalde Petro desata amores y odios		f	Res Filiformes.xlsx	AMOR	B22		1	example
-fil-amor-us-0008	Res Filiformes	amor	US	verbal-subject-intransitive	tejerse	El poema de amor se teje en cifras de un habla común y familiar		f	Res Filiformes.xlsx	AMOR	C22		1	example
-fil-amor-us-0009	Res Filiformes	amor	US	verbal-subject-intransitive	entrelazarse	el trabajo se entrelaza con el amor		f	Res Filiformes.xlsx	AMOR	C22		1	example
-fil-amor-us-0010	Res Filiformes	amor	US	verbal-subject-intransitive	desatarse	después de una disputa territorial entre chicas, se desata furiosamente el amor		f	Res Filiformes.xlsx	AMOR	C22		1	example
-fil-amor-us-0011	Res Filiformes	amor	US	verbal-subject-transitive		Un hilo de amor invisible tejió solidaridad entre el Valle de el Zenta y la Puna		f	Res Filiformes.xlsx	AMOR	D22		1	example
-fil-amor-us-0012	Res Filiformes	amor	US	verbal-subject-transitive	desatar	el amor no correspondido desata la violencia		f	Res Filiformes.xlsx	AMOR	D22		1	example
-fil-amor-us-0013	Res Filiformes	amor	US	verbal-instrumental		donde reina mayor calma/ y acontece la alegría/ de saber se en romería/ tejida de amor la talma		f	Res Filiformes.xlsx	AMOR	E22		1	example
-fil-amor-us-0014	Res Filiformes	amor	US	verbal-instrumental		Dos mundos bien diferentes, entrelazados por amores cruzados, venganzas y traiciones		f	Res Filiformes.xlsx	AMOR	E22		1	example
-fil-amor-us-0015	Res Filiformes	amor	US	attributive	tejido	historias de amor aparecen tejidas a lo largo de el libro),		f	Res Filiformes.xlsx	AMOR	F22		1	example
-fil-amor-us-0016	Res Filiformes	amor	US	attributive		infortunada aprendiz de los intríngulis del amor y el encono hilvanados a su vera		f	Res Filiformes.xlsx	AMOR	F22		1	example
-fil-amor-us-0017	Res Filiformes	amor	US	substantive	hilo de	bordado con el hilo de el amor que da sentido a todo		f	Res Filiformes.xlsx	AMOR	G22		1	example
-fil-amor-us-0018	Res Filiformes	amor	US	substantive	hilo de	Un hilo de amor invisible tejió solidaridad		f	Res Filiformes.xlsx	AMOR	G22		1	example
-fil-amor-us-0019	Res Filiformes	amor	US	substantive	hilo de	unidos por el hilo de un amor atípico pero intenso		f	Res Filiformes.xlsx	AMOR	G22		1	example
-fil-amor-us-0020	Res Filiformes	amor	US	substantive	hilo de	Que el hilo de el amor se romperá		f	Res Filiformes.xlsx	AMOR	G22		1	example
-fil-ira-mx-0001	Res Filiformes	ira	MX	verbal-subject-intransitive	entrelazarse	La ira y el miedo se entrelazan hoy en amplios sectores de una sociedad mexicana		f	Res Filiformes.xlsx	IRA	C13		1	example
-fil-ira-us-0001	Res Filiformes	ira	US	verbal-subject-transitive		la ira divina pende sobre nosotros a menos y hasta que sea quitada		f	Res Filiformes.xlsx	IRA	D22		1	example
-fil-tristeza-ar-0001	Res Filiformes	tristeza	AR	verbal-objective	desatar	el motivo que desató una profunda tristeza en la diva		f	Res Filiformes.xlsx	tristeza	B2		1	example
-fil-tristeza-ar-0002	Res Filiformes	tristeza	AR	verbal-objective	desatar	un triunfo que estire los festejos de un lado y desate la tristeza de el otro		f	Res Filiformes.xlsx	tristeza	B2		1	example
-fil-tristeza-ar-0003	Res Filiformes	tristeza	AR	verbal-objective	desatar	no salieron como esperaban, lo que desató la inmensa tristeza de el infant		f	Res Filiformes.xlsx	tristeza	B2		1	example
-fil-tristeza-ar-0004	Res Filiformes	tristeza	AR	verbal-objective	desatar	uestros atletas desataron su ira y tristeza.		f	Res Filiformes.xlsx	tristeza	B2		1	example
-fil-tristeza-ar-0005	Res Filiformes	tristeza	AR	verbal-objective	desatar	la morocha declaró que no son amigas y desató la tristeza de su compañera.		f	Res Filiformes.xlsx	tristeza	B2		1	example
-fil-tristeza-ar-0006	Res Filiformes	tristeza	AR	verbal-objective		,  " Enrollé tu amor alrededor de mí como una cadena		f	Res Filiformes.xlsx	tristeza	B2		1	example
-fil-tristeza-ar-0007	Res Filiformes	tristeza	AR	verbal-subject-intransitive	desatarse	lluvia ha provocado que en mi se desatara la tristeza, me puse mal		f	Res Filiformes.xlsx	tristeza	C2		1	example
+fil-amor-ve-0003	Res Filiformes	amor	VE	verbal-objective	entrelazar	entrelazar amor		f	Res Filiformes.xlsx	AMOR	B21	freq:inline 2 (+1 illustrative)	2	inline
+fil-amor-ve-0004	Res Filiformes	amor	VE	verbal-objective	entrelazar	historia ambientada en Santiago de Chile que entrelaza amores y enigmas; a autora ha sabido entrelazar amores y enigmas con una escritura		f	Res Filiformes.xlsx	AMOR	B21		0	illustrative
+fil-amor-ve-0005	Res Filiformes	amor	VE	verbal-subject-intransitive	tejerse	tejerse amor		f	Res Filiformes.xlsx	AMOR	C21	freq:summary 4	4	inline
+fil-amor-ve-0006	Res Filiformes	amor	VE	verbal-subject-intransitive	desatarse	desatarse amor		f	Res Filiformes.xlsx	AMOR	C21	freq:summary 2	2	inline
+fil-amor-ve-0007	Res Filiformes	amor	VE	verbal-subject-intransitive	tejerse	na fusión de rasgos, creencias, amores y caracteres que tejen en el telar de la historia los filamentos		f	Res Filiformes.xlsx	AMOR	C21		0	illustrative
+fil-amor-ve-0008	Res Filiformes	amor	VE	verbal-subject-intransitive	tejerse	Una historia de amor se teje en la leyenda náhuatl sobre el cempasúchi		f	Res Filiformes.xlsx	AMOR	C21		0	illustrative
+fil-amor-ve-0009	Res Filiformes	amor	VE	verbal-subject-intransitive	tejerse	La historia de amor que se tejerá entre Camila Espino (Irene Esser		f	Res Filiformes.xlsx	AMOR	C21		0	illustrative
+fil-amor-ve-0010	Res Filiformes	amor	VE	verbal-subject-intransitive	tejerse	a la historia de amor que se teje entre Sierva María de Todos los Ángeles y el cura		f	Res Filiformes.xlsx	AMOR	C21		0	illustrative
+fil-amor-ve-0011	Res Filiformes	amor	VE	verbal-subject-intransitive	desatarse	e desató el amor de Japón por los vehículos motorizados		f	Res Filiformes.xlsx	AMOR	C21		0	illustrative
+fil-amor-ve-0012	Res Filiformes	amor	VE	verbal-subject-intransitive	desatarse	Un amor político se desata contra el imperialismo		f	Res Filiformes.xlsx	AMOR	C21		0	illustrative
+fil-amor-ve-0013	Res Filiformes	amor	VE	verbal-subject-transitive	tejer	El amor de seguro tejía algunas alientas.		f	Res Filiformes.xlsx	AMOR	D21		1	example
+fil-amor-ve-0014	Res Filiformes	amor	VE	verbal-subject-transitive	tejer	El amor teje la comunión, es comunión.		f	Res Filiformes.xlsx	AMOR	D21		1	example
+fil-amor-ve-0015	Res Filiformes	amor	VE	substantive	hilo	no desea pasar por el hilo de el amor para reconciliar se		f	Res Filiformes.xlsx	AMOR	G21		1	example
+fil-amor-ve-0016	Res Filiformes	amor	VE	substantive	hilo	desentrañar el hilo de el amor logrando su propia redención.		f	Res Filiformes.xlsx	AMOR	G21		1	example
+fil-amor-ve-0017	Res Filiformes	amor	VE	substantive	hilo	nidos por los hilos trenzados de el amor y el humor,		f	Res Filiformes.xlsx	AMOR	G21		1	example
+fil-amor-us-0001	Res Filiformes	amor	US	verbal-objective	tejer	tejer amor		f	Res Filiformes.xlsx	AMOR	B22	freq:summary 3	3	inline
+fil-amor-us-0002	Res Filiformes	amor	US	verbal-objective	desatar	desatar amor		f	Res Filiformes.xlsx	AMOR	B22	freq:summary 4	4	inline
+fil-amor-us-0003	Res Filiformes	amor	US	verbal-objective	tejer	tejió el gran amor de su vida		f	Res Filiformes.xlsx	AMOR	B22		0	illustrative
+fil-amor-us-0004	Res Filiformes	amor	US	verbal-objective	tejer	su leyenda para tejer amores tras una bahía, s		f	Res Filiformes.xlsx	AMOR	B22		0	illustrative
+fil-amor-us-0005	Res Filiformes	amor	US	verbal-objective	tejer	Opuestos escindidos construyen la metáfora que transita lo bucólico, lo urbano y teje el amor a la manera de el bolero		f	Res Filiformes.xlsx	AMOR	B22		0	illustrative
+fil-amor-us-0006	Res Filiformes	amor	US	verbal-objective	desatar	el amor que los niños desatan en el corazón de sus padres.		f	Res Filiformes.xlsx	AMOR	B22		0	illustrative
+fil-amor-us-0007	Res Filiformes	amor	US	verbal-objective	desatar	La típica escena de la pareja desatando su amor en la estrecha cabina de los baños		f	Res Filiformes.xlsx	AMOR	B22		0	illustrative
+fil-amor-us-0008	Res Filiformes	amor	US	verbal-objective	desatar	símbolos que forjaron la identidad de el club, que desataron el amor de multitudes		f	Res Filiformes.xlsx	AMOR	B22		0	illustrative
+fil-amor-us-0009	Res Filiformes	amor	US	verbal-objective	desatar	el alcalde Petro desata amores y odios		f	Res Filiformes.xlsx	AMOR	B22		0	illustrative
+fil-amor-us-0010	Res Filiformes	amor	US	verbal-subject-intransitive	tejerse	tejerse amor		f	Res Filiformes.xlsx	AMOR	C22	freq:summary 1	1	inline
+fil-amor-us-0011	Res Filiformes	amor	US	verbal-subject-intransitive	entrelazarse	entrelazarse amor		f	Res Filiformes.xlsx	AMOR	C22	freq:summary 1	1	inline
+fil-amor-us-0012	Res Filiformes	amor	US	verbal-subject-intransitive	desatarse	desatarse amor		f	Res Filiformes.xlsx	AMOR	C22	freq:summary 1	1	inline
+fil-amor-us-0013	Res Filiformes	amor	US	verbal-subject-intransitive	tejerse	El poema de amor se teje en cifras de un habla común y familiar		f	Res Filiformes.xlsx	AMOR	C22		0	illustrative
+fil-amor-us-0014	Res Filiformes	amor	US	verbal-subject-intransitive	entrelazarse	el trabajo se entrelaza con el amor		f	Res Filiformes.xlsx	AMOR	C22		0	illustrative
+fil-amor-us-0015	Res Filiformes	amor	US	verbal-subject-intransitive	desatarse	después de una disputa territorial entre chicas, se desata furiosamente el amor		f	Res Filiformes.xlsx	AMOR	C22		0	illustrative
+fil-amor-us-0016	Res Filiformes	amor	US	verbal-subject-transitive	tejer	tejer amor		f	Res Filiformes.xlsx	AMOR	D22	freq:summary 1	1	inline
+fil-amor-us-0017	Res Filiformes	amor	US	verbal-subject-transitive	desatar	desatar amor		f	Res Filiformes.xlsx	AMOR	D22	freq:summary 1	1	inline
+fil-amor-us-0018	Res Filiformes	amor	US	verbal-subject-transitive	tejer	Un hilo de amor invisible tejió solidaridad entre el Valle de el Zenta y la Puna		f	Res Filiformes.xlsx	AMOR	D22		0	illustrative
+fil-amor-us-0019	Res Filiformes	amor	US	verbal-subject-transitive	desatar	el amor no correspondido desata la violencia		f	Res Filiformes.xlsx	AMOR	D22		0	illustrative
+fil-amor-us-0020	Res Filiformes	amor	US	verbal-instrumental	tejer	tejer amor		f	Res Filiformes.xlsx	AMOR	E22	freq:summary 1	1	inline
+fil-amor-us-0021	Res Filiformes	amor	US	verbal-instrumental	entrelazar	entrelazar amor		f	Res Filiformes.xlsx	AMOR	E22	freq:summary 1	1	inline
+fil-amor-us-0022	Res Filiformes	amor	US	verbal-instrumental	tejer	donde reina mayor calma/ y acontece la alegría/ de saber se en romería/ tejida de amor la talma		f	Res Filiformes.xlsx	AMOR	E22		0	illustrative
+fil-amor-us-0023	Res Filiformes	amor	US	verbal-instrumental	entrelazar	Dos mundos bien diferentes, entrelazados por amores cruzados, venganzas y traiciones		f	Res Filiformes.xlsx	AMOR	E22		0	illustrative
+fil-amor-us-0024	Res Filiformes	amor	US	attributive	tejer	tejer amor		f	Res Filiformes.xlsx	AMOR	F22	freq:summary 1	1	inline
+fil-amor-us-0025	Res Filiformes	amor	US	attributive	hilvanar	hilvanar amor		f	Res Filiformes.xlsx	AMOR	F22	freq:summary 1	1	inline
+fil-amor-us-0026	Res Filiformes	amor	US	attributive	tejer	historias de amor aparecen tejidas a lo largo de el libro),		f	Res Filiformes.xlsx	AMOR	F22		0	illustrative
+fil-amor-us-0027	Res Filiformes	amor	US	attributive	hilvanar	infortunada aprendiz de los intríngulis del amor y el encono hilvanados a su vera		f	Res Filiformes.xlsx	AMOR	F22		0	illustrative
+fil-amor-us-0028	Res Filiformes	amor	US	substantive	hilo	bordado con el hilo de el amor que da sentido a todo		f	Res Filiformes.xlsx	AMOR	G22		1	example
+fil-amor-us-0029	Res Filiformes	amor	US	substantive	hilo	Un hilo de amor invisible tejió solidaridad		f	Res Filiformes.xlsx	AMOR	G22		1	example
+fil-amor-us-0030	Res Filiformes	amor	US	substantive	hilo	unidos por el hilo de un amor atípico pero intenso		f	Res Filiformes.xlsx	AMOR	G22		1	example
+fil-amor-us-0031	Res Filiformes	amor	US	substantive	hilo	Que el hilo de el amor se romperá		f	Res Filiformes.xlsx	AMOR	G22		1	example
+fil-ira-ar-0001	Res Filiformes	ira	AR	verbal-objective	desatar	desatar ira		f	Res Filiformes.xlsx	IRA	B2	freq:inline 183	183	inline
+fil-ira-ar-0002	Res Filiformes	ira	AR	verbal-subject-intransitive	desatarse	desatar ira		f	Res Filiformes.xlsx	IRA	C2	freq:inline 7	7	inline
+fil-ira-ar-0003	Res Filiformes	ira	AR	attributive	desatar	desatada ira		f	Res Filiformes.xlsx	IRA	F2	freq:inline 2	2	inline
+fil-ira-bo-0001	Res Filiformes	ira	BO	verbal-objective	desatar	desatar ira		f	Res Filiformes.xlsx	IRA	B3	freq:inline 23	23	inline
+fil-ira-cl-0001	Res Filiformes	ira	CL	verbal-objective	desatar	desatar ira		f	Res Filiformes.xlsx	IRA	B4	freq:inline 177	177	inline
+fil-ira-cl-0002	Res Filiformes	ira	CL	verbal-subject-intransitive	desatarse	desatar ira		f	Res Filiformes.xlsx	IRA	C4	freq:inline 4	4	inline
+fil-ira-co-0001	Res Filiformes	ira	CO	verbal-objective	desatar	desatar ira		f	Res Filiformes.xlsx	IRA	B5	freq:inline 118	118	inline
+fil-ira-co-0002	Res Filiformes	ira	CO	verbal-subject-intransitive	desatarse	desatar ira		f	Res Filiformes.xlsx	IRA	C5	freq:inline 2	2	inline
+fil-ira-co-0003	Res Filiformes	ira	CO	attributive	desatar	desatada ira		f	Res Filiformes.xlsx	IRA	F5	freq:inline 3	3	inline
+fil-ira-cr-0001	Res Filiformes	ira	CR	verbal-objective	desatar	desatar ira		f	Res Filiformes.xlsx	IRA	B6	freq:inline 25	25	inline
+fil-ira-cr-0002	Res Filiformes	ira	CR	verbal-subject-intransitive	desatarse	desatar ira		f	Res Filiformes.xlsx	IRA	C6	freq:inline 2	2	inline
+fil-ira-cu-0001	Res Filiformes	ira	CU	verbal-objective	desatar	desatar ira		f	Res Filiformes.xlsx	IRA	B7	freq:inline 17	17	inline
+fil-ira-cu-0002	Res Filiformes	ira	CU	attributive	desatar	desatada ira		f	Res Filiformes.xlsx	IRA	F7	freq:inline 3	3	inline
+fil-ira-do-0001	Res Filiformes	ira	DO	verbal-objective	desatar	desatar ira		f	Res Filiformes.xlsx	IRA	B8	freq:inline 165	165	inline
+fil-ira-do-0002	Res Filiformes	ira	DO	verbal-subject-intransitive	desatarse	desatar ira		f	Res Filiformes.xlsx	IRA	C8	freq:inline 2	2	inline
+fil-ira-do-0003	Res Filiformes	ira	DO	attributive	desatar	desatada ira		f	Res Filiformes.xlsx	IRA	F8	freq:inline 2	2	inline
+fil-ira-ec-0001	Res Filiformes	ira	EC	verbal-objective	desatar	desatar ira		f	Res Filiformes.xlsx	IRA	B9	freq:inline 16	16	inline
+fil-ira-ec-0002	Res Filiformes	ira	EC	verbal-subject-intransitive	desatarse	desatar ira		f	Res Filiformes.xlsx	IRA	C9	freq:inline 2	2	inline
+fil-ira-es-0001	Res Filiformes	ira	ES	verbal-objective	desatar	desatar ira		f	Res Filiformes.xlsx	IRA	B10	freq:inline 181	181	inline
+fil-ira-es-0002	Res Filiformes	ira	ES	verbal-subject-intransitive	desatarse	desatar ira		f	Res Filiformes.xlsx	IRA	C10	freq:inline 11	11	inline
+fil-ira-es-0003	Res Filiformes	ira	ES	attributive	desatar	desatada ira		f	Res Filiformes.xlsx	IRA	F10	freq:inline 5	5	inline
+fil-ira-gt-0001	Res Filiformes	ira	GT	verbal-objective	desatar	desatar ira		f	Res Filiformes.xlsx	IRA	B11	freq:inline 7	7	inline
+fil-ira-hn-0001	Res Filiformes	ira	HN	verbal-objective	desatar	desatar ira		f	Res Filiformes.xlsx	IRA	B12	freq:inline 7	7	inline
+fil-ira-hn-0002	Res Filiformes	ira	HN	verbal-subject-intransitive	desatarse	desatar ira		f	Res Filiformes.xlsx	IRA	C12	freq:inline 2	2	inline
+fil-ira-mx-0001	Res Filiformes	ira	MX	verbal-objective	desatar	desatar ira		f	Res Filiformes.xlsx	IRA	B13	freq:inline 157	157	inline
+fil-ira-mx-0002	Res Filiformes	ira	MX	verbal-subject-intransitive	desatarse	desatar ira		f	Res Filiformes.xlsx	IRA	C13	freq:inline 2 (+1 illustrative)	2	inline
+fil-ira-mx-0003	Res Filiformes	ira	MX	verbal-subject-intransitive	desatarse	La ira y el miedo se entrelazan hoy en amplios sectores de una sociedad mexicana		f	Res Filiformes.xlsx	IRA	C13		0	illustrative
+fil-ira-mx-0004	Res Filiformes	ira	MX	attributive	desatar	desatada ira		f	Res Filiformes.xlsx	IRA	F13	freq:inline 2	2	inline
+fil-ira-ni-0001	Res Filiformes	ira	NI	verbal-objective	desatar	desatar ira		f	Res Filiformes.xlsx	IRA	B14	freq:inline 6	6	inline
+fil-ira-ni-0002	Res Filiformes	ira	NI	verbal-subject-intransitive	desatarse	desatar ira		f	Res Filiformes.xlsx	IRA	C14	freq:inline 1	1	inline
+fil-ira-pa-0001	Res Filiformes	ira	PA	verbal-objective	desatar	desatar ira		f	Res Filiformes.xlsx	IRA	B15	freq:inline 26	26	inline
+fil-ira-pa-0002	Res Filiformes	ira	PA	verbal-subject-intransitive	desatarse	desatar ira		f	Res Filiformes.xlsx	IRA	C15	freq:inline 2	2	inline
+fil-ira-pe-0001	Res Filiformes	ira	PE	verbal-objective	desatar	desatar ira		f	Res Filiformes.xlsx	IRA	B16	freq:inline 227	227	inline
+fil-ira-pe-0002	Res Filiformes	ira	PE	verbal-subject-intransitive	desatarse	desatar ira		f	Res Filiformes.xlsx	IRA	C16	freq:inline 2	2	inline
+fil-ira-pe-0003	Res Filiformes	ira	PE	attributive	desatar	desatada ira		f	Res Filiformes.xlsx	IRA	F16	freq:inline 2	2	inline
+fil-ira-pr-0001	Res Filiformes	ira	PR	verbal-objective	desatar	desatar ira		f	Res Filiformes.xlsx	IRA	B17	freq:inline 7	7	inline
+fil-ira-pr-0002	Res Filiformes	ira	PR	verbal-subject-intransitive	desatarse	desatar ira		f	Res Filiformes.xlsx	IRA	C17	freq:inline 1	1	inline
+fil-ira-pr-0003	Res Filiformes	ira	PR	attributive	desatar	desatada ira		f	Res Filiformes.xlsx	IRA	F17	freq:inline 1	1	inline
+fil-ira-py-0001	Res Filiformes	ira	PY	verbal-objective	desatar	desatar ira		f	Res Filiformes.xlsx	IRA	B18	freq:inline 19	19	inline
+fil-ira-py-0002	Res Filiformes	ira	PY	verbal-subject-intransitive	desatarse	desatar ira		f	Res Filiformes.xlsx	IRA	C18	freq:inline 2	2	inline
+fil-ira-sv-0001	Res Filiformes	ira	SV	verbal-objective	desatar	desatar ira		f	Res Filiformes.xlsx	IRA	B19	freq:inline 9	9	inline
+fil-ira-uy-0001	Res Filiformes	ira	UY	verbal-objective	desatar	desatar ira		f	Res Filiformes.xlsx	IRA	B20	freq:inline 16	16	inline
+fil-ira-uy-0002	Res Filiformes	ira	UY	verbal-subject-intransitive	desatarse	desatar ira		f	Res Filiformes.xlsx	IRA	C20	freq:inline 1	1	inline
+fil-ira-ve-0001	Res Filiformes	ira	VE	verbal-objective	desatar	desatar ira		f	Res Filiformes.xlsx	IRA	B21	freq:inline 27	27	inline
+fil-ira-ve-0002	Res Filiformes	ira	VE	verbal-subject-intransitive	desatarse	desatar ira		f	Res Filiformes.xlsx	IRA	C21	freq:inline 6	6	inline
+fil-ira-ve-0003	Res Filiformes	ira	VE	attributive	desatar	desatada ira		f	Res Filiformes.xlsx	IRA	F21	freq:inline 1	1	inline
+fil-ira-us-0001	Res Filiformes	ira	US	verbal-objective	desatar	desatar ira		f	Res Filiformes.xlsx	IRA	B22	freq:inline 78	78	inline
+fil-ira-us-0002	Res Filiformes	ira	US	verbal-subject-intransitive	desatarse	desatar ira		f	Res Filiformes.xlsx	IRA	C22	freq:inline 2	2	inline
+fil-ira-us-0003	Res Filiformes	ira	US	verbal-subject-transitive		la ira divina pende sobre nosotros a menos y hasta que sea quitada		f	Res Filiformes.xlsx	IRA	D22		1	example
+fil-ira-us-0004	Res Filiformes	ira	US	attributive	desatar	desatada ira		f	Res Filiformes.xlsx	IRA	F22	freq:inline 1	1	inline
+fil-tristeza-ar-0001	Res Filiformes	tristeza	AR	verbal-objective	desatar	desatar tristeza		f	Res Filiformes.xlsx	tristeza	B2	freq:summary 5	5	inline
+fil-tristeza-ar-0002	Res Filiformes	tristeza	AR	verbal-objective	enrollarse	enrollarse tristeza		f	Res Filiformes.xlsx	tristeza	B2	freq:summary 1	1	inline
+fil-tristeza-ar-0003	Res Filiformes	tristeza	AR	verbal-objective	desatar	el motivo que desató una profunda tristeza en la diva		f	Res Filiformes.xlsx	tristeza	B2		0	illustrative
+fil-tristeza-ar-0004	Res Filiformes	tristeza	AR	verbal-objective	desatar	un triunfo que estire los festejos de un lado y desate la tristeza de el otro		f	Res Filiformes.xlsx	tristeza	B2		0	illustrative
+fil-tristeza-ar-0005	Res Filiformes	tristeza	AR	verbal-objective	desatar	no salieron como esperaban, lo que desató la inmensa tristeza de el infant		f	Res Filiformes.xlsx	tristeza	B2		0	illustrative
+fil-tristeza-ar-0006	Res Filiformes	tristeza	AR	verbal-objective	desatar	uestros atletas desataron su ira y tristeza.		f	Res Filiformes.xlsx	tristeza	B2		0	illustrative
+fil-tristeza-ar-0007	Res Filiformes	tristeza	AR	verbal-objective	desatar	la morocha declaró que no son amigas y desató la tristeza de su compañera.		f	Res Filiformes.xlsx	tristeza	B2		0	illustrative
+fil-tristeza-ar-0008	Res Filiformes	tristeza	AR	verbal-objective	enrollarse	,  " Enrollé tu amor alrededor de mí como una cadena		f	Res Filiformes.xlsx	tristeza	B2		0	illustrative
+fil-tristeza-ar-0009	Res Filiformes	tristeza	AR	verbal-subject-intransitive	desatarse	lluvia ha provocado que en mi se desatara la tristeza, me puse mal		f	Res Filiformes.xlsx	tristeza	C2		1	example
 fil-tristeza-cl-0001	Res Filiformes	tristeza	CL	verbal-objective	desatar	El brasileño no lo pensó dos veces y cruzó un tremendo zurdazo, desatando la tristeza en todo el estadio holandés.		f	Res Filiformes.xlsx	tristeza	B4		1	example
 fil-tristeza-cl-0002	Res Filiformes	tristeza	CL	verbal-objective	desatar	le contó que está profundamente enamorado de Bárbara, desatando su tristeza y molestia		f	Res Filiformes.xlsx	tristeza	B4		1	example
 fil-tristeza-cl-0003	Res Filiformes	tristeza	CL	verbal-objective	desatar	lo que desató la tristeza de los seguidores de la producción de Meg		f	Res Filiformes.xlsx	tristeza	B4		1	example
 fil-tristeza-cl-0004	Res Filiformes	tristeza	CL	verbal-objective	desatar	Armada de Argentina realizó un nuevo reporte de las labores de búsqueda, desatando la tristeza de los familiares de los 44 tripulantes		f	Res Filiformes.xlsx	tristeza	B4		1	example
 fil-tristeza-cl-0005	Res Filiformes	tristeza	CL	verbal-objective	desatar	lo que mueve las guerras, desata pasiones y tristezas.		f	Res Filiformes.xlsx	tristeza	B4		1	example
 fil-tristeza-cl-0006	Res Filiformes	tristeza	CL	verbal-objective	desatar	triunfo de' La Roja' en la final de Copa América Centenario desató la tristeza e indignación a el otro lado de la cordillera		f	Res Filiformes.xlsx	tristeza	B4		1	example
-fil-tristeza-co-0001	Res Filiformes	tristeza	CO	verbal-objective	desatar	una macabra revelación desató la tristeza		f	Res Filiformes.xlsx	tristeza	B5		1	example
-fil-tristeza-co-0002	Res Filiformes	tristeza	CO	verbal-objective	desatar	vi a las típicas promesas de siempre, las mismas excusas, y más que tristeza me desató una profunda sensación de rabia		f	Res Filiformes.xlsx	tristeza	B5		1	example
-fil-tristeza-co-0003	Res Filiformes	tristeza	CO	verbal-objective	desatar	El grado de brutalidad con el que se han ejecutado homicidios de varios niños desata furia y tristeza		f	Res Filiformes.xlsx	tristeza	B5		1	example
-fil-tristeza-co-0004	Res Filiformes	tristeza	CO	verbal-objective	entrelazar	El ambiente musical que se entrelaza con la tristeza en un sector de el Cementerio Calancal		f	Res Filiformes.xlsx	tristeza	B5		1	example
-fil-tristeza-co-0005	Res Filiformes	tristeza	CO	verbal-subject-intransitive	desatarse	se desataron momentos de tristeza, dolor e incertidumbre entre los familiares.		f	Res Filiformes.xlsx	tristeza	C5		1	example
-fil-tristeza-co-0006	Res Filiformes	tristeza	CO	verbal-subject-intransitive	desatarse	se desató una tristeza incontrolable en el equipo' hormiguero		f	Res Filiformes.xlsx	tristeza	C5		1	example
-fil-tristeza-co-0007	Res Filiformes	tristeza	CO	substantive	hilo de	Has dejado hilos de tristeza, alegrías, sueños y esperanzas esparcidas entre las nube		f	Res Filiformes.xlsx	tristeza	G5		1	example
+fil-tristeza-co-0001	Res Filiformes	tristeza	CO	verbal-objective	desatar	desatar tristeza		f	Res Filiformes.xlsx	tristeza	B5	freq:summary 3	3	inline
+fil-tristeza-co-0002	Res Filiformes	tristeza	CO	verbal-objective	entrelazar	entrelazar tristeza		f	Res Filiformes.xlsx	tristeza	B5	freq:summary 1	1	inline
+fil-tristeza-co-0003	Res Filiformes	tristeza	CO	verbal-objective	desatar	una macabra revelación desató la tristeza		f	Res Filiformes.xlsx	tristeza	B5		0	illustrative
+fil-tristeza-co-0004	Res Filiformes	tristeza	CO	verbal-objective	desatar	vi a las típicas promesas de siempre, las mismas excusas, y más que tristeza me desató una profunda sensación de rabia		f	Res Filiformes.xlsx	tristeza	B5		0	illustrative
+fil-tristeza-co-0005	Res Filiformes	tristeza	CO	verbal-objective	desatar	El grado de brutalidad con el que se han ejecutado homicidios de varios niños desata furia y tristeza		f	Res Filiformes.xlsx	tristeza	B5		0	illustrative
+fil-tristeza-co-0006	Res Filiformes	tristeza	CO	verbal-objective	entrelazar	El ambiente musical que se entrelaza con la tristeza en un sector de el Cementerio Calancal		f	Res Filiformes.xlsx	tristeza	B5		0	illustrative
+fil-tristeza-co-0007	Res Filiformes	tristeza	CO	verbal-subject-intransitive	desatarse	se desataron momentos de tristeza, dolor e incertidumbre entre los familiares.		f	Res Filiformes.xlsx	tristeza	C5		1	example
+fil-tristeza-co-0008	Res Filiformes	tristeza	CO	verbal-subject-intransitive	desatarse	se desató una tristeza incontrolable en el equipo' hormiguero		f	Res Filiformes.xlsx	tristeza	C5		1	example
+fil-tristeza-co-0009	Res Filiformes	tristeza	CO	substantive	hilo	Has dejado hilos de tristeza, alegrías, sueños y esperanzas esparcidas entre las nube		f	Res Filiformes.xlsx	tristeza	G5		1	example
 fil-tristeza-cu-0001	Res Filiformes	tristeza	CU	verbal-objective	desatar	la diferencia de puntos esfumó sus opciones y desató una gran tristeza en el habanero coliseo de la Ciudad Deportiva		f	Res Filiformes.xlsx	tristeza	B7		1	example
-fil-tristeza-es-0001	Res Filiformes	tristeza	ES	verbal-objective	desatar	La muerte de la actriz, acontecida el 20 de agosto, desató la tristeza entre sus allegados; cuál es la pérdida que desata la tristeza y rabia de Rey		f	Res Filiformes.xlsx	tristeza	B10		1	example
-fil-tristeza-es-0002	Res Filiformes	tristeza	ES	verbal-subject-intransitive	desatarse	DESATAR 1  (el misterio y la tristeza se desataron cuando, junto a su mujer		f	Res Filiformes.xlsx	tristeza	C10		1	example
-fil-tristeza-es-0003	Res Filiformes	tristeza	ES	verbal-subject-intransitive	tejerse	tragedia, la comedia, la dignidad y la tristeza se entrelazan en el tejido de la vida		f	Res Filiformes.xlsx	tristeza	C10		1	example
-fil-tristeza-es-0004	Res Filiformes	tristeza	ES	substantive	hilo de	entrar en vibración sus líricas cuerdas hechas con hilos de tristeza.		f	Res Filiformes.xlsx	tristeza	G10		1	example
-fil-tristeza-es-0005	Res Filiformes	tristeza	ES	substantive	hilo de	, dejando entrever un hilo de tristeza en sus medidas declaraciones.		f	Res Filiformes.xlsx	tristeza	G10		1	example
-fil-tristeza-gt-0001	Res Filiformes	tristeza	GT	verbal-objective		crecer nos el alma y recrear nos con la vida, enhebrar obras de amor		f	Res Filiformes.xlsx	tristeza	B11		1	example
+fil-tristeza-es-0001	Res Filiformes	tristeza	ES	verbal-objective	desatar	desatar tristeza		f	Res Filiformes.xlsx	tristeza	B10	freq:inline 2 (+1 illustrative)	2	inline
+fil-tristeza-es-0002	Res Filiformes	tristeza	ES	verbal-objective	desatar	La muerte de la actriz, acontecida el 20 de agosto, desató la tristeza entre sus allegados; cuál es la pérdida que desata la tristeza y rabia de Rey		f	Res Filiformes.xlsx	tristeza	B10		0	illustrative
+fil-tristeza-es-0003	Res Filiformes	tristeza	ES	verbal-subject-intransitive	desatarse	el misterio y la tristeza se desataron cuando, junto a su mujer		f	Res Filiformes.xlsx	tristeza	C10		1	example
+fil-tristeza-es-0004	Res Filiformes	tristeza	ES	verbal-subject-intransitive	tejerse	tragedia, la comedia, la dignidad y la tristeza se entrelazan en el tejido de la vida		f	Res Filiformes.xlsx	tristeza	C10		1	example
+fil-tristeza-es-0005	Res Filiformes	tristeza	ES	substantive	hilo	entrar en vibración sus líricas cuerdas hechas con hilos de tristeza.		f	Res Filiformes.xlsx	tristeza	G10		1	example
+fil-tristeza-es-0006	Res Filiformes	tristeza	ES	substantive	hilo	, dejando entrever un hilo de tristeza en sus medidas declaraciones.		f	Res Filiformes.xlsx	tristeza	G10		1	example
+fil-tristeza-gt-0001	Res Filiformes	tristeza	GT	verbal-objective	enhebrar	crecer nos el alma y recrear nos con la vida, enhebrar obras de amor		f	Res Filiformes.xlsx	tristeza	B11		1	example
 fil-tristeza-mx-0001	Res Filiformes	tristeza	MX	verbal-objective	desatar	el nivel bajó considerablemente de una semana a otra, y desató así la tristeza en algunos		f	Res Filiformes.xlsx	tristeza	B13		1	example
-fil-tristeza-mx-0002	Res Filiformes	tristeza	MX	attributive		Fue tal la desazón y la tristeza justamente desatada ante la posible desaparición de la radio		f	Res Filiformes.xlsx	tristeza	F13		1	example
-fil-tristeza-mx-0003	Res Filiformes	tristeza	MX	substantive		cabeza era un nido de confusiones, un tobogán de felicidad entrelazada con tristeza.		f	Res Filiformes.xlsx	tristeza	G13		1	example
+fil-tristeza-mx-0002	Res Filiformes	tristeza	MX	attributive	desatar	Fue tal la desazón y la tristeza justamente desatada ante la posible desaparición de la radio		f	Res Filiformes.xlsx	tristeza	F13		1	example
+fil-tristeza-mx-0003	Res Filiformes	tristeza	MX	substantive	hilo de	cabeza era un nido de confusiones, un tobogán de felicidad entrelazada con tristeza.		f	Res Filiformes.xlsx	tristeza	G13		1	example
 fil-tristeza-mx-0004	Res Filiformes	tristeza	MX	substantive	hilo de	el' luto' de la alcaldesa refleja una serie de desastres y tristezas hilvanadas a lo largo de su gestión.		f	Res Filiformes.xlsx	tristeza	G13		1	example
 fil-tristeza-pe-0001	Res Filiformes	tristeza	PE	verbal-objective	desatar	El árbitro Felix Brych dio por terminado el partido, desatando la ola de tristeza		f	Res Filiformes.xlsx	tristeza	B16		1	example
-fil-tristeza-pr-0001	Res Filiformes	tristeza	PR	verbal-objective	desatar	DESATAR 1 (Eso desató la molestia y tristeza del actor		f	Res Filiformes.xlsx	tristeza	B17		1	example
+fil-tristeza-pr-0001	Res Filiformes	tristeza	PR	verbal-objective	desatar	Eso desató la molestia y tristeza del actor		f	Res Filiformes.xlsx	tristeza	B17		1	example
 fil-tristeza-us-0001	Res Filiformes	tristeza	US	verbal-objective	desatar	la puesta a el aire de un fuerte video que desató la tristeza de la connotada artist		f	Res Filiformes.xlsx	tristeza	B22		1	example
 fil-tristeza-us-0002	Res Filiformes	tristeza	US	verbal-objective	desatar	La temprana partida de la joven desató la tristeza en todos l		f	Res Filiformes.xlsx	tristeza	B22		1	example
 fil-tristeza-us-0003	Res Filiformes	tristeza	US	verbal-objective	desatar	rimero desató enojo y profunda tristeza a el cerrar la Iglesia San Mateo		f	Res Filiformes.xlsx	tristeza	B22		1	example
 fil-tristeza-us-0004	Res Filiformes	tristeza	US	verbal-subject-intransitive	desatarse	desaparición definitiva de un animal no provoque la tristeza que se desata ante una pérdida humana		f	Res Filiformes.xlsx	tristeza	C22		1	example
-fil-alegría-ar-0001	Res Filiformes	alegría	AR	verbal-objective	desatar	# La bocina de el final desató la alegría de las jugadoras		f	Res Filiformes.xlsx	alegría	B2		1	example
-fil-alegría-ar-0002	Res Filiformes	alegría	AR	verbal-objective	desatar	La victoria de el candidato desató la alegría de la clase política europea		f	Res Filiformes.xlsx	alegría	B2		1	example
-fil-alegría-ar-0003	Res Filiformes	alegría	AR	verbal-objective	desatar	Ojalá que Messi desate una gran alegría para los argentinos.		f	Res Filiformes.xlsx	alegría	B2		1	example
-fil-alegría-ar-0004	Res Filiformes	alegría	AR	verbal-objective	desatar	Familias enteras desatan su alegría a puro grito y charla		f	Res Filiformes.xlsx	alegría	B2		1	example
-fil-alegría-ar-0005	Res Filiformes	alegría	AR	verbal-subject-intransitive	desatarse	en la última fecha se desató la alegría en el fútbol		f	Res Filiformes.xlsx	alegría	C2		1	example
-fil-alegría-ar-0006	Res Filiformes	alegría	AR	verbal-subject-intransitive	desatarse	El sufrimiento de estar afuera hizo que se desate la alegría		f	Res Filiformes.xlsx	alegría	C2		1	example
-fil-alegría-ar-0007	Res Filiformes	alegría	AR	attributive		1se sacó anoche este plantel, por eso la alegría desatada a el final de la noche en el Bosque		f	Res Filiformes.xlsx	alegría	F2		1	example
-fil-alegría-ar-0008	Res Filiformes	alegría	AR	attributive		tras la clasificación y la alegría desatada entre los rosarinos		f	Res Filiformes.xlsx	alegría	F2		1	example
-fil-alegría-ar-0009	Res Filiformes	alegría	AR	attributive	tenso	de música, de sensualidad y de alegría tensa, traída desde la raíz profunda de lo humano		f	Res Filiformes.xlsx	alegría	F2		1	example
-fil-alegría-bo-0001	Res Filiformes	alegría	BO	verbal-objective	desatar	desatar la alegría		f	Res Filiformes.xlsx	alegría	B3		1	example
-fil-alegría-bo-0002	Res Filiformes	alegría	BO	verbal-objective	desatar	La agrupación quiere desatar esa alegría que los hizo merecedores de el premio		f	Res Filiformes.xlsx	alegría	B3		1	example
-fil-alegría-bo-0003	Res Filiformes	alegría	BO	verbal-objective	desatar	Argarañaz logra mandar el balón a el fondo de el arco desatando la alegría de el público presente		f	Res Filiformes.xlsx	alegría	B3		1	example
-fil-alegría-bo-0004	Res Filiformes	alegría	BO	verbal-objective	desatar	los brasileños desataron toda su alegría por la conquista		f	Res Filiformes.xlsx	alegría	B3		1	example
-fil-alegría-bo-0005	Res Filiformes	alegría	BO	verbal-subject-intransitive	desatarse	la alegría se desata en el campo de juego		f	Res Filiformes.xlsx	alegría	C3		1	example
-fil-alegría-bo-0006	Res Filiformes	alegría	BO	attributive		ayer revivió su éxito a el ver la alegría desatada por el triunfo de su compatriota		f	Res Filiformes.xlsx	alegría	F3		1	example
-fil-alegría-bo-0007	Res Filiformes	alegría	BO	attributive	tenso	es heredera de la alegría tensa de los bodegones gitanos		f	Res Filiformes.xlsx	alegría	F3		1	example
-fil-alegría-bo-0008	Res Filiformes	alegría	BO	substantive	hilo de	episodios de una historia que se tejen con hilos de gracia, alegría y emoció		f	Res Filiformes.xlsx	alegría	G3		1	example
-fil-alegría-cl-0001	Res Filiformes	alegría	CL	verbal-objective	desatar	Un cabezazo para desatar la alegría		f	Res Filiformes.xlsx	alegría	B4		1	example
-fil-alegría-cl-0002	Res Filiformes	alegría	CL	verbal-objective	desatar	definir de gran forma, desatando la alegría cruzada		f	Res Filiformes.xlsx	alegría	B4		1	example
-fil-alegría-cl-0003	Res Filiformes	alegría	CL	verbal-objective	entrelazar	Un destello que entrelaza la alegría y la nostalgia		f	Res Filiformes.xlsx	alegría	B4		1	example
-fil-alegría-cl-0004	Res Filiformes	alegría	CL	verbal-subject-intransitive	desatarse	Minuto 18 de partido y se desataba la alegría de la Roja.		f	Res Filiformes.xlsx	alegría	C4		1	example
-fil-alegría-cl-0005	Res Filiformes	alegría	CL	attributive		La alegría desatada por los " citizens " no gustó para nada		f	Res Filiformes.xlsx	alegría	F4		1	example
-fil-alegría-cl-0006	Res Filiformes	alegría	CL	attributive	tenso	en el dramatismo, en la intimidad y en una tensa alegría.		f	Res Filiformes.xlsx	alegría	F4		1	example
-fil-alegría-co-0001	Res Filiformes	alegría	CO	verbal-objective	desatar	gol de Cristiano Ronaldo desató la alegría entre sus seguidores		f	Res Filiformes.xlsx	alegría	B5		1	example
-fil-alegría-co-0002	Res Filiformes	alegría	CO	verbal-objective	desatar	La noticia de el rechazo a la candidatura de la actual primera dama desató la alegría de la oposición		f	Res Filiformes.xlsx	alegría	B5		1	example
-fil-alegría-co-0003	Res Filiformes	alegría	CO	verbal-objective	desatar	la reina desataba su alegría y la Vaca Vieja sonaba a ritmo de Pedro Laza		f	Res Filiformes.xlsx	alegría	B5		1	example
-fil-alegría-co-0004	Res Filiformes	alegría	CO	verbal-objective	tejer	seguiremos tejiendo muchas alegrías para Colombia		f	Res Filiformes.xlsx	alegría	B5		1	example
-fil-alegría-co-0005	Res Filiformes	alegría	CO	verbal-subject-intransitive	desatarse	entre los madridistas se desató la alegría		f	Res Filiformes.xlsx	alegría	C5		1	example
-fil-alegría-co-0006	Res Filiformes	alegría	CO	verbal-subject-intransitive	desatarse	Tras esa primera anotación se desató una gran alegría,		f	Res Filiformes.xlsx	alegría	C5		1	example
-fil-alegría-co-0007	Res Filiformes	alegría	CO	attributive		se concilian los rigores de la música rusa y la alegría latina desatada		f	Res Filiformes.xlsx	alegría	F5		1	example
-fil-alegría-co-0008	Res Filiformes	alegría	CO	substantive	hilo de	hilvanar esa madeja de alegrías cantada		f	Res Filiformes.xlsx	alegría	G5		1	example
-fil-alegría-co-0009	Res Filiformes	alegría	CO	substantive	hilo de	Has dejado hilos de tristeza, alegrías, sueños y esperanzas esparcidas entre las nubes		f	Res Filiformes.xlsx	alegría	G5		1	example
-fil-alegría-cr-0001	Res Filiformes	alegría	CR	verbal-objective	desatar	Hernandez desató la alegría mexicana en la ciudad de San Diego		f	Res Filiformes.xlsx	alegría	B6		1	example
-fil-alegría-cr-0002	Res Filiformes	alegría	CR	verbal-objective	desatar	El pitazo final llegó para desatar la alegría de la afición local		f	Res Filiformes.xlsx	alegría	B6		1	example
-fil-alegría-cr-0003	Res Filiformes	alegría	CR	verbal-subject-intransitive	desatarse	la alegría se desató en la capital y captó la atención		f	Res Filiformes.xlsx	alegría	C6		1	example
-fil-alegría-cu-0001	Res Filiformes	alegría	CU	verbal-objective	desatar	Sánchez clavó la puntilla en el minuto 44 y desató la alegría de una selección		f	Res Filiformes.xlsx	alegría	B7		1	example
-fil-alegría-cu-0002	Res Filiformes	alegría	CU	verbal-objective	desatar	para desatar la alegría en la tierra de el tequila		f	Res Filiformes.xlsx	alegría	B7		1	example
-fil-alegría-cu-0003	Res Filiformes	alegría	CU	verbal-objective	entrelazar	múltiples actividades donde se entrelazan la alegría, el júbilo y el compromiso eterno		f	Res Filiformes.xlsx	alegría	B7		1	example
-fil-alegría-cu-0004	Res Filiformes	alegría	CU	verbal-subject-intransitive	desatarse	luego se desató la alegría a base de las más de diez manifestaciones artísticas		f	Res Filiformes.xlsx	alegría	C7		1	example
-fil-alegría-cu-0005	Res Filiformes	alegría	CU	attributive		mostrar una alegría desatada en la victoria		f	Res Filiformes.xlsx	alegría	F7		1	example
-fil-alegría-do-0001	Res Filiformes	alegría	DO	verbal-objective	desatar	l emblemático " Salta ", de la otrora artista Infantil Isha, lo que desató risas y alegría		f	Res Filiformes.xlsx	alegría	B8		1	example
-fil-alegría-do-0002	Res Filiformes	alegría	DO	verbal-subject-intransitive	desatarse	Dentro de el capitolio se desató la alegría de el festín.		f	Res Filiformes.xlsx	alegría	C8		1	example
-fil-alegría-do-0003	Res Filiformes	alegría	DO	attributive		una estela de luz, alegría y felicidad, amarrada a la paz y grandeza		f	Res Filiformes.xlsx	alegría	F8		1	example
-fil-alegría-ec-0001	Res Filiformes	alegría	EC	verbal-objective	desatar	el' 10' argentino desató su alegría por el' milagro' alcanzado		f	Res Filiformes.xlsx	alegría	B9		1	example
-fil-alegría-ec-0002	Res Filiformes	alegría	EC	verbal-objective	desatar	remontar el marcador a los 84 minutos y así desatar la alegría entre los locales		f	Res Filiformes.xlsx	alegría	B9		1	example
-fil-alegría-ec-0003	Res Filiformes	alegría	EC	verbal-objective	desatar	la banda de pueblo que desata la alegría..		f	Res Filiformes.xlsx	alegría	B9		1	example
-fil-alegría-ec-0004	Res Filiformes	alegría	EC	verbal-subject-intransitive	desatarse	el marcador final de 2 a 0, con lo que se desató la alegría de los hinchas celestes		f	Res Filiformes.xlsx	alegría	C9		1	example
-fil-alegría-ec-0005	Res Filiformes	alegría	EC	verbal-subject-intransitive	desatarse	alegría se desató en la esquina con su entrenador Nicolás Dirovi		f	Res Filiformes.xlsx	alegría	C9		1	example
-fil-alegría-ec-0006	Res Filiformes	alegría	EC	verbal-subject-intransitive	desatarse	La alegría se desató, entre aplausos y fuertes abrazos.		f	Res Filiformes.xlsx	alegría	C9		1	example
-fil-alegría-ec-0007	Res Filiformes	alegría	EC	verbal-subject-intransitive	desatarse	Cuando el árbitro argentino Pitana indicó el final de el encuentro, se desató la alegría francesa.		f	Res Filiformes.xlsx	alegría	C9		1	example
-fil-alegría-ec-0008	Res Filiformes	alegría	EC	verbal-instrumental		demuestran la " fuerza " del pueblo ecuatoriano, que tira de " alegría " para afrontar las secuelas de estos años de crisis.		f	Res Filiformes.xlsx	alegría	E9		1	example
-fil-alegría-ec-0009	Res Filiformes	alegría	EC	attributive		se hace eco de la alegría desatada en Kenia por la proeza		f	Res Filiformes.xlsx	alegría	F9		1	example
-fil-alegría-es-0001	Res Filiformes	alegría	ES	verbal-objective	desatar	. El 1-1 desató la alegría y confianza en la grada,		f	Res Filiformes.xlsx	alegría	B10		1	example
-fil-alegría-es-0002	Res Filiformes	alegría	ES	verbal-objective	desatar	El sí desató la alegría de todos.		f	Res Filiformes.xlsx	alegría	B10		1	example
-fil-alegría-es-0003	Res Filiformes	alegría	ES	verbal-objective	desatar	No refrenen su euforia: abandonen la lectura de este artículo y desaten su alegría sin remilgos		f	Res Filiformes.xlsx	alegría	B10		1	example
-fil-alegría-es-0004	Res Filiformes	alegría	ES	verbal-objective	desatar	las peñas y sus charangas desatarán la alegría con el Pasacalles con la Bruja		f	Res Filiformes.xlsx	alegría	B10		1	example
-fil-alegría-es-0005	Res Filiformes	alegría	ES	verbal-subject-intransitive	desatarse	la alegría se desató en la expedición visitante:		f	Res Filiformes.xlsx	alegría	C10		1	example
-fil-alegría-es-0006	Res Filiformes	alegría	ES	verbal-subject-intransitive	desatarse	La alegría se desató en la localidad lucense de Monforte de Lemos, donde recayó íntegro el primer premio		f	Res Filiformes.xlsx	alegría	C10		1	example
-fil-alegría-es-0007	Res Filiformes	alegría	ES	verbal-subject-intransitive	desatarse	El número afortunado se desataba la alegría entre el público asistente		f	Res Filiformes.xlsx	alegría	C10		1	example
-fil-alegría-es-0008	Res Filiformes	alegría	ES	verbal-instrumental		así que la presentadora ha tirado de la alegría que le caracteriza para combatir lo		f	Res Filiformes.xlsx	alegría	E10		1	example
-fil-alegría-es-0009	Res Filiformes	alegría	ES	attributive		la alegría desatada da paso a el miedo, la intranquilidad y la zozobra		f	Res Filiformes.xlsx	alegría	F10		1	example
-fil-alegría-es-0010	Res Filiformes	alegría	ES	attributive		abordar la alegría desatada desde todos los ángulos posibles		f	Res Filiformes.xlsx	alegría	F10		1	example
-fil-alegría-es-0011	Res Filiformes	alegría	ES	substantive	hilo de	gran cantidad de gente " contagiada por el sólido hilo de la alegría.		f	Res Filiformes.xlsx	alegría	G10		1	example
-fil-alegría-gt-0001	Res Filiformes	alegría	GT	verbal-objective	desatar	marcador empatado a uno, cuando la Unión de San Guillermo logró anotar y desató la alegría de los locales.		f	Res Filiformes.xlsx	alegría	B11		1	example
-fil-alegría-hn-0001	Res Filiformes	alegría	HN	verbal-objective	desatar	Al llegar las 12: 00 la medianoche, se desató la alegría en los hogares		f	Res Filiformes.xlsx	alegría	B12		1	example
-fil-alegría-hn-0002	Res Filiformes	alegría	HN	verbal-objective	desatar	desatar la alegría de el público angelino		f	Res Filiformes.xlsx	alegría	B12		1	example
-fil-alegría-mx-0001	Res Filiformes	alegría	MX	verbal-objective	desatar	desató la alegría en las gradas.		f	Res Filiformes.xlsx	alegría	B13		1	example
-fil-alegría-mx-0002	Res Filiformes	alegría	MX	verbal-objective	desatar	penalti en el minuto 86 que desató la alegría nigeriana en el hote		f	Res Filiformes.xlsx	alegría	B13		1	example
-fil-alegría-mx-0003	Res Filiformes	alegría	MX	verbal-objective	desatar	hecho que desató la alegría entre los integrantes de el club		f	Res Filiformes.xlsx	alegría	B13		1	example
-fil-alegría-mx-0004	Res Filiformes	alegría	MX	verbal-objective	desatar	volvió a desatar la alegría de Maradona		f	Res Filiformes.xlsx	alegría	B13		1	example
-fil-alegría-mx-0005	Res Filiformes	alegría	MX	attributive		la alegría desatada luego de que Perú consiguiera sellar su boleto a Rusia 2018		f	Res Filiformes.xlsx	alegría	F13		1	example
-fil-alegría-ni-0001	Res Filiformes	alegría	NI	verbal-objective	desatar	Cuando llegó a el pedestal se desató la alegría.		f	Res Filiformes.xlsx	alegría	B14		1	example
-fil-alegría-ni-0002	Res Filiformes	alegría	NI	attributive		Con la alegría desatada por la liberación de los manifestantes presos,		f	Res Filiformes.xlsx	alegría	F14		1	example
-fil-alegría-pa-0001	Res Filiformes	alegría	PA	verbal-objective	desatar	hizo el trabajo con potente trallazo que desató la alegría de el escaso público		f	Res Filiformes.xlsx	alegría	B15		1	example
-fil-alegría-pa-0002	Res Filiformes	alegría	PA	attributive		provocó escenas de alegría desatada en la capital		f	Res Filiformes.xlsx	alegría	F15		1	example
-fil-alegría-pe-0001	Res Filiformes	alegría	PE	verbal-objective	desatar	Fernando Pacheco (52') se encargó de desatar la alegría peruana		f	Res Filiformes.xlsx	alegría	B16		1	example
-fil-alegría-pe-0002	Res Filiformes	alegría	PE	verbal-subject-intransitive	desatarse	n Pueblo Nuevo de Colán se desata la alegría en los meses de febrero y marzo		f	Res Filiformes.xlsx	alegría	C16		1	example
-fil-alegría-pe-0003	Res Filiformes	alegría	PE	attributive		La alegría desatada por los estruendosos aficionados'		f	Res Filiformes.xlsx	alegría	F16		1	example
-fil-alegría-pr-0001	Res Filiformes	alegría	PR	verbal-objective	desatar	lanzaron el cohete desde el balcón de el ayuntamiento a mediodía, desatando la alegría de las miles de personas que atestaban la plaza de abajo.		f	Res Filiformes.xlsx	alegría	B17		1	example
-fil-alegría-pr-0002	Res Filiformes	alegría	PR	verbal-subject-intransitive	desatarse	mientras la alegría continúa desatándose un rato más		f	Res Filiformes.xlsx	alegría	C17		1	example
-fil-alegría-pr-0003	Res Filiformes	alegría	PR	attributive		La magnitud de la alegría desatada		f	Res Filiformes.xlsx	alegría	F17		1	example
-fil-alegría-py-0001	Res Filiformes	alegría	PY	verbal-objective	desatar	Pablo Mouche que solo empujó para desatar la alegría de los hinchas sobre los 36'		f	Res Filiformes.xlsx	alegría	B18		1	example
-fil-alegría-sv-0001	Res Filiformes	alegría	SV	verbal-objective	desatar	terminó en el fondo de una portería, lo que desató la alegría de sus compañero		f	Res Filiformes.xlsx	alegría	B19		1	example
-fil-alegría-sv-0002	Res Filiformes	alegría	SV	verbal-subject-intransitive	desatarse	Pitana indicó el final del encuentro y se desató la alegría francesa		f	Res Filiformes.xlsx	alegría	C19		1	example
-fil-alegría-sv-0003	Res Filiformes	alegría	SV	attributive		La alegría desatada por los estruendosos aficionados		f	Res Filiformes.xlsx	alegría	F19		1	example
-fil-alegría-uy-0001	Res Filiformes	alegría	UY	verbal-objective	desatar	Tabú volvió a ganar y eso desató una alegría generalizada y un largo festejo		f	Res Filiformes.xlsx	alegría	B20		1	example
-fil-alegría-uy-0002	Res Filiformes	alegría	UY	verbal-objective	desatar	s el lugar elegido para desatar la alegría por el triunfo de la selección uruguaya		f	Res Filiformes.xlsx	alegría	B20		1	example
-fil-alegría-uy-0003	Res Filiformes	alegría	UY	attributive		unes su día nacional alargando la alegría		f	Res Filiformes.xlsx	alegría	F20		1	example
-fil-alegría-uy-0004	Res Filiformes	alegría	UY	attributive		desatada el domingo a el ganar su selección la primera edición		f	Res Filiformes.xlsx	alegría	F20		1	example
-fil-alegría-ve-0001	Res Filiformes	alegría	VE	verbal-objective	desatar	El pitazo final desató la alegría en la banca nacional liderada por un Pizzi		f	Res Filiformes.xlsx	alegría	B21		1	example
-fil-alegría-ve-0002	Res Filiformes	alegría	VE	verbal-objective	retorcer	Se retuercen alegría con la caída de el precio de el petróleo y el alza psicopática de…		f	Res Filiformes.xlsx	alegría	B21		1	example
-fil-alegría-ve-0003	Res Filiformes	alegría	VE	attributive		La alegría desatada por los grandes medios 2) a el servicio de las trasnacionales financieras		f	Res Filiformes.xlsx	alegría	F21		1	example
-fil-alegría-us-0001	Res Filiformes	alegría	US	verbal-objective	desatar	desatando la alegría de las miles de personas que atestaban la plaza		f	Res Filiformes.xlsx	alegría	B22		1	example
-fil-alegría-us-0002	Res Filiformes	alegría	US	verbal-subject-intransitive	desatarse	la alegría que se desataba cuando llovía		f	Res Filiformes.xlsx	alegría	C22		1	example
-fil-alegría-us-0003	Res Filiformes	alegría	US	verbal-subject-intransitive	desatarse	desatándose la alegría final en la cancha y la tribuna		f	Res Filiformes.xlsx	alegría	C22		1	example
-fil-alegría-us-0004	Res Filiformes	alegría	US	attributive		alargando la alegría desatada el domingo tras ganar		f	Res Filiformes.xlsx	alegría	F22		1	example
+fil-alegría-ar-0001	Res Filiformes	alegría	AR	verbal-objective	desatar	desatar alegría		f	Res Filiformes.xlsx	alegría	B2	freq:total 190	190	total
+fil-alegría-ar-0002	Res Filiformes	alegría	AR	verbal-objective	desatar	# La bocina de el final desató la alegría de las jugadoras		f	Res Filiformes.xlsx	alegría	B2		0	illustrative
+fil-alegría-ar-0003	Res Filiformes	alegría	AR	verbal-objective	desatar	La victoria de el candidato desató la alegría de la clase política europea		f	Res Filiformes.xlsx	alegría	B2		0	illustrative
+fil-alegría-ar-0004	Res Filiformes	alegría	AR	verbal-objective	desatar	Ojalá que Messi desate una gran alegría para los argentinos.		f	Res Filiformes.xlsx	alegría	B2		0	illustrative
+fil-alegría-ar-0005	Res Filiformes	alegría	AR	verbal-objective	desatar	Familias enteras desatan su alegría a puro grito y charla		f	Res Filiformes.xlsx	alegría	B2		0	illustrative
+fil-alegría-ar-0006	Res Filiformes	alegría	AR	verbal-subject-intransitive	desatarse	desatar alegría		f	Res Filiformes.xlsx	alegría	C2	freq:total 18	18	total
+fil-alegría-ar-0007	Res Filiformes	alegría	AR	verbal-subject-intransitive	desatarse	18		f	Res Filiformes.xlsx	alegría	C2		0	illustrative
+fil-alegría-ar-0008	Res Filiformes	alegría	AR	verbal-subject-intransitive	desatarse	en la última fecha se desató la alegría en el fútbol		f	Res Filiformes.xlsx	alegría	C2		0	illustrative
+fil-alegría-ar-0009	Res Filiformes	alegría	AR	verbal-subject-intransitive	desatarse	El sufrimiento de estar afuera hizo que se desate la alegría		f	Res Filiformes.xlsx	alegría	C2		0	illustrative
+fil-alegría-ar-0010	Res Filiformes	alegría	AR	attributive	desatar	1se sacó anoche este plantel, por eso la alegría desatada a el final de la noche en el Bosque		f	Res Filiformes.xlsx	alegría	F2		1	example
+fil-alegría-ar-0011	Res Filiformes	alegría	AR	attributive	desatar	tras la clasificación y la alegría desatada entre los rosarinos		f	Res Filiformes.xlsx	alegría	F2		1	example
+fil-alegría-ar-0012	Res Filiformes	alegría	AR	attributive	tenso	tensa alegría		f	Res Filiformes.xlsx	alegría	F2	freq:total 1	1	total
+fil-alegría-ar-0013	Res Filiformes	alegría	AR	attributive	tenso	de música, de sensualidad y de alegría tensa, traída desde la raíz profunda de lo humano		f	Res Filiformes.xlsx	alegría	F2		0	illustrative
+fil-alegría-bo-0001	Res Filiformes	alegría	BO	verbal-objective	desatar	desatar alegría		f	Res Filiformes.xlsx	alegría	B3	freq:total 12	12	total
+fil-alegría-bo-0002	Res Filiformes	alegría	BO	verbal-objective	desatar	desatar la alegría		f	Res Filiformes.xlsx	alegría	B3		0	illustrative
+fil-alegría-bo-0003	Res Filiformes	alegría	BO	verbal-objective	desatar	La agrupación quiere desatar esa alegría que los hizo merecedores de el premio		f	Res Filiformes.xlsx	alegría	B3		0	illustrative
+fil-alegría-bo-0004	Res Filiformes	alegría	BO	verbal-objective	desatar	Argarañaz logra mandar el balón a el fondo de el arco desatando la alegría de el público presente		f	Res Filiformes.xlsx	alegría	B3		0	illustrative
+fil-alegría-bo-0005	Res Filiformes	alegría	BO	verbal-objective	desatar	los brasileños desataron toda su alegría por la conquista		f	Res Filiformes.xlsx	alegría	B3		0	illustrative
+fil-alegría-bo-0006	Res Filiformes	alegría	BO	verbal-subject-intransitive	desatarse	desatarse alegría		f	Res Filiformes.xlsx	alegría	C3	freq:total 1	1	total
+fil-alegría-bo-0007	Res Filiformes	alegría	BO	verbal-subject-intransitive	desatarse	la alegría se desata en el campo de juego		f	Res Filiformes.xlsx	alegría	C3		0	illustrative
+fil-alegría-bo-0008	Res Filiformes	alegría	BO	attributive	desatar	ayer revivió su éxito a el ver la alegría desatada por el triunfo de su compatriota		f	Res Filiformes.xlsx	alegría	F3		1	example
+fil-alegría-bo-0009	Res Filiformes	alegría	BO	attributive	tenso	tensa alegría		f	Res Filiformes.xlsx	alegría	F3	freq:total 1	1	total
+fil-alegría-bo-0010	Res Filiformes	alegría	BO	attributive	tenso	es heredera de la alegría tensa de los bodegones gitanos		f	Res Filiformes.xlsx	alegría	F3		0	illustrative
+fil-alegría-bo-0011	Res Filiformes	alegría	BO	substantive	hilo	episodios de una historia que se tejen con hilos de gracia, alegría y emoció		f	Res Filiformes.xlsx	alegría	G3		1	example
+fil-alegría-cl-0001	Res Filiformes	alegría	CL	verbal-objective	desatar	desatar alegría		f	Res Filiformes.xlsx	alegría	B4	freq:total 248	248	total
+fil-alegría-cl-0002	Res Filiformes	alegría	CL	verbal-objective	desatar	desatar la alegría:		f	Res Filiformes.xlsx	alegría	B4		0	illustrative
+fil-alegría-cl-0003	Res Filiformes	alegría	CL	verbal-objective	desatar	Un cabezazo para desatar la alegría		f	Res Filiformes.xlsx	alegría	B4		0	illustrative
+fil-alegría-cl-0004	Res Filiformes	alegría	CL	verbal-objective	desatar	definir de gran forma, desatando la alegría cruzada		f	Res Filiformes.xlsx	alegría	B4		0	illustrative
+fil-alegría-cl-0005	Res Filiformes	alegría	CL	verbal-objective	entrelazar	entrelazar alegría		f	Res Filiformes.xlsx	alegría	B4	freq:total 1	1	total
+fil-alegría-cl-0006	Res Filiformes	alegría	CL	verbal-objective	entrelazar	Un destello que entrelaza la alegría y la nostalgia		f	Res Filiformes.xlsx	alegría	B4		0	illustrative
+fil-alegría-cl-0007	Res Filiformes	alegría	CL	verbal-subject-intransitive	desatarse	desatarse alegría		f	Res Filiformes.xlsx	alegría	C4	freq:total 1	1	total
+fil-alegría-cl-0008	Res Filiformes	alegría	CL	verbal-subject-intransitive	desatarse	Minuto 18 de partido y se desataba la alegría de la Roja.		f	Res Filiformes.xlsx	alegría	C4		0	illustrative
+fil-alegría-cl-0009	Res Filiformes	alegría	CL	attributive	desatar	desatar alegría		f	Res Filiformes.xlsx	alegría	F4	freq:total 6	6	total
+fil-alegría-cl-0010	Res Filiformes	alegría	CL	attributive	desatar	La alegría desatada por los " citizens " no gustó para nada		f	Res Filiformes.xlsx	alegría	F4		0	illustrative
+fil-alegría-cl-0011	Res Filiformes	alegría	CL	attributive	tenso	tensa alegría		f	Res Filiformes.xlsx	alegría	F4	freq:total 1	1	total
+fil-alegría-cl-0012	Res Filiformes	alegría	CL	attributive	tenso	en el dramatismo, en la intimidad y en una tensa alegría.		f	Res Filiformes.xlsx	alegría	F4		0	illustrative
+fil-alegría-co-0001	Res Filiformes	alegría	CO	verbal-objective	desatar	desatar alegría		f	Res Filiformes.xlsx	alegría	B5	freq:total 37	37	total
+fil-alegría-co-0002	Res Filiformes	alegría	CO	verbal-objective	desatar	gol de Cristiano Ronaldo desató la alegría entre sus seguidores		f	Res Filiformes.xlsx	alegría	B5		0	illustrative
+fil-alegría-co-0003	Res Filiformes	alegría	CO	verbal-objective	desatar	La noticia de el rechazo a la candidatura de la actual primera dama desató la alegría de la oposición		f	Res Filiformes.xlsx	alegría	B5		0	illustrative
+fil-alegría-co-0004	Res Filiformes	alegría	CO	verbal-objective	desatar	la reina desataba su alegría y la Vaca Vieja sonaba a ritmo de Pedro Laza		f	Res Filiformes.xlsx	alegría	B5		0	illustrative
+fil-alegría-co-0005	Res Filiformes	alegría	CO	verbal-objective	tejer	tejer alegría		f	Res Filiformes.xlsx	alegría	B5	freq:total 1	1	total
+fil-alegría-co-0006	Res Filiformes	alegría	CO	verbal-objective	tejer	seguiremos tejiendo muchas alegrías para Colombia		f	Res Filiformes.xlsx	alegría	B5		0	illustrative
+fil-alegría-co-0007	Res Filiformes	alegría	CO	verbal-subject-intransitive	desatarse	desatar alegría		f	Res Filiformes.xlsx	alegría	C5	freq:total 2	2	total
+fil-alegría-co-0008	Res Filiformes	alegría	CO	verbal-subject-intransitive	desatarse	entre los madridistas se desató la alegría		f	Res Filiformes.xlsx	alegría	C5		0	illustrative
+fil-alegría-co-0009	Res Filiformes	alegría	CO	verbal-subject-intransitive	desatarse	Tras esa primera anotación se desató una gran alegría,		f	Res Filiformes.xlsx	alegría	C5		0	illustrative
+fil-alegría-co-0010	Res Filiformes	alegría	CO	attributive	desatar	desatar alegría		f	Res Filiformes.xlsx	alegría	F5	freq:total 2	2	total
+fil-alegría-co-0011	Res Filiformes	alegría	CO	attributive	desatar	se concilian los rigores de la música rusa y la alegría latina desatada		f	Res Filiformes.xlsx	alegría	F5		0	illustrative
+fil-alegría-co-0012	Res Filiformes	alegría	CO	substantive	hilo de	hilvanar esa madeja de alegrías cantada		f	Res Filiformes.xlsx	alegría	G5		1	example
+fil-alegría-co-0013	Res Filiformes	alegría	CO	substantive	hilo	Has dejado hilos de tristeza, alegrías, sueños y esperanzas esparcidas entre las nubes		f	Res Filiformes.xlsx	alegría	G5		1	example
+fil-alegría-cr-0001	Res Filiformes	alegría	CR	verbal-objective	desatar	desatar alegría		f	Res Filiformes.xlsx	alegría	B6	freq:total 11	11	total
+fil-alegría-cr-0002	Res Filiformes	alegría	CR	verbal-objective	desatar	Hernandez desató la alegría mexicana en la ciudad de San Diego		f	Res Filiformes.xlsx	alegría	B6		0	illustrative
+fil-alegría-cr-0003	Res Filiformes	alegría	CR	verbal-objective	desatar	El pitazo final llegó para desatar la alegría de la afición local		f	Res Filiformes.xlsx	alegría	B6		0	illustrative
+fil-alegría-cr-0004	Res Filiformes	alegría	CR	verbal-subject-intransitive	desatarse	desatarse alegría		f	Res Filiformes.xlsx	alegría	C6	freq:total 1	1	total
+fil-alegría-cr-0005	Res Filiformes	alegría	CR	verbal-subject-intransitive	desatarse	la alegría se desató en la capital y captó la atención		f	Res Filiformes.xlsx	alegría	C6		0	illustrative
+fil-alegría-cu-0001	Res Filiformes	alegría	CU	verbal-objective	desatar	desatar alegría		f	Res Filiformes.xlsx	alegría	B7	freq:total 4	4	total
+fil-alegría-cu-0002	Res Filiformes	alegría	CU	verbal-objective	desatar	Sánchez clavó la puntilla en el minuto 44 y desató la alegría de una selección		f	Res Filiformes.xlsx	alegría	B7		0	illustrative
+fil-alegría-cu-0003	Res Filiformes	alegría	CU	verbal-objective	desatar	para desatar la alegría en la tierra de el tequila		f	Res Filiformes.xlsx	alegría	B7		0	illustrative
+fil-alegría-cu-0004	Res Filiformes	alegría	CU	verbal-objective	entrelazar	entrelazar alegría		f	Res Filiformes.xlsx	alegría	B7	freq:total 1	1	total
+fil-alegría-cu-0005	Res Filiformes	alegría	CU	verbal-objective	entrelazar	múltiples actividades donde se entrelazan la alegría, el júbilo y el compromiso eterno		f	Res Filiformes.xlsx	alegría	B7		0	illustrative
+fil-alegría-cu-0006	Res Filiformes	alegría	CU	verbal-subject-intransitive	desatarse	desatar alegría		f	Res Filiformes.xlsx	alegría	C7	freq:total 1	1	total
+fil-alegría-cu-0007	Res Filiformes	alegría	CU	verbal-subject-intransitive	desatarse	luego se desató la alegría a base de las más de diez manifestaciones artísticas		f	Res Filiformes.xlsx	alegría	C7		0	illustrative
+fil-alegría-cu-0008	Res Filiformes	alegría	CU	attributive	desatar	mostrar una alegría desatada en la victoria		f	Res Filiformes.xlsx	alegría	F7		1	example
+fil-alegría-do-0001	Res Filiformes	alegría	DO	verbal-objective	desatar	desatar alegría		f	Res Filiformes.xlsx	alegría	B8	freq:total 4	4	total
+fil-alegría-do-0002	Res Filiformes	alegría	DO	verbal-objective	desatar	l emblemático " Salta ", de la otrora artista Infantil Isha, lo que desató risas y alegría		f	Res Filiformes.xlsx	alegría	B8		0	illustrative
+fil-alegría-do-0003	Res Filiformes	alegría	DO	verbal-subject-intransitive	desatarse	desatar alegría		f	Res Filiformes.xlsx	alegría	C8	freq:total 1	1	total
+fil-alegría-do-0004	Res Filiformes	alegría	DO	verbal-subject-intransitive	desatarse	Dentro de el capitolio se desató la alegría de el festín.		f	Res Filiformes.xlsx	alegría	C8		0	illustrative
+fil-alegría-do-0005	Res Filiformes	alegría	DO	attributive	amarrar	una estela de luz, alegría y felicidad, amarrada a la paz y grandeza		f	Res Filiformes.xlsx	alegría	F8		1	example
+fil-alegría-ec-0001	Res Filiformes	alegría	EC	verbal-objective	desatar	desatar alegría		f	Res Filiformes.xlsx	alegría	B9	freq:total 27	27	total
+fil-alegría-ec-0002	Res Filiformes	alegría	EC	verbal-objective	desatar	el' 10' argentino desató su alegría por el' milagro' alcanzado		f	Res Filiformes.xlsx	alegría	B9		0	illustrative
+fil-alegría-ec-0003	Res Filiformes	alegría	EC	verbal-objective	desatar	17		f	Res Filiformes.xlsx	alegría	B9		0	illustrative
+fil-alegría-ec-0004	Res Filiformes	alegría	EC	verbal-objective	desatar	18		f	Res Filiformes.xlsx	alegría	B9		0	illustrative
+fil-alegría-ec-0005	Res Filiformes	alegría	EC	verbal-objective	desatar	remontar el marcador a los 84 minutos y así desatar la alegría entre los locales		f	Res Filiformes.xlsx	alegría	B9		0	illustrative
+fil-alegría-ec-0006	Res Filiformes	alegría	EC	verbal-objective	desatar	la banda de pueblo que desata la alegría..		f	Res Filiformes.xlsx	alegría	B9		0	illustrative
+fil-alegría-ec-0007	Res Filiformes	alegría	EC	verbal-subject-intransitive	desatarse	desatar alegría		f	Res Filiformes.xlsx	alegría	C9	freq:total 4	4	total
+fil-alegría-ec-0008	Res Filiformes	alegría	EC	verbal-subject-intransitive	desatarse	el marcador final de 2 a 0, con lo que se desató la alegría de los hinchas celestes		f	Res Filiformes.xlsx	alegría	C9		0	illustrative
+fil-alegría-ec-0009	Res Filiformes	alegría	EC	verbal-subject-intransitive	desatarse	alegría se desató en la esquina con su entrenador Nicolás Dirovi		f	Res Filiformes.xlsx	alegría	C9		0	illustrative
+fil-alegría-ec-0010	Res Filiformes	alegría	EC	verbal-subject-intransitive	desatarse	La alegría se desató, entre aplausos y fuertes abrazos.		f	Res Filiformes.xlsx	alegría	C9		0	illustrative
+fil-alegría-ec-0011	Res Filiformes	alegría	EC	verbal-subject-intransitive	desatarse	Cuando el árbitro argentino Pitana indicó el final de el encuentro, se desató la alegría francesa.		f	Res Filiformes.xlsx	alegría	C9		0	illustrative
+fil-alegría-ec-0012	Res Filiformes	alegría	EC	verbal-instrumental		? alegría		f	Res Filiformes.xlsx	alegría	E9	freq:total 1	1	total
+fil-alegría-ec-0013	Res Filiformes	alegría	EC	verbal-instrumental		demuestran la " fuerza " del pueblo ecuatoriano, que tira de " alegría " para afrontar las secuelas de estos años de crisis.		f	Res Filiformes.xlsx	alegría	E9		0	illustrative
+fil-alegría-ec-0014	Res Filiformes	alegría	EC	attributive	desatar	se hace eco de la alegría desatada en Kenia por la proeza		f	Res Filiformes.xlsx	alegría	F9		1	example
+fil-alegría-es-0001	Res Filiformes	alegría	ES	verbal-objective	desatar	desatar alegría		f	Res Filiformes.xlsx	alegría	B10	freq:total 60	60	total
+fil-alegría-es-0002	Res Filiformes	alegría	ES	verbal-objective	desatar	. El 1-1 desató la alegría y confianza en la grada,		f	Res Filiformes.xlsx	alegría	B10		0	illustrative
+fil-alegría-es-0003	Res Filiformes	alegría	ES	verbal-objective	desatar	El sí desató la alegría de todos.		f	Res Filiformes.xlsx	alegría	B10		0	illustrative
+fil-alegría-es-0004	Res Filiformes	alegría	ES	verbal-objective	desatar	No refrenen su euforia: abandonen la lectura de este artículo y desaten su alegría sin remilgos		f	Res Filiformes.xlsx	alegría	B10		0	illustrative
+fil-alegría-es-0005	Res Filiformes	alegría	ES	verbal-objective	desatar	las peñas y sus charangas desatarán la alegría con el Pasacalles con la Bruja		f	Res Filiformes.xlsx	alegría	B10		0	illustrative
+fil-alegría-es-0006	Res Filiformes	alegría	ES	verbal-subject-intransitive	desatarse	desatarse alegría		f	Res Filiformes.xlsx	alegría	C10	freq:total 3	3	total
+fil-alegría-es-0007	Res Filiformes	alegría	ES	verbal-subject-intransitive	desatarse	la alegría se desató en la expedición visitante:		f	Res Filiformes.xlsx	alegría	C10		0	illustrative
+fil-alegría-es-0008	Res Filiformes	alegría	ES	verbal-subject-intransitive	desatarse	La alegría se desató en la localidad lucense de Monforte de Lemos, donde recayó íntegro el primer premio		f	Res Filiformes.xlsx	alegría	C10		0	illustrative
+fil-alegría-es-0009	Res Filiformes	alegría	ES	verbal-subject-intransitive	desatarse	El número afortunado se desataba la alegría entre el público asistente		f	Res Filiformes.xlsx	alegría	C10		0	illustrative
+fil-alegría-es-0010	Res Filiformes	alegría	ES	verbal-instrumental		? alegría		f	Res Filiformes.xlsx	alegría	E10	freq:total 1	1	total
+fil-alegría-es-0011	Res Filiformes	alegría	ES	verbal-instrumental		así que la presentadora ha tirado de la alegría que le caracteriza para combatir lo		f	Res Filiformes.xlsx	alegría	E10		0	illustrative
+fil-alegría-es-0012	Res Filiformes	alegría	ES	attributive	desatar	la alegría desatada da paso a el miedo, la intranquilidad y la zozobra		f	Res Filiformes.xlsx	alegría	F10		1	example
+fil-alegría-es-0013	Res Filiformes	alegría	ES	attributive	desatar	abordar la alegría desatada desde todos los ángulos posibles		f	Res Filiformes.xlsx	alegría	F10		1	example
+fil-alegría-es-0014	Res Filiformes	alegría	ES	substantive	hilo	gran cantidad de gente " contagiada por el sólido hilo de la alegría.		f	Res Filiformes.xlsx	alegría	G10		1	example
+fil-alegría-gt-0001	Res Filiformes	alegría	GT	verbal-objective	desatar	desatar alegría		f	Res Filiformes.xlsx	alegría	B11	freq:total 7	7	total
+fil-alegría-gt-0002	Res Filiformes	alegría	GT	verbal-objective	desatar	marcador empatado a uno, cuando la Unión de San Guillermo logró anotar y desató la alegría de los locales.		f	Res Filiformes.xlsx	alegría	B11		0	illustrative
+fil-alegría-hn-0001	Res Filiformes	alegría	HN	verbal-objective	desatar	desatar alegría		f	Res Filiformes.xlsx	alegría	B12	freq:total 11	11	total
+fil-alegría-hn-0002	Res Filiformes	alegría	HN	verbal-objective	desatar	Al llegar las 12: 00 la medianoche, se desató la alegría en los hogares		f	Res Filiformes.xlsx	alegría	B12		0	illustrative
+fil-alegría-hn-0003	Res Filiformes	alegría	HN	verbal-objective	desatar	8		f	Res Filiformes.xlsx	alegría	B12		0	illustrative
+fil-alegría-hn-0004	Res Filiformes	alegría	HN	verbal-objective	desatar	desatar la alegría de el público angelino		f	Res Filiformes.xlsx	alegría	B12		0	illustrative
+fil-alegría-mx-0001	Res Filiformes	alegría	MX	verbal-objective	desatar	desatar alegría		f	Res Filiformes.xlsx	alegría	B13	freq:total 234	234	total
+fil-alegría-mx-0002	Res Filiformes	alegría	MX	verbal-objective	desatar	desató la alegría en las gradas.		f	Res Filiformes.xlsx	alegría	B13		0	illustrative
+fil-alegría-mx-0003	Res Filiformes	alegría	MX	verbal-objective	desatar	penalti en el minuto 86 que desató la alegría nigeriana en el hote		f	Res Filiformes.xlsx	alegría	B13		0	illustrative
+fil-alegría-mx-0004	Res Filiformes	alegría	MX	verbal-objective	desatar	hecho que desató la alegría entre los integrantes de el club		f	Res Filiformes.xlsx	alegría	B13		0	illustrative
+fil-alegría-mx-0005	Res Filiformes	alegría	MX	verbal-objective	desatar	4-11		f	Res Filiformes.xlsx	alegría	B13		0	illustrative
+fil-alegría-mx-0006	Res Filiformes	alegría	MX	verbal-objective	desatar	volvió a desatar la alegría de Maradona		f	Res Filiformes.xlsx	alegría	B13		0	illustrative
+fil-alegría-mx-0007	Res Filiformes	alegría	MX	attributive	desatar	la alegría desatada luego de que Perú consiguiera sellar su boleto a Rusia 2018		f	Res Filiformes.xlsx	alegría	F13		1	example
+fil-alegría-ni-0001	Res Filiformes	alegría	NI	verbal-objective	desatar	desatar alegría		f	Res Filiformes.xlsx	alegría	B14	freq:total 5	5	total
+fil-alegría-ni-0002	Res Filiformes	alegría	NI	verbal-objective	desatar	Cuando llegó a el pedestal se desató la alegría.		f	Res Filiformes.xlsx	alegría	B14		0	illustrative
+fil-alegría-ni-0003	Res Filiformes	alegría	NI	attributive	desatar	Con la alegría desatada por la liberación de los manifestantes presos,		f	Res Filiformes.xlsx	alegría	F14		1	example
+fil-alegría-pa-0001	Res Filiformes	alegría	PA	verbal-objective	desatar	desatar alegría		f	Res Filiformes.xlsx	alegría	B15	freq:total 6	6	total
+fil-alegría-pa-0002	Res Filiformes	alegría	PA	verbal-objective	desatar	hizo el trabajo con potente trallazo que desató la alegría de el escaso público		f	Res Filiformes.xlsx	alegría	B15		0	illustrative
+fil-alegría-pa-0003	Res Filiformes	alegría	PA	verbal-objective	desatar	3		f	Res Filiformes.xlsx	alegría	B15		0	illustrative
+fil-alegría-pa-0004	Res Filiformes	alegría	PA	attributive	desatar	provocó escenas de alegría desatada en la capital		f	Res Filiformes.xlsx	alegría	F15		1	example
+fil-alegría-pe-0001	Res Filiformes	alegría	PE	verbal-objective	desatar	desatar alegría		f	Res Filiformes.xlsx	alegría	B16	freq:total 158	158	total
+fil-alegría-pe-0002	Res Filiformes	alegría	PE	verbal-objective	desatar	74		f	Res Filiformes.xlsx	alegría	B16		0	illustrative
+fil-alegría-pe-0003	Res Filiformes	alegría	PE	verbal-objective	desatar	Fernando Pacheco (52') se encargó de desatar la alegría peruana		f	Res Filiformes.xlsx	alegría	B16		0	illustrative
+fil-alegría-pe-0004	Res Filiformes	alegría	PE	verbal-subject-intransitive	desatarse	desatar alegría		f	Res Filiformes.xlsx	alegría	C16	freq:total 12	12	total
+fil-alegría-pe-0005	Res Filiformes	alegría	PE	verbal-subject-intransitive	desatarse	n Pueblo Nuevo de Colán se desata la alegría en los meses de febrero y marzo		f	Res Filiformes.xlsx	alegría	C16		0	illustrative
+fil-alegría-pe-0006	Res Filiformes	alegría	PE	attributive	desatar	La alegría desatada por los estruendosos aficionados'		f	Res Filiformes.xlsx	alegría	F16		1	example
+fil-alegría-pr-0001	Res Filiformes	alegría	PR	verbal-objective	desatar	desatar alegría		f	Res Filiformes.xlsx	alegría	B17	freq:total 1	1	total
+fil-alegría-pr-0002	Res Filiformes	alegría	PR	verbal-objective	desatar	desatar la alegría:		f	Res Filiformes.xlsx	alegría	B17		0	illustrative
+fil-alegría-pr-0003	Res Filiformes	alegría	PR	verbal-objective	desatar	lanzaron el cohete desde el balcón de el ayuntamiento a mediodía, desatando la alegría de las miles de personas que atestaban la plaza de abajo.		f	Res Filiformes.xlsx	alegría	B17		0	illustrative
+fil-alegría-pr-0004	Res Filiformes	alegría	PR	verbal-subject-intransitive	desatarse	desatarse alegría		f	Res Filiformes.xlsx	alegría	C17	freq:total 1	1	total
+fil-alegría-pr-0005	Res Filiformes	alegría	PR	verbal-subject-intransitive	desatarse	mientras la alegría continúa desatándose un rato más		f	Res Filiformes.xlsx	alegría	C17		0	illustrative
+fil-alegría-pr-0006	Res Filiformes	alegría	PR	attributive	desatar	La magnitud de la alegría desatada		f	Res Filiformes.xlsx	alegría	F17		1	example
+fil-alegría-py-0001	Res Filiformes	alegría	PY	verbal-objective	desatar	desatar alegría		f	Res Filiformes.xlsx	alegría	B18	freq:total 43	43	total
+fil-alegría-py-0002	Res Filiformes	alegría	PY	verbal-objective	desatar	Pablo Mouche que solo empujó para desatar la alegría de los hinchas sobre los 36'		f	Res Filiformes.xlsx	alegría	B18		0	illustrative
+fil-alegría-py-0003	Res Filiformes	alegría	PY	verbal-subject-intransitive	desatarse	desatar alegría		f	Res Filiformes.xlsx	alegría	C18	freq:total 4	4	total
+fil-alegría-sv-0001	Res Filiformes	alegría	SV	verbal-objective	desatar	desatar alegría		f	Res Filiformes.xlsx	alegría	B19	freq:total 6	6	total
+fil-alegría-sv-0002	Res Filiformes	alegría	SV	verbal-objective	desatar	terminó en el fondo de una portería, lo que desató la alegría de sus compañero		f	Res Filiformes.xlsx	alegría	B19		0	illustrative
+fil-alegría-sv-0003	Res Filiformes	alegría	SV	verbal-subject-intransitive	desatarse	desatarse alegría		f	Res Filiformes.xlsx	alegría	C19	freq:total 1	1	total
+fil-alegría-sv-0004	Res Filiformes	alegría	SV	verbal-subject-intransitive	desatarse	Pitana indicó el final del encuentro y se desató la alegría francesa		f	Res Filiformes.xlsx	alegría	C19		0	illustrative
+fil-alegría-sv-0005	Res Filiformes	alegría	SV	attributive	desatar	La alegría desatada por los estruendosos aficionados		f	Res Filiformes.xlsx	alegría	F19		1	example
+fil-alegría-uy-0001	Res Filiformes	alegría	UY	verbal-objective	desatar	desatar alegría		f	Res Filiformes.xlsx	alegría	B20	freq:total 13	13	total
+fil-alegría-uy-0002	Res Filiformes	alegría	UY	verbal-objective	desatar	Tabú volvió a ganar y eso desató una alegría generalizada y un largo festejo		f	Res Filiformes.xlsx	alegría	B20		0	illustrative
+fil-alegría-uy-0003	Res Filiformes	alegría	UY	verbal-objective	desatar	s el lugar elegido para desatar la alegría por el triunfo de la selección uruguaya		f	Res Filiformes.xlsx	alegría	B20		0	illustrative
+fil-alegría-uy-0004	Res Filiformes	alegría	UY	attributive	desatar	unes su día nacional alargando la alegría		f	Res Filiformes.xlsx	alegría	F20		1	example
+fil-alegría-uy-0005	Res Filiformes	alegría	UY	attributive	desatar	desatada el domingo a el ganar su selección la primera edición		f	Res Filiformes.xlsx	alegría	F20		1	example
+fil-alegría-ve-0001	Res Filiformes	alegría	VE	verbal-objective	desatar	desatar alegría		f	Res Filiformes.xlsx	alegría	B21	freq:total 16	16	total
+fil-alegría-ve-0002	Res Filiformes	alegría	VE	verbal-objective	desatar	El pitazo final desató la alegría en la banca nacional liderada por un Pizzi		f	Res Filiformes.xlsx	alegría	B21		0	illustrative
+fil-alegría-ve-0003	Res Filiformes	alegría	VE	verbal-objective	retorcer	retorcer alegría		f	Res Filiformes.xlsx	alegría	B21	freq:total 1	1	total
+fil-alegría-ve-0004	Res Filiformes	alegría	VE	verbal-objective	retorcer	Se retuercen alegría con la caída de el precio de el petróleo y el alza psicopática de…		f	Res Filiformes.xlsx	alegría	B21		0	illustrative
+fil-alegría-ve-0005	Res Filiformes	alegría	VE	attributive	desatar	La alegría desatada por los grandes medios 2) a el servicio de las trasnacionales financieras		f	Res Filiformes.xlsx	alegría	F21		1	example
+fil-alegría-us-0001	Res Filiformes	alegría	US	verbal-objective	desatar	desatar alegría		f	Res Filiformes.xlsx	alegría	B22	freq:total 18	18	total
+fil-alegría-us-0002	Res Filiformes	alegría	US	verbal-objective	desatar	desatando la alegría de las miles de personas que atestaban la plaza		f	Res Filiformes.xlsx	alegría	B22		0	illustrative
+fil-alegría-us-0003	Res Filiformes	alegría	US	verbal-subject-intransitive	desatarse	desatarse alegría		f	Res Filiformes.xlsx	alegría	C22	freq:total 2	2	total
+fil-alegría-us-0004	Res Filiformes	alegría	US	verbal-subject-intransitive	desatarse	la alegría que se desataba cuando llovía		f	Res Filiformes.xlsx	alegría	C22		0	illustrative
+fil-alegría-us-0005	Res Filiformes	alegría	US	verbal-subject-intransitive	desatarse	desatándose la alegría final en la cancha y la tribuna		f	Res Filiformes.xlsx	alegría	C22		0	illustrative
+fil-alegría-us-0006	Res Filiformes	alegría	US	attributive	desatar	alargando la alegría desatada el domingo tras ganar		f	Res Filiformes.xlsx	alegría	F22		1	example
+fil-alegría-us-0007	Res Filiformes	alegría	US	attributive	desatar	3		f	Res Filiformes.xlsx	alegría	F22		1	example
 liq-miedo-ar-0001	Res Liquidae	miedo	AR	verbal-subject-intransitive	brotar	En este diálogo intrínseco brotan miedos, silencios, recuerdos y emociones		f	RES LIQUIDAE COR.xlsx	miedo	D2		1	example
 liq-miedo-ar-0002	Res Liquidae	miedo	AR	verbal-subject-intransitive	brotar	su trabajo de denuncia le hizo brotar un miedo constante a la deportación		f	RES LIQUIDAE COR.xlsx	miedo	D2		1	example
 liq-miedo-ar-0003	Res Liquidae	miedo	AR	verbal-subject-intransitive	brotar	as potencias hacen sentir su rigor,, con amenazas brutales como las las de Bolton y en muchos otros casos con maniobras más sutiles. Y empezó a brotar el miedo.		f	RES LIQUIDAE COR.xlsx	miedo	D2		1	example
@@ -1587,7 +1785,7 @@ liq-ira-us-0003	Res Liquidae	ira	US	verbal-subject-intransitive	brotar	Ambas cam
 liq-ira-us-0004	Res Liquidae	ira	US	verbal-subject-intransitive	brotar	.2 un lector sensible rechaza de inmediato al personaje siniestro sintiendo una ira que brotá natural...		f	RES LIQUIDAE COR.xlsx	ira	D22		1	example
 liq-ira-us-0005	Res Liquidae	ira	US	substantive	torrente	.pero se ha transformado en un torrente de ira más amplio por la presión que sufre la clase media por el coste		f	RES LIQUIDAE COR.xlsx	ira	E22		1	example
 liq-ira-us-0006	Res Liquidae	ira	US	attributive	derramado	La Biblia habla acerca de la ira de Dios derramada en la cruz.		f	RES LIQUIDAE COR.xlsx	ira	F22		1	example
-liq-tristeza-ar-0001	Res Liquidae	tristeza	AR	verbal-objective		GOTEAR 1 una pintura que gotea su tristeza, su abuso reprimido, una desesperación disipada		f	RES LIQUIDAE COR.xlsx	tristeza	B2		1	example
+liq-tristeza-ar-0001	Res Liquidae	tristeza	AR	verbal-objective		una pintura que gotea su tristeza, su abuso reprimido, una desesperación disipada		f	RES LIQUIDAE COR.xlsx	tristeza	B2		1	example
 liq-tristeza-ar-0002	Res Liquidae	tristeza	AR	verbal-subject-transitive	inundar	Sin embargo la tristeza que inunda a el jugador lesionado preocupa a sus compañeros por su estado de ánimo. AR		f	RES LIQUIDAE COR.xlsx	tristeza	C2		1	example
 liq-tristeza-ar-0003	Res Liquidae	tristeza	AR	verbal-subject-transitive	inundar	Y los dos ganaron para que la tristeza inunde los corazones verdes en cada rincón de Junín AR		f	RES LIQUIDAE COR.xlsx	tristeza	C2		1	example
 liq-tristeza-ar-0004	Res Liquidae	tristeza	AR	verbal-subject-transitive	inundar	La tristeza inundaba en la vereda a los comerciantes que conocían a muje AR		f	RES LIQUIDAE COR.xlsx	tristeza	C2		1	example

@@ -73,14 +73,16 @@ alongside) pasted example sentences — the count is the productivity signal tha
 membership/IDC/CAC depend on. The earlier extractor discarded these counts
 (it kept only the typed sentences), so a cell reading `traer alegría 480`
 contributed *nothing*. `pipeline/extract_wide.js` now parses them for the files
-in `FREQ_PARSE_FILES` (currently `Res Parvae.xlsx`, `Res Acutae.xlsx` and
-`RES LIQUIDAE COR.xlsx`; the remaining classes still use
-one-fragment-=-one-occurrence, i.e. `frequency = 1`, and are converted one at a
-time — see the rollout note below). Block-header detection is seed-driven
-(`buildHeadSet` from the **class-wide** seed inventory, so a classifier filed
-under another column — e.g. `REBOSAR` in the Liquidae instrumental column — is
-still recognised). A cell is segmented into classifier blocks; each block's
-frequency is resolved by precedence:
+in `FREQ_PARSE_FILES` (currently `Res Parvae.xlsx`, `Res Acutae.xlsx`,
+`RES LIQUIDAE COR.xlsx` and `Res Filiformes.xlsx`; the remaining classes still
+use one-fragment-=-one-occurrence, i.e. `frequency = 1` — see the rollout note
+below). Block-header detection is seed-driven (`buildHeadStems` over the
+**class-wide** seed inventory, matched by stem so a classifier filed under
+another column — `REBOSAR` in the Liquidae instrumental column — or an inflected
+label — `ENROLLAR` for the seed `enrollarse` — is still recognised; the
+label-shape rules keep a prose sentence from being promoted to a heading). A
+cell is segmented into classifier blocks; each block's frequency is resolved by
+precedence:
 
 | precedence | cell shape | `frequency` | `freq_role` | examples |
 |---|---|--:|---|---|
@@ -89,6 +91,7 @@ frequency is resolved by precedence:
 | 2 | `SOLTAR 0` / `coger ira 0` | `0` | `absent` | negative attestation |
 | 3 | examples only, no number | #examples | `example` (1 each) | each quoted line counts |
 | 4 | examples `…` then a summary label `DERRAMAR 5` | `5` | `total`/`example` | label summarises the **preceding** same-classifier examples |
+| 4-multi | examples `…` then a run of labels `DESATAR 10 / ENTRELAZAR 3` | each label's `N` | `inline` + `illustrative` | each label's count is authoritative; examples attributed per-classifier (weight 0). Counts sum to #examples (else FLAG) |
 | — | inline `N` **>** #examples shown | `N` | `inline` | extras → `illustrative` (0) |
 
 A leading `1` that opens a `1, 2, 3…` numbered run is **example-numbering**, not
@@ -103,20 +106,18 @@ orphan block under the column's implied classifier.
 **Rollout (one class at a time).** Conversion proceeds class by class so each is
 validated before the next (regression rule: Res Parvae rows must stay
 byte-identical after any parser change). Done: **Res Parvae**, **Res Acutae**,
-**Res Liquidae**. A recon scan shows **Res Planae**, **Res Rotundae** and **Res
-Longae Penetrantes** carry *no* explicit counts (pure example cells) and so need
-no conversion — their `frequency = 1` is already correct. Remaining: **Res
-Filiformes** (heavy Format 4 — the section builder added for Liquidae already
-handles it) and **Res Continens** (2 trivial count cells).
+**Res Liquidae**, **Res Filiformes**. A recon scan shows **Res Planae**, **Res
+Rotundae** and **Res Longae Penetrantes** carry *no* explicit counts (pure
+example cells) and so need no conversion — their `frequency = 1` is already
+correct. Remaining: **Res Continens** (2 trivial count cells).
 
-**Consequence — scale mixing.** Until the last count-bearing classes are
-frequency-parsed, cross-class shares (CAC %) still mix occurrence-weighted
-classes (Parvae, Acutae, Liquidae) with sentence-counted ones (Filiformes,
-Continens) and are *provisional*: an emonym with a large frequency count (e.g.
-*alegría*, `traer alegría` ≈ 3 200 in Res Parvae) shows a large share for that
-class. Per-cell verdicts (critical mass, distinct-classifier guard, variant
-spread) are valid now; the cross-class matrix settles once Res Filiformes and
-Res Continens are converted. See `data/derived/freq-audit-parvae.md`.
+**Consequence — scale mixing.** Until the last count-bearing class (Res
+Continens) is frequency-parsed, cross-class shares (CAC %) still mix
+occurrence-weighted classes with the sentence-counted Res Continens and are
+*provisional*. Per-cell verdicts (critical mass, distinct-classifier guard,
+variant spread) are valid now; the cross-class matrix settles once Res Continens
+is converted (its impact is small — only 2 count cells). Per-class audits live in
+`data/derived/freq-audit-<class>.md`.
 
 ### Construction-type controlled vocab
 
@@ -238,17 +239,18 @@ correct row counts. Verify a load by checking `Res Continens` rows = 563.
 ## Extraction status
 
 - **All 8 cryptoclasses extracted**: `pipeline/extract_wide.js` reads the
-  wide-format xlsx files in `data/legacy-xlsx/` and writes **3,318 citation
+  wide-format xlsx files in `data/legacy-xlsx/` and writes **3,515 citation
   rows** to `citations.tsv`. Re-run the script anytime to regenerate; it
   overwrites the file (the source of truth is the `legacy-xlsx/` files, so
   manual edits must be made there, not in `citations.tsv`). Per-class row
-  counts: Res Liquidae 1,273 · Res Continens 563 · Res Parvae 468 ·
-  Res Filiformes 364 · Res Planae 252 · Res Longae Penetrantes 194 ·
+  counts: Res Liquidae 1,273 · Res Filiformes 562 · Res Continens 563 ·
+  Res Parvae 468 · Res Planae 252 · Res Longae Penetrantes 194 ·
   Res Rotundae 134 · Res Acutae 70. Frequency-parsed classes (Res Parvae,
-  Res Acutae, Res Liquidae) emit authoritative-count and negative-attestation
-  rows, so their **row counts** diverge from occurrence counts — use
-  **Σfrequency**, not row count (see "Frequency formats" above). Classes not yet
-  frequency-parsed are byte-for-byte unchanged but for the two new columns.
+  Res Acutae, Res Liquidae, Res Filiformes) emit authoritative-count and
+  negative-attestation rows, so their **row counts** diverge from occurrence
+  counts — use **Σfrequency**, not row count (see "Frequency formats" above).
+  Classes not yet frequency-parsed are byte-for-byte unchanged but for the two
+  new columns.
 - **Res Liquidae source**: the original long-form `RES LIQUIDAE.xlsx` is
   excluded; the cleaned wide-form counterpart `RES LIQUIDAE COR.xlsx` is the
   one extracted. The aggregate sheets inside the original (`Лист6`, `Лист7`,
