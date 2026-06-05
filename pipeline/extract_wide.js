@@ -254,7 +254,7 @@ function detectLemma(citation, seeds) {
 // productivity instead of merely counting the example sentences that happened
 // to be typed. Gated to FREQ_PARSE_FILES; all other files keep splitCitations
 // (each fragment = one occurrence, frequency 1). Rolled out one class at a time.
-const FREQ_PARSE_FILES = new Set(['Res Parvae.xlsx', 'Res Acutae.xlsx', 'RES LIQUIDAE COR.xlsx', 'Res Filiformes.xlsx']);
+const FREQ_PARSE_FILES = new Set(['Res Parvae.xlsx', 'Res Acutae.xlsx', 'RES LIQUIDAE COR.xlsx', 'Res Filiformes.xlsx', 'RES CONTINENS.xlsx']);
 
 function firstWordLower(s) {
   const m = String(s || '').match(/\p{L}+/u);
@@ -368,7 +368,8 @@ function resolveBlock(head, rest, seeds, classSeeds, headSet, emonym) {
   const exLines = [];
   if (headInline) exLines.push(headInline);
   for (const r of rest) if (!isTotalLine(r)) exLines.push(r);
-  const examples = exLines.map(cleanExample).filter(s => s && !isNoiseLabel(s));
+  // A real citation has at least one letter; drop empty numbered slots ("2 ").
+  const examples = exLines.map(cleanExample).filter(s => s && /\p{L}/u.test(s) && !isNoiseLabel(s));
 
   // A "Total: N" line overrides everything (authoritative corpus total).
   const totalM = fullText.match(/\btotal\s*:?\s*(\d+)/i);
@@ -449,7 +450,7 @@ function resolveSummaryRun(runHeads, examples, seeds, classSeeds, headSet, emony
     recs.push({ citation: `${(L.lemma || firstWordLower(L.head))} ${emonym}`.trim(),
       frequency: L.num, freq_role: 'inline', lemma: L.lemma, note: `freq:summary ${L.num}` });
   }
-  const cleaned = examples.map(cleanExample).filter(s => s && !isNoiseLabel(s));
+  const cleaned = examples.map(cleanExample).filter(s => s && /\p{L}/u.test(s) && !isNoiseLabel(s));
   for (const ex of cleaned) {
     let lem = '';
     for (const L of labels) { if (L.lemma && detectLemma(ex, [L.lemma])) { lem = L.lemma; break; } }
