@@ -12,35 +12,46 @@ const REPO = path.resolve(__dirname, '..');
 const CLASSES = ['Res Liquidae','Res Filiformes','Res Rotundae','Res Longae Penetrantes','Res Acutae','Res Parvae','Res Planae','Res Continens'];
 const ABBR = {'Res Liquidae':'LIQ','Res Filiformes':'FIL','Res Rotundae':'ROT','Res Longae Penetrantes':'PEN','Res Acutae':'ACU','Res Parvae':'PAR','Res Planae':'PLA','Res Continens':'CON'};
 const EMONYMS = ['miedo','tristeza','amor','alegría','ira'];
+// Bleached light-verbs (grasp/handle image dead; discounted in the live-imagery
+// layer by the same lost-inner-form principle as nivel de / círculo de — see
+// autoreferat-prose-ru.md §1.3). All five are Res Parvae classifiers.
+const BLEACHED = new Set(['coger','agarrar','traer','dar','entregar']);
+const liveN = cc => cc.n - Object.entries(cc.byLemma).reduce((s,[l,f])=>s+(BLEACHED.has(l)?f:0),0);
 const TOTAL_VARIANTS = 21;
 const CRIT_MASS = 5;
 const IDIOM_SHARE = 0.90;
 const CORE_CAC = 0.15;
 const READY_VARIANTS = 6;
 
-// ---- Load citations ----
-const tsv = fs.readFileSync(path.join(REPO,'data','citations.tsv'),'utf8');
-const lines = tsv.split(/\r?\n/).filter(Boolean);
-const h = lines.shift().split('\t');
-const iCl=h.indexOf('cryptoclass'), iEm=h.indexOf('emonym'), iCt=h.indexOf('construction_type'), iLm=h.indexOf('classifier_lemma'), iCo=h.indexOf('country');
-
+// ---- Load curated gold sets (frequency-weighted) ----
+// Reads the per-emonym gold-*.tsv (exclusions, dedupe, reassignments, and the
+// frozen-collocation drops nivel-de / círculo-de already applied by
+// build_gold.js). Every quantitative cell is SUM(frequency) — the explicit
+// corpus counts parsed from the legacy xlsx, not the row count. `cc.n` is thus
+// a token total; `cc.byLemma` is frequency per classifier (zero-freq negative
+// attestations skipped, as in aggregate_profile.js).
 const cell = {};
 for (const e of EMONYMS){ cell[e]={}; for(const c of CLASSES) cell[e][c]={n:0,byCT:{},byLemma:{},byVar:{}}; }
 const emTotal = {}; for (const e of EMONYMS) emTotal[e]=0;
 
-for (const line of lines) {
-  const cols = line.split('\t');
-  const e = (cols[iEm]||'').toLowerCase();
-  const c = cols[iCl];
-  if (!cell[e] || !cell[e][c]) continue;
-  const lemma = (cols[iLm]||'').trim();
-  if (c==='Res Planae' && lemma==='nivel de') continue;
-  const co = (cols[iCo]||'').trim().toUpperCase();
-  const cc = cell[e][c];
-  cc.n++; emTotal[e]++;
-  cc.byCT[cols[iCt]]=(cc.byCT[cols[iCt]]||0)+1;
-  if (lemma) cc.byLemma[lemma]=(cc.byLemma[lemma]||0)+1;
-  if (co) cc.byVar[co]=(cc.byVar[co]||0)+1;
+for (const e of EMONYMS){
+  const gp = path.join(REPO,'data','derived',`gold-${e}.tsv`);
+  const glines = fs.readFileSync(gp,'utf8').split(/\r?\n/).filter(Boolean);
+  const gh = glines.shift().split('\t');
+  const gCl=gh.indexOf('cryptoclass'), gCt=gh.indexOf('construction_type'), gLm=gh.indexOf('classifier_lemma'), gCo=gh.indexOf('country'), gFr=gh.indexOf('frequency');
+  for (const line of glines){
+    const cols = line.split('\t');
+    const c = cols[gCl];
+    if (!cell[e] || !cell[e][c]) continue;
+    const lemma = (cols[gLm]||'').trim();
+    const co = (cols[gCo]||'').trim().toUpperCase();
+    const f = parseInt(cols[gFr],10); const freq = Number.isFinite(f) ? f : 1;
+    const cc = cell[e][c];
+    cc.n += freq; emTotal[e] += freq;
+    cc.byCT[cols[gCt]]=(cc.byCT[cols[gCt]]||0)+freq;
+    if (lemma && freq>0) cc.byLemma[lemma]=(cc.byLemma[lemma]||0)+freq;
+    if (co) cc.byVar[co]=(cc.byVar[co]||0)+freq;
+  }
 }
 
 function verdict(cc){
@@ -52,13 +63,22 @@ function verdict(cc){
   return '+';
 }
 
+// Live-imagery view of a cell: frequency with bleached light-verbs discounted.
+const liveCell = cc => ({
+  n: liveN(cc),
+  byLemma: Object.fromEntries(Object.entries(cc.byLemma).filter(([l]) => !BLEACHED.has(l))),
+});
+const emLive = {}; for (const e of EMONYMS) emLive[e] = CLASSES.reduce((s,c)=>s+liveN(cell[e][c]), 0);
+
+// Verdicts are assigned on the live-imagery layer (the genuine categorisation);
+// the token layer is reported numerically in Table 2.
 const verdicts = {};
 for (const e of EMONYMS){
   verdicts[e]={};
   for (const c of CLASSES){
-    const cc = cell[e][c];
-    let v = verdict(cc);
-    if (v==='+' && emTotal[e] && cc.n/emTotal[e]>=CORE_CAC) v='++';
+    const lc = liveCell(cell[e][c]);
+    let v = verdict(lc);
+    if (v==='+' && emLive[e] && lc.n/emLive[e]>=CORE_CAC) v='++';
     verdicts[e][c]=v;
   }
 }
@@ -93,9 +113,10 @@ parts.push(`<!DOCTYPE html>
 <title>Таблицы автореферата — криптоклассная принадлежность испанских эмонимов</title>
 </head><body style="font-family:Arial,sans-serif;font-size:10pt;margin:36pt;">
 <p style="font-size:9pt;color:#555;">Сформировано: ${new Date().toISOString().slice(0,10)} &nbsp;|&nbsp;
-Источник: data/citations.tsv &nbsp;|&nbsp;
-коллокация <em>nivel&nbsp;de</em> исключена из Res&nbsp;Planae &nbsp;|&nbsp;
+Источник: data/derived/gold-*.tsv (выверенный gold-набор) &nbsp;|&nbsp;
+основа подсчёта: <strong>Σ корпусной частоты</strong>, двухслойно — токенный слой / слой живого образа &nbsp;|&nbsp;
 критическая масса ≥ ${CRIT_MASS}; порог идиоматичности ≥ ${IDIOM_SHARE*100}%; ядерный ПоКА ≥ ${CORE_CAC*100}%; «зелёный свет» ≥ ${READY_VARIANTS} вариантов при ≥ ${CRIT_MASS}</p>
+<p style="font-size:9pt;color:#555;">Развёрнутое описание таблиц, интерпретация и примеры — в <code>data/derived/autoreferat-prose-ru.md</code>. Слой живого образа дисконтирует обеленные глаголы поддержки <em>coger/agarrar miedo</em>, <em>traer/dar/entregar alegría</em> (§ 1.3 прозы).</p>
 `);
 
 // ---- Table 1: Membership matrix ----
@@ -114,28 +135,29 @@ for (const e of EMONYMS){
 parts.push('</table>');
 parts.push(`<p style="font-size:9pt;">★ = ядерный член (ПоКА ≥ 15%); + = член (S<sub>i</sub> ≥ 5, ≥ 2 классификаторов); ~ = периферийный; · = не входит.<br>
 Сокращения криптоклассов: LIQ Res&nbsp;Liquidae · FIL Res&nbsp;Filiformes · ROT Res&nbsp;Rotundae · PEN Res&nbsp;Longae&nbsp;Penetrantes · ACU Res&nbsp;Acutae · PAR Res&nbsp;Parvae · PLA Res&nbsp;Planae · CON Res&nbsp;Continens</p>`);
-parts.push(`<p style="font-size:10pt;text-align:justify;">Таблица показывает, в какие из восьми криптоклассов входит каждый из пяти эмонимов на уровне объединённой (по всем вариантам) выборки; принадлежность оценивается по четырёхуровневой шкале (★ ядерный член / + член / ~ периферийный / · не входит). Испанская категоризация эмоций опирается на <strong>две доминирующие оси</strong> — <em>Res&nbsp;Liquidae</em> (ядерный или полноценный член для всех пяти эмонимов) и <em>Res&nbsp;Continens</em> (ядерный для трёх отрицательных эмоций: <em>miedo</em>, <em>tristeza</em>, <em>ira</em>). Эмоним <em>miedo</em> обладает наибольшей широтой, проецируясь в семь из восьми криптоклассов, и является единственным, чья доминанта — <em>Res&nbsp;Continens</em>, а не <em>Res&nbsp;Liquidae</em>. Два отрицательных результата особенно показательны: <strong>Res&nbsp;Planae не привлекает ни одного эмонима</strong> после исключения измерительной коллокации <em>nivel&nbsp;de</em>, а <strong>Res&nbsp;Parvae ни для одного эмонима не является ядерным</strong> — это главное расхождение с английским языком, где, по данным О.&nbsp;О.&nbsp;Борискиной и О.&nbsp;В.&nbsp;Дониной, именно <em>Res&nbsp;Parvae</em> выступает антропоцентрической доминантой.</p>`);
+parts.push(`<p style="font-size:10pt;text-align:justify;">Символ — вердикт по слою живого образа; принадлежность оценивается по четырёхуровневой шкале (★ ядерный / + член / ~ периферийный / · не входит). По живому образу испанская категоризация эмоций держится на <strong>трёх осях</strong> — <em>Res&nbsp;Liquidae</em>, <em>Res&nbsp;Continens</em> и <em>Res&nbsp;Filiformes</em> (<em>desatar</em>); кажущаяся токенная доминанта <em>Res&nbsp;Parvae</em> у <em>miedo</em> и <em>alegría</em> — артефакт обеленных глаголов поддержки (<em>coger&nbsp;miedo</em>, <em>traer&nbsp;alegría</em>) и в живом слое падает до периферии. Развёрнутая интерпретация — в <code>autoreferat-prose-ru.md</code> § 2.</p>`);
 
-// ---- Table 2: CAC% ----
-parts.push(`<h3 style="font-family:Arial,sans-serif;">Таблица 2. ПоКА (%) — доля эмонима, приходящаяся на криптокласс (после исключения <em>nivel&nbsp;de</em>)</h3>`);
+// ---- Table 2: dual CAC% (token / live-imagery) ----
+parts.push(`<h3 style="font-family:Arial,sans-serif;">Таблица 2. ПоКА (%) — токенная доля / доля живого образа (после дисконтирования обеленных глаголов поддержки)</h3>`);
 parts.push(`<table style="${tableStyle}"><tr><th style="${hStyle}">эмоним</th>`);
 for (const c of CLASSES) parts.push(`<th style="${hStyle}">${ABBR[c]}</th>`);
 parts.push(`<th style="${hStyle}">N</th></tr>`);
 for (const e of EMONYMS){
   parts.push(`<tr><td style="${emStyle}">${e}</td>`);
-  let maxCac = 0;
-  for (const c of CLASSES){ const v=emTotal[e]?cell[e][c].n/emTotal[e]:0; if(v>maxCac) maxCac=v; }
+  let maxLive = 0;
+  for (const c of CLASSES){ const v=emLive[e]?liveN(cell[e][c])/emLive[e]:0; if(v>maxLive) maxLive=v; }
   for (const c of CLASSES){
-    const cac = emTotal[e]? cell[e][c].n/emTotal[e] : 0;
-    const bold = cac===maxCac ? 'font-weight:bold;' : '';
-    const bg = cac>=CORE_CAC ? 'background:#dae8fc;' : '';
-    parts.push(`<td style="${cellStyle}${bold}${bg}">${(100*cac).toFixed(1)}</td>`);
+    const tok = emTotal[e]? cell[e][c].n/emTotal[e] : 0;
+    const liv = emLive[e]? liveN(cell[e][c])/emLive[e] : 0;
+    const bold = liv===maxLive ? 'font-weight:bold;' : '';
+    const bg = liv>=CORE_CAC ? 'background:#dae8fc;' : '';
+    parts.push(`<td style="${cellStyle}${bold}${bg}">${(100*tok).toFixed(0)}/${(100*liv).toFixed(0)}</td>`);
   }
   parts.push(`<td style="${cellStyle}">${emTotal[e]}</td></tr>`);
 }
 parts.push('</table>');
-parts.push(`<p style="font-size:9pt;">Значения — % от общего числа контекстов эмонима. <strong>Полужирный</strong> = доминирующий класс. Голубая заливка = ядерный класс (≥ 15%). N — суммарный объём контекстов.</p>`);
-parts.push(`<p style="font-size:10pt;text-align:justify;">Таблица приводит долю (в %) от общего числа контекстов каждого эмонима, приходящуюся на каждый криптокласс, с указанием суммарного объёма <em>N</em>. Количественные показатели подтверждают матрицу принадлежности: <em>Res&nbsp;Liquidae</em> доминирует у четырёх из пяти эмонимов, достигая максимума <strong>67,4&nbsp;% у <em>alegría</em></strong> (наиболее «жидкой» эмоции), тогда как <em>miedo</em> инвертирует картину с долей <em>Res&nbsp;Continens</em> <strong>45,1&nbsp;%</strong>. У всех эмонимов профиль резко неравномерный: один-два доминирующих класса и длинный тонкий «хвост». Цифры также обнажают несбалансированность данных — <em>amor</em> (N=1095) и <em>alegría</em> (N=760) хорошо представлены, тогда как <em>ira</em> (N=98) слишком малочисленна для тонких выводов.</p>`);
+parts.push(`<p style="font-size:9pt;">В каждой ячейке — <strong>токенная доля / доля живого образа</strong> (%). <strong>Полужирный</strong> + голубая заливка = ядерный класс по живому образу (≥ 15%). N — суммарная корпусная частота (токен).</p>`);
+parts.push(`<p style="font-size:10pt;text-align:justify;">Сопоставление двух долей в каждой ячейке — главный результат: где они резко расходятся (<em>miedo</em>&nbsp;PAR 52/2, <em>alegría</em>&nbsp;PAR 68/1), токенная доля держится на обеленном глаголе поддержки и в живом слое схлопывается; где совпадают (<em>amor</em>&nbsp;LIQ 45/51, <em>ira</em>&nbsp;FIL 94/95) — образ и частотен, и жив. Развёрнутый разбор по слоям и эмонимам — в <code>autoreferat-prose-ru.md</code> §§ 3, 8.</p>`);
 
 // ---- Table 3: Variant coverage ----
 parts.push(`<h3 style="font-family:Arial,sans-serif;">Таблица 3. Покрытие по вариантам — представленность / критическая масса (из ${TOTAL_VARIANTS})</h3>`);
@@ -154,7 +176,7 @@ for (const e of EMONYMS){
 }
 parts.push('</table>');
 parts.push(`<p style="font-size:9pt;"><em>представленность</em> = число вариантов с ≥ 1 контекстом; <em>критическая масса</em> = число вариантов, по отдельности достигающих ≥ ${CRIT_MASS} контекстов. Зелёная заливка = готовность к вариантному анализу (критическая масса ≥ ${READY_VARIANTS}). «—» = эмоним в классе не представлен.</p>`);
-parts.push(`<p style="font-size:10pt;text-align:justify;">Для каждой ячейки указано, сколько из 21 варианта дают хотя бы один контекст (<em>представленность</em>) и сколько по отдельности преодолевают порог критической массы ≥${CRIT_MASS} (<em>критическая масса</em>). Две доминирующие оси оказываются и <strong>наиболее широко распределёнными</strong> — <em>Res&nbsp;Liquidae</em> у <em>amor</em>/<em>alegría</em> представлен во всех 21 варианте (18 — с критической массой), что подтверждает пангиспанский, а не пиренейский характер модели. Существенно, что таблица отделяет подлинную широту от суммарных артефактов: ряд ячеек вида «представленность/0» (например, <em>miedo</em>&nbsp;FIL, <em>amor</em>&nbsp;ACU) — это реальная принадлежность на уровне языка, <strong>не подкреплённая пока ни одним отдельным вариантом</strong>. Устойчиво сильные варианты — ES, MX, AR, CO, CL, US, PE, VE, CU; центральноамериканский и малый андский блок остаются недопредставленными.</p>`);
+parts.push(`<p style="font-size:10pt;text-align:justify;">Покрытие считается по <strong>токенной</strong> частоте, поэтому застывшие обороты раздувают столбец <em>Res&nbsp;Parvae</em> (<em>coger&nbsp;miedo</em>, <em>traer&nbsp;alegría</em> распространены почти по всей испанофонии). Живые доминанты при этом и наиболее широко распределены: <em>Res&nbsp;Liquidae</em> у <em>amor</em> — 21/18. Устойчиво сильные идиомы — ES, MX, AR, CO, CL, US, PE, VE, CU; центральноамериканский блок недопредставлен. Подробнее — <code>autoreferat-prose-ru.md</code> § 5.</p>`);
 
 // ---- Table 4: Green-light set ----
 parts.push(`<h3 style="font-family:Arial,sans-serif;">Таблица 4. Набор «зелёного света» — ячейки, готовые к межвариантному анализу на имеющихся данных</h3>`);
@@ -166,7 +188,12 @@ for (const e of EMONYMS){
     const s = varStats(cell[e][c]);
     if (s.crit>=READY_VARIANTS){
       const readyVars = s.list.filter(([,n])=>n>=CRIT_MASS).map(([co])=>co).join(', ');
-      green.push({e,c,crit:s.crit,present:s.present,n:cell[e][c].n,readyVars});
+      const lv = liveN(cell[e][c]);
+      // "мнимый" = the cell only reaches green-light via bleached light-verbs:
+      // discounting them collapses it (live keeps < half the token mass) or
+      // drops it below critical mass.
+      const nature = (lv < CRIT_MASS || lv < 0.5 * cell[e][c].n) ? 'мнимый (глагол поддержки)' : 'живой';
+      green.push({e,c,crit:s.crit,present:s.present,n:cell[e][c].n,live:lv,nature,readyVars});
     }
   }
 }
@@ -174,24 +201,29 @@ green.sort((a,b)=>b.crit-a.crit);
 parts.push(`<table style="${tableStyle}"><tr>
   <th style="${hStyle}">эмоним</th>
   <th style="${hStyle}">класс</th>
-  <th style="${hStyle}">вариантов ≥ ${CRIT_MASS}</th>
+  <th style="${hStyle}">идиомов ≥ ${CRIT_MASS}</th>
   <th style="${hStyle}">из представленных</th>
-  <th style="${hStyle}">N</th>
-  <th style="${hStyle};text-align:left;">готовые варианты</th>
+  <th style="${hStyle}">Sᵢ токен</th>
+  <th style="${hStyle}">Sᵢ живой</th>
+  <th style="${hStyle}">природа</th>
+  <th style="${hStyle};text-align:left;">готовые идиомы</th>
 </tr>`);
 for (const g of green){
+  const natBg = g.nature.startsWith('мнимый') ? 'background:#fde6e6;' : 'background:#eef7e6;';
   parts.push(`<tr>
     <td style="${emStyle}">${g.e}</td>
     <td style="${cellStyle}">${ABBR[g.c]}</td>
     <td style="${cellStyle}font-weight:bold;">${g.crit}</td>
     <td style="${cellStyle}">${g.present}</td>
     <td style="${cellStyle}">${g.n}</td>
+    <td style="${cellStyle}">${g.live}</td>
+    <td style="${cellStyle}${natBg}font-size:9pt;">${g.nature}</td>
     <td style="${cellStyle}text-align:left;font-size:9pt;">${g.readyVars}</td>
   </tr>`);
 }
 parts.push('</table>');
-parts.push(`<p style="font-size:9pt;">Критерий: член (+ / ★) И ≥ ${READY_VARIANTS} вариантов по отдельности с ≥ ${CRIT_MASS} контекстами. Эти ячейки выдерживают коэффициент корреляции Пирсона <em>r</em> и коэффициент конкордации Кендалла <em>W</em> на имеющихся данных. Всё остальное — задача для сбора данных на Фазе&nbsp;2.</p>`);
-parts.push(`<p style="font-size:10pt;text-align:justify;">Таблица перечисляет восемь ячеек (эмоним × криптокласс), которые одновременно являются членами и подкреплены ≥${READY_VARIANTS} вариантами с ≥${CRIT_MASS} контекстами, т.&nbsp;е. готовы к межвариантному статистическому анализу (коэффициент корреляции Пирсона, коэффициент конкордации Кендалла) на имеющихся данных. Эти восемь ячеек — в точности две ядерные оси плюс <em>Res&nbsp;Filiformes</em>: <em>Liquidae</em> для <em>amor/alegría/tristeza</em>, <em>Continens</em> для <em>miedo/tristeza/amor</em>, <em>Filiformes</em> для <em>amor/alegría</em>. Они задают <strong>допустимые границы любых вариантных выводов</strong> на текущем этапе; наиболее обеспеченные (<em>amor</em>/<em>alegría</em> × <em>Liquidae</em>, 18 вариантов) проникают и в недопредставленный блок. Дополнение этой таблицы — всё, что в неё не вошло, включая все ячейки <em>ira</em> и все <em>Acutae/Rotundae/Parvae</em>, — одновременно является <strong>списком приоритетов для сбора данных на Фазе&nbsp;2</strong>.</p>`);
+parts.push(`<p style="font-size:9pt;">Критерий: член (+ / ★, по живому образу) И ≥ ${READY_VARIANTS} идиомов по отдельности с ≥ ${CRIT_MASS} употреблениями. Колонка <em>природа</em>: «мнимый» = ячейка проходит лишь за счёт обеленного глагола поддержки (живая частота &lt; ${CRIT_MASS}) и для содержательного межидиомного вывода непригодна.</p>`);
+parts.push(`<p style="font-size:10pt;text-align:justify;">Колонка «природа» расслаивает набор: ячейки <em>Res&nbsp;Parvae</em> попадают в него лишь благодаря обеленным оборотам (<em>traer&nbsp;alegría</em>, <em>coger&nbsp;miedo</em>) и помечены как мнимые; полнокровны живые жидкостные, вместилищные и нитевидные ячейки. Полный разбор с квалификацией каждой ячейки — <code>autoreferat-prose-ru.md</code> § 6. Дополнение набора (все <em>Acutae/Rotundae/Planae</em> и почти весь профиль <em>ira</em>) — список приоритетов Фазы&nbsp;2.</p>`);
 
 // ---- Table 5: Construction-type productivity per emonym ----
 const CT_RU = {
@@ -210,11 +242,11 @@ const CT_RU = {
   'substantive':'субстантивная',
 };
 const IMAGE = {
-  'miedo':'пребывание внутри вместилища (<em>vivir en el miedo</em>)',
+  'miedo':'схватывание (<em>coger miedo</em>) ↦ вместилище (<em>vivir en el miedo</em>)',
   'tristeza':'затопление (<em>la tristeza inunda</em>) и впадение (<em>caer en la tristeza</em>)',
   'amor':'самопроизвольное течение (<em>el amor fluye, brota</em>)',
-  'alegría':'наполнение / затопление (<em>inundado de alegría</em>)',
-  'ira':'вскипание (<em>la ira brota</em>)',
+  'alegría':'принесение (<em>traer alegría</em>) ↦ развязывание (<em>desatar</em>) / затопление',
+  'ira':'развязывание (<em>desatar la ira</em>)',
 };
 parts.push(`<h3 style="font-family:Arial,sans-serif;">Таблица 5. Продуктивность конструкций по эмонимам</h3>`);
 parts.push(`<table style="${tableStyle}"><tr>
@@ -235,8 +267,8 @@ for (const e of EMONYMS){
   </tr>`);
 }
 parts.push('</table>');
-parts.push(`<p style="font-size:9pt;">Доля — % от всех контекстов эмонима (после исключения <em>nivel&nbsp;de</em>). Именно тип конструкции, а не только лексема-классификатор, относит эмоним к криптоклассу.</p>`);
-parts.push(`<p style="font-size:10pt;text-align:justify;">Распределение конструкций обнаруживает закономерность, <strong>не сводимую к выбору криптокласса</strong>: один и тот же «жидкостный» образ реализуется у разных эмонимов через разную синтаксическую роль эмонима. У <em>amor</em> и <em>ira</em> эмоним выступает <strong>интранзитивным субъектом</strong> — эмоция возникает и течёт сама собой (<em>el amor fluye</em>, <em>la ira brota</em>); у <em>tristeza</em> и <em>alegría</em> преобладает <strong>транзитивная</strong> модель, где эмоция затопляет переживающего как внешняя сила (<em>la tristeza lo inunda</em>); у <em>miedo</em> доминирует <strong>локативная</strong> модель, где эмоция предстаёт вместилищем, внутри которого пребывает субъект (<em>vivir en el miedo</em>). Таким образом, продуктивная конструкция фиксирует не только класс, но и <strong>степень агентивности</strong> эмоции в языковой картине мира: любовь и гнев концептуализируются как самозарождающиеся, грусть и радость — как извне затопляющие, страх — как объемлющее пространство.</p>`);
+parts.push(`<p style="font-size:9pt;">Доля — % от всей токенной частоты эмонима. В токенном слое ведущая конструкция у <em>miedo</em> и <em>alegría</em> — объектная-схватывание глаголов поддержки (<em>coger</em>, <em>traer</em>); после их дисконтирования у <em>miedo</em> выходят локативные модели вместилища, у <em>alegría</em> — объектная (<em>desatar</em>) и инструментально-транзитивная (жидкостная).</p>`);
+parts.push(`<p style="font-size:10pt;text-align:justify;">Содержательно значим устойчивый результат: тип конструкции фиксирует <strong>степень агентивности</strong> эмоции. У <em>amor</em> эмоним — <strong>интранзитивный субъект</strong> (<em>el amor fluye</em>, эмоция течёт сама); у <em>tristeza</em> и <em>alegría</em> преобладает <strong>транзитивная</strong> модель (<em>la tristeza lo inunda</em>, эмоция затопляет извне); у <em>miedo</em> (по живому слою) — <strong>локативная</strong> модель вместилища (<em>vivir en el miedo</em>). Полный разбор — <code>autoreferat-prose-ru.md</code> § 7.</p>`);
 
 parts.push('</body></html>');
 
