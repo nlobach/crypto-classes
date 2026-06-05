@@ -122,6 +122,12 @@ for (const line of lines) {
     source_file: cols[idx.source_file],
     source_sheet: cols[idx.source_sheet],
     source_locator: cols[idx.source_locator],
+    // Corpus-frequency parsing (2026-06): every row carries an explicit
+    // frequency weight (non-count-bearing classes default to 1) and the role
+    // that produced it. All quantitative aggregation is SUM(frequency).
+    frequency: cols[idx.frequency] === undefined || cols[idx.frequency] === ''
+      ? 1 : parseInt(cols[idx.frequency], 10),
+    freq_role: cols[idx.freq_role] || '',
   };
   const c = CORRECTIONS[r.id];
   if (c) Object.assign(r, c);
@@ -134,7 +140,7 @@ kept.sort((a, b) => a.id.localeCompare(b.id));
 excluded.sort((a, b) => a.id.localeCompare(b.id));
 
 // ---- Write gold TSV --------------------------------------------------
-const OUT_COLS = ['id','cryptoclass','emonym','country','construction_type','classifier_lemma','citation_es','source','source_file','source_sheet','source_locator'];
+const OUT_COLS = ['id','cryptoclass','emonym','country','construction_type','classifier_lemma','citation_es','source','source_file','source_sheet','source_locator','frequency','freq_role'];
 function tsvRow(r) {
   return OUT_COLS.map(c => c === 'source' ? 'manual' : (r[c] == null ? '' : String(r[c]))).join('\t');
 }
@@ -155,11 +161,18 @@ function excRow(r) {
 fs.writeFileSync(exclTsv, [EXC_COLS.join('\t'), ...excluded.map(excRow)].join('\n') + '\n', 'utf8');
 
 // ---- Summary ---------------------------------------------------------
-const byClass = {};
-for (const r of kept) byClass[r.cryptoclass] = (byClass[r.cryptoclass] || 0) + 1;
+const byClass = {};       // rows per class
+const freqByClass = {};    // SUM(frequency) per class — the real weight
+for (const r of kept) {
+  byClass[r.cryptoclass] = (byClass[r.cryptoclass] || 0) + 1;
+  freqByClass[r.cryptoclass] = (freqByClass[r.cryptoclass] || 0) + r.frequency;
+}
+const totalFreq = kept.reduce((s, r) => s + r.frequency, 0);
 process.stderr.write(
-  `gold-${EMONYM}: kept ${kept.length}, excluded ${excluded.length}, dropped ${dropped} (duplicates)\n` +
+  `gold-${EMONYM}: kept ${kept.length} rows / ${totalFreq} freq, ` +
+  `excluded ${excluded.length}, dropped ${dropped} (duplicates)\n` +
   `  ${goldTsv}\n  ${goldJsonl}\n  ${exclTsv} (negatives)\n\n` +
-  `Kept by class:\n` +
-  Object.entries(byClass).sort((a, b) => b[1] - a[1]).map(([k, v]) => `  ${String(v).padStart(4)}  ${k}`).join('\n') + '\n'
+  `Kept by class (rows | SUM freq):\n` +
+  Object.entries(freqByClass).sort((a, b) => b[1] - a[1])
+    .map(([k, f]) => `  ${String(byClass[k]).padStart(4)} | ${String(f).padStart(5)}  ${k}`).join('\n') + '\n'
 );

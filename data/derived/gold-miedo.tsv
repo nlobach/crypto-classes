@@ -1,391 +1,486 @@
-id	cryptoclass	emonym	country	construction_type	classifier_lemma	citation_es	source	source_file	source_sheet	source_locator
-acu-miedo-ar-0001	Res Acutae	miedo	AR	attributive	punzante	envuelve a sus residentes en una punzante sensación de miedo,	manual	Res Acutae.xlsx	MIEDO	F2
-acu-miedo-ar-0002	Res Acutae	miedo	AR	attributive	puntiagudo	el eco mezclado con un miedo hiriente, refinado, puntiagudo y finalmente el frío	manual	Res Acutae.xlsx	MIEDO	F2
-acu-miedo-bo-0001	Res Acutae	miedo	BO	attributive	agudo	un miedo sospechosamente agudo a el problema	manual	Res Acutae.xlsx	MIEDO	F3
-acu-miedo-cl-0001	Res Acutae	miedo	CL	attributive	agudo	sienten miedo agudo a aumentar de peso	manual	Res Acutae.xlsx	MIEDO	F4
-acu-miedo-co-0001	Res Acutae	miedo	CO	substantive	punta de	la estrategia republicana de buscar electores a punta de miedo tuvo éxito	manual	Res Acutae.xlsx	MIEDO	H5
-acu-miedo-co-0002	Res Acutae	miedo	CO	substantive	punta de	los métodos eclesiásticos de control del individuo a punta de miedo..	manual	Res Acutae.xlsx	MIEDO	H5
-acu-miedo-co-0003	Res Acutae	miedo	CO	substantive	punta de	Si es que los convencen a punta de miedo como los mal llamados enviados de Dios,	manual	Res Acutae.xlsx	MIEDO	H5
-acu-miedo-co-0004	Res Acutae	miedo	CO	substantive	punta de	Es mas fácil criar a tus hijos a punta de miedo y amenazas,	manual	Res Acutae.xlsx	MIEDO	H5
-acu-miedo-cu-0001	Res Acutae	miedo	CU	verbal-subject-transitive	pinchar	un miedo en mayúsculas, ese miedo que te pincha el corazón y te exalta, te consume	manual	Res Acutae.xlsx	MIEDO	B7
-acu-miedo-cu-0002	Res Acutae	miedo	CU	attributive	agudo	y con síndrome de miedo agudo ante cualquier gesto de su tutor	manual	Res Acutae.xlsx	MIEDO	F7
-acu-miedo-do-0001	Res Acutae	miedo	DO	substantive	punta de	creer en alguna deidad pero si en como a punta de miedo, intimidación e intolerancia,	manual	Res Acutae.xlsx	MIEDO	H8
-acu-miedo-es-0001	Res Acutae	miedo	ES	verbal-objective	aguzar	Desde la amoralidad más descarada, estrechando manos y perorando avisos, aguzando el miedo y la insolidaridad,	manual	Res Acutae.xlsx	MIEDO	D10
-acu-miedo-mx-0001	Res Acutae	miedo	MX	attributive	agudo	un miedo anormal y agudo a los médicos	manual	Res Acutae.xlsx	MIEDO	F13
-acu-miedo-mx-0002	Res Acutae	miedo	MX	predicative	es agudo	este miedo es probablemente más agudo,	manual	Res Acutae.xlsx	MIEDO	G13
-acu-miedo-mx-0003	Res Acutae	miedo	MX	substantive	punta de	la estrategia de Chick Publications es adoctrinar y convertir a punta de el miedo.	manual	Res Acutae.xlsx	MIEDO	H13
-acu-miedo-pa-0001	Res Acutae	miedo	PA	substantive	punta de	como muchas cosas en la crianza te las hacen creer a punta de miedo. H	manual	Res Acutae.xlsx	MIEDO	H15
-acu-miedo-pe-0001	Res Acutae	miedo	PE	attributive	agudo	umará un miedo agudo a los pasivos de su muy breve personalidad "	manual	Res Acutae.xlsx	MIEDO	F16
-acu-miedo-us-0001	Res Acutae	miedo	US	attributive	punzante	odos los miedos y las inseguridades vuelven punzantes como alfileres	manual	Res Acutae.xlsx	MIEDO	F22
-acu-miedo-uy-0001	Res Acutae	miedo	UY	attributive	agudo	el miedo agudo efectivamente facilita la coagulación sanguínea	manual	Res Acutae.xlsx	MIEDO	F20
-acu-miedo-uy-0002	Res Acutae	miedo	UY	substantive	punta de	uiere imponer a punta de miedo el proyecto minero conga,	manual	Res Acutae.xlsx	MIEDO	H20
-acu-miedo-ve-0001	Res Acutae	miedo	VE	attributive	agudo	admiten que un agudo miedo resurgió por la vida	manual	Res Acutae.xlsx	MIEDO	F21
-acu-miedo-ve-0002	Res Acutae	miedo	VE	predicative	es punzante	n cada' foto asalto' el miedo es punzante	manual	Res Acutae.xlsx	MIEDO	G21
-con-miedo-ar-0001	Res Continens	miedo	AR	verbal-objective	tapar	el seductor se nos vaya de mambo y que, a 230/280 para tapar el miedo, se estrelle.	manual	RES CONTINENS.xlsx	miedo	B2
-con-miedo-ar-0002	Res Continens	miedo	AR	verbal-objective	tapar	La ira es un recurso que tapa el miedo y la confusión.	manual	RES CONTINENS.xlsx	miedo	B2
-con-miedo-ar-0003	Res Continens	miedo	AR	verbal-objective	tapar	compra una marca más cara porque le da más seguridad y con eso tapa un miedo.	manual	RES CONTINENS.xlsx	miedo	B2
-con-miedo-ar-0004	Res Continens	miedo	AR	verbal-objective	destapar	Los combates destapan el miedo.	manual	RES CONTINENS.xlsx	miedo	B2
-con-miedo-ar-0005	Res Continens	miedo	AR	verbal-objective	destapar	con la necesidad urgente de destapar los miedos, angustias y horrores	manual	RES CONTINENS.xlsx	miedo	B2
-con-miedo-ar-0006	Res Continens	miedo	AR	verbal-objective	destapar	Esta condena permitió romper con la impunidad, destapar el miedo	manual	RES CONTINENS.xlsx	miedo	B2
-con-miedo-ar-0007	Res Continens	miedo	AR	verbal-objective	destapar	El recuerdo más bonito de la experiencia literaria está asociada a mi libertad, a destapar los miedos por la discriminación, por estar dentro del close	manual	RES CONTINENS.xlsx	miedo	B2
-con-miedo-ar-0008	Res Continens	miedo	AR	verbal-locative-state	dentro de	yo en la habitación de mis hijas con la puertas trancada por dentro de el miedo que tenia de sus ataques	manual	RES CONTINENS.xlsx	miedo	D2
-con-miedo-ar-0009	Res Continens	miedo	AR	verbal-locative-state	vivir en	El dolor vive en el miedo	manual	RES CONTINENS.xlsx	miedo	D2
-con-miedo-ar-0010	Res Continens	miedo	AR	verbal-locative-state	vivir en	vivir en el miedo	manual	RES CONTINENS.xlsx	miedo	D2
-con-miedo-ar-0011	Res Continens	miedo	AR	verbal-locative-state	vivir en	No queremos seguir viviendo en el miedo	manual	RES CONTINENS.xlsx	miedo	D2
-con-miedo-ar-0012	Res Continens	miedo	AR	verbal-locative-state	vivir en	es imposible vivir en el miedo	manual	RES CONTINENS.xlsx	miedo	D2
-con-miedo-ar-0013	Res Continens	miedo	AR	verbal-locative-state	vivir en	En Venezuela vivíamos en el miedo, y el miedo genera egoísmo.	manual	RES CONTINENS.xlsx	miedo	D2
-con-miedo-ar-0014	Res Continens	miedo	AR	verbal-locative-state	permanecer en	permanecer en el miedo.	manual	RES CONTINENS.xlsx	miedo	D2
-con-miedo-ar-0016	Res Continens	miedo	AR	verbal-locative-state	encontrarse en	un partido encontraba en el miedo un poderoso motor	manual	RES CONTINENS.xlsx	miedo	D2
-con-miedo-ar-0017	Res Continens	miedo	AR	verbal-locative-state	encontrarse en	los movimientos políticos que encontraron en el miedo su razón de existi	manual	RES CONTINENS.xlsx	miedo	D2
-con-miedo-ar-0018	Res Continens	miedo	AR	verbal-locative-into	caer en	Honrubia asegura que caer en el miedo es producto de una falta de confianza prolongada	manual	RES CONTINENS.xlsx	miedo	E2
-con-miedo-ar-0019	Res Continens	miedo	AR	verbal-locative-into	caer en	Luego de caer en el miedo y la depresión, Gustavo decidió refugiar se con sus compañeros en el CUEN	manual	RES CONTINENS.xlsx	miedo	E2
-con-miedo-ar-0020	Res Continens	miedo	AR	verbal-locative-into	caer en	me di cuenta de que no tenía que caer en el miedo que le tienen los periodistas de decir se a sí mismos'	manual	RES CONTINENS.xlsx	miedo	E2
-con-miedo-ar-0021	Res Continens	miedo	AR	verbal-locative-into	caer en	an una mano grande a los equipos con el fin de no caer en el miedo que tenemos de tener que decir que cerramos	manual	RES CONTINENS.xlsx	miedo	E2
-con-miedo-ar-0022	Res Continens	miedo	AR	verbal-locative-into	caer en	los aísla de el riesgo local, es decir, no caen en el miedo que padecen hoy muchos ejecutivos respecto a que pasa si el negocio en la Argentina	manual	RES CONTINENS.xlsx	miedo	E2
-con-miedo-ar-0023	Res Continens	miedo	AR	verbal-locative-out	sacar de	SACAR 1 Tenés que sacar te mil capas de miedo	manual	RES CONTINENS.xlsx	miedo	F2
-con-miedo-ar-0024	Res Continens	miedo	AR	verbal-locative-out	sacar de	Hay que sacar a las mujeres de el miedo	manual	RES CONTINENS.xlsx	miedo	F2
-con-miedo-bo-0001	Res Continens	miedo	BO	verbal-objective	destapar	Destapo el miedo de una mujer	manual	RES CONTINENS.xlsx	miedo	B3
-con-miedo-bo-0002	Res Continens	miedo	BO	verbal-locative-state	estar en	estaremos condenados a vivir en el miedo, la intranquilidad y el abuso de poder d	manual	RES CONTINENS.xlsx	miedo	D3
-con-miedo-bo-0003	Res Continens	miedo	BO	verbal-locative-state	vivir en	Los tiranos tienen miedo, viven en el miedo porque contra todo el pueblo nadie puede	manual	RES CONTINENS.xlsx	miedo	D3
-con-miedo-bo-0004	Res Continens	miedo	BO	verbal-locative-state	vivir en	los contribuyentes viven en el miedo –e incluso terror–	manual	RES CONTINENS.xlsx	miedo	D3
-con-miedo-bo-0005	Res Continens	miedo	BO	verbal-locative-out	sacar de	La llegada de el Espíritu Santo saca del miedo a los discípulos	manual	RES CONTINENS.xlsx	miedo	F3
-con-miedo-cl-0001	Res Continens	miedo	CL	verbal-objective	destapar	sometida a proyecciones de realidad, que destapan los miedos guardados	manual	RES CONTINENS.xlsx	miedo	B4
-con-miedo-cl-0002	Res Continens	miedo	CL	verbal-locative-state	encontrarse en	han encontrado en el miedo transformado en un dispositivo político-mediático un instrumento perfecto para la desarticulación social (	manual	RES CONTINENS.xlsx	miedo	D4
-con-miedo-cl-0003	Res Continens	miedo	CL	verbal-locative-state	aparecer en	2( Tengo miedo, pero en el miedo aparece la esperanza; yo sé que Dios nos va a ayudar.	manual	RES CONTINENS.xlsx	miedo	D4
-con-miedo-cl-0004	Res Continens	miedo	CL	verbal-locative-state	dentro de	Dentro de este miedo aparece ser una carga para los hijos o cónyuge	manual	RES CONTINENS.xlsx	miedo	D4
-con-miedo-cl-0005	Res Continens	miedo	CL	verbal-locative-state	estar en	Es importante recalcar, que dentro de los miedos más importantes, que todos tenemos, hay dos que están presentes en la mayoría	manual	RES CONTINENS.xlsx	miedo	D4
-con-miedo-cl-0006	Res Continens	miedo	CL	verbal-locative-state	vivir en	No se puede vivir en el miedo	manual	RES CONTINENS.xlsx	miedo	D4
-con-miedo-cl-0007	Res Continens	miedo	CL	verbal-locative-state	estar en	llos deben ocupar se de esta situación antes que vivir en el miedo: "	manual	RES CONTINENS.xlsx	miedo	D4
-con-miedo-cl-0008	Res Continens	miedo	CL	verbal-locative-state	vivir en	lucharon por una Europa en la que sus gentes vivan en el miedo a la pobreza, a la exclusión, a el desempleo	manual	RES CONTINENS.xlsx	miedo	D4
-con-miedo-cl-0009	Res Continens	miedo	CL	verbal-locative-state	estar en	estamos autocondenados a vivir en el miedo y la ignorancia	manual	RES CONTINENS.xlsx	miedo	D4
-con-miedo-cl-0010	Res Continens	miedo	CL	verbal-locative-state	vivir en	Nos han mantenido viviendo en el miedo.	manual	RES CONTINENS.xlsx	miedo	D4
-con-miedo-cl-0011	Res Continens	miedo	CL	verbal-locative-state	vivir en	se eleva a dos millones que ahora " viven en el miedo de un asedio de facto ". #	manual	RES CONTINENS.xlsx	miedo	D4
-con-miedo-cl-0012	Res Continens	miedo	CL	verbal-locative-state	vivir en	uando familias inocentes viven en el miedo y el horror, el mundo entero fracasa.	manual	RES CONTINENS.xlsx	miedo	D4
-con-miedo-cl-0013	Res Continens	miedo	CL	verbal-locative-state	vivir en	La víctima vive en el miedo, sino derechamente en el terror	manual	RES CONTINENS.xlsx	miedo	D4
-con-miedo-cl-0015	Res Continens	miedo	CL	verbal-locative-state	encontrarse en	han encontrado en el miedo un instrumento perfecto para la desarticulación social.	manual	RES CONTINENS.xlsx	miedo	D4
-con-miedo-cl-0016	Res Continens	miedo	CL	verbal-locative-into	caer en	Quizás por la presión caemos en el miedo escénico y terminamos complicándo nos	manual	RES CONTINENS.xlsx	miedo	E4
-con-miedo-cl-0017	Res Continens	miedo	CL	verbal-locative-into	caer en	La ciudadanía no debe caer en el miedo o en una suerte de sicosis colectiva,	manual	RES CONTINENS.xlsx	miedo	E4
-con-miedo-cl-0018	Res Continens	miedo	CL	verbal-locative-into	caer en	Caer en el miedo es dar le el triunfo a el Estado Islámico	manual	RES CONTINENS.xlsx	miedo	E4
-con-miedo-co-0001	Res Continens	miedo	CO	verbal-objective	tapar	lo que uste está diciendo es que ya perdimos y quiere tapar el miedo	manual	RES CONTINENS.xlsx	miedo	B5
-con-miedo-co-0003	Res Continens	miedo	CO	verbal-locative-state	encontrarse en	n fascista que encontró en el miedo, en la tristeza y en la desilusión de los brasileños	manual	RES CONTINENS.xlsx	miedo	D5
-con-miedo-co-0004	Res Continens	miedo	CO	verbal-locative-state	encontrarse en	Cadena encontró en el miedo y el terror la mejor arma para tener contro	manual	RES CONTINENS.xlsx	miedo	D5
-con-miedo-co-0005	Res Continens	miedo	CO	verbal-locative-state	aparecer en	3( Creo que sólo ahí, en el acecho, en el peligro, en el miedo aparecía el reclamo de justicia que yo buscaba para contar	manual	RES CONTINENS.xlsx	miedo	D5
-con-miedo-co-0006	Res Continens	miedo	CO	verbal-locative-state	dentro de	macabra muñequita que con su cara asesina y cruel se nos asentaba dentro de los miedos más profundos de el inconsciente	manual	RES CONTINENS.xlsx	miedo	D5
-con-miedo-co-0007	Res Continens	miedo	CO	verbal-locative-state	vivir en	una generación entera que vivió en el miedo.	manual	RES CONTINENS.xlsx	miedo	D5
-con-miedo-co-0008	Res Continens	miedo	CO	verbal-locative-state	vivir en	son las comunidades más pobres abandonadas y ninguniadas, sino que viven en el miedo y espanto que producen la convivencia con todos los bichos de el mal.	manual	RES CONTINENS.xlsx	miedo	D5
-con-miedo-co-0009	Res Continens	miedo	CO	verbal-locative-state	vivir en	" Una sociedad civil que vive en el miedo, miedo de el otro	manual	RES CONTINENS.xlsx	miedo	D5
-con-miedo-co-0010	Res Continens	miedo	CO	verbal-locative-state	vivir en	tener que abandonar el hogar donde viven, sino vivir en el miedo, en la precariedad	manual	RES CONTINENS.xlsx	miedo	D5
-con-miedo-co-0012	Res Continens	miedo	CO	verbal-locative-state	encontrarse en	Cadena encontró en el miedo y el terror la mejor arma para tener control	manual	RES CONTINENS.xlsx	miedo	D5
-con-miedo-co-0013	Res Continens	miedo	CO	verbal-locative-state	encontrarse en	n fascista que encontró en el miedo, en la tristeza y en la desilusión de los brasileños el terreno abonado	manual	RES CONTINENS.xlsx	miedo	D5
-con-miedo-co-0014	Res Continens	miedo	CO	verbal-locative-into	caer en	les pidió a los colombianos no caer en el miedo a el castrochavismo	manual	RES CONTINENS.xlsx	miedo	E5
-con-miedo-co-0015	Res Continens	miedo	CO	verbal-locative-into	caer en	hacer lenta tu toma de decisiones y hacer te caer en el miedo de dar un paso	manual	RES CONTINENS.xlsx	miedo	E5
-con-miedo-co-0016	Res Continens	miedo	CO	verbal-locative-out	sacar de	nos sacan de el miedo de vivir " en el país de el Nomeacuerdo	manual	RES CONTINENS.xlsx	miedo	F5
-con-miedo-co-0017	Res Continens	miedo	CO	verbal-locative-out	sacar de	La capacidad de Trump de sacar votos de el miedo y la demagogi	manual	RES CONTINENS.xlsx	miedo	F5
-con-miedo-co-0018	Res Continens	miedo	CO	verbal-locative-out	sacar de	sacar provecho de el miedo de la comunida	manual	RES CONTINENS.xlsx	miedo	F5
-con-miedo-co-0019	Res Continens	miedo	CO	attributive	destapado	Aquí ya no hay caminos para las aves. Se han destapado todos los miedos.	manual	RES CONTINENS.xlsx	miedo	G5
-con-miedo-cr-0002	Res Continens	miedo	CR	verbal-locative-into	caer en	No caigamos en el miedo y la mentira, informemonos mejor y tomemos nuestras propias decisiones	manual	RES CONTINENS.xlsx	miedo	E6
-con-miedo-cu-0001	Res Continens	miedo	CU	verbal-objective	tapar	Hay algunos que utilizan el dolor como excusa para tapar sus miedos	manual	RES CONTINENS.xlsx	miedo	B7
-con-miedo-cu-0002	Res Continens	miedo	CU	verbal-objective	tapar	con la prisión de Lula quieren tapar el miedo que tienen a el poder de el pueblo que ya demostró	manual	RES CONTINENS.xlsx	miedo	B7
-con-miedo-cu-0003	Res Continens	miedo	CU	verbal-locative-state	vivir en	Nadie merece vivir en el miedo	manual	RES CONTINENS.xlsx	miedo	D7
-con-miedo-cu-0004	Res Continens	miedo	CU	verbal-locative-state	vivir en	na vida de privaciones por el simple hecho de vivir en el miedo, se aficiona a el diccionario	manual	RES CONTINENS.xlsx	miedo	D7
-con-miedo-cu-0005	Res Continens	miedo	CU	verbal-locative-state	vivir en	las demas NACIUONES de el MUNDO que viven en el MIEDO, la VIOLENCIA HUMANA	manual	RES CONTINENS.xlsx	miedo	D7
-con-miedo-cu-0006	Res Continens	miedo	CU	verbal-locative-state	vivir en	mientras se siga viviendo en el miedo	manual	RES CONTINENS.xlsx	miedo	D7
-con-miedo-do-0001	Res Continens	miedo	DO	verbal-locative-state	vivir en	Los padres y los residentes de la comunidad ahora vivimos en el miedo y tenemos temor de que nuestros hijos e hijas, jueguen afuera	manual	RES CONTINENS.xlsx	miedo	D8
-con-miedo-do-0002	Res Continens	miedo	DO	verbal-locative-state	vivir en	viven en el miedo de la deportación	manual	RES CONTINENS.xlsx	miedo	D8
-con-miedo-do-0003	Res Continens	miedo	DO	verbal-locative-state	estar en	niños nacidos en Estados Unidos viviendo en el miedo y la incertidumbre	manual	RES CONTINENS.xlsx	miedo	D8
-con-miedo-do-0004	Res Continens	miedo	DO	verbal-locative-into	caer en	caer en el miedo sólo ayuda a las actividades terroristas.	manual	RES CONTINENS.xlsx	miedo	E8
-con-miedo-ec-0002	Res Continens	miedo	EC	verbal-objective	llenar	" Los elementos electrónicos y físicos intentan responder y llenar el miedo de las personas	manual	RES CONTINENS.xlsx	miedo	B9
-con-miedo-es-0001	Res Continens	miedo	ES	verbal-objective	tapar	veces llamamos' amor' a el tapar nuestros miedos y nuestras historias,	manual	RES CONTINENS.xlsx	miedo	B10
-con-miedo-es-0002	Res Continens	miedo	ES	verbal-objective	tapar	Siento que es una forma de tapar el miedo y el dolor	manual	RES CONTINENS.xlsx	miedo	B10
-con-miedo-es-0003	Res Continens	miedo	ES	verbal-objective	tapar	Quizá los logros y méritos tapen su miedo a volver a amar	manual	RES CONTINENS.xlsx	miedo	B10
-con-miedo-es-0004	Res Continens	miedo	ES	verbal-objective	destapar	La llamada de Isabel Pantoja destapa los miedos de su hijo	manual	RES CONTINENS.xlsx	miedo	B10
-con-miedo-es-0005	Res Continens	miedo	ES	verbal-objective	destapar	el propio Rossi destapa un miedo profundo hacia Márquez.	manual	RES CONTINENS.xlsx	miedo	B10
-con-miedo-es-0006	Res Continens	miedo	ES	verbal-subject-transitive	contener	si ese miedo contiene la mirada inocente de quien pretende sacar no	manual	RES CONTINENS.xlsx	miedo	C10
-con-miedo-es-0007	Res Continens	miedo	ES	verbal-subject-transitive	guardar	EL MIEDO GUARDA  LA VIÑA (20 EJEMPLOS)	manual	RES CONTINENS.xlsx	miedo	C10
-con-miedo-es-0008	Res Continens	miedo	ES	verbal-locative-state	estar en	La razón de esta extraña circunstancia se encuentra en el miedo que tenían los románticos a la catalepsia,	manual	RES CONTINENS.xlsx	miedo	D10
-con-miedo-es-0009	Res Continens	miedo	ES	verbal-locative-state	dentro de	2( Dentro de este miedo, cabe señalar la existencia de equipos como Real Madrid,	manual	RES CONTINENS.xlsx	miedo	D10
-con-miedo-es-0010	Res Continens	miedo	ES	verbal-locative-state	encontrarse en	3( El primer paso de lo numinoso se encuentra en la naturaleza y en el miedo a los muertos.	manual	RES CONTINENS.xlsx	miedo	D10
-con-miedo-es-0011	Res Continens	miedo	ES	verbal-locative-state	dentro de	4=  tener una predisposición alegre dentro de el miedo	manual	RES CONTINENS.xlsx	miedo	D10
-con-miedo-es-0012	Res Continens	miedo	ES	verbal-locative-state	dentro de	5= odemos encuadrar el temor a ser perjudicados por los árbitros dentro de los miedos atávicos.	manual	RES CONTINENS.xlsx	miedo	D10
-con-miedo-es-0013	Res Continens	miedo	ES	verbal-locative-state	vivir en	# Cuantas veces vivimos en el miedo de un potencial fracaso	manual	RES CONTINENS.xlsx	miedo	D10
-con-miedo-es-0014	Res Continens	miedo	ES	verbal-locative-state	vivir en	vive en el miedo y de el miedo a la pérdida de el valor operacional de su existencia.	manual	RES CONTINENS.xlsx	miedo	D10
-con-miedo-es-0015	Res Continens	miedo	ES	verbal-locative-state	vivir en	un millón de ciudadanos andaluces vivan en el miedo contínuo a perder una miserable paga	manual	RES CONTINENS.xlsx	miedo	D10
-con-miedo-es-0016	Res Continens	miedo	ES	verbal-locative-state	vivir en	Tienes dudas y preguntas, y tú vives en el miedo, pero un hermano es un hermano	manual	RES CONTINENS.xlsx	miedo	D10
-con-miedo-es-0017	Res Continens	miedo	ES	verbal-locative-state	vivir en	nuestros amigos seguiremos viviendo en el miedo ".	manual	RES CONTINENS.xlsx	miedo	D10
-con-miedo-es-0018	Res Continens	miedo	ES	verbal-locative-state	vivir en	que hay una España " que vive en el miedo y el egoísmo	manual	RES CONTINENS.xlsx	miedo	D10
-con-miedo-es-0019	Res Continens	miedo	ES	verbal-locative-state	vivir en	no nos merecemos vivir en el miedo de visitar nuestros propios parques	manual	RES CONTINENS.xlsx	miedo	D10
-con-miedo-es-0020	Res Continens	miedo	ES	verbal-locative-state	vivir en	Es Europa también. Vivimos en el miedo, el miedo a el diferente alimentado por los medios y los polític	manual	RES CONTINENS.xlsx	miedo	D10
-con-miedo-es-0021	Res Continens	miedo	ES	verbal-locative-state	vivir en	ellos todavía carecen de opciones legales de inmigración y han vivido en el miedo a la deportación de el país a	manual	RES CONTINENS.xlsx	miedo	D10
-con-miedo-es-0022	Res Continens	miedo	ES	verbal-locative-state	vivir en	, vivimos en el miedo y en la hipocresía	manual	RES CONTINENS.xlsx	miedo	D10
-con-miedo-es-0023	Res Continens	miedo	ES	verbal-locative-state	vivir en	se vive en el miedo a las palabras,	manual	RES CONTINENS.xlsx	miedo	D10
-con-miedo-es-0024	Res Continens	miedo	ES	verbal-locative-into	caer en	n grupo de chavales inexperto, timorato y que puede caer en el miedo escénico de una gran cit	manual	RES CONTINENS.xlsx	miedo	E10
-con-miedo-es-0025	Res Continens	miedo	ES	verbal-locative-into	caer en	José Sacristán interpretaba a un tímido empleado de banca que cae en el miedo ante todo lo que parece ocurrir a su alrededor.	manual	RES CONTINENS.xlsx	miedo	E10
-con-miedo-es-0026	Res Continens	miedo	ES	verbal-locative-into	caer en	ómo superar a los haters sin caer en el miedo, y	manual	RES CONTINENS.xlsx	miedo	E10
-con-miedo-es-0027	Res Continens	miedo	ES	verbal-locative-into	caer en	por su parte, ha pedido a los neoyorquinos no caer en el miedo.	manual	RES CONTINENS.xlsx	miedo	E10
-con-miedo-es-0028	Res Continens	miedo	ES	verbal-locative-into	caer en	tenemos el peligro de caer en el miedo que nos quieren transmitir ante los que tienen otras razas o religiones	manual	RES CONTINENS.xlsx	miedo	E10
-con-miedo-es-0029	Res Continens	miedo	ES	verbal-locative-into	caer en	arack Obama llamó ayer a sus conciudadanos a no caer en el miedo	manual	RES CONTINENS.xlsx	miedo	E10
-con-miedo-es-0030	Res Continens	miedo	ES	verbal-locative-into	caer en	No podemos caer en el miedo haciendo que la vida se agote sin ilusión	manual	RES CONTINENS.xlsx	miedo	E10
-con-miedo-es-0031	Res Continens	miedo	ES	verbal-locative-out	sacar de	Si fuera carismatico no le haria falta soltar bestialidades una tras otra sacadas de los miedos primarios	manual	RES CONTINENS.xlsx	miedo	F10
-con-miedo-es-0032	Res Continens	miedo	ES	verbal-locative-out	sacar de	Observa a tu padre tembloroso en un rincón, con la manta sobre las piernas, las manos sobre las rodillas y la cabeza incapaz de refrenar su agitación, con la mirada clavada en esa puerta a la espera de que entre quien ya no le puede sacar del miedo que tiene a morir	manual	RES CONTINENS.xlsx	miedo	F10
-con-miedo-hn-0002	Res Continens	miedo	HN	verbal-locative-into	caer en	e digo a todas las mujeres que no caigamos en el miedo porque eso es lo que esa gente busca	manual	RES CONTINENS.xlsx	miedo	E12
-con-miedo-mx-0001	Res Continens	miedo	MX	verbal-objective	tapar	. Justifican y tapan su miedo diciendo que están avocadas a el trabajo	manual	RES CONTINENS.xlsx	miedo	B13
-con-miedo-mx-0002	Res Continens	miedo	MX	verbal-objective	destapar	discursos de algunos líderes, que de forma deliberada destapan los miedos de los ciudadanos	manual	RES CONTINENS.xlsx	miedo	B13
-con-miedo-mx-0003	Res Continens	miedo	MX	verbal-locative-state	encontrarse en	La mejor seguridad se encuentra en el miedo	manual	RES CONTINENS.xlsx	miedo	D13
-con-miedo-mx-0004	Res Continens	miedo	MX	verbal-locative-state	vivir en	s siempre un viaje de transformación: de vivir en el miedo a vivir con valentía	manual	RES CONTINENS.xlsx	miedo	D13
-con-miedo-mx-0005	Res Continens	miedo	MX	verbal-locative-state	estar en	Unos 8 millones de cristianos coptos en Egipto, están viviendo en el miedo,	manual	RES CONTINENS.xlsx	miedo	D13
-con-miedo-mx-0006	Res Continens	miedo	MX	verbal-locative-state	vivir en	los líderes que viven en el miedo de la crítica	manual	RES CONTINENS.xlsx	miedo	D13
-con-miedo-mx-0007	Res Continens	miedo	MX	verbal-locative-state	vivir en	El inmigrante mexicano señaló que vive en el miedo	manual	RES CONTINENS.xlsx	miedo	D13
-con-miedo-mx-0008	Res Continens	miedo	MX	verbal-locative-state	vivir en	permitir más que sus habitantes vivan en el miedo y la zozobra,	manual	RES CONTINENS.xlsx	miedo	D13
-con-miedo-mx-0009	Res Continens	miedo	MX	verbal-locative-state	vivir en	La familia Ramos vive en el miedo por dos cosas: la peligrosidad de sus agresores,	manual	RES CONTINENS.xlsx	miedo	D13
-con-miedo-mx-0010	Res Continens	miedo	MX	verbal-locative-state	vivir en	No es posible vivir en el miedo	manual	RES CONTINENS.xlsx	miedo	D13
-con-miedo-mx-0011	Res Continens	miedo	MX	verbal-locative-state	vivir en	defender regímenes opresores y brutales, que hacen vivir en el miedo, la escasez y la mentira a millones de ciudadanos	manual	RES CONTINENS.xlsx	miedo	D13
-con-miedo-mx-0012	Res Continens	miedo	MX	verbal-locative-state	vivir en	niños y niñas inocentes que diariamente viven en el miedo y en la incertidum	manual	RES CONTINENS.xlsx	miedo	D13
-con-miedo-mx-0013	Res Continens	miedo	MX	verbal-locative-state	estar en	Estados Unidos está otra vez escondiéndo se, viviendo en el miedo	manual	RES CONTINENS.xlsx	miedo	D13
-con-miedo-mx-0014	Res Continens	miedo	MX	verbal-locative-state	vivir en	los receptores de el DACA viven en el miedo y la incertidumbre, y	manual	RES CONTINENS.xlsx	miedo	D13
-con-miedo-mx-0015	Res Continens	miedo	MX	verbal-locative-state	estar en	esta mediocridad que nos obliga a vivir en el miedo.	manual	RES CONTINENS.xlsx	miedo	D13
-con-miedo-mx-0016	Res Continens	miedo	MX	verbal-locative-state	vivir en	Hoy esos mexicanos viven en el miedo, en la sombra,	manual	RES CONTINENS.xlsx	miedo	D13
-con-miedo-mx-0017	Res Continens	miedo	MX	verbal-locative-state	vivir en	, no tenemos porque vivir en el miedo	manual	RES CONTINENS.xlsx	miedo	D13
-con-miedo-mx-0018	Res Continens	miedo	MX	verbal-locative-state	estar en	o ciudadanos libres en un estado de derecho, donde no se viva en el miedo y la incertidumbr	manual	RES CONTINENS.xlsx	miedo	D13
-con-miedo-mx-0019	Res Continens	miedo	MX	verbal-locative-state	vivir en	s nos condenó a vivir en el miedo.	manual	RES CONTINENS.xlsx	miedo	D13
-con-miedo-mx-0020	Res Continens	miedo	MX	verbal-locative-state	vivir en	Era alguien que vivía en el miedo permanente	manual	RES CONTINENS.xlsx	miedo	D13
-con-miedo-mx-0021	Res Continens	miedo	MX	verbal-locative-state	vivir en	Los chechenes viven en el miedo.	manual	RES CONTINENS.xlsx	miedo	D13
-con-miedo-mx-0022	Res Continens	miedo	MX	verbal-locative-state	vivir en	ntonces nuestra vida no podrá ser fecunda, porque viviremos en el miedo y	manual	RES CONTINENS.xlsx	miedo	D13
-con-miedo-mx-0023	Res Continens	miedo	MX	verbal-locative-state	vivir en	Felipe Calderón nos condenó a vivir en el miedo,	manual	RES CONTINENS.xlsx	miedo	D13
-con-miedo-mx-0024	Res Continens	miedo	MX	verbal-locative-into	caer en	pidió a los usuarios de redes como a los comerciantes no caer en el miedo e informar se a través de cuentas oficiales.	manual	RES CONTINENS.xlsx	miedo	E13
-con-miedo-mx-0025	Res Continens	miedo	MX	verbal-locative-into	caer en	ue el vehículo es robado para que las personas caigan en el miedo y acepten más rápidamente el dar el efectiv	manual	RES CONTINENS.xlsx	miedo	E13
-con-miedo-mx-0026	Res Continens	miedo	MX	verbal-locative-out	sacar de	sacar  Macron sacó provecho de el miedo generado por una eventual victoria de Marine Le Pen	manual	RES CONTINENS.xlsx	miedo	F13
-con-miedo-ni-0001	Res Continens	miedo	NI	verbal-locative-state	vivir en	muchos son obligados a dejar sus casas y viven en el miedo ",	manual	RES CONTINENS.xlsx	miedo	D14
-con-miedo-pa-0001	Res Continens	miedo	PA	verbal-objective	destapar	# Los combates destapan el miedo	manual	RES CONTINENS.xlsx	miedo	B15
-con-miedo-pa-0002	Res Continens	miedo	PA	verbal-locative-state	encontrarse en	el argentino encontró en el miedo propio un aliado para empatar la final de la Copa Davis	manual	RES CONTINENS.xlsx	miedo	D15
-con-miedo-pe-0001	Res Continens	miedo	PE	verbal-locative-state	dentro de	es un perdedor que encuentra heroísmo dentro de el miedo que siente frente a el peligro	manual	RES CONTINENS.xlsx	miedo	D16
-con-miedo-pe-0002	Res Continens	miedo	PE	verbal-locative-state	estar en	en el fondo de el miedo a los exámenes está la posibilidad de una mastectomía	manual	RES CONTINENS.xlsx	miedo	D16
-con-miedo-pe-0003	Res Continens	miedo	PE	verbal-locative-state	vivir en	tantos jóvenes que siguen viviendo en el miedo	manual	RES CONTINENS.xlsx	miedo	D16
-con-miedo-pe-0004	Res Continens	miedo	PE	verbal-locative-state	vivir en	" Lo siento mucho por aquellos que viven en el miedo	manual	RES CONTINENS.xlsx	miedo	D16
-con-miedo-pe-0005	Res Continens	miedo	PE	verbal-locative-state	vivir en	decidió no vivir en el miedo	manual	RES CONTINENS.xlsx	miedo	D16
-con-miedo-pe-0006	Res Continens	miedo	PE	verbal-locative-state	vivir en	Ellos no merecen vivir en el miedo	manual	RES CONTINENS.xlsx	miedo	D16
-con-miedo-pe-0007	Res Continens	miedo	PE	verbal-locative-into	caer en	ue mantienen una postura de " paciencia estratégica " pero sin caer en el miedo.	manual	RES CONTINENS.xlsx	miedo	E16
-con-miedo-pr-0001	Res Continens	miedo	PR	verbal-locative-state	vivir en	Personas que viven en el miedo, el odio y la envidia, y no pierden la oportunidad	manual	RES CONTINENS.xlsx	miedo	D17
-con-miedo-pr-0002	Res Continens	miedo	PR	verbal-locative-state	vivir en	Si se vive en el terror, si se vive en el miedo	manual	RES CONTINENS.xlsx	miedo	D17
-con-miedo-us-0001	Res Continens	miedo	US	verbal-objective	tapar	son los que dictadura alega siempre para tapar su miedo	manual	RES CONTINENS.xlsx	miedo	B22
-con-miedo-us-0002	Res Continens	miedo	US	verbal-objective	tapar	ensando que así está todo bien. Tapando los miedos y dolores.	manual	RES CONTINENS.xlsx	miedo	B22
-con-miedo-us-0003	Res Continens	miedo	US	verbal-subject-transitive	guardar	EL MIEDO GUARDA  LA VIÑA  (2 EJEMPLOS)	manual	RES CONTINENS.xlsx	miedo	C22
-con-miedo-us-0004	Res Continens	miedo	US	verbal-locative-state	estar en	entonces en ese sentido, dentro de el miedo hay una esperanza de que no hay que huir le si está latente (US)	manual	RES CONTINENS.xlsx	miedo	D22
-con-miedo-us-0005	Res Continens	miedo	US	verbal-locative-state	dentro de	2( la dulzura escondida dentro de el miedo, representado por el negro	manual	RES CONTINENS.xlsx	miedo	D22
-con-miedo-us-0006	Res Continens	miedo	US	verbal-locative-state	dentro de	dentro de el miedo hay una esperanza de que no hay que huir le si está latente,	manual	RES CONTINENS.xlsx	miedo	D22
-con-miedo-us-0007	Res Continens	miedo	US	verbal-locative-state	dentro de	a dulzura escondida dentro de el miedo, representado por el negro.	manual	RES CONTINENS.xlsx	miedo	D22
-con-miedo-us-0008	Res Continens	miedo	US	verbal-locative-state	vivir en	Hartos de vivir en el miedo y ante la inacción de autoridades locales,	manual	RES CONTINENS.xlsx	miedo	D22
-con-miedo-us-0009	Res Continens	miedo	US	verbal-locative-state	vivir en	los que residen dentro de el alcance mortal de los terroristas siguen viviendo en el miedo	manual	RES CONTINENS.xlsx	miedo	D22
-con-miedo-us-0010	Res Continens	miedo	US	verbal-locative-state	vivir en	ha obligado a muchas familias a vivir en el miedo	manual	RES CONTINENS.xlsx	miedo	D22
-con-miedo-us-0011	Res Continens	miedo	US	verbal-locative-state	vivir en	alentar a la esperanza a quienes viven en el miedo	manual	RES CONTINENS.xlsx	miedo	D22
-con-miedo-us-0012	Res Continens	miedo	US	verbal-locative-state	estar en	He estado viviendo en el miedo, y no solo por mí, sino por mi familia	manual	RES CONTINENS.xlsx	miedo	D22
-con-miedo-us-0013	Res Continens	miedo	US	verbal-locative-state	vivir en	l reporte dice que los migrantes siguen viviendo en el miedo	manual	RES CONTINENS.xlsx	miedo	D22
-con-miedo-us-0014	Res Continens	miedo	US	verbal-locative-state	vivir en	han vivido en el miedo a la deportación	manual	RES CONTINENS.xlsx	miedo	D22
-con-miedo-us-0015	Res Continens	miedo	US	verbal-locative-state	vivir en	los cinturones de miseria viven en el miedo.	manual	RES CONTINENS.xlsx	miedo	D22
-con-miedo-us-0016	Res Continens	miedo	US	verbal-locative-state	estar en	90% de la población– ahora viven en el miedo, el estrés y la angustia.	manual	RES CONTINENS.xlsx	miedo	D22
-con-miedo-us-0017	Res Continens	miedo	US	verbal-locative-state	estar en	" Vivo en el miedo de que mi familia está en riesgo "	manual	RES CONTINENS.xlsx	miedo	D22
-con-miedo-us-0018	Res Continens	miedo	US	verbal-locative-state	vivir en	tener la libertad a la que todos tienen derecho y no vivir en el miedo	manual	RES CONTINENS.xlsx	miedo	D22
-con-miedo-us-0019	Res Continens	miedo	US	verbal-locative-into	caer en	No cayeron en el miedo, siguieron su camino.	manual	RES CONTINENS.xlsx	miedo	E22
-con-miedo-us-0020	Res Continens	miedo	US	verbal-locative-into	caer en	no vamos a caer en el miedo ",	manual	RES CONTINENS.xlsx	miedo	E22
-con-miedo-us-0021	Res Continens	miedo	US	verbal-locative-out	sacar de	Sacar 1  sacar provecho de el miedo a la deportación	manual	RES CONTINENS.xlsx	miedo	F22
-con-miedo-us-0022	Res Continens	miedo	US	attributive	tapado	-Es un miedo que tiene tapado, obturado, desde la más tierna infancia.	manual	RES CONTINENS.xlsx	miedo	G22
-con-miedo-uy-0001	Res Continens	miedo	UY	verbal-locative-state	estar en	Túnez el límite fue ya superado y el país está viviendo en el miedo.	manual	RES CONTINENS.xlsx	miedo	D20
-con-miedo-uy-0002	Res Continens	miedo	UY	verbal-locative-state	vivir en	r el castigo que es la dictadura, sin embargo, viven en el miedo, la suspicacia, la sospech	manual	RES CONTINENS.xlsx	miedo	D20
-con-miedo-uy-0003	Res Continens	miedo	UY	verbal-locative-state	vivir en	también es una nación que vive en el miedo	manual	RES CONTINENS.xlsx	miedo	D20
-con-miedo-uy-0004	Res Continens	miedo	UY	verbal-locative-state	estar en	Si se vive en el terror, si se vive en el miedo, y en el cuartel en el que estaban las catadoras de Hitler	manual	RES CONTINENS.xlsx	miedo	D20
-con-miedo-ve-0001	Res Continens	miedo	VE	verbal-objective	tapar	La arrogancia, prepotencia o cualquier actitud similar para tapar el miedo infinito	manual	RES CONTINENS.xlsx	miedo	B21
-con-miedo-ve-0002	Res Continens	miedo	VE	verbal-objective	tapar	muchos Aries se vuelven temerarios como forma de tapar su miedo a el miedo;	manual	RES CONTINENS.xlsx	miedo	B21
-con-miedo-ve-0003	Res Continens	miedo	VE	verbal-objective	tapar	Aries tiende a tapar este miedo con prisa, saltándo le por encima	manual	RES CONTINENS.xlsx	miedo	B21
-con-miedo-ve-0004	Res Continens	miedo	VE	verbal-locative-state	vivir en	ay que tener mucho poder para hacer nos vivir en el miedo permanente a ser despedidos	manual	RES CONTINENS.xlsx	miedo	D21
-con-miedo-ve-0005	Res Continens	miedo	VE	verbal-locative-state	vivir en	carecen de opciones legales de inmigraciÃ³n y han vivido en el miedo a la deportaciÃ³	manual	RES CONTINENS.xlsx	miedo	D21
-con-miedo-ve-0006	Res Continens	miedo	VE	verbal-locative-into	caer en	ejar nos vencer por el odio y la rabia, ni tampoco caer en el miedo paralizante y la desesperanza	manual	RES CONTINENS.xlsx	miedo	E21
-con-miedo-ve-0007	Res Continens	miedo	VE	verbal-locative-into	caer en	" Caer en el miedo y el desorden después de esta tragedia es exactamente lo que los terroristas	manual	RES CONTINENS.xlsx	miedo	E21
-fil-miedo-ar-0001	Res Filiformes	miedo	AR	verbal-objective	tejer	deshacer la operación que el olvido, la indiferencia y el miedo tejieron a lo largo de décadas en nuestra sociedad	manual	Res Filiformes.xlsx	miedo	B2
-fil-miedo-ar-0002	Res Filiformes	miedo	AR	verbal-subject-intransitive	entrelazarse	Alegría, satisfacción, placer, disfrute, se entrelazan con, miedos, incertidumbres, ansiedad, enojos, celos, desagrados	manual	Res Filiformes.xlsx	miedo	C2
-fil-miedo-ar-0003	Res Filiformes	miedo	AR	verbal-subject-intransitive	entrelazarse	a magia y el miedo se entrelazan tal como lo indica la cosmogonía prehispánica.	manual	Res Filiformes.xlsx	miedo	C2
-fil-miedo-cl-0001	Res Filiformes	miedo	CL	verbal-subject-intransitive	entrelazarse	es la censura y de cómo en esta se entrelazan miedos y obsesiones de vieja procedencia	manual	Res Filiformes.xlsx	miedo	C4
-fil-miedo-cu-0001	Res Filiformes	miedo	CU	verbal-objective	tejer	la propaganda de el miedo que tejieron contra Petro los grandes medios de comunicación	manual	Res Filiformes.xlsx	miedo	B7
-fil-miedo-do-0001	Res Filiformes	miedo	DO	verbal-subject-transitive	atar	Los miedos nos atan	manual	Res Filiformes.xlsx	miedo	D8
-fil-miedo-es-0001	Res Filiformes	miedo	ES	verbal-objective	entrelazar	entrelazar el miedo y el placer sin poner se en riesgo	manual	Res Filiformes.xlsx	miedo	B10
-fil-miedo-es-0002	Res Filiformes	miedo	ES	verbal-objective	retorcer	resucitando los más bajos instintos contra las las minorías y los peores miedos,, que retuercen y exageran,, buscando un enemigo común	manual	Res Filiformes.xlsx	miedo	B10
-fil-miedo-es-0003	Res Filiformes	miedo	ES	verbal-subject-transitive	atar	El miedo les ató las piernas	manual	Res Filiformes.xlsx	miedo	D10
-fil-miedo-es-0004	Res Filiformes	miedo	ES	attributive	retorcido	retorcido (Frente a el miedo retorcido que retuerce las palabras y nos retuerce el cuello)	manual	Res Filiformes.xlsx	miedo	F10
-fil-miedo-mx-0002	Res Filiformes	miedo	MX	verbal-subject-transitive	atar	los miedos que me ataban; El miedo paraliza, ata de manos, detiene el bienestar, impide el progreso	manual	Res Filiformes.xlsx	miedo	D13
-fil-miedo-pe-0001	Res Filiformes	miedo	PE	verbal-subject-intransitive	tejerse	tejer (miedos que se tejen alrededor de la donación )	manual	Res Filiformes.xlsx	miedo	C16
-fil-miedo-sv-0001	Res Filiformes	miedo	SV	verbal-subject-transitive	atar	Enfrentar y superar tantos miedos que nos atan para vivir una experiencia de familia intensa	manual	Res Filiformes.xlsx	miedo	D19
-fil-miedo-us-0001	Res Filiformes	miedo	US	verbal-subject-intransitive	entrelazarse	los miedos que se entrelazan como enredadera a el tronco de mi alma	manual	Res Filiformes.xlsx	miedo	C22
-fil-miedo-us-0002	Res Filiformes	miedo	US	verbal-subject-transitive	atar	atar  (liberar se de el miedo que los ata)	manual	Res Filiformes.xlsx	miedo	D22
-fil-miedo-ve-0001	Res Filiformes	miedo	VE	verbal-subject-transitive	atar	liberado de todos esos miedos que te ataban; debemos vencer los miedos que nos atan	manual	Res Filiformes.xlsx	miedo	D21
-fil-miedo-ve-0002	Res Filiformes	miedo	VE	substantive	ovillo de	también se convierten Pedro, Santiago y Juan, pasando de ser ovillos de miedo, a discípulos de el Señor Jesucristo.	manual	Res Filiformes.xlsx	miedo	G21
-liq-miedo-ar-0001	Res Liquidae	miedo	AR	verbal-subject-intransitive	brotar	En este diálogo intrínseco brotan miedos, silencios, recuerdos y emociones	manual	RES LIQUIDAE COR.xlsx	miedo	D2
-liq-miedo-ar-0002	Res Liquidae	miedo	AR	verbal-subject-intransitive	brotar	su trabajo de denuncia le hizo brotar un miedo constante a la deportación	manual	RES LIQUIDAE COR.xlsx	miedo	D2
-liq-miedo-ar-0003	Res Liquidae	miedo	AR	verbal-subject-intransitive	brotar	as potencias hacen sentir su rigor,, con amenazas brutales como las las de Bolton y en muchos otros casos con maniobras más sutiles. Y empezó a brotar el miedo.	manual	RES LIQUIDAE COR.xlsx	miedo	D2
-liq-miedo-ar-0004	Res Liquidae	miedo	AR	substantive	gota de	1El equipo de acá es tan groso que no hay una gota de miedo	manual	RES LIQUIDAE COR.xlsx	miedo	E2
-liq-miedo-ar-0005	Res Liquidae	miedo	AR	substantive	gota de	su romance con el público, a el que hizo correr más de una gota fría de miedo, no tiene fecha de vencimiento.	manual	RES LIQUIDAE COR.xlsx	miedo	E2
-liq-miedo-ar-0006	Res Liquidae	miedo	AR	substantive	brote de	es habrá pasado a los soldados de el Ejército que fusilaron Evaldo? ¿ Un brote colectivo de miedo, sorpresa o violenta emoción	manual	RES LIQUIDAE COR.xlsx	miedo	E2
-liq-miedo-bo-0001	Res Liquidae	miedo	BO	verbal-subject-intransitive	fluir	nmensa cantidad de adrenalina, tensión y miedo que fluía en el cuerpo de Alex	manual	RES LIQUIDAE COR.xlsx	miedo	B3
-liq-miedo-cl-0001	Res Liquidae	miedo	CL	verbal-subject-intransitive	brotar	labra pueda llegar hasta los interrogantes, las dudas y los miedos que brotan en su corazón	manual	RES LIQUIDAE COR.xlsx	miedo	D4
-liq-miedo-cl-0002	Res Liquidae	miedo	CL	verbal-instrumental	inundar de	El país se inundó de miedo hacia el " dictador comunista " que vendría	manual	RES LIQUIDAE COR.xlsx	miedo	G4
-liq-miedo-co-0001	Res Liquidae	miedo	CO	substantive	gota de	amantes de los retos, disciplinadas como ellas solas y sin una gota de miedo a la adrenalina	manual	RES LIQUIDAE COR.xlsx	miedo	E5
-liq-miedo-co-0002	Res Liquidae	miedo	CO	verbal-instrumental	inundar de	Esgrimen argumentos como la familia y los peligros de la homosexualización para inundar de miedos a este pueblo ignaro y creyente CO	manual	RES LIQUIDAE COR.xlsx	miedo	G5
-liq-miedo-co-0003	Res Liquidae	miedo	CO	verbal-instrumental	inundar de	la misoginia y la negligencia sigan inundando con miedo e ignorancia a la niñez y a la juventud de nuestro país.	manual	RES LIQUIDAE COR.xlsx	miedo	G5
-liq-miedo-cr-0001	Res Liquidae	miedo	CR	verbal-subject-transitive	inundar	Los gritos de miedo inundaron la vivienda y asustaron a el enorme reptil	manual	RES LIQUIDAE COR.xlsx	miedo	C6
-liq-miedo-do-0001	Res Liquidae	miedo	DO	verbal-subject-intransitive	fluir	Rencillas había alguna desde la anterior final y el miedo fluía a raudale	manual	RES LIQUIDAE COR.xlsx	miedo	B8
-liq-miedo-ec-0001	Res Liquidae	miedo	EC	verbal-instrumental	inundado por	Estamos inundados de miedos y abatidos por noticias de hecho	manual	RES LIQUIDAE COR.xlsx	miedo	G9
-liq-miedo-es-0001	Res Liquidae	miedo	ES	verbal-subject-intransitive	fluir	el miedo que fluye en algunas partes de el bosque. Y refleja toda la melancolía de el personaje	manual	RES LIQUIDAE COR.xlsx	miedo	B10
-liq-miedo-es-0002	Res Liquidae	miedo	ES	verbal-subject-intransitive	brotar	ecia aprovechando la fragilidad, los odios y los miedos que brotan cuando la presión es insuperable, dejando en evidencia muchas de la contradiccione ES	manual	RES LIQUIDAE COR.xlsx	miedo	D10
-liq-miedo-es-0003	Res Liquidae	miedo	ES	verbal-subject-intransitive	rebosar	Nbamaniacs... Aquí ya rebosó la inconsistencia, el miedo o la falta de cabeza de los Sixers.	manual	RES LIQUIDAE COR.xlsx	miedo	D10
-liq-miedo-es-0004	Res Liquidae	miedo	ES	verbal-instrumental	inundar de	Cuando un espíritu maligno llamado Sombra se propone inundar de miedo los corazones de los niños ES	manual	RES LIQUIDAE COR.xlsx	miedo	G10
-liq-miedo-es-0005	Res Liquidae	miedo	ES	verbal-instrumental	inundar de	su épica lucha contra un espíritu maligno que pretende inundar de miedo los corazones de los niños  ES	manual	RES LIQUIDAE COR.xlsx	miedo	G10
-liq-miedo-es-0006	Res Liquidae	miedo	ES	verbal-instrumental	inundar de	Un navegador de el que nadie se pudiese reir, que inundara de miedo el corazón de sus enemigos ES	manual	RES LIQUIDAE COR.xlsx	miedo	G10
-liq-miedo-es-0007	Res Liquidae	miedo	ES	verbal-instrumental	inundar de	Los medios nos inundan con miedos y crisis a el mismo tiempo que nos venden un modelo de vida ES	manual	RES LIQUIDAE COR.xlsx	miedo	G10
-liq-miedo-es-0008	Res Liquidae	miedo	ES	verbal-instrumental	inundar de	un buen repaso o incluso a la celda de el Espantapájaros para que nos inunde de miedo (y daño). ES	manual	RES LIQUIDAE COR.xlsx	miedo	G10
-liq-miedo-es-0009	Res Liquidae	miedo	ES	verbal-instrumental	inundar de	La noche que se inundó de miedos y milagros  ES	manual	RES LIQUIDAE COR.xlsx	miedo	G10
-liq-miedo-es-0010	Res Liquidae	miedo	ES	verbal-instrumental	inundar de	un joven Hawking tomando conciencia de su nueva realidad en una bañera inundada de miedo; ES	manual	RES LIQUIDAE COR.xlsx	miedo	G10
-liq-miedo-es-0011	Res Liquidae	miedo	ES	verbal-instrumental	inundar de	un espíritu maligno que les inunda de miedo y a el que llaman Sombra	manual	RES LIQUIDAE COR.xlsx	miedo	G10
-liq-miedo-es-0012	Res Liquidae	miedo	ES	verbal-subject-intransitive	rebosar	20minutos.es... llenando el platillo de la balanza que compensa a el que ya está a rebosar de desconfianzas, miedos..	manual	RES LIQUIDAE COR.xlsx	miedo	G10
-liq-miedo-mx-0001	Res Liquidae	miedo	MX	verbal-subject-intransitive	brotar	El miedo brota ante la inseguridad, mientras que la política nace de las respuestas	manual	RES LIQUIDAE COR.xlsx	miedo	D13
-liq-miedo-mx-0002	Res Liquidae	miedo	MX	substantive	gota de	queremos disfrutar con detalle cada gota de miedo que derrame el enemigo	manual	RES LIQUIDAE COR.xlsx	miedo	E13
-liq-miedo-mx-0003	Res Liquidae	miedo	MX	substantive	brote de	Parece probable que este brote de miedo masculino juegue un papel determinante en las elecciones	manual	RES LIQUIDAE COR.xlsx	miedo	E13
-liq-miedo-mx-0004	Res Liquidae	miedo	MX	substantive	rebosar	20minutos.com.mx significa lugar de miedo, y antes allí había mucho miedo y por eso el reboso	manual	RES LIQUIDAE COR.xlsx	miedo	E13
-liq-miedo-mx-0005	Res Liquidae	miedo	MX	verbal-instrumental	inundar de	su épica lucha contra un espíritu maligno que pretende inundar de miedo los corazones de los niños MX	manual	RES LIQUIDAE COR.xlsx	miedo	G13
-liq-miedo-mx-0006	Res Liquidae	miedo	MX	verbal-instrumental	inundar de	Las autoridades deben considerar que los mercados inundados de miedo pueden anticipar un aumento brusco de tasas  MX	manual	RES LIQUIDAE COR.xlsx	miedo	G13
-liq-miedo-mx-0007	Res Liquidae	miedo	MX	verbal-instrumental	inundar de	El solo hecho de pensar en qué iba a trabajar, la inundaba de miedo; sin embargo, las figuras de sus hijos le dieron la fuerza	manual	RES LIQUIDAE COR.xlsx	miedo	G13
-liq-miedo-pe-0001	Res Liquidae	miedo	PE	verbal-subject-intransitive	fluir	El miedo fluía frío, como cuando comes un caramelo de menta fresc	manual	RES LIQUIDAE COR.xlsx	miedo	B16
-liq-miedo-us-0001	Res Liquidae	miedo	US	verbal-subject-intransitive	brotar	Por la noche brotan miedos que te provocan terror	manual	RES LIQUIDAE COR.xlsx	miedo	D22
-liq-miedo-us-0002	Res Liquidae	miedo	US	substantive	gota de	dos hombres de mediana edad, sin gota de miedo, se plantan ante el cañón	manual	RES LIQUIDAE COR.xlsx	miedo	E22
-liq-miedo-us-0003	Res Liquidae	miedo	US	verbal-instrumental	inundar de	uando un espíritu maligno llamado Pitch se propone inundar de miedo los corazones de los niños de todo el mund US	manual	RES LIQUIDAE COR.xlsx	miedo	G22
-liq-miedo-us-0004	Res Liquidae	miedo	US	verbal-instrumental	inundar de	Cada tres minutos pasaban inundando de miedo las calles, la gente se agachaba y se tapaba la cabeza  US	manual	RES LIQUIDAE COR.xlsx	miedo	G22
-liq-miedo-us-0005	Res Liquidae	miedo	US	verbal-instrumental	inundar de	su mente se inunda de miedo a el pensar que la pareja podrá abandonar la US	manual	RES LIQUIDAE COR.xlsx	miedo	G22
-liq-miedo-us-0006	Res Liquidae	miedo	US	verbal-instrumental	inundado por	# Amador se levantó de inmediato inundada por el miedo y comenzó a correr por el pasillo de la iglesia  US	manual	RES LIQUIDAE COR.xlsx	miedo	G22
-liq-miedo-ve-0001	Res Liquidae	miedo	VE	verbal-subject-transitive	rebosar	Aporrea Guaidó, vivió uno de los momentos más apremiantes de su vida… El miedo lo rebosó..	manual	RES LIQUIDAE COR.xlsx	miedo	E21
-liq-miedo-ve-0002	Res Liquidae	miedo	VE	verbal-instrumental	inundar de	os políticos han encontrado la manera de inundar nos de miedos y verdades parciales que desesperan VE	manual	RES LIQUIDAE COR.xlsx	miedo	G21
-liq-miedo-ve-0003	Res Liquidae	miedo	VE	verbal-instrumental	inundar de	bombas lacrimógenas contra la marcha pacífica, inundando de miedo y terror a ciudadanos desarmado VE	manual	RES LIQUIDAE COR.xlsx	miedo	G21
-liq-miedo-ve-0004	Res Liquidae	miedo	VE	verbal-instrumental	inundar de	Rubén Castro empató, inundando de miedo a algunos	manual	RES LIQUIDAE COR.xlsx	miedo	G21
-par-miedo-ar-0001	Res Parvae	miedo	AR	verbal-objective-grasp	coger	Se trataba de que no cogiera miedo.	manual	Res Parvae.xlsx	miedo	B2
-par-miedo-cl-0001	Res Parvae	miedo	CL	verbal-objective-grasp	coger	y ahí cogieron miedo y una parte entonces se hicieron " los locos " para no participa	manual	Res Parvae.xlsx	miedo	B4
-par-miedo-cl-0002	Res Parvae	miedo	CL	verbal-objective-grasp	coger	Comencé a asustar les. Me cogieron miedo.	manual	Res Parvae.xlsx	miedo	B4
-par-miedo-cl-0003	Res Parvae	miedo	CL	verbal-objective-grasp	coger	no debemos coger le miedo	manual	Res Parvae.xlsx	miedo	B4
-par-miedo-cl-0004	Res Parvae	miedo	CL	verbal-objective-grasp	coger	No te tengo miedo. Si te cojo te desmantelo	manual	Res Parvae.xlsx	miedo	B4
-par-miedo-cl-0005	Res Parvae	miedo	CL	verbal-objective-grasp	coger	tienes familiares que van a viajar contigo, y uno coge un poco de miedo	manual	Res Parvae.xlsx	miedo	B4
-par-miedo-cl-0006	Res Parvae	miedo	CL	verbal-objective-throw	lanzar	LANZAR 1 es lanzar miedo por el aire. Es desconfianza plena. Es no sentir	manual	Res Parvae.xlsx	miedo	C4
-par-miedo-co-0001	Res Parvae	miedo	CO	verbal-objective-grasp	coger	le cogí miedo a algunas situaciones de carrera.	manual	Res Parvae.xlsx	miedo	B5
-par-miedo-co-0002	Res Parvae	miedo	CO	verbal-objective-grasp	coger	# Roglic le cogió miedo a su vocación	manual	Res Parvae.xlsx	miedo	B5
-par-miedo-co-0003	Res Parvae	miedo	CO	verbal-objective-grasp	coger	Valledupar le cogí miedo. Porque se diluyó la hermandad	manual	Res Parvae.xlsx	miedo	B5
-par-miedo-co-0004	Res Parvae	miedo	CO	verbal-objective-grasp	coger	ahora como mi madre, a el Valle le cogí miedo	manual	Res Parvae.xlsx	miedo	B5
-par-miedo-co-0005	Res Parvae	miedo	CO	verbal-objective-grasp	coger	le cogí tanto miedo a tener miedo que ni por el putas quería volver a pasar po	manual	Res Parvae.xlsx	miedo	B5
-par-miedo-co-0006	Res Parvae	miedo	CO	verbal-objective-grasp	coger	lo tenían torturado, con el brazo torcido para que los demás cogieran miedo	manual	Res Parvae.xlsx	miedo	B5
-par-miedo-co-0007	Res Parvae	miedo	CO	verbal-objective-grasp	coger	les cogí miedo a los abrazos, a los besos.	manual	Res Parvae.xlsx	miedo	B5
-par-miedo-co-0008	Res Parvae	miedo	CO	substantive	manojo de	Con la finalización de el conflicto con las Farc, ese otro energúmeno que anda suelto por Colombia y por cuanto escenario internacional se preste, Álvaro Uribe Vélez, pierde buena parte de su piso político, y ahora tiene que inventar otro manojo de miedos	manual	Res Parvae.xlsx	miedo	E5
-par-miedo-cr-0001	Res Parvae	miedo	CR	verbal-objective-grasp	coger	Lo peor que podemos hacer en la vida es coger miedo	manual	Res Parvae.xlsx	miedo	B6
-par-miedo-do-0001	Res Parvae	miedo	DO	verbal-objective-throw	arrojar	ARROJAR MIEDOS arrojó miedos de que no funcionara en principio	manual	Res Parvae.xlsx	miedo	C8
-par-miedo-es-0001	Res Parvae	miedo	ES	verbal-objective-grasp	traer	el Ejército británico ha aterrizado aquí y ha traído el miedo, las armas; Con nuestros granos de arena hemos traído el miedo.	manual	Res Parvae.xlsx	miedo	B10
-par-miedo-es-0002	Res Parvae	miedo	ES	verbal-objective-throw	soltar	SOLTAR MIEDOS He tenido que ir soltando miedos por el camino	manual	Res Parvae.xlsx	miedo	C10
-par-miedo-es-0003	Res Parvae	miedo	ES	verbal-objective-throw	lanzar	Urgot puede volver a lanzar Miedo más allá de la muerte para suprimir lo, atraer lo lentamente	manual	Res Parvae.xlsx	miedo	C10
-par-miedo-es-0004	Res Parvae	miedo	ES	substantive	puñado de	largo de las próximas publicaciones os detallaremos los motivos con un buen puñado de miedos	manual	Res Parvae.xlsx	miedo	E10
-par-miedo-es-0005	Res Parvae	miedo	ES	substantive	puñado de	un montón de cosas maravillosas y con un buen puñado de miedos e inseguridade	manual	Res Parvae.xlsx	miedo	E10
-par-miedo-gt-0001	Res Parvae	miedo	GT	verbal-objective-grasp	agarrar	ojala agarren miedo los jueces corruptos	manual	Res Parvae.xlsx	miedo	B11
-par-miedo-mx-0001	Res Parvae	miedo	MX	verbal-objective-grasp	coger	#salir a la calles en respuesta a la conga y cogimos (tuvimos) miedo' ", escribió en un post Adiel González	manual	Res Parvae.xlsx	miedo	B13
-par-miedo-mx-0002	Res Parvae	miedo	MX	verbal-objective-grasp	traer	Pues es un miedo que cualquier oficial puede traer,	manual	Res Parvae.xlsx	miedo	B13
-par-miedo-mx-0003	Res Parvae	miedo	MX	verbal-objective-throw	soltar	SOLTAR MIEDOS ( dicen que los impulsó a soltar miedos y animar se a ser sus propios jefes)	manual	Res Parvae.xlsx	miedo	C13
-par-miedo-pa-0001	Res Parvae	miedo	PA	verbal-objective-grasp	coger	le comencé a coger mucho asco y miedo	manual	Res Parvae.xlsx	miedo	B15
-par-miedo-pe-0001	Res Parvae	miedo	PE	verbal-objective-grasp	traer	traer miedo 1  ¿ Qué miedos nos traerán los próximos procesos electorales?	manual	Res Parvae.xlsx	miedo	B16
-par-miedo-pe-0002	Res Parvae	miedo	PE	substantive	puñado de	PUÑADO 1 No vencí un puñado de miedos	manual	Res Parvae.xlsx	miedo	E16
-par-miedo-pr-0001	Res Parvae	miedo	PR	verbal-objective-grasp	coger	Dawn " le cogió cariño o miedo a " Beth	manual	Res Parvae.xlsx	miedo	B17
-par-miedo-us-0001	Res Parvae	miedo	US	verbal-objective-grasp	traer	Las riadas traen miedo, barro y miseria	manual	Res Parvae.xlsx	miedo	B22
-par-miedo-uy-0001	Res Parvae	miedo	UY	verbal-objective-grasp	traer	traer miedo 1 Y a su paso trajo el miedo.	manual	Res Parvae.xlsx	miedo	B20
-par-miedo-ve-0001	Res Parvae	miedo	VE	verbal-objective-grasp	agarrar	a ver si los delincuentes agarran miedo	manual	Res Parvae.xlsx	miedo	B21
-par-miedo-ve-0002	Res Parvae	miedo	VE	substantive	manojo de	De cuántos manojos de miedos, de pánicos, está construido el hombre moderno.	manual	Res Parvae.xlsx	miedo	E21
-pen-miedo-ar-0001	Res Longae Penetrantes	miedo	AR	verbal-subject-transitive	atravesar	El miedo atravesaba a la organización y se producía un verdadero desbande	manual	Res Penentrantes.xlsx	MIEDO	B2
-pen-miedo-ar-0002	Res Longae Penetrantes	miedo	AR	verbal-subject-transitive	atravesar	no sintió el miedo que la atravesó en la audiencia previa a el juicio	manual	Res Penentrantes.xlsx	MIEDO	B2
-pen-miedo-ar-0003	Res Longae Penetrantes	miedo	AR	verbal-subject-transitive	atravesar	El miedo es algo que nos atraviesa a todos.	manual	Res Penentrantes.xlsx	MIEDO	B2
-pen-miedo-ar-0004	Res Longae Penetrantes	miedo	AR	verbal-subject-transitive	atravesar	el miedo que atraviesa a cada una hace que para ellas esto sea difícil	manual	Res Penentrantes.xlsx	MIEDO	B2
-pen-miedo-ar-0005	Res Longae Penetrantes	miedo	AR	verbal-subject-transitive	atravesar	El miedo no se atreve a atravesar el río/ y el coraje rechaza el mar de el infinito "	manual	Res Penentrantes.xlsx	MIEDO	B2
-pen-miedo-ar-0006	Res Longae Penetrantes	miedo	AR	verbal-subject-intransitive	penetrar en	el miedo penetre en tus entrañas y se encuentre cara a cara con tu fe	manual	Res Penentrantes.xlsx	MIEDO	C2
-pen-miedo-ar-0007	Res Longae Penetrantes	miedo	AR	verbal-instrumental	atravesado por	se ven atravesadas por miedos y opiniones o juicios de valor	manual	Res Penentrantes.xlsx	MIEDO	E2
-pen-miedo-ar-0008	Res Longae Penetrantes	miedo	AR	verbal-instrumental	atravesado por	s trece jóvenes tailandeses a el no encontrar se atravesados por algunos de los miedos arraigados la cultura judeo-cristiana occidentalizada,	manual	Res Penentrantes.xlsx	MIEDO	E2
-pen-miedo-ar-0009	Res Longae Penetrantes	miedo	AR	verbal-instrumental	atravesado por	esas criaturas, atravesadas por el miedo, la soledad y el desamparo	manual	Res Penentrantes.xlsx	MIEDO	E2
-pen-miedo-ar-0010	Res Longae Penetrantes	miedo	AR	verbal-instrumental	atravesar por	Narciso pone estas cuestiones en el centro de la escena, para dejar se atravesar por miedos y situaciones cotidianas	manual	Res Penentrantes.xlsx	MIEDO	E2
-pen-miedo-ar-0011	Res Longae Penetrantes	miedo	AR	verbal-instrumental	atravesado por	dos sujetos atravesados por todos los miedos imaginables.	manual	Res Penentrantes.xlsx	MIEDO	E2
-pen-miedo-ar-0012	Res Longae Penetrantes	miedo	AR	verbal-instrumental	atravesado por	atravesada por el miedo y las ganas, viuda de un hombre,	manual	Res Penentrantes.xlsx	MIEDO	E2
-pen-miedo-ar-0013	Res Longae Penetrantes	miedo	AR	verbal-instrumental	atravesado por	mesadas blancas también se revelan atravesados por los miedos	manual	Res Penentrantes.xlsx	MIEDO	E2
-pen-miedo-ar-0014	Res Longae Penetrantes	miedo	AR	verbal-instrumental	atravesado por	son hombres y mujeres atravesados por ese miedo a la libertad que pregonaba Erich Fromm.	manual	Res Penentrantes.xlsx	MIEDO	E2
-pen-miedo-ar-0015	Res Longae Penetrantes	miedo	AR	verbal-instrumental	atravesado por	en una melodía estructurada por los sentimientos de un corazón atravesado por los miedos y la soledad	manual	Res Penentrantes.xlsx	MIEDO	E2
-pen-miedo-ar-0016	Res Longae Penetrantes	miedo	AR	verbal-instrumental	atravesado por	rto`; todo se juega entre realidad y ficción, entre contar y decir, atravesado por el miedo y el misterio	manual	Res Penentrantes.xlsx	MIEDO	E2
-pen-miedo-ar-0017	Res Longae Penetrantes	miedo	AR	attributive	penetrante	1el mundo post Torres Gemelas estaba exhibiendo extrañas semejanzas, con su miedo penetrante y su incipiente vigilancia potencial de los ciudadano	manual	Res Penentrantes.xlsx	MIEDO	F2
-pen-miedo-bo-0001	Res Longae Penetrantes	miedo	BO	verbal-subject-transitive	atravesar	ada día que Eunice asistía a sus clases de piano, un intenso miedo le atravesaba el cuerpo.	manual	Res Penentrantes.xlsx	MIEDO	B3
-pen-miedo-cl-0001	Res Longae Penetrantes	miedo	CL	verbal-subject-transitive	penetrar	el miedo penetra nuestro entorno labora	manual	Res Penentrantes.xlsx	MIEDO	B4
-pen-miedo-cl-0002	Res Longae Penetrantes	miedo	CL	verbal-subject-transitive	atravesar	El miedo me atravesó como punta de lanza.	manual	Res Penentrantes.xlsx	MIEDO	B4
-pen-miedo-co-0001	Res Longae Penetrantes	miedo	CO	verbal-subject-transitive	atravesar	el miedo que atraviesa a las varias generaciones de esa guerrilla de cara a un acuerdo de paz.	manual	Res Penentrantes.xlsx	MIEDO	B5
-pen-miedo-co-0002	Res Longae Penetrantes	miedo	CO	verbal-instrumental	atravesado por	s una vida atravesada por el miedo de que alguien llegue en la noc	manual	Res Penentrantes.xlsx	MIEDO	E5
-pen-miedo-co-0003	Res Longae Penetrantes	miedo	CO	verbal-instrumental	clavado en	con el miedo y la incertidumbre clavados en los huesos,	manual	Res Penentrantes.xlsx	MIEDO	E5
-pen-miedo-do-0001	Res Longae Penetrantes	miedo	DO	verbal-instrumental	atravesado por	Sus representantes están como atravesados por el miedo a perder su hegemonía históric	manual	Res Penentrantes.xlsx	MIEDO	E8
-pen-miedo-es-0001	Res Longae Penetrantes	miedo	ES	verbal-subject-transitive	atravesar	El miedo " atravesó a varias generaciones, logrando una desideologización política de la sociedad española	manual	Res Penentrantes.xlsx	MIEDO	B10
-pen-miedo-es-0002	Res Longae Penetrantes	miedo	ES	verbal-subject-transitive	atravesar	una sensación de miedo e incertidumbre atraviesa a el orden mundia	manual	Res Penentrantes.xlsx	MIEDO	B10
-pen-miedo-es-0003	Res Longae Penetrantes	miedo	ES	verbal-subject-transitive	atravesar	Para que el miedo atraviese la pantalla y se te meta entre los huesos sin grandes charcos de mercromina	manual	Res Penentrantes.xlsx	MIEDO	B10
-pen-miedo-es-0004	Res Longae Penetrantes	miedo	ES	verbal-subject-transitive	clavar	El miedo que se te clava en el cuerpo y el que te corta la respiración.	manual	Res Penentrantes.xlsx	MIEDO	B10
-pen-miedo-es-0005	Res Longae Penetrantes	miedo	ES	verbal-subject-intransitive	penetrar en	el miedo termina penetrando en el trabajador a través de diversos grados de violencia,	manual	Res Penentrantes.xlsx	MIEDO	C10
-pen-miedo-es-0006	Res Longae Penetrantes	miedo	ES	verbal-instrumental	clavado en	solo recuerdo el continuo miedo clavado en mi corazón, la presión en el pecho que me impedía respira	manual	Res Penentrantes.xlsx	MIEDO	E10
-pen-miedo-mx-0001	Res Longae Penetrantes	miedo	MX	verbal-subject-transitive	penetrar	y el miedo penetra nuestro entorno laboral.	manual	Res Penentrantes.xlsx	MIEDO	B13
-pen-miedo-mx-0002	Res Longae Penetrantes	miedo	MX	verbal-subject-transitive	atravesar	Me atravesó un relámpago de miedo.	manual	Res Penentrantes.xlsx	MIEDO	B13
-pen-miedo-mx-0003	Res Longae Penetrantes	miedo	MX	verbal-subject-intransitive	penetrar	el miedo penetra como la humedad y se apodera de nosotros	manual	Res Penentrantes.xlsx	MIEDO	C13
-pen-miedo-mx-0004	Res Longae Penetrantes	miedo	MX	verbal-instrumental	atravesado por	a una relación entre los géneros que no esté atravesada por el miedo y los malentendido	manual	Res Penentrantes.xlsx	MIEDO	E13
-pen-miedo-mx-0005	Res Longae Penetrantes	miedo	MX	attributive	penetrante	a las policías de el país, las de hace décadas, con un miedo penetrante.	manual	Res Penentrantes.xlsx	MIEDO	F13
-pen-miedo-ni-0001	Res Longae Penetrantes	miedo	NI	verbal-subject-transitive	atravesar	El miedo atravesó mis médulas y dócilmente entregué mis pertenencia	manual	Res Penentrantes.xlsx	MIEDO	B14
-pen-miedo-pa-0001	Res Longae Penetrantes	miedo	PA	verbal-instrumental	atravesado por	Están todos aterrorizados. Atravesados por los miedos más diversos.	manual	Res Penentrantes.xlsx	MIEDO	E15
-pen-miedo-pe-0001	Res Longae Penetrantes	miedo	PE	verbal-instrumental	atravesado por	un personaje denso, creíble, atravesado por el miedo y la angustia	manual	Res Penentrantes.xlsx	MIEDO	E16
-pen-miedo-py-0001	Res Longae Penetrantes	miedo	PY	verbal-objective	clavar	Walter Clar clavó miedo en el cuerpo de Olimpia en el primer minuto de juego	manual	Res Penentrantes.xlsx	MIEDO	D18
-pen-miedo-us-0001	Res Longae Penetrantes	miedo	US	verbal-subject-transitive	atravesar	a los vecinos el miedo los atraviesa tras los tiroteos que se sucedieron en los últimos día	manual	Res Penentrantes.xlsx	MIEDO	B22
-pen-miedo-us-0002	Res Longae Penetrantes	miedo	US	verbal-subject-transitive	atravesar	cargué con las dudas y los miedos que me atravesaban en aquel momento	manual	Res Penentrantes.xlsx	MIEDO	B22
-pen-miedo-uy-0001	Res Longae Penetrantes	miedo	UY	verbal-subject-transitive	atravesar	si bien el miedo atraviesa todo el monólogo de Tom Pa	manual	Res Penentrantes.xlsx	MIEDO	B20
-pen-miedo-ve-0001	Res Longae Penetrantes	miedo	VE	verbal-subject-transitive	penetrar	un poderoso miedo ha penetrado, hasta los tuétanos, a ateridos y temblecos transeúntes	manual	Res Penentrantes.xlsx	MIEDO	B21
-pen-miedo-ve-0002	Res Longae Penetrantes	miedo	VE	verbal-subject-transitive	penetrar	las corrientes de el miedo que han penetrado a la opinión pública,	manual	Res Penentrantes.xlsx	MIEDO	B21
-pen-miedo-ve-0003	Res Longae Penetrantes	miedo	VE	verbal-subject-transitive	penetrar	la política de el miedo estadounidense ha penetrado profundamente a su socieda	manual	Res Penentrantes.xlsx	MIEDO	B21
-pen-miedo-ve-0004	Res Longae Penetrantes	miedo	VE	verbal-subject-transitive	atravesar	a la sociedad postmoderna le atraviesa un miedo atávico a el compartir con los otros,	manual	Res Penentrantes.xlsx	MIEDO	B21
-pen-miedo-ve-0005	Res Longae Penetrantes	miedo	VE	verbal-subject-intransitive	penetrar en	El miedo penetró en todos los hogares y con el tiempo todos se volvieron más cautos	manual	Res Penentrantes.xlsx	MIEDO	C21
-pen-miedo-ve-0006	Res Longae Penetrantes	miedo	VE	attributive	penetrante	Esto ha sido un miedo penetrante y una ansiedad mucho antes de la Ley Patriota	manual	Res Penentrantes.xlsx	MIEDO	F21
-pla-miedo-co-0001	Res Planae	miedo	CO	attributive	llano	yo estaba completamente descompuesto por un miedo simple y llano, puro terror abstracto desligado de cualquier forma física distinguible	manual	Res Planae.xlsx	MIEDO	B5
-rot-miedo-ar-0001	Res Rotundae	miedo	AR	verbal-subject-intransitive	girar en torno a	su mayor miedo gira en torno a el tamaño de su pene y la eyaculación precoz,	manual	Res Rotundae.xlsx	MIEDO	C2
-rot-miedo-ar-0002	Res Rotundae	miedo	AR	verbal-instrumental	envuelto en	envueltos en ese miedo, los retrató la columna de Eduardo Van der Kooy	manual	Res Rotundae.xlsx	MIEDO	E2
-rot-miedo-ar-0003	Res Rotundae	miedo	AR	verbal-instrumental	envuelto entre	Envuelta entre miedos y urgencias por su serpenteante marcha	manual	Res Rotundae.xlsx	MIEDO	E2
-rot-miedo-ar-0004	Res Rotundae	miedo	AR	verbal-instrumental	envuelto en	ra una sociedad envuelta en el miedo, pero los movimientos querían conversar y discutir	manual	Res Rotundae.xlsx	MIEDO	E2
-rot-miedo-ar-0005	Res Rotundae	miedo	AR	verbal-instrumental	envuelto en	La población de Sierra Grande sigue en silencio y envuelta en miedo, a la crisis minera	manual	Res Rotundae.xlsx	MIEDO	E2
-rot-miedo-cl-0001	Res Rotundae	miedo	CL	verbal-subject-intransitive	envolver	miedos que envolvían a la sociedad chilena,	manual	Res Rotundae.xlsx	MIEDO	C4
-rot-miedo-cl-0002	Res Rotundae	miedo	CL	verbal-subject-intransitive	envolver	1 El miedo envuelve a el Carnaval de Río Por El Liber	manual	Res Rotundae.xlsx	MIEDO	C4
-rot-miedo-cl-0003	Res Rotundae	miedo	CL	verbal-instrumental	envolver en	ué les detiene el tránsito de el oxígeno en la sangre, qué les envuelve en miedo y solo desde mí pueden dar con una puerta,	manual	Res Rotundae.xlsx	MIEDO	E4
-rot-miedo-cl-0004	Res Rotundae	miedo	CL	verbal-instrumental	envuelto en	así seguíamos sumidos en ese letargo infinito envuelto en miedo.	manual	Res Rotundae.xlsx	MIEDO	E4
-rot-miedo-co-0001	Res Rotundae	miedo	CO	verbal-subject-intransitive	envolver	deben ser explicados a el detalle para que a la población no la envuelvan en el miedo	manual	Res Rotundae.xlsx	MIEDO	C5
-rot-miedo-co-0002	Res Rotundae	miedo	CO	verbal-subject-intransitive	envolver	oven reconoce que en ese momento el miedo lo envolvi	manual	Res Rotundae.xlsx	MIEDO	C5
-rot-miedo-co-0003	Res Rotundae	miedo	CO	verbal-subject-intransitive	envolver	Los miedos que me envuelven me hacen tomar decisiones equivocada	manual	Res Rotundae.xlsx	MIEDO	C5
-rot-miedo-co-0004	Res Rotundae	miedo	CO	verbal-subject-intransitive	envolver	el miedo que envuelve a las familias	manual	Res Rotundae.xlsx	MIEDO	C5
-rot-miedo-co-0007	Res Rotundae	miedo	CO	verbal-instrumental	envuelto en	e aseguraran que era de el demonio y yo quedaba envuelta en miedo	manual	Res Rotundae.xlsx	MIEDO	E5
-rot-miedo-cu-0001	Res Rotundae	miedo	CU	verbal-subject-intransitive	girar	a ingratitud es miedo que gira en la decadencia de la gente	manual	Res Rotundae.xlsx	MIEDO	C7
-rot-miedo-do-0001	Res Rotundae	miedo	DO	verbal-subject-intransitive	envolver	El miedo nos envuelve a una inexorable condena de no poder alzar nuestras alas a mejores horizontes,	manual	Res Rotundae.xlsx	MIEDO	C8
-rot-miedo-es-0001	Res Rotundae	miedo	ES	verbal-subject-intransitive	envolver	el miedo envolvió el abarrotado estadio por culpa de una escena de terro	manual	Res Rotundae.xlsx	MIEDO	C10
-rot-miedo-es-0002	Res Rotundae	miedo	ES	verbal-subject-intransitive	envolver	Los miedos que me envuelven me hacen tomar decisiones equivocadas y	manual	Res Rotundae.xlsx	MIEDO	C10
-rot-miedo-es-0003	Res Rotundae	miedo	ES	verbal-subject-intransitive	girar alrededor de	Las historias de miedo que giran alrededor de muñeco	manual	Res Rotundae.xlsx	MIEDO	C10
-rot-miedo-es-0004	Res Rotundae	miedo	ES	verbal-instrumental	envuelto en	los miembros de la comunidad envueltos en un miedo sin precedentes	manual	Res Rotundae.xlsx	MIEDO	E10
-rot-miedo-es-0005	Res Rotundae	miedo	ES	verbal-instrumental	envuelto en	n equipo envuelto en sus miedos	manual	Res Rotundae.xlsx	MIEDO	E10
-rot-miedo-es-0006	Res Rotundae	miedo	ES	verbal-instrumental	envuelto en	un conjunto casi fantasmagórico, envuelto en el miedo y el romanticismo q	manual	Res Rotundae.xlsx	MIEDO	E10
-rot-miedo-es-0007	Res Rotundae	miedo	ES	verbal-instrumental	envuelto en	yo me fui a la cama envuelto en miedo	manual	Res Rotundae.xlsx	MIEDO	E10
-rot-miedo-es-0008	Res Rotundae	miedo	ES	verbal-instrumental	envuelto en	Envueltos en miedo y caos	manual	Res Rotundae.xlsx	MIEDO	E10
-rot-miedo-hn-0001	Res Rotundae	miedo	HN	verbal-subject-intransitive	envolver	política editorial de los medios que representan, es el miedo que les envuelv	manual	Res Rotundae.xlsx	MIEDO	C12
-rot-miedo-hn-0002	Res Rotundae	miedo	HN	verbal-instrumental	envuelto en	hay ancianos envueltos en el miedo por la disminución de sus fuerzas	manual	Res Rotundae.xlsx	MIEDO	E12
-rot-miedo-mx-0001	Res Rotundae	miedo	MX	verbal-subject-intransitive	envolver	El miedo que envuelve a el país galo se justifica por los atentados yihadistas de enero	manual	Res Rotundae.xlsx	MIEDO	C13
-rot-miedo-mx-0002	Res Rotundae	miedo	MX	verbal-subject-intransitive	envolver	n la psicosis y el miedo que envuelve a la comunidad que cuando conoce de esos hechos crece el temor	manual	Res Rotundae.xlsx	MIEDO	C13
-rot-miedo-mx-0003	Res Rotundae	miedo	MX	verbal-subject-intransitive	envolver	miedo que envuelve como sopor caliente	manual	Res Rotundae.xlsx	MIEDO	C13
-rot-miedo-mx-0004	Res Rotundae	miedo	MX	verbal-instrumental	envuelto en	funcionarios de todos los niveles que con su omisión envuelta en miedo permitieron y permiten el saqueo	manual	Res Rotundae.xlsx	MIEDO	E13
-rot-miedo-mx-0005	Res Rotundae	miedo	MX	verbal-instrumental	envolver en	una realidad que nos envuelve en el miedo.	manual	Res Rotundae.xlsx	MIEDO	E13
-rot-miedo-mx-0006	Res Rotundae	miedo	MX	verbal-instrumental	envuelto en	regresó a casa envuelta en el miedo	manual	Res Rotundae.xlsx	MIEDO	E13
-rot-miedo-mx-0007	Res Rotundae	miedo	MX	verbal-instrumental	envuelto en	no dudo que estén bajo la incertidumbre de lo que puede venir y envueltos en miedo de lo que podría pasar,	manual	Res Rotundae.xlsx	MIEDO	E13
-rot-miedo-mx-0008	Res Rotundae	miedo	MX	verbal-instrumental	envuelto en	ienden a dejar a el paciente en una especie de parálisis interna envueltos en el miedo, el pánico y el vértig	manual	Res Rotundae.xlsx	MIEDO	E13
-rot-miedo-mx-0009	Res Rotundae	miedo	MX	verbal-instrumental	envuelto de	estas historias envueltas de miedo, sangre y mucho misterio.	manual	Res Rotundae.xlsx	MIEDO	E13
-rot-miedo-mx-0010	Res Rotundae	miedo	MX	verbal-instrumental	envuelto en	envuelta en miedo Karina salió de su trabajo	manual	Res Rotundae.xlsx	MIEDO	E13
-rot-miedo-pe-0001	Res Rotundae	miedo	PE	verbal-subject-intransitive	envolver	Hay una suerte de miedo moderno que envuelve tus relatos	manual	Res Rotundae.xlsx	MIEDO	C16
-rot-miedo-pe-0002	Res Rotundae	miedo	PE	verbal-subject-intransitive	envolver	Los miedos que me envuelven me hacen tomar decisiones equivocadas	manual	Res Rotundae.xlsx	MIEDO	C16
-rot-miedo-pe-0003	Res Rotundae	miedo	PE	verbal-instrumental	envuelto en	propias de una pubertad envuelta en miedo, tejen la trama	manual	Res Rotundae.xlsx	MIEDO	E16
-rot-miedo-pr-0001	Res Rotundae	miedo	PR	verbal-subject-intransitive	envolver	r la neblina de confusión y miedo que envuelve a la mayoría.	manual	Res Rotundae.xlsx	MIEDO	C17
-rot-miedo-pr-0002	Res Rotundae	miedo	PR	verbal-subject-intransitive	girar en torno a	aunque el miedo gire en torno a esa misma person	manual	Res Rotundae.xlsx	MIEDO	C17
-rot-miedo-us-0001	Res Rotundae	miedo	US	verbal-subject-intransitive	envolver	el miedo real que envolvió a Japón en 1945.	manual	Res Rotundae.xlsx	MIEDO	C22
-rot-miedo-us-0002	Res Rotundae	miedo	US	verbal-subject-intransitive	envolver	Miedo e incertidumbre envuelven desde el pasado dos de diciembre a la comunidad migrante	manual	Res Rotundae.xlsx	MIEDO	C22
-rot-miedo-us-0003	Res Rotundae	miedo	US	verbal-instrumental	envuelto en	estar atrapadas en un círculo vicioso y envueltas en miedos que les impide dejar a quien	manual	Res Rotundae.xlsx	MIEDO	E22
-rot-miedo-ve-0001	Res Rotundae	miedo	VE	verbal-subject-intransitive	envolver	Qué miedos lo envolvieron; la crueldad de la cárcel, la humillación de ser acusado	manual	Res Rotundae.xlsx	MIEDO	C21
+id	cryptoclass	emonym	country	construction_type	classifier_lemma	citation_es	source	source_file	source_sheet	source_locator	frequency	freq_role
+acu-miedo-ar-0001	Res Acutae	miedo	AR	attributive	puntiagudo	puntiagudo miedo	manual	Res Acutae.xlsx	MIEDO	F2	2	total
+acu-miedo-ar-0002	Res Acutae	miedo	AR	attributive	puntiagudo	envuelve a sus residentes en una punzante sensación de miedo,	manual	Res Acutae.xlsx	MIEDO	F2	0	illustrative
+acu-miedo-ar-0003	Res Acutae	miedo	AR	attributive	puntiagudo	el eco mezclado con un miedo hiriente, refinado, puntiagudo y finalmente el frío	manual	Res Acutae.xlsx	MIEDO	F2	0	illustrative
+acu-miedo-bo-0001	Res Acutae	miedo	BO	attributive	agudo	un miedo sospechosamente agudo a el problema	manual	Res Acutae.xlsx	MIEDO	F3	1	example
+acu-miedo-cl-0001	Res Acutae	miedo	CL	attributive	agudo	sienten miedo agudo a aumentar de peso	manual	Res Acutae.xlsx	MIEDO	F4	1	example
+acu-miedo-co-0001	Res Acutae	miedo	CO	substantive	punta de	punta de miedo	manual	Res Acutae.xlsx	MIEDO	H5	4	total
+acu-miedo-co-0002	Res Acutae	miedo	CO	substantive	punta de	la estrategia republicana de buscar electores a punta de miedo tuvo éxito	manual	Res Acutae.xlsx	MIEDO	H5	0	illustrative
+acu-miedo-co-0003	Res Acutae	miedo	CO	substantive	punta de	los métodos eclesiásticos de control del individuo a punta de miedo..	manual	Res Acutae.xlsx	MIEDO	H5	0	illustrative
+acu-miedo-co-0004	Res Acutae	miedo	CO	substantive	punta de	Si es que los convencen a punta de miedo como los mal llamados enviados de Dios,	manual	Res Acutae.xlsx	MIEDO	H5	0	illustrative
+acu-miedo-co-0005	Res Acutae	miedo	CO	substantive	punta de	Es mas fácil criar a tus hijos a punta de miedo y amenazas,	manual	Res Acutae.xlsx	MIEDO	H5	0	illustrative
+acu-miedo-cu-0001	Res Acutae	miedo	CU	verbal-subject-transitive	pinchar	un miedo en mayúsculas, ese miedo que te pincha el corazón y te exalta, te consume	manual	Res Acutae.xlsx	MIEDO	B7	1	example
+acu-miedo-cu-0002	Res Acutae	miedo	CU	attributive	agudo	y con síndrome de miedo agudo ante cualquier gesto de su tutor	manual	Res Acutae.xlsx	MIEDO	F7	1	example
+acu-miedo-do-0001	Res Acutae	miedo	DO	substantive	punta de	creer en alguna deidad pero si en como a punta de miedo, intimidación e intolerancia,	manual	Res Acutae.xlsx	MIEDO	H8	1	example
+acu-miedo-es-0001	Res Acutae	miedo	ES	verbal-objective	aguzar	Desde la amoralidad más descarada, estrechando manos y perorando avisos, aguzando el miedo y la insolidaridad,	manual	Res Acutae.xlsx	MIEDO	D10	1	example
+acu-miedo-mx-0001	Res Acutae	miedo	MX	attributive	agudo	un miedo anormal y agudo a los médicos	manual	Res Acutae.xlsx	MIEDO	F13	1	example
+acu-miedo-mx-0002	Res Acutae	miedo	MX	predicative	es agudo	este miedo es probablemente más agudo,	manual	Res Acutae.xlsx	MIEDO	G13	1	example
+acu-miedo-mx-0003	Res Acutae	miedo	MX	substantive	punta de	la estrategia de Chick Publications es adoctrinar y convertir a punta de el miedo.	manual	Res Acutae.xlsx	MIEDO	H13	1	example
+acu-miedo-pa-0001	Res Acutae	miedo	PA	substantive	punta de	como muchas cosas en la crianza te las hacen creer a punta de miedo. H	manual	Res Acutae.xlsx	MIEDO	H15	1	example
+acu-miedo-pe-0001	Res Acutae	miedo	PE	attributive	agudo	umará un miedo agudo a los pasivos de su muy breve personalidad "	manual	Res Acutae.xlsx	MIEDO	F16	1	example
+acu-miedo-us-0001	Res Acutae	miedo	US	attributive	punzante	odos los miedos y las inseguridades vuelven punzantes como alfileres	manual	Res Acutae.xlsx	MIEDO	F22	1	example
+acu-miedo-uy-0001	Res Acutae	miedo	UY	attributive	agudo	el miedo agudo efectivamente facilita la coagulación sanguínea	manual	Res Acutae.xlsx	MIEDO	F20	1	example
+acu-miedo-uy-0002	Res Acutae	miedo	UY	substantive	punta de	uiere imponer a punta de miedo el proyecto minero conga,	manual	Res Acutae.xlsx	MIEDO	H20	1	example
+acu-miedo-ve-0001	Res Acutae	miedo	VE	attributive	agudo	admiten que un agudo miedo resurgió por la vida	manual	Res Acutae.xlsx	MIEDO	F21	1	example
+acu-miedo-ve-0002	Res Acutae	miedo	VE	predicative	es punzante	n cada' foto asalto' el miedo es punzante	manual	Res Acutae.xlsx	MIEDO	G21	1	example
+con-miedo-ar-0001	Res Continens	miedo	AR	verbal-objective	tapar	el seductor se nos vaya de mambo y que, a 230/280 para tapar el miedo, se estrelle.	manual	RES CONTINENS.xlsx	miedo	B2	1	example
+con-miedo-ar-0002	Res Continens	miedo	AR	verbal-objective	tapar	La ira es un recurso que tapa el miedo y la confusión.	manual	RES CONTINENS.xlsx	miedo	B2	1	example
+con-miedo-ar-0003	Res Continens	miedo	AR	verbal-objective	tapar	compra una marca más cara porque le da más seguridad y con eso tapa un miedo.	manual	RES CONTINENS.xlsx	miedo	B2	1	example
+con-miedo-ar-0004	Res Continens	miedo	AR	verbal-objective	tapar	Los combates destapan el miedo.	manual	RES CONTINENS.xlsx	miedo	B2	1	example
+con-miedo-ar-0005	Res Continens	miedo	AR	verbal-objective	tapar	con la necesidad urgente de destapar los miedos, angustias y horrores	manual	RES CONTINENS.xlsx	miedo	B2	1	example
+con-miedo-ar-0006	Res Continens	miedo	AR	verbal-objective	tapar	Esta condena permitió romper con la impunidad, destapar el miedo	manual	RES CONTINENS.xlsx	miedo	B2	1	example
+con-miedo-ar-0007	Res Continens	miedo	AR	verbal-objective	tapar	El recuerdo más bonito de la experiencia literaria está asociada a mi libertad, a destapar los miedos por la discriminación, por estar dentro del close	manual	RES CONTINENS.xlsx	miedo	B2	1	example
+con-miedo-ar-0008	Res Continens	miedo	AR	verbal-locative-state	vivir en	yo en la habitación de mis hijas con la puertas trancada por dentro de el miedo que tenia de sus ataques	manual	RES CONTINENS.xlsx	miedo	D2	1	example
+con-miedo-ar-0009	Res Continens	miedo	AR	verbal-locative-state	vivir en	El dolor vive en el miedo	manual	RES CONTINENS.xlsx	miedo	D2	1	example
+con-miedo-ar-0010	Res Continens	miedo	AR	verbal-locative-state	vivir en	vivir en el miedo	manual	RES CONTINENS.xlsx	miedo	D2	1	example
+con-miedo-ar-0011	Res Continens	miedo	AR	verbal-locative-state	vivir en	No queremos seguir viviendo en el miedo	manual	RES CONTINENS.xlsx	miedo	D2	1	example
+con-miedo-ar-0012	Res Continens	miedo	AR	verbal-locative-state	vivir en	es imposible vivir en el miedo	manual	RES CONTINENS.xlsx	miedo	D2	1	example
+con-miedo-ar-0013	Res Continens	miedo	AR	verbal-locative-state	vivir en	Muchos chicos viven en el miedo:	manual	RES CONTINENS.xlsx	miedo	D2	1	example
+con-miedo-ar-0014	Res Continens	miedo	AR	verbal-locative-state	vivir en	En Venezuela vivíamos en el miedo, y el miedo genera egoísmo.	manual	RES CONTINENS.xlsx	miedo	D2	1	example
+con-miedo-ar-0016	Res Continens	miedo	AR	verbal-locative-state	encontrarse en	un partido encontraba en el miedo un poderoso motor	manual	RES CONTINENS.xlsx	miedo	D2	1	example
+con-miedo-ar-0017	Res Continens	miedo	AR	verbal-locative-state	encontrarse en	los movimientos políticos que encontraron en el miedo su razón de existi	manual	RES CONTINENS.xlsx	miedo	D2	1	example
+con-miedo-ar-0018	Res Continens	miedo	AR	verbal-locative-into	caer en	Honrubia asegura que caer en el miedo es producto de una falta de confianza prolongada	manual	RES CONTINENS.xlsx	miedo	E2	1	example
+con-miedo-ar-0019	Res Continens	miedo	AR	verbal-locative-into	caer en	Luego de caer en el miedo y la depresión, Gustavo decidió refugiar se con sus compañeros en el CUEN	manual	RES CONTINENS.xlsx	miedo	E2	1	example
+con-miedo-ar-0020	Res Continens	miedo	AR	verbal-locative-into	caer en	me di cuenta de que no tenía que caer en el miedo que le tienen los periodistas de decir se a sí mismos'	manual	RES CONTINENS.xlsx	miedo	E2	1	example
+con-miedo-ar-0021	Res Continens	miedo	AR	verbal-locative-into	caer en	an una mano grande a los equipos con el fin de no caer en el miedo que tenemos de tener que decir que cerramos	manual	RES CONTINENS.xlsx	miedo	E2	1	example
+con-miedo-ar-0022	Res Continens	miedo	AR	verbal-locative-into	caer en	los aísla de el riesgo local, es decir, no caen en el miedo que padecen hoy muchos ejecutivos respecto a que pasa si el negocio en la Argentina	manual	RES CONTINENS.xlsx	miedo	E2	1	example
+con-miedo-ar-0023	Res Continens	miedo	AR	verbal-locative-out	sacar de	Tenés que sacar te mil capas de miedo	manual	RES CONTINENS.xlsx	miedo	F2	1	example
+con-miedo-ar-0024	Res Continens	miedo	AR	verbal-locative-out	sacar de	Hay que sacar a las mujeres de el miedo	manual	RES CONTINENS.xlsx	miedo	F2	1	example
+con-miedo-bo-0001	Res Continens	miedo	BO	verbal-objective	destapar	Destapo el miedo de una mujer	manual	RES CONTINENS.xlsx	miedo	B3	1	example
+con-miedo-bo-0002	Res Continens	miedo	BO	verbal-locative-state	estar en	estaremos condenados a vivir en el miedo, la intranquilidad y el abuso de poder d	manual	RES CONTINENS.xlsx	miedo	D3	1	example
+con-miedo-bo-0003	Res Continens	miedo	BO	verbal-locative-state	estar en	Los tiranos tienen miedo, viven en el miedo porque contra todo el pueblo nadie puede	manual	RES CONTINENS.xlsx	miedo	D3	1	example
+con-miedo-bo-0004	Res Continens	miedo	BO	verbal-locative-state	estar en	los contribuyentes viven en el miedo –e incluso terror–	manual	RES CONTINENS.xlsx	miedo	D3	1	example
+con-miedo-bo-0005	Res Continens	miedo	BO	verbal-locative-out	sacar de	La llegada de el Espíritu Santo saca del miedo a los discípulos	manual	RES CONTINENS.xlsx	miedo	F3	1	example
+con-miedo-cl-0001	Res Continens	miedo	CL	verbal-objective	destapar	sometida a proyecciones de realidad, que destapan los miedos guardados	manual	RES CONTINENS.xlsx	miedo	B4	1	example
+con-miedo-cl-0002	Res Continens	miedo	CL	verbal-locative-state	estar en	han encontrado en el miedo transformado en un dispositivo político-mediático un instrumento perfecto para la desarticulación social (	manual	RES CONTINENS.xlsx	miedo	D4	1	example
+con-miedo-cl-0003	Res Continens	miedo	CL	verbal-locative-state	estar en	2( Tengo miedo, pero en el miedo aparece la esperanza; yo sé que Dios nos va a ayudar.	manual	RES CONTINENS.xlsx	miedo	D4	1	example
+con-miedo-cl-0004	Res Continens	miedo	CL	verbal-locative-state	estar en	Dentro de este miedo aparece ser una carga para los hijos o cónyuge	manual	RES CONTINENS.xlsx	miedo	D4	1	example
+con-miedo-cl-0005	Res Continens	miedo	CL	verbal-locative-state	estar en	Es importante recalcar, que dentro de los miedos más importantes, que todos tenemos, hay dos que están presentes en la mayoría	manual	RES CONTINENS.xlsx	miedo	D4	1	example
+con-miedo-cl-0006	Res Continens	miedo	CL	verbal-locative-state	estar en	No se puede vivir en el miedo	manual	RES CONTINENS.xlsx	miedo	D4	1	example
+con-miedo-cl-0007	Res Continens	miedo	CL	verbal-locative-state	estar en	llos deben ocupar se de esta situación antes que vivir en el miedo: "	manual	RES CONTINENS.xlsx	miedo	D4	1	example
+con-miedo-cl-0008	Res Continens	miedo	CL	verbal-locative-state	estar en	lucharon por una Europa en la que sus gentes vivan en el miedo a la pobreza, a la exclusión, a el desempleo	manual	RES CONTINENS.xlsx	miedo	D4	1	example
+con-miedo-cl-0009	Res Continens	miedo	CL	verbal-locative-state	estar en	estamos autocondenados a vivir en el miedo y la ignorancia	manual	RES CONTINENS.xlsx	miedo	D4	1	example
+con-miedo-cl-0010	Res Continens	miedo	CL	verbal-locative-state	estar en	Nos han mantenido viviendo en el miedo.	manual	RES CONTINENS.xlsx	miedo	D4	1	example
+con-miedo-cl-0011	Res Continens	miedo	CL	verbal-locative-state	estar en	se eleva a dos millones que ahora " viven en el miedo de un asedio de facto ". #	manual	RES CONTINENS.xlsx	miedo	D4	1	example
+con-miedo-cl-0012	Res Continens	miedo	CL	verbal-locative-state	estar en	uando familias inocentes viven en el miedo y el horror, el mundo entero fracasa.	manual	RES CONTINENS.xlsx	miedo	D4	1	example
+con-miedo-cl-0013	Res Continens	miedo	CL	verbal-locative-state	estar en	La víctima vive en el miedo, sino derechamente en el terror	manual	RES CONTINENS.xlsx	miedo	D4	1	example
+con-miedo-cl-0015	Res Continens	miedo	CL	verbal-locative-into	caer en	Quizás por la presión caemos en el miedo escénico y terminamos complicándo nos	manual	RES CONTINENS.xlsx	miedo	E4	1	example
+con-miedo-cl-0016	Res Continens	miedo	CL	verbal-locative-into	caer en	La ciudadanía no debe caer en el miedo o en una suerte de sicosis colectiva,	manual	RES CONTINENS.xlsx	miedo	E4	1	example
+con-miedo-cl-0017	Res Continens	miedo	CL	verbal-locative-into	caer en	Caer en el miedo es dar le el triunfo a el Estado Islámico	manual	RES CONTINENS.xlsx	miedo	E4	1	example
+con-miedo-co-0001	Res Continens	miedo	CO	verbal-objective	tapar	lo que uste está diciendo es que ya perdimos y quiere tapar el miedo	manual	RES CONTINENS.xlsx	miedo	B5	1	example
+con-miedo-co-0003	Res Continens	miedo	CO	verbal-locative-state	encontrarse en	n fascista que encontró en el miedo, en la tristeza y en la desilusión de los brasileños	manual	RES CONTINENS.xlsx	miedo	D5	1	example
+con-miedo-co-0004	Res Continens	miedo	CO	verbal-locative-state	encontrarse en	Cadena encontró en el miedo y el terror la mejor arma para tener contro	manual	RES CONTINENS.xlsx	miedo	D5	1	example
+con-miedo-co-0005	Res Continens	miedo	CO	verbal-locative-state	encontrarse en	3( Creo que sólo ahí, en el acecho, en el peligro, en el miedo aparecía el reclamo de justicia que yo buscaba para contar	manual	RES CONTINENS.xlsx	miedo	D5	1	example
+con-miedo-co-0006	Res Continens	miedo	CO	verbal-locative-state	encontrarse en	macabra muñequita que con su cara asesina y cruel se nos asentaba dentro de los miedos más profundos de el inconsciente	manual	RES CONTINENS.xlsx	miedo	D5	1	example
+con-miedo-co-0007	Res Continens	miedo	CO	verbal-locative-state	encontrarse en	una generación entera que vivió en el miedo.	manual	RES CONTINENS.xlsx	miedo	D5	1	example
+con-miedo-co-0008	Res Continens	miedo	CO	verbal-locative-state	encontrarse en	son las comunidades más pobres abandonadas y ninguniadas, sino que viven en el miedo y espanto que producen la convivencia con todos los bichos de el mal.	manual	RES CONTINENS.xlsx	miedo	D5	1	example
+con-miedo-co-0009	Res Continens	miedo	CO	verbal-locative-state	encontrarse en	" Una sociedad civil que vive en el miedo, miedo de el otro	manual	RES CONTINENS.xlsx	miedo	D5	1	example
+con-miedo-co-0010	Res Continens	miedo	CO	verbal-locative-state	encontrarse en	tener que abandonar el hogar donde viven, sino vivir en el miedo, en la precariedad	manual	RES CONTINENS.xlsx	miedo	D5	1	example
+con-miedo-co-0012	Res Continens	miedo	CO	verbal-locative-state	encontrarse en	n fascista que encontró en el miedo, en la tristeza y en la desilusión de los brasileños el terreno abonado	manual	RES CONTINENS.xlsx	miedo	D5	1	example
+con-miedo-co-0013	Res Continens	miedo	CO	verbal-locative-into	caer en	les pidió a los colombianos no caer en el miedo a el castrochavismo	manual	RES CONTINENS.xlsx	miedo	E5	1	example
+con-miedo-co-0014	Res Continens	miedo	CO	verbal-locative-into	caer en	hacer lenta tu toma de decisiones y hacer te caer en el miedo de dar un paso	manual	RES CONTINENS.xlsx	miedo	E5	1	example
+con-miedo-co-0015	Res Continens	miedo	CO	verbal-locative-out	sacar de	nos sacan de el miedo de vivir " en el país de el Nomeacuerdo	manual	RES CONTINENS.xlsx	miedo	F5	1	example
+con-miedo-co-0016	Res Continens	miedo	CO	verbal-locative-out	sacar de	La capacidad de Trump de sacar votos de el miedo y la demagogi	manual	RES CONTINENS.xlsx	miedo	F5	1	example
+con-miedo-co-0017	Res Continens	miedo	CO	verbal-locative-out	sacar de	sacar provecho de el miedo de la comunida	manual	RES CONTINENS.xlsx	miedo	F5	1	example
+con-miedo-co-0018	Res Continens	miedo	CO	attributive	destapado	Aquí ya no hay caminos para las aves. Se han destapado todos los miedos.	manual	RES CONTINENS.xlsx	miedo	G5	1	example
+con-miedo-cr-0002	Res Continens	miedo	CR	verbal-locative-into	caer en	No caigamos en el miedo y la mentira, informemonos mejor y tomemos nuestras propias decisiones	manual	RES CONTINENS.xlsx	miedo	E6	1	example
+con-miedo-cu-0001	Res Continens	miedo	CU	verbal-objective	tapar	Hay algunos que utilizan el dolor como excusa para tapar sus miedos	manual	RES CONTINENS.xlsx	miedo	B7	1	example
+con-miedo-cu-0002	Res Continens	miedo	CU	verbal-objective	tapar	con la prisión de Lula quieren tapar el miedo que tienen a el poder de el pueblo que ya demostró	manual	RES CONTINENS.xlsx	miedo	B7	1	example
+con-miedo-cu-0003	Res Continens	miedo	CU	verbal-locative-state	vivir en	Nadie merece vivir en el miedo	manual	RES CONTINENS.xlsx	miedo	D7	1	example
+con-miedo-cu-0004	Res Continens	miedo	CU	verbal-locative-state	vivir en	na vida de privaciones por el simple hecho de vivir en el miedo, se aficiona a el diccionario	manual	RES CONTINENS.xlsx	miedo	D7	1	example
+con-miedo-cu-0005	Res Continens	miedo	CU	verbal-locative-state	vivir en	las demas NACIUONES de el MUNDO que viven en el MIEDO, la VIOLENCIA HUMANA	manual	RES CONTINENS.xlsx	miedo	D7	1	example
+con-miedo-cu-0006	Res Continens	miedo	CU	verbal-locative-state	vivir en	mientras se siga viviendo en el miedo	manual	RES CONTINENS.xlsx	miedo	D7	1	example
+con-miedo-do-0001	Res Continens	miedo	DO	verbal-locative-state	estar en	Los padres y los residentes de la comunidad ahora vivimos en el miedo y tenemos temor de que nuestros hijos e hijas, jueguen afuera	manual	RES CONTINENS.xlsx	miedo	D8	1	example
+con-miedo-do-0002	Res Continens	miedo	DO	verbal-locative-state	estar en	viven en el miedo de la deportación	manual	RES CONTINENS.xlsx	miedo	D8	1	example
+con-miedo-do-0003	Res Continens	miedo	DO	verbal-locative-state	estar en	niños nacidos en Estados Unidos viviendo en el miedo y la incertidumbre	manual	RES CONTINENS.xlsx	miedo	D8	1	example
+con-miedo-do-0004	Res Continens	miedo	DO	verbal-locative-into	caer en	caer en el miedo sólo ayuda a las actividades terroristas.	manual	RES CONTINENS.xlsx	miedo	E8	1	example
+con-miedo-ec-0002	Res Continens	miedo	EC	verbal-objective	destapar	" Los elementos electrónicos y físicos intentan responder y llenar el miedo de las personas	manual	RES CONTINENS.xlsx	miedo	B9	1	example
+con-miedo-es-0001	Res Continens	miedo	ES	verbal-objective	tapar	veces llamamos' amor' a el tapar nuestros miedos y nuestras historias,	manual	RES CONTINENS.xlsx	miedo	B10	1	example
+con-miedo-es-0002	Res Continens	miedo	ES	verbal-objective	tapar	Siento que es una forma de tapar el miedo y el dolor	manual	RES CONTINENS.xlsx	miedo	B10	1	example
+con-miedo-es-0003	Res Continens	miedo	ES	verbal-objective	tapar	Quizá los logros y méritos tapen su miedo a volver a amar	manual	RES CONTINENS.xlsx	miedo	B10	1	example
+con-miedo-es-0004	Res Continens	miedo	ES	verbal-objective	tapar	La llamada de Isabel Pantoja destapa los miedos de su hijo	manual	RES CONTINENS.xlsx	miedo	B10	1	example
+con-miedo-es-0005	Res Continens	miedo	ES	verbal-objective	tapar	el propio Rossi destapa un miedo profundo hacia Márquez.	manual	RES CONTINENS.xlsx	miedo	B10	1	example
+con-miedo-es-0006	Res Continens	miedo	ES	verbal-subject-transitive	contener	si ese miedo contiene la mirada inocente de quien pretende sacar no	manual	RES CONTINENS.xlsx	miedo	C10	1	example
+con-miedo-es-0007	Res Continens	miedo	ES	verbal-subject-transitive	contener	EL MIEDO GUARDA  LA VIÑA (20 EJEMPLOS	manual	RES CONTINENS.xlsx	miedo	C10	1	example
+con-miedo-es-0008	Res Continens	miedo	ES	verbal-locative-state	estar en	La razón de esta extraña circunstancia se encuentra en el miedo que tenían los románticos a la catalepsia,	manual	RES CONTINENS.xlsx	miedo	D10	1	example
+con-miedo-es-0009	Res Continens	miedo	ES	verbal-locative-state	estar en	2( Dentro de este miedo, cabe señalar la existencia de equipos como Real Madrid,	manual	RES CONTINENS.xlsx	miedo	D10	1	example
+con-miedo-es-0010	Res Continens	miedo	ES	verbal-locative-state	estar en	3( El primer paso de lo numinoso se encuentra en la naturaleza y en el miedo a los muertos.	manual	RES CONTINENS.xlsx	miedo	D10	1	example
+con-miedo-es-0011	Res Continens	miedo	ES	verbal-locative-state	estar en	4=  tener una predisposición alegre dentro de el miedo	manual	RES CONTINENS.xlsx	miedo	D10	1	example
+con-miedo-es-0012	Res Continens	miedo	ES	verbal-locative-state	estar en	5= odemos encuadrar el temor a ser perjudicados por los árbitros dentro de los miedos atávicos.	manual	RES CONTINENS.xlsx	miedo	D10	1	example
+con-miedo-es-0013	Res Continens	miedo	ES	verbal-locative-state	estar en	# Cuantas veces vivimos en el miedo de un potencial fracaso	manual	RES CONTINENS.xlsx	miedo	D10	1	example
+con-miedo-es-0014	Res Continens	miedo	ES	verbal-locative-state	estar en	vive en el miedo y de el miedo a la pérdida de el valor operacional de su existencia.	manual	RES CONTINENS.xlsx	miedo	D10	1	example
+con-miedo-es-0015	Res Continens	miedo	ES	verbal-locative-state	estar en	un millón de ciudadanos andaluces vivan en el miedo contínuo a perder una miserable paga	manual	RES CONTINENS.xlsx	miedo	D10	1	example
+con-miedo-es-0016	Res Continens	miedo	ES	verbal-locative-state	estar en	Tienes dudas y preguntas, y tú vives en el miedo, pero un hermano es un hermano	manual	RES CONTINENS.xlsx	miedo	D10	1	example
+con-miedo-es-0017	Res Continens	miedo	ES	verbal-locative-state	estar en	nuestros amigos seguiremos viviendo en el miedo ".	manual	RES CONTINENS.xlsx	miedo	D10	1	example
+con-miedo-es-0018	Res Continens	miedo	ES	verbal-locative-state	estar en	que hay una España " que vive en el miedo y el egoísmo	manual	RES CONTINENS.xlsx	miedo	D10	1	example
+con-miedo-es-0019	Res Continens	miedo	ES	verbal-locative-state	estar en	no nos merecemos vivir en el miedo de visitar nuestros propios parques	manual	RES CONTINENS.xlsx	miedo	D10	1	example
+con-miedo-es-0020	Res Continens	miedo	ES	verbal-locative-state	estar en	Es Europa también. Vivimos en el miedo, el miedo a el diferente alimentado por los medios y los polític	manual	RES CONTINENS.xlsx	miedo	D10	1	example
+con-miedo-es-0021	Res Continens	miedo	ES	verbal-locative-state	estar en	ellos todavía carecen de opciones legales de inmigración y han vivido en el miedo a la deportación de el país a	manual	RES CONTINENS.xlsx	miedo	D10	1	example
+con-miedo-es-0022	Res Continens	miedo	ES	verbal-locative-state	estar en	, vivimos en el miedo y en la hipocresía	manual	RES CONTINENS.xlsx	miedo	D10	1	example
+con-miedo-es-0023	Res Continens	miedo	ES	verbal-locative-state	estar en	se vive en el miedo a las palabras,	manual	RES CONTINENS.xlsx	miedo	D10	1	example
+con-miedo-es-0024	Res Continens	miedo	ES	verbal-locative-into	caer en	n grupo de chavales inexperto, timorato y que puede caer en el miedo escénico de una gran cit	manual	RES CONTINENS.xlsx	miedo	E10	1	example
+con-miedo-es-0025	Res Continens	miedo	ES	verbal-locative-into	caer en	José Sacristán interpretaba a un tímido empleado de banca que cae en el miedo ante todo lo que parece ocurrir a su alrededor.	manual	RES CONTINENS.xlsx	miedo	E10	1	example
+con-miedo-es-0026	Res Continens	miedo	ES	verbal-locative-into	caer en	ómo superar a los haters sin caer en el miedo, y	manual	RES CONTINENS.xlsx	miedo	E10	1	example
+con-miedo-es-0027	Res Continens	miedo	ES	verbal-locative-into	caer en	por su parte, ha pedido a los neoyorquinos no caer en el miedo.	manual	RES CONTINENS.xlsx	miedo	E10	1	example
+con-miedo-es-0028	Res Continens	miedo	ES	verbal-locative-into	caer en	tenemos el peligro de caer en el miedo que nos quieren transmitir ante los que tienen otras razas o religiones	manual	RES CONTINENS.xlsx	miedo	E10	1	example
+con-miedo-es-0029	Res Continens	miedo	ES	verbal-locative-into	caer en	arack Obama llamó ayer a sus conciudadanos a no caer en el miedo	manual	RES CONTINENS.xlsx	miedo	E10	1	example
+con-miedo-es-0030	Res Continens	miedo	ES	verbal-locative-into	caer en	No podemos caer en el miedo haciendo que la vida se agote sin ilusión	manual	RES CONTINENS.xlsx	miedo	E10	1	example
+con-miedo-es-0031	Res Continens	miedo	ES	verbal-locative-out	sacar	Si fuera carismatico no le haria falta soltar bestialidades una tras otra sacadas de los miedos primarios	manual	RES CONTINENS.xlsx	miedo	F10	1	example
+con-miedo-es-0032	Res Continens	miedo	ES	verbal-locative-out	sacar	Observa a tu padre tembloroso en un rincón, con la manta sobre las piernas, las manos sobre las rodillas y la cabeza incapaz de refrenar su agitación, con la mirada clavada en esa puerta a la espera de que entre quien ya no le puede sacar del miedo que tiene a morir	manual	RES CONTINENS.xlsx	miedo	F10	1	example
+con-miedo-hn-0002	Res Continens	miedo	HN	verbal-locative-into	caer en	e digo a todas las mujeres que no caigamos en el miedo porque eso es lo que esa gente busca	manual	RES CONTINENS.xlsx	miedo	E12	1	example
+con-miedo-mx-0001	Res Continens	miedo	MX	verbal-objective	tapar	. Justifican y tapan su miedo diciendo que están avocadas a el trabajo	manual	RES CONTINENS.xlsx	miedo	B13	1	example
+con-miedo-mx-0002	Res Continens	miedo	MX	verbal-objective	tapar	discursos de algunos líderes, que de forma deliberada destapan los miedos de los ciudadanos	manual	RES CONTINENS.xlsx	miedo	B13	1	example
+con-miedo-mx-0003	Res Continens	miedo	MX	verbal-locative-state	estar en	La mejor seguridad se encuentra en el miedo	manual	RES CONTINENS.xlsx	miedo	D13	1	example
+con-miedo-mx-0004	Res Continens	miedo	MX	verbal-locative-state	estar en	s siempre un viaje de transformación: de vivir en el miedo a vivir con valentía	manual	RES CONTINENS.xlsx	miedo	D13	1	example
+con-miedo-mx-0005	Res Continens	miedo	MX	verbal-locative-state	estar en	Unos 8 millones de cristianos coptos en Egipto, están viviendo en el miedo,	manual	RES CONTINENS.xlsx	miedo	D13	1	example
+con-miedo-mx-0006	Res Continens	miedo	MX	verbal-locative-state	estar en	los líderes que viven en el miedo de la crítica	manual	RES CONTINENS.xlsx	miedo	D13	1	example
+con-miedo-mx-0007	Res Continens	miedo	MX	verbal-locative-state	estar en	El inmigrante mexicano señaló que vive en el miedo	manual	RES CONTINENS.xlsx	miedo	D13	1	example
+con-miedo-mx-0008	Res Continens	miedo	MX	verbal-locative-state	estar en	permitir más que sus habitantes vivan en el miedo y la zozobra,	manual	RES CONTINENS.xlsx	miedo	D13	1	example
+con-miedo-mx-0009	Res Continens	miedo	MX	verbal-locative-state	estar en	La familia Ramos vive en el miedo por dos cosas: la peligrosidad de sus agresores,	manual	RES CONTINENS.xlsx	miedo	D13	1	example
+con-miedo-mx-0010	Res Continens	miedo	MX	verbal-locative-state	estar en	No es posible vivir en el miedo	manual	RES CONTINENS.xlsx	miedo	D13	1	example
+con-miedo-mx-0011	Res Continens	miedo	MX	verbal-locative-state	estar en	defender regímenes opresores y brutales, que hacen vivir en el miedo, la escasez y la mentira a millones de ciudadanos	manual	RES CONTINENS.xlsx	miedo	D13	1	example
+con-miedo-mx-0012	Res Continens	miedo	MX	verbal-locative-state	estar en	niños y niñas inocentes que diariamente viven en el miedo y en la incertidum	manual	RES CONTINENS.xlsx	miedo	D13	1	example
+con-miedo-mx-0013	Res Continens	miedo	MX	verbal-locative-state	estar en	Estados Unidos está otra vez escondiéndo se, viviendo en el miedo	manual	RES CONTINENS.xlsx	miedo	D13	1	example
+con-miedo-mx-0014	Res Continens	miedo	MX	verbal-locative-state	estar en	los receptores de el DACA viven en el miedo y la incertidumbre, y	manual	RES CONTINENS.xlsx	miedo	D13	1	example
+con-miedo-mx-0015	Res Continens	miedo	MX	verbal-locative-state	estar en	esta mediocridad que nos obliga a vivir en el miedo.	manual	RES CONTINENS.xlsx	miedo	D13	1	example
+con-miedo-mx-0016	Res Continens	miedo	MX	verbal-locative-state	estar en	Hoy esos mexicanos viven en el miedo, en la sombra,	manual	RES CONTINENS.xlsx	miedo	D13	1	example
+con-miedo-mx-0017	Res Continens	miedo	MX	verbal-locative-state	estar en	, no tenemos porque vivir en el miedo	manual	RES CONTINENS.xlsx	miedo	D13	1	example
+con-miedo-mx-0018	Res Continens	miedo	MX	verbal-locative-state	estar en	o ciudadanos libres en un estado de derecho, donde no se viva en el miedo y la incertidumbr	manual	RES CONTINENS.xlsx	miedo	D13	1	example
+con-miedo-mx-0019	Res Continens	miedo	MX	verbal-locative-state	estar en	s nos condenó a vivir en el miedo.	manual	RES CONTINENS.xlsx	miedo	D13	1	example
+con-miedo-mx-0020	Res Continens	miedo	MX	verbal-locative-state	estar en	Era alguien que vivía en el miedo permanente	manual	RES CONTINENS.xlsx	miedo	D13	1	example
+con-miedo-mx-0021	Res Continens	miedo	MX	verbal-locative-state	estar en	Los chechenes viven en el miedo.	manual	RES CONTINENS.xlsx	miedo	D13	1	example
+con-miedo-mx-0022	Res Continens	miedo	MX	verbal-locative-state	estar en	ntonces nuestra vida no podrá ser fecunda, porque viviremos en el miedo y	manual	RES CONTINENS.xlsx	miedo	D13	1	example
+con-miedo-mx-0023	Res Continens	miedo	MX	verbal-locative-state	estar en	Felipe Calderón nos condenó a vivir en el miedo,	manual	RES CONTINENS.xlsx	miedo	D13	1	example
+con-miedo-mx-0024	Res Continens	miedo	MX	verbal-locative-into	caer en	pidió a los usuarios de redes como a los comerciantes no caer en el miedo e informar se a través de cuentas oficiales.	manual	RES CONTINENS.xlsx	miedo	E13	1	example
+con-miedo-mx-0025	Res Continens	miedo	MX	verbal-locative-into	caer en	ue el vehículo es robado para que las personas caigan en el miedo y acepten más rápidamente el dar el efectiv	manual	RES CONTINENS.xlsx	miedo	E13	1	example
+con-miedo-mx-0026	Res Continens	miedo	MX	verbal-locative-out	sacar de	sacar  Macron sacó provecho de el miedo generado por una eventual victoria de Marine Le Pen	manual	RES CONTINENS.xlsx	miedo	F13	1	example
+con-miedo-ni-0001	Res Continens	miedo	NI	verbal-locative-state	vivir en	muchos son obligados a dejar sus casas y viven en el miedo ",	manual	RES CONTINENS.xlsx	miedo	D14	1	example
+con-miedo-pa-0001	Res Continens	miedo	PA	verbal-objective	destapar	# Los combates destapan el miedo	manual	RES CONTINENS.xlsx	miedo	B15	1	example
+con-miedo-pa-0002	Res Continens	miedo	PA	verbal-locative-state	encontrarse en	el argentino encontró en el miedo propio un aliado para empatar la final de la Copa Davis	manual	RES CONTINENS.xlsx	miedo	D15	1	example
+con-miedo-pe-0001	Res Continens	miedo	PE	verbal-locative-state	estar en	es un perdedor que encuentra heroísmo dentro de el miedo que siente frente a el peligro	manual	RES CONTINENS.xlsx	miedo	D16	1	example
+con-miedo-pe-0002	Res Continens	miedo	PE	verbal-locative-state	estar en	en el fondo de el miedo a los exámenes está la posibilidad de una mastectomía	manual	RES CONTINENS.xlsx	miedo	D16	1	example
+con-miedo-pe-0003	Res Continens	miedo	PE	verbal-locative-state	estar en	tantos jóvenes que siguen viviendo en el miedo	manual	RES CONTINENS.xlsx	miedo	D16	1	example
+con-miedo-pe-0004	Res Continens	miedo	PE	verbal-locative-state	estar en	" Lo siento mucho por aquellos que viven en el miedo	manual	RES CONTINENS.xlsx	miedo	D16	1	example
+con-miedo-pe-0005	Res Continens	miedo	PE	verbal-locative-state	estar en	decidió no vivir en el miedo	manual	RES CONTINENS.xlsx	miedo	D16	1	example
+con-miedo-pe-0006	Res Continens	miedo	PE	verbal-locative-state	estar en	Ellos no merecen vivir en el miedo	manual	RES CONTINENS.xlsx	miedo	D16	1	example
+con-miedo-pe-0007	Res Continens	miedo	PE	verbal-locative-into	caer en	ue mantienen una postura de " paciencia estratégica " pero sin caer en el miedo.	manual	RES CONTINENS.xlsx	miedo	E16	1	example
+con-miedo-pr-0001	Res Continens	miedo	PR	verbal-locative-state	vivir en	Personas que viven en el miedo, el odio y la envidia, y no pierden la oportunidad	manual	RES CONTINENS.xlsx	miedo	D17	1	example
+con-miedo-pr-0002	Res Continens	miedo	PR	verbal-locative-state	vivir en	Si se vive en el terror, si se vive en el miedo	manual	RES CONTINENS.xlsx	miedo	D17	1	example
+con-miedo-us-0001	Res Continens	miedo	US	verbal-objective	tapar	son los que dictadura alega siempre para tapar su miedo	manual	RES CONTINENS.xlsx	miedo	B22	1	example
+con-miedo-us-0002	Res Continens	miedo	US	verbal-objective	tapar	ensando que así está todo bien. Tapando los miedos y dolores.	manual	RES CONTINENS.xlsx	miedo	B22	1	example
+con-miedo-us-0003	Res Continens	miedo	US	verbal-subject-transitive	guardar	EL MIEDO GUARDA  LA VIÑA  (2 EJEMPLOS	manual	RES CONTINENS.xlsx	miedo	C22	1	example
+con-miedo-us-0004	Res Continens	miedo	US	verbal-locative-state	estar en	entonces en ese sentido, dentro de el miedo hay una esperanza de que no hay que huir le si está latente (US	manual	RES CONTINENS.xlsx	miedo	D22	1	example
+con-miedo-us-0005	Res Continens	miedo	US	verbal-locative-state	estar en	2( la dulzura escondida dentro de el miedo, representado por el negro	manual	RES CONTINENS.xlsx	miedo	D22	1	example
+con-miedo-us-0006	Res Continens	miedo	US	verbal-locative-state	estar en	dentro de el miedo hay una esperanza de que no hay que huir le si está latente,	manual	RES CONTINENS.xlsx	miedo	D22	1	example
+con-miedo-us-0007	Res Continens	miedo	US	verbal-locative-state	estar en	a dulzura escondida dentro de el miedo, representado por el negro.	manual	RES CONTINENS.xlsx	miedo	D22	1	example
+con-miedo-us-0008	Res Continens	miedo	US	verbal-locative-state	estar en	Hartos de vivir en el miedo y ante la inacción de autoridades locales,	manual	RES CONTINENS.xlsx	miedo	D22	1	example
+con-miedo-us-0009	Res Continens	miedo	US	verbal-locative-state	estar en	los que residen dentro de el alcance mortal de los terroristas siguen viviendo en el miedo	manual	RES CONTINENS.xlsx	miedo	D22	1	example
+con-miedo-us-0010	Res Continens	miedo	US	verbal-locative-state	estar en	ha obligado a muchas familias a vivir en el miedo	manual	RES CONTINENS.xlsx	miedo	D22	1	example
+con-miedo-us-0011	Res Continens	miedo	US	verbal-locative-state	estar en	alentar a la esperanza a quienes viven en el miedo	manual	RES CONTINENS.xlsx	miedo	D22	1	example
+con-miedo-us-0012	Res Continens	miedo	US	verbal-locative-state	estar en	He estado viviendo en el miedo, y no solo por mí, sino por mi familia	manual	RES CONTINENS.xlsx	miedo	D22	1	example
+con-miedo-us-0013	Res Continens	miedo	US	verbal-locative-state	estar en	l reporte dice que los migrantes siguen viviendo en el miedo	manual	RES CONTINENS.xlsx	miedo	D22	1	example
+con-miedo-us-0014	Res Continens	miedo	US	verbal-locative-state	estar en	han vivido en el miedo a la deportación	manual	RES CONTINENS.xlsx	miedo	D22	1	example
+con-miedo-us-0015	Res Continens	miedo	US	verbal-locative-state	estar en	los cinturones de miseria viven en el miedo.	manual	RES CONTINENS.xlsx	miedo	D22	1	example
+con-miedo-us-0016	Res Continens	miedo	US	verbal-locative-state	estar en	90% de la población– ahora viven en el miedo, el estrés y la angustia.	manual	RES CONTINENS.xlsx	miedo	D22	1	example
+con-miedo-us-0017	Res Continens	miedo	US	verbal-locative-state	estar en	" Vivo en el miedo de que mi familia está en riesgo "	manual	RES CONTINENS.xlsx	miedo	D22	1	example
+con-miedo-us-0018	Res Continens	miedo	US	verbal-locative-state	estar en	tener la libertad a la que todos tienen derecho y no vivir en el miedo	manual	RES CONTINENS.xlsx	miedo	D22	1	example
+con-miedo-us-0019	Res Continens	miedo	US	verbal-locative-into	caer en	No cayeron en el miedo, siguieron su camino.	manual	RES CONTINENS.xlsx	miedo	E22	1	example
+con-miedo-us-0020	Res Continens	miedo	US	verbal-locative-into	caer en	no vamos a caer en el miedo ",	manual	RES CONTINENS.xlsx	miedo	E22	1	example
+con-miedo-us-0021	Res Continens	miedo	US	verbal-locative-out	sacar de	sacar provecho de el miedo a la deportación	manual	RES CONTINENS.xlsx	miedo	F22	1	example
+con-miedo-us-0022	Res Continens	miedo	US	attributive	tapado	-Es un miedo que tiene tapado, obturado, desde la más tierna infancia.	manual	RES CONTINENS.xlsx	miedo	G22	1	example
+con-miedo-uy-0001	Res Continens	miedo	UY	verbal-locative-state	estar en	Túnez el límite fue ya superado y el país está viviendo en el miedo.	manual	RES CONTINENS.xlsx	miedo	D20	1	example
+con-miedo-uy-0002	Res Continens	miedo	UY	verbal-locative-state	estar en	r el castigo que es la dictadura, sin embargo, viven en el miedo, la suspicacia, la sospech	manual	RES CONTINENS.xlsx	miedo	D20	1	example
+con-miedo-uy-0003	Res Continens	miedo	UY	verbal-locative-state	estar en	también es una nación que vive en el miedo	manual	RES CONTINENS.xlsx	miedo	D20	1	example
+con-miedo-uy-0004	Res Continens	miedo	UY	verbal-locative-state	estar en	Si se vive en el terror, si se vive en el miedo, y en el cuartel en el que estaban las catadoras de Hitler	manual	RES CONTINENS.xlsx	miedo	D20	1	example
+con-miedo-ve-0001	Res Continens	miedo	VE	verbal-objective	tapar	La arrogancia, prepotencia o cualquier actitud similar para tapar el miedo infinito	manual	RES CONTINENS.xlsx	miedo	B21	1	example
+con-miedo-ve-0002	Res Continens	miedo	VE	verbal-objective	tapar	muchos Aries se vuelven temerarios como forma de tapar su miedo a el miedo;	manual	RES CONTINENS.xlsx	miedo	B21	1	example
+con-miedo-ve-0003	Res Continens	miedo	VE	verbal-objective	tapar	Aries tiende a tapar este miedo con prisa, saltándo le por encima	manual	RES CONTINENS.xlsx	miedo	B21	1	example
+con-miedo-ve-0004	Res Continens	miedo	VE	verbal-subject-transitive	guardar	guardar miedo	manual	RES CONTINENS.xlsx	miedo	C21	0	absent
+con-miedo-ve-0005	Res Continens	miedo	VE	verbal-locative-state	vivir en	ay que tener mucho poder para hacer nos vivir en el miedo permanente a ser despedidos	manual	RES CONTINENS.xlsx	miedo	D21	1	example
+con-miedo-ve-0006	Res Continens	miedo	VE	verbal-locative-state	vivir en	carecen de opciones legales de inmigraciÃ³n y han vivido en el miedo a la deportaciÃ³	manual	RES CONTINENS.xlsx	miedo	D21	1	example
+con-miedo-ve-0007	Res Continens	miedo	VE	verbal-locative-into	caer en	ejar nos vencer por el odio y la rabia, ni tampoco caer en el miedo paralizante y la desesperanza	manual	RES CONTINENS.xlsx	miedo	E21	1	example
+con-miedo-ve-0008	Res Continens	miedo	VE	verbal-locative-into	caer en	" Caer en el miedo y el desorden después de esta tragedia es exactamente lo que los terroristas	manual	RES CONTINENS.xlsx	miedo	E21	1	example
+fil-miedo-ar-0001	Res Filiformes	miedo	AR	verbal-objective	tejer	deshacer la operación que el olvido, la indiferencia y el miedo tejieron a lo largo de décadas en nuestra sociedad	manual	Res Filiformes.xlsx	miedo	B2	1	example
+fil-miedo-ar-0002	Res Filiformes	miedo	AR	verbal-objective	desatar	desatar miedo	manual	Res Filiformes.xlsx	miedo	B2	26	inline
+fil-miedo-ar-0003	Res Filiformes	miedo	AR	verbal-subject-intransitive	desatarse	desatar miedo	manual	Res Filiformes.xlsx	miedo	C2	6	inline
+fil-miedo-ar-0004	Res Filiformes	miedo	AR	verbal-subject-intransitive	desatarse	Alegría, satisfacción, placer, disfrute, se entrelazan con, miedos, incertidumbres, ansiedad, enojos, celos, desagrados	manual	Res Filiformes.xlsx	miedo	C2	0	illustrative
+fil-miedo-ar-0005	Res Filiformes	miedo	AR	verbal-subject-intransitive	desatarse	a magia y el miedo se entrelazan tal como lo indica la cosmogonía prehispánica.	manual	Res Filiformes.xlsx	miedo	C2	0	illustrative
+fil-miedo-bo-0001	Res Filiformes	miedo	BO	verbal-objective	desatar	desatar miedo	manual	Res Filiformes.xlsx	miedo	B3	2	inline
+fil-miedo-bo-0002	Res Filiformes	miedo	BO	verbal-subject-intransitive	desatarse	desatar miedo	manual	Res Filiformes.xlsx	miedo	C3	1	inline
+fil-miedo-cl-0001	Res Filiformes	miedo	CL	verbal-objective	desatar	desatar miedo	manual	Res Filiformes.xlsx	miedo	B4	6	inline
+fil-miedo-cl-0002	Res Filiformes	miedo	CL	verbal-subject-intransitive	desatarse	desatar miedo	manual	Res Filiformes.xlsx	miedo	C4	2	inline
+fil-miedo-cl-0003	Res Filiformes	miedo	CL	verbal-subject-intransitive	desatarse	es la censura y de cómo en esta se entrelazan miedos y obsesiones de vieja procedencia	manual	Res Filiformes.xlsx	miedo	C4	0	illustrative
+fil-miedo-cl-0004	Res Filiformes	miedo	CL	attributive	desatar	desatar miedo	manual	Res Filiformes.xlsx	miedo	F4	1	inline
+fil-miedo-co-0002	Res Filiformes	miedo	CO	verbal-subject-intransitive	desatarse	desatar miedo	manual	Res Filiformes.xlsx	miedo	C5	2	inline
+fil-miedo-co-0003	Res Filiformes	miedo	CO	verbal-instrumental	amarrar	Se amarraron a sus miedos y no escaparon.	manual	Res Filiformes.xlsx	miedo	E5	1	example
+fil-miedo-co-0004	Res Filiformes	miedo	CO	attributive	desatar	desatar miedo	manual	Res Filiformes.xlsx	miedo	F5	2	inline
+fil-miedo-cu-0001	Res Filiformes	miedo	CU	verbal-objective	tejer	la propaganda de el miedo que tejieron contra Petro los grandes medios de comunicación	manual	Res Filiformes.xlsx	miedo	B7	1	example
+fil-miedo-cu-0002	Res Filiformes	miedo	CU	verbal-objective	desatar	desatar miedo	manual	Res Filiformes.xlsx	miedo	B7	5	inline
+fil-miedo-cu-0003	Res Filiformes	miedo	CU	verbal-subject-intransitive	desatarse	desatar miedo	manual	Res Filiformes.xlsx	miedo	C7	2	inline
+fil-miedo-do-0001	Res Filiformes	miedo	DO	verbal-objective	desatar	desatar miedo	manual	Res Filiformes.xlsx	miedo	B8	3	inline
+fil-miedo-do-0002	Res Filiformes	miedo	DO	verbal-subject-transitive	atar	Los miedos nos atan	manual	Res Filiformes.xlsx	miedo	D8	1	example
+fil-miedo-ec-0002	Res Filiformes	miedo	EC	verbal-objective	desatar	entrelazar el miedo y el placer sin poner se en riesgo	manual	Res Filiformes.xlsx	miedo	B9	0	illustrative
+fil-miedo-ec-0003	Res Filiformes	miedo	EC	verbal-subject-intransitive	desatarse	desatar miedo	manual	Res Filiformes.xlsx	miedo	C9	1	inline
+fil-miedo-es-0001	Res Filiformes	miedo	ES	verbal-objective	desatar	desatar miedo	manual	Res Filiformes.xlsx	miedo	B10	32	inline
+fil-miedo-es-0002	Res Filiformes	miedo	ES	verbal-objective	desatar	entrelazar el miedo y el placer sin poner se en riesgo	manual	Res Filiformes.xlsx	miedo	B10	0	illustrative
+fil-miedo-es-0003	Res Filiformes	miedo	ES	verbal-objective	desatar	resucitando los más bajos instintos contra las las minorías y los peores miedos,, que retuercen y exageran,, buscando un enemigo común	manual	Res Filiformes.xlsx	miedo	B10	0	illustrative
+fil-miedo-es-0004	Res Filiformes	miedo	ES	verbal-subject-intransitive	desatarse	desatar miedo	manual	Res Filiformes.xlsx	miedo	C10	9	inline
+fil-miedo-es-0005	Res Filiformes	miedo	ES	verbal-subject-transitive	atar	El miedo les ató las piernas	manual	Res Filiformes.xlsx	miedo	D10	1	example
+fil-miedo-es-0006	Res Filiformes	miedo	ES	attributive	desatar	desatar miedo	manual	Res Filiformes.xlsx	miedo	F10	2	inline
+fil-miedo-es-0007	Res Filiformes	miedo	ES	attributive	desatar	retorcido (Frente a el miedo retorcido que retuerce las palabras y nos retuerce el cuello	manual	Res Filiformes.xlsx	miedo	F10	0	illustrative
+fil-miedo-gt-0001	Res Filiformes	miedo	GT	verbal-objective	desatar	desatar miedo	manual	Res Filiformes.xlsx	miedo	B11	1	inline
+fil-miedo-hn-0001	Res Filiformes	miedo	HN	verbal-objective	desatar	desatar miedo	manual	Res Filiformes.xlsx	miedo	B12	4	inline
+fil-miedo-mx-0002	Res Filiformes	miedo	MX	verbal-subject-intransitive	desatarse	desatar miedo	manual	Res Filiformes.xlsx	miedo	C13	9	inline
+fil-miedo-mx-0003	Res Filiformes	miedo	MX	verbal-subject-intransitive	entrelazarse	La ira y el miedo se entrelazan hoy en amplios sectores de una sociedad mexicana	manual	Res Filiformes.xlsx	miedo	C13	1	example
+fil-miedo-mx-0004	Res Filiformes	miedo	MX	verbal-subject-transitive	atar	atar miedo	manual	Res Filiformes.xlsx	miedo	D13	2	inline
+fil-miedo-mx-0005	Res Filiformes	miedo	MX	verbal-subject-transitive	atar	los miedos que me ataban; El miedo paraliza, ata de manos, detiene el bienestar, impide el progreso	manual	Res Filiformes.xlsx	miedo	D13	0	illustrative
+fil-miedo-mx-0006	Res Filiformes	miedo	MX	attributive	desatar	desatar miedo	manual	Res Filiformes.xlsx	miedo	F13	1	inline
+fil-miedo-ni-0001	Res Filiformes	miedo	NI	verbal-objective	desatar	desatar miedo	manual	Res Filiformes.xlsx	miedo	B14	4	inline
+fil-miedo-ni-0002	Res Filiformes	miedo	NI	verbal-subject-intransitive	desatarse	desatar miedo	manual	Res Filiformes.xlsx	miedo	C14	1	inline
+fil-miedo-ni-0003	Res Filiformes	miedo	NI	attributive	desatar	desatar miedo	manual	Res Filiformes.xlsx	miedo	F14	1	inline
+fil-miedo-pe-0001	Res Filiformes	miedo	PE	verbal-objective	desatar	desatar miedo	manual	Res Filiformes.xlsx	miedo	B16	11	inline
+fil-miedo-pe-0002	Res Filiformes	miedo	PE	verbal-subject-intransitive	tejerse	tejer (miedos que se tejen alrededor de la donación	manual	Res Filiformes.xlsx	miedo	C16	1	example
+fil-miedo-pe-0003	Res Filiformes	miedo	PE	verbal-subject-intransitive	desatarse	desatar miedo	manual	Res Filiformes.xlsx	miedo	C16	3	inline
+fil-miedo-pr-0001	Res Filiformes	miedo	PR	verbal-subject-intransitive	desatarse	desatar miedo	manual	Res Filiformes.xlsx	miedo	C17	1	inline
+fil-miedo-sv-0001	Res Filiformes	miedo	SV	verbal-subject-transitive	atar	Enfrentar y superar tantos miedos que nos atan para vivir una experiencia de familia intensa	manual	Res Filiformes.xlsx	miedo	D19	1	example
+fil-miedo-us-0001	Res Filiformes	miedo	US	verbal-objective	desatar	desatar miedo	manual	Res Filiformes.xlsx	miedo	B22	9	inline
+fil-miedo-us-0002	Res Filiformes	miedo	US	verbal-subject-intransitive	desatarse	desatar miedo	manual	Res Filiformes.xlsx	miedo	C22	1	inline
+fil-miedo-us-0003	Res Filiformes	miedo	US	verbal-subject-intransitive	entrelazarse	los miedos que se entrelazan como enredadera a el tronco de mi alma	manual	Res Filiformes.xlsx	miedo	C22	1	example
+fil-miedo-us-0004	Res Filiformes	miedo	US	verbal-subject-transitive	atar	atar  (liberar se de el miedo que los ata	manual	Res Filiformes.xlsx	miedo	D22	1	example
+fil-miedo-us-0005	Res Filiformes	miedo	US	attributive	desatar	desatar miedo	manual	Res Filiformes.xlsx	miedo	F22	1	inline
+fil-miedo-ve-0001	Res Filiformes	miedo	VE	verbal-objective	desatar	desatar miedo	manual	Res Filiformes.xlsx	miedo	B21	5	inline
+fil-miedo-ve-0002	Res Filiformes	miedo	VE	verbal-subject-intransitive	desatarse	desatar miedo	manual	Res Filiformes.xlsx	miedo	C21	2	inline
+fil-miedo-ve-0003	Res Filiformes	miedo	VE	verbal-subject-transitive	atar	atar miedo	manual	Res Filiformes.xlsx	miedo	D21	2	inline
+fil-miedo-ve-0004	Res Filiformes	miedo	VE	verbal-subject-transitive	atar	liberado de todos esos miedos que te ataban; debemos vencer los miedos que nos atan	manual	Res Filiformes.xlsx	miedo	D21	0	illustrative
+fil-miedo-ve-0005	Res Filiformes	miedo	VE	attributive	desatar	desatar miedo	manual	Res Filiformes.xlsx	miedo	F21	1	inline
+fil-miedo-ve-0006	Res Filiformes	miedo	VE	substantive	ovillo de	también se convierten Pedro, Santiago y Juan, pasando de ser ovillos de miedo, a discípulos de el Señor Jesucristo.	manual	Res Filiformes.xlsx	miedo	G21	1	example
+liq-miedo-ar-0001	Res Liquidae	miedo	AR	verbal-subject-intransitive	brotar	En este diálogo intrínseco brotan miedos, silencios, recuerdos y emociones	manual	RES LIQUIDAE COR.xlsx	miedo	D2	1	example
+liq-miedo-ar-0002	Res Liquidae	miedo	AR	verbal-subject-intransitive	brotar	su trabajo de denuncia le hizo brotar un miedo constante a la deportación	manual	RES LIQUIDAE COR.xlsx	miedo	D2	1	example
+liq-miedo-ar-0003	Res Liquidae	miedo	AR	verbal-subject-intransitive	brotar	as potencias hacen sentir su rigor,, con amenazas brutales como las las de Bolton y en muchos otros casos con maniobras más sutiles. Y empezó a brotar el miedo.	manual	RES LIQUIDAE COR.xlsx	miedo	D2	1	example
+liq-miedo-ar-0004	Res Liquidae	miedo	AR	substantive	gota de	1El equipo de acá es tan groso que no hay una gota de miedo	manual	RES LIQUIDAE COR.xlsx	miedo	E2	1	example
+liq-miedo-ar-0005	Res Liquidae	miedo	AR	substantive	gota de	su romance con el público, a el que hizo correr más de una gota fría de miedo, no tiene fecha de vencimiento.	manual	RES LIQUIDAE COR.xlsx	miedo	E2	1	example
+liq-miedo-ar-0006	Res Liquidae	miedo	AR	substantive	brote de	es habrá pasado a los soldados de el Ejército que fusilaron Evaldo? ¿ Un brote colectivo de miedo, sorpresa o violenta emoción	manual	RES LIQUIDAE COR.xlsx	miedo	E2	1	example
+liq-miedo-bo-0001	Res Liquidae	miedo	BO	verbal-subject-intransitive	fluir	nmensa cantidad de adrenalina, tensión y miedo que fluía en el cuerpo de Alex	manual	RES LIQUIDAE COR.xlsx	miedo	B3	1	example
+liq-miedo-cl-0001	Res Liquidae	miedo	CL	verbal-subject-intransitive	brotar	labra pueda llegar hasta los interrogantes, las dudas y los miedos que brotan en su corazón	manual	RES LIQUIDAE COR.xlsx	miedo	D4	1	example
+liq-miedo-cl-0002	Res Liquidae	miedo	CL	verbal-instrumental	inundar de	El país se inundó de miedo hacia el " dictador comunista " que vendría	manual	RES LIQUIDAE COR.xlsx	miedo	G4	1	example
+liq-miedo-co-0001	Res Liquidae	miedo	CO	substantive	gota de	amantes de los retos, disciplinadas como ellas solas y sin una gota de miedo a la adrenalina	manual	RES LIQUIDAE COR.xlsx	miedo	E5	1	example
+liq-miedo-co-0002	Res Liquidae	miedo	CO	verbal-instrumental	inundar de	Esgrimen argumentos como la familia y los peligros de la homosexualización para inundar de miedos a este pueblo ignaro y creyente CO	manual	RES LIQUIDAE COR.xlsx	miedo	G5	1	example
+liq-miedo-co-0003	Res Liquidae	miedo	CO	verbal-instrumental	inundar de	la misoginia y la negligencia sigan inundando con miedo e ignorancia a la niñez y a la juventud de nuestro país.	manual	RES LIQUIDAE COR.xlsx	miedo	G5	1	example
+liq-miedo-cr-0001	Res Liquidae	miedo	CR	verbal-subject-transitive	inundar	Los gritos de miedo inundaron la vivienda y asustaron a el enorme reptil	manual	RES LIQUIDAE COR.xlsx	miedo	C6	1	example
+liq-miedo-do-0001	Res Liquidae	miedo	DO	verbal-subject-intransitive	fluir	Rencillas había alguna desde la anterior final y el miedo fluía a raudale	manual	RES LIQUIDAE COR.xlsx	miedo	B8	1	example
+liq-miedo-ec-0001	Res Liquidae	miedo	EC	verbal-instrumental	inundar de	Estamos inundados de miedos y abatidos por noticias de hecho	manual	RES LIQUIDAE COR.xlsx	miedo	G9	1	example
+liq-miedo-es-0001	Res Liquidae	miedo	ES	verbal-subject-intransitive	fluir	el miedo que fluye en algunas partes de el bosque. Y refleja toda la melancolía de el personaje	manual	RES LIQUIDAE COR.xlsx	miedo	B10	1	example
+liq-miedo-es-0002	Res Liquidae	miedo	ES	verbal-subject-intransitive	brotar	ecia aprovechando la fragilidad, los odios y los miedos que brotan cuando la presión es insuperable, dejando en evidencia muchas de la contradiccione ES	manual	RES LIQUIDAE COR.xlsx	miedo	D10	1	example
+liq-miedo-es-0003	Res Liquidae	miedo	ES	verbal-subject-intransitive	rebosar	Nbamaniacs... Aquí ya rebosó la inconsistencia, el miedo o la falta de cabeza de los Sixers.	manual	RES LIQUIDAE COR.xlsx	miedo	D10	1	example
+liq-miedo-es-0004	Res Liquidae	miedo	ES	verbal-instrumental	inundar de	Cuando un espíritu maligno llamado Sombra se propone inundar de miedo los corazones de los niños ES	manual	RES LIQUIDAE COR.xlsx	miedo	G10	1	example
+liq-miedo-es-0005	Res Liquidae	miedo	ES	verbal-instrumental	inundar de	su épica lucha contra un espíritu maligno que pretende inundar de miedo los corazones de los niños  ES	manual	RES LIQUIDAE COR.xlsx	miedo	G10	1	example
+liq-miedo-es-0006	Res Liquidae	miedo	ES	verbal-instrumental	inundar de	Un navegador de el que nadie se pudiese reir, que inundara de miedo el corazón de sus enemigos ES	manual	RES LIQUIDAE COR.xlsx	miedo	G10	1	example
+liq-miedo-es-0007	Res Liquidae	miedo	ES	verbal-instrumental	inundar de	Los medios nos inundan con miedos y crisis a el mismo tiempo que nos venden un modelo de vida ES	manual	RES LIQUIDAE COR.xlsx	miedo	G10	1	example
+liq-miedo-es-0008	Res Liquidae	miedo	ES	verbal-instrumental	inundar de	un buen repaso o incluso a la celda de el Espantapájaros para que nos inunde de miedo (y daño). ES	manual	RES LIQUIDAE COR.xlsx	miedo	G10	1	example
+liq-miedo-es-0009	Res Liquidae	miedo	ES	verbal-instrumental	inundar de	La noche que se inundó de miedos y milagros  ES	manual	RES LIQUIDAE COR.xlsx	miedo	G10	1	example
+liq-miedo-es-0010	Res Liquidae	miedo	ES	verbal-instrumental	inundar de	un joven Hawking tomando conciencia de su nueva realidad en una bañera inundada de miedo; ES	manual	RES LIQUIDAE COR.xlsx	miedo	G10	1	example
+liq-miedo-es-0011	Res Liquidae	miedo	ES	verbal-instrumental	inundar de	un espíritu maligno que les inunda de miedo y a el que llaman Sombra	manual	RES LIQUIDAE COR.xlsx	miedo	G10	1	example
+liq-miedo-es-0012	Res Liquidae	miedo	ES	verbal-subject-intransitive	rebosar	20minutos.es... llenando el platillo de la balanza que compensa a el que ya está a rebosar de desconfianzas, miedos..	manual	RES LIQUIDAE COR.xlsx	miedo	G10	1	example
+liq-miedo-mx-0001	Res Liquidae	miedo	MX	verbal-subject-intransitive	brotar	El miedo brota ante la inseguridad, mientras que la política nace de las respuestas	manual	RES LIQUIDAE COR.xlsx	miedo	D13	1	example
+liq-miedo-mx-0002	Res Liquidae	miedo	MX	substantive	gota de	queremos disfrutar con detalle cada gota de miedo que derrame el enemigo	manual	RES LIQUIDAE COR.xlsx	miedo	E13	1	example
+liq-miedo-mx-0003	Res Liquidae	miedo	MX	substantive	brote	Parece probable que este brote de miedo masculino juegue un papel determinante en las elecciones	manual	RES LIQUIDAE COR.xlsx	miedo	E13	1	example
+liq-miedo-mx-0004	Res Liquidae	miedo	MX	substantive	rebosar	20minutos.com.mx significa lugar de miedo, y antes allí había mucho miedo y por eso el reboso	manual	RES LIQUIDAE COR.xlsx	miedo	E13	1	example
+liq-miedo-mx-0005	Res Liquidae	miedo	MX	verbal-instrumental	inundar de	su épica lucha contra un espíritu maligno que pretende inundar de miedo los corazones de los niños MX	manual	RES LIQUIDAE COR.xlsx	miedo	G13	1	example
+liq-miedo-mx-0006	Res Liquidae	miedo	MX	verbal-instrumental	inundar de	Las autoridades deben considerar que los mercados inundados de miedo pueden anticipar un aumento brusco de tasas  MX	manual	RES LIQUIDAE COR.xlsx	miedo	G13	1	example
+liq-miedo-mx-0007	Res Liquidae	miedo	MX	verbal-instrumental	inundar de	El solo hecho de pensar en qué iba a trabajar, la inundaba de miedo; sin embargo, las figuras de sus hijos le dieron la fuerza	manual	RES LIQUIDAE COR.xlsx	miedo	G13	1	example
+liq-miedo-pe-0001	Res Liquidae	miedo	PE	verbal-subject-intransitive	fluir	El miedo fluía frío, como cuando comes un caramelo de menta fresc	manual	RES LIQUIDAE COR.xlsx	miedo	B16	1	example
+liq-miedo-us-0001	Res Liquidae	miedo	US	verbal-subject-intransitive	brotar	Por la noche brotan miedos que te provocan terror	manual	RES LIQUIDAE COR.xlsx	miedo	D22	1	example
+liq-miedo-us-0002	Res Liquidae	miedo	US	substantive	gota de	dos hombres de mediana edad, sin gota de miedo, se plantan ante el cañón	manual	RES LIQUIDAE COR.xlsx	miedo	E22	1	example
+liq-miedo-us-0003	Res Liquidae	miedo	US	verbal-instrumental	inundar de	uando un espíritu maligno llamado Pitch se propone inundar de miedo los corazones de los niños de todo el mund US	manual	RES LIQUIDAE COR.xlsx	miedo	G22	1	example
+liq-miedo-us-0004	Res Liquidae	miedo	US	verbal-instrumental	inundar de	Cada tres minutos pasaban inundando de miedo las calles, la gente se agachaba y se tapaba la cabeza  US	manual	RES LIQUIDAE COR.xlsx	miedo	G22	1	example
+liq-miedo-us-0005	Res Liquidae	miedo	US	verbal-instrumental	inundar de	su mente se inunda de miedo a el pensar que la pareja podrá abandonar la US	manual	RES LIQUIDAE COR.xlsx	miedo	G22	1	example
+liq-miedo-us-0006	Res Liquidae	miedo	US	verbal-instrumental	inundar de	# Amador se levantó de inmediato inundada por el miedo y comenzó a correr por el pasillo de la iglesia  US	manual	RES LIQUIDAE COR.xlsx	miedo	G22	1	example
+liq-miedo-ve-0001	Res Liquidae	miedo	VE	verbal-subject-transitive	rebosar	Aporrea Guaidó, vivió uno de los momentos más apremiantes de su vida… El miedo lo rebosó..	manual	RES LIQUIDAE COR.xlsx	miedo	E21	1	example
+liq-miedo-ve-0002	Res Liquidae	miedo	VE	verbal-instrumental	inundar de	inundar miedo	manual	RES LIQUIDAE COR.xlsx	miedo	G21	3	inline
+liq-miedo-ve-0003	Res Liquidae	miedo	VE	verbal-instrumental	inundar de	os políticos han encontrado la manera de inundar nos de miedos y verdades parciales que desesperan VE	manual	RES LIQUIDAE COR.xlsx	miedo	G21	0	illustrative
+liq-miedo-ve-0004	Res Liquidae	miedo	VE	verbal-instrumental	inundar de	bombas lacrimógenas contra la marcha pacífica, inundando de miedo y terror a ciudadanos desarmado VE	manual	RES LIQUIDAE COR.xlsx	miedo	G21	0	illustrative
+liq-miedo-ve-0006	Res Liquidae	miedo	VE	verbal-instrumental	inundar de	corazones blaugranas,	manual	RES LIQUIDAE COR.xlsx	miedo	G21	0	illustrative
+par-miedo-ar-0001	Res Parvae	miedo	AR	verbal-objective-grasp	coger	Se trataba de que no cogiera miedo.	manual	Res Parvae.xlsx	miedo	B2	1	example
+par-miedo-ar-0002	Res Parvae	miedo	AR	verbal-objective-grasp	agarrar	agarrar miedo	manual	Res Parvae.xlsx	miedo	B2	8	inline
+par-miedo-ar-0003	Res Parvae	miedo	AR	verbal-objective-throw	soltar	soltar miedo	manual	Res Parvae.xlsx	miedo	C2	0	absent
+par-miedo-bo-0001	Res Parvae	miedo	BO	verbal-objective-grasp	coger	coger miedo	manual	Res Parvae.xlsx	miedo	B3	0	absent
+par-miedo-bo-0002	Res Parvae	miedo	BO	verbal-objective-grasp	agarrar	agarrar miedo	manual	Res Parvae.xlsx	miedo	B3	1	inline
+par-miedo-bo-0003	Res Parvae	miedo	BO	verbal-objective-throw	soltar	soltar miedo	manual	Res Parvae.xlsx	miedo	C3	0	absent
+par-miedo-cl-0001	Res Parvae	miedo	CL	verbal-objective-grasp	coger	y ahí cogieron miedo y una parte entonces se hicieron " los locos " para no participa	manual	Res Parvae.xlsx	miedo	B4	1	example
+par-miedo-cl-0002	Res Parvae	miedo	CL	verbal-objective-grasp	coger	Comencé a asustar les. Me cogieron miedo.	manual	Res Parvae.xlsx	miedo	B4	1	example
+par-miedo-cl-0003	Res Parvae	miedo	CL	verbal-objective-grasp	coger	no debemos coger le miedo	manual	Res Parvae.xlsx	miedo	B4	1	example
+par-miedo-cl-0004	Res Parvae	miedo	CL	verbal-objective-grasp	coger	No te tengo miedo. Si te cojo te desmantelo	manual	Res Parvae.xlsx	miedo	B4	1	example
+par-miedo-cl-0005	Res Parvae	miedo	CL	verbal-objective-grasp	coger	tienes familiares que van a viajar contigo, y uno coge un poco de miedo	manual	Res Parvae.xlsx	miedo	B4	1	example
+par-miedo-cl-0006	Res Parvae	miedo	CL	verbal-objective-grasp	agarrar	agarrar miedo	manual	Res Parvae.xlsx	miedo	B4	2	inline
+par-miedo-cl-0007	Res Parvae	miedo	CL	verbal-objective-throw	soltar	soltar miedo	manual	Res Parvae.xlsx	miedo	C4	0	absent
+par-miedo-cl-0008	Res Parvae	miedo	CL	verbal-objective-throw	lanzar	es lanzar miedo por el aire. Es desconfianza plena. Es no sentir	manual	Res Parvae.xlsx	miedo	C4	1	example
+par-miedo-co-0001	Res Parvae	miedo	CO	verbal-objective-grasp	coger	coger miedo	manual	Res Parvae.xlsx	miedo	B5	29	total
+par-miedo-co-0002	Res Parvae	miedo	CO	verbal-objective-grasp	coger	le cogí miedo a algunas situaciones de carrera.	manual	Res Parvae.xlsx	miedo	B5	0	illustrative
+par-miedo-co-0003	Res Parvae	miedo	CO	verbal-objective-grasp	coger	# Roglic le cogió miedo a su vocación	manual	Res Parvae.xlsx	miedo	B5	0	illustrative
+par-miedo-co-0004	Res Parvae	miedo	CO	verbal-objective-grasp	coger	Valledupar le cogí miedo. Porque se diluyó la hermandad	manual	Res Parvae.xlsx	miedo	B5	0	illustrative
+par-miedo-co-0005	Res Parvae	miedo	CO	verbal-objective-grasp	coger	ahora como mi madre, a el Valle le cogí miedo	manual	Res Parvae.xlsx	miedo	B5	0	illustrative
+par-miedo-co-0006	Res Parvae	miedo	CO	verbal-objective-grasp	coger	le cogí tanto miedo a tener miedo que ni por el putas quería volver a pasar po	manual	Res Parvae.xlsx	miedo	B5	0	illustrative
+par-miedo-co-0007	Res Parvae	miedo	CO	verbal-objective-grasp	coger	lo tenían torturado, con el brazo torcido para que los demás cogieran miedo	manual	Res Parvae.xlsx	miedo	B5	0	illustrative
+par-miedo-co-0008	Res Parvae	miedo	CO	verbal-objective-grasp	coger	les cogí miedo a los abrazos, a los besos.	manual	Res Parvae.xlsx	miedo	B5	0	illustrative
+par-miedo-co-0009	Res Parvae	miedo	CO	verbal-objective-grasp	agarrar	agarrar miedo	manual	Res Parvae.xlsx	miedo	B5	2	inline
+par-miedo-co-0010	Res Parvae	miedo	CO	verbal-objective-throw	soltar	soltar miedo	manual	Res Parvae.xlsx	miedo	C5	0	absent
+par-miedo-co-0011	Res Parvae	miedo	CO	substantive	manojo	Con la finalización de el conflicto con las Farc, ese otro energúmeno que anda suelto por Colombia y por cuanto escenario internacional se preste, Álvaro Uribe Vélez, pierde buena parte de su piso político, y ahora tiene que inventar otro manojo de miedos	manual	Res Parvae.xlsx	miedo	E5	1	example
+par-miedo-cr-0001	Res Parvae	miedo	CR	verbal-objective-grasp	coger	Lo peor que podemos hacer en la vida es coger miedo	manual	Res Parvae.xlsx	miedo	B6	1	example
+par-miedo-cr-0002	Res Parvae	miedo	CR	verbal-objective-throw	soltar	soltar miedo	manual	Res Parvae.xlsx	miedo	C6	0	absent
+par-miedo-cu-0001	Res Parvae	miedo	CU	verbal-objective-grasp	coger	coger miedo	manual	Res Parvae.xlsx	miedo	B7	124	inline
+par-miedo-cu-0002	Res Parvae	miedo	CU	verbal-objective-grasp	agarrar	agarrar miedo	manual	Res Parvae.xlsx	miedo	B7	2	inline
+par-miedo-cu-0003	Res Parvae	miedo	CU	verbal-objective-throw	soltar	soltar miedo	manual	Res Parvae.xlsx	miedo	C7	0	absent
+par-miedo-do-0001	Res Parvae	miedo	DO	verbal-objective-grasp	coger	coger miedo	manual	Res Parvae.xlsx	miedo	B8	24	inline
+par-miedo-do-0002	Res Parvae	miedo	DO	verbal-objective-grasp	agarrar	agarrar miedo	manual	Res Parvae.xlsx	miedo	B8	0	absent
+par-miedo-do-0003	Res Parvae	miedo	DO	verbal-objective-throw	soltar	soltar miedo	manual	Res Parvae.xlsx	miedo	C8	0	absent
+par-miedo-do-0004	Res Parvae	miedo	DO	verbal-objective-throw	arrojar	MIEDOS arrojó miedos de que no funcionara en principio	manual	Res Parvae.xlsx	miedo	C8	1	example
+par-miedo-ec-0001	Res Parvae	miedo	EC	verbal-objective-grasp	coger	coger miedo	manual	Res Parvae.xlsx	miedo	B9	2	inline
+par-miedo-ec-0002	Res Parvae	miedo	EC	verbal-objective-grasp	agarrar	agarrar miedo	manual	Res Parvae.xlsx	miedo	B9	0	absent
+par-miedo-ec-0003	Res Parvae	miedo	EC	verbal-objective-throw	soltar	soltar miedo	manual	Res Parvae.xlsx	miedo	C9	0	absent
+par-miedo-es-0001	Res Parvae	miedo	ES	verbal-objective-grasp	coger	coger miedo	manual	Res Parvae.xlsx	miedo	B10	199	inline
+par-miedo-es-0002	Res Parvae	miedo	ES	verbal-objective-grasp	agarrar	agarrar miedo	manual	Res Parvae.xlsx	miedo	B10	3	inline
+par-miedo-es-0003	Res Parvae	miedo	ES	verbal-objective-grasp	traer	traer miedo	manual	Res Parvae.xlsx	miedo	B10	2	inline
+par-miedo-es-0004	Res Parvae	miedo	ES	verbal-objective-grasp	traer	el Ejército británico ha aterrizado aquí y ha traído el miedo, las armas; Con nuestros granos de arena hemos traído el miedo.	manual	Res Parvae.xlsx	miedo	B10	0	illustrative
+par-miedo-es-0005	Res Parvae	miedo	ES	verbal-objective-throw	soltar	MIEDOS He tenido que ir soltando miedos por el camino	manual	Res Parvae.xlsx	miedo	C10	1	example
+par-miedo-es-0006	Res Parvae	miedo	ES	verbal-objective-throw	lanzar	Urgot puede volver a lanzar Miedo más allá de la muerte para suprimir lo, atraer lo lentamente	manual	Res Parvae.xlsx	miedo	C10	1	example
+par-miedo-es-0007	Res Parvae	miedo	ES	substantive	puñado	largo de las próximas publicaciones os detallaremos los motivos con un buen puñado de miedos	manual	Res Parvae.xlsx	miedo	E10	1	example
+par-miedo-es-0008	Res Parvae	miedo	ES	substantive	puñado	un montón de cosas maravillosas y con un buen puñado de miedos e inseguridade	manual	Res Parvae.xlsx	miedo	E10	1	example
+par-miedo-gt-0001	Res Parvae	miedo	GT	verbal-objective-grasp	coger	coger miedo	manual	Res Parvae.xlsx	miedo	B11	0	absent
+par-miedo-gt-0002	Res Parvae	miedo	GT	verbal-objective-grasp	agarrar	agarrar miedo	manual	Res Parvae.xlsx	miedo	B11	2	inline
+par-miedo-gt-0003	Res Parvae	miedo	GT	verbal-objective-grasp	agarrar	ojala agarren miedo los jueces corruptos	manual	Res Parvae.xlsx	miedo	B11	0	illustrative
+par-miedo-gt-0004	Res Parvae	miedo	GT	verbal-objective-throw	soltar	soltar miedo	manual	Res Parvae.xlsx	miedo	C11	0	absent
+par-miedo-hn-0001	Res Parvae	miedo	HN	verbal-objective-grasp	coger	coger miedo	manual	Res Parvae.xlsx	miedo	B12	2	inline
+par-miedo-hn-0002	Res Parvae	miedo	HN	verbal-objective-grasp	agarrar	agarrar miedo	manual	Res Parvae.xlsx	miedo	B12	0	absent
+par-miedo-hn-0003	Res Parvae	miedo	HN	verbal-objective-throw	soltar	soltar miedo	manual	Res Parvae.xlsx	miedo	C12	0	absent
+par-miedo-mx-0001	Res Parvae	miedo	MX	verbal-objective-grasp	coger	coger miedo	manual	Res Parvae.xlsx	miedo	B13	6	inline
+par-miedo-mx-0002	Res Parvae	miedo	MX	verbal-objective-grasp	coger	#salir a la calles en respuesta a la conga y cogimos (tuvimos) miedo' ", escribió en un post Adiel González	manual	Res Parvae.xlsx	miedo	B13	0	illustrative
+par-miedo-mx-0003	Res Parvae	miedo	MX	verbal-objective-grasp	traer	Pues es un miedo que cualquier oficial puede traer,	manual	Res Parvae.xlsx	miedo	B13	1	example
+par-miedo-mx-0004	Res Parvae	miedo	MX	verbal-objective-throw	soltar	MIEDOS ( dicen que los impulsó a soltar miedos y animar se a ser sus propios jefes	manual	Res Parvae.xlsx	miedo	C13	1	example
+par-miedo-ni-0001	Res Parvae	miedo	NI	verbal-objective-grasp	coger	coger miedo	manual	Res Parvae.xlsx	miedo	B14	0	absent
+par-miedo-ni-0002	Res Parvae	miedo	NI	verbal-objective-grasp	agarrar	agarrar miedo	manual	Res Parvae.xlsx	miedo	B14	0	absent
+par-miedo-ni-0003	Res Parvae	miedo	NI	verbal-objective-throw	soltar	soltar miedo	manual	Res Parvae.xlsx	miedo	C14	0	absent
+par-miedo-pa-0001	Res Parvae	miedo	PA	verbal-objective-grasp	coger	coger miedo	manual	Res Parvae.xlsx	miedo	B15	13	inline
+par-miedo-pa-0002	Res Parvae	miedo	PA	verbal-objective-grasp	coger	le comencé a coger mucho asco y miedo	manual	Res Parvae.xlsx	miedo	B15	0	illustrative
+par-miedo-pa-0003	Res Parvae	miedo	PA	verbal-objective-throw	soltar	soltar miedo	manual	Res Parvae.xlsx	miedo	C15	0	absent
+par-miedo-pe-0001	Res Parvae	miedo	PE	verbal-objective-grasp	coger	coger miedo	manual	Res Parvae.xlsx	miedo	B16	4	inline
+par-miedo-pe-0002	Res Parvae	miedo	PE	verbal-objective-grasp	agarrar	agarrar miedo	manual	Res Parvae.xlsx	miedo	B16	7	inline
+par-miedo-pe-0003	Res Parvae	miedo	PE	verbal-objective-grasp	traer	¿ Qué miedos nos traerán los próximos procesos electorales?	manual	Res Parvae.xlsx	miedo	B16	1	example
+par-miedo-pe-0004	Res Parvae	miedo	PE	verbal-objective-throw	soltar	soltar miedo	manual	Res Parvae.xlsx	miedo	C16	0	absent
+par-miedo-pe-0005	Res Parvae	miedo	PE	substantive	puñado de	No vencí un puñado de miedos	manual	Res Parvae.xlsx	miedo	E16	1	example
+par-miedo-pr-0001	Res Parvae	miedo	PR	verbal-objective-grasp	coger	coger miedo	manual	Res Parvae.xlsx	miedo	B17	26	inline
+par-miedo-pr-0002	Res Parvae	miedo	PR	verbal-objective-grasp	coger	Dawn " le cogió cariño o miedo a " Beth	manual	Res Parvae.xlsx	miedo	B17	0	illustrative
+par-miedo-pr-0003	Res Parvae	miedo	PR	verbal-objective-grasp	agarrar	agarrar miedo	manual	Res Parvae.xlsx	miedo	B17	0	absent
+par-miedo-pr-0004	Res Parvae	miedo	PR	verbal-objective-throw	soltar	soltar miedo	manual	Res Parvae.xlsx	miedo	C17	0	absent
+par-miedo-py-0001	Res Parvae	miedo	PY	verbal-objective-grasp	coger	coger miedo	manual	Res Parvae.xlsx	miedo	B18	0	absent
+par-miedo-py-0002	Res Parvae	miedo	PY	verbal-objective-grasp	agarrar	agarrar miedo	manual	Res Parvae.xlsx	miedo	B18	0	absent
+par-miedo-py-0003	Res Parvae	miedo	PY	verbal-objective-throw	soltar	soltar miedo	manual	Res Parvae.xlsx	miedo	C18	0	absent
+par-miedo-sv-0001	Res Parvae	miedo	SV	verbal-objective-grasp	coger	coger miedo	manual	Res Parvae.xlsx	miedo	B19	1	inline
+par-miedo-sv-0002	Res Parvae	miedo	SV	verbal-objective-grasp	agarrar	agarrar miedo	manual	Res Parvae.xlsx	miedo	B19	0	absent
+par-miedo-sv-0003	Res Parvae	miedo	SV	verbal-objective-throw	soltar	soltar miedo	manual	Res Parvae.xlsx	miedo	C19	0	absent
+par-miedo-us-0001	Res Parvae	miedo	US	verbal-objective-grasp	coger	coger miedo	manual	Res Parvae.xlsx	miedo	B22	50	inline
+par-miedo-us-0002	Res Parvae	miedo	US	verbal-objective-grasp	agarrar	agarrar miedo	manual	Res Parvae.xlsx	miedo	B22	3	inline
+par-miedo-us-0003	Res Parvae	miedo	US	verbal-objective-grasp	traer	Las riadas traen miedo, barro y miseria	manual	Res Parvae.xlsx	miedo	B22	1	example
+par-miedo-us-0004	Res Parvae	miedo	US	verbal-objective-throw	soltar	soltar miedo	manual	Res Parvae.xlsx	miedo	C22	0	absent
+par-miedo-uy-0001	Res Parvae	miedo	UY	verbal-objective-grasp	coger	coger miedo	manual	Res Parvae.xlsx	miedo	B20	0	absent
+par-miedo-uy-0002	Res Parvae	miedo	UY	verbal-objective-grasp	agarrar	agarrar miedo	manual	Res Parvae.xlsx	miedo	B20	0	absent
+par-miedo-uy-0003	Res Parvae	miedo	UY	verbal-objective-grasp	traer	Y a su paso trajo el miedo.	manual	Res Parvae.xlsx	miedo	B20	1	example
+par-miedo-uy-0004	Res Parvae	miedo	UY	verbal-objective-throw	soltar	soltar miedo	manual	Res Parvae.xlsx	miedo	C20	0	absent
+par-miedo-ve-0001	Res Parvae	miedo	VE	verbal-objective-grasp	coger	coger miedo	manual	Res Parvae.xlsx	miedo	B21	5	inline
+par-miedo-ve-0002	Res Parvae	miedo	VE	verbal-objective-grasp	agarrar	agarrar miedo	manual	Res Parvae.xlsx	miedo	B21	8	inline
+par-miedo-ve-0003	Res Parvae	miedo	VE	verbal-objective-grasp	agarrar	a ver si los delincuentes agarran miedo	manual	Res Parvae.xlsx	miedo	B21	0	illustrative
+par-miedo-ve-0004	Res Parvae	miedo	VE	verbal-objective-throw	soltar	soltar miedo	manual	Res Parvae.xlsx	miedo	C21	0	absent
+par-miedo-ve-0005	Res Parvae	miedo	VE	substantive	manojo	De cuántos manojos de miedos, de pánicos, está construido el hombre moderno.	manual	Res Parvae.xlsx	miedo	E21	1	example
+pen-miedo-ar-0001	Res Longae Penetrantes	miedo	AR	verbal-subject-transitive	atravesar	El miedo atravesaba a la organización y se producía un verdadero desbande	manual	Res Penentrantes.xlsx	MIEDO	B2	1	example
+pen-miedo-ar-0002	Res Longae Penetrantes	miedo	AR	verbal-subject-transitive	atravesar	no sintió el miedo que la atravesó en la audiencia previa a el juicio	manual	Res Penentrantes.xlsx	MIEDO	B2	1	example
+pen-miedo-ar-0003	Res Longae Penetrantes	miedo	AR	verbal-subject-transitive	atravesar	El miedo es algo que nos atraviesa a todos.	manual	Res Penentrantes.xlsx	MIEDO	B2	1	example
+pen-miedo-ar-0004	Res Longae Penetrantes	miedo	AR	verbal-subject-transitive	atravesar	el miedo que atraviesa a cada una hace que para ellas esto sea difícil	manual	Res Penentrantes.xlsx	MIEDO	B2	1	example
+pen-miedo-ar-0005	Res Longae Penetrantes	miedo	AR	verbal-subject-transitive	atravesar	El miedo no se atreve a atravesar el río/ y el coraje rechaza el mar de el infinito "	manual	Res Penentrantes.xlsx	MIEDO	B2	1	example
+pen-miedo-ar-0006	Res Longae Penetrantes	miedo	AR	verbal-subject-intransitive	penetrar en	el miedo penetre en tus entrañas y se encuentre cara a cara con tu fe	manual	Res Penentrantes.xlsx	MIEDO	C2	1	example
+pen-miedo-ar-0007	Res Longae Penetrantes	miedo	AR	verbal-instrumental	atravesado por	se ven atravesadas por miedos y opiniones o juicios de valor	manual	Res Penentrantes.xlsx	MIEDO	E2	1	example
+pen-miedo-ar-0008	Res Longae Penetrantes	miedo	AR	verbal-instrumental	atravesado por	s trece jóvenes tailandeses a el no encontrar se atravesados por algunos de los miedos arraigados la cultura judeo-cristiana occidentalizada,	manual	Res Penentrantes.xlsx	MIEDO	E2	1	example
+pen-miedo-ar-0009	Res Longae Penetrantes	miedo	AR	verbal-instrumental	atravesado por	esas criaturas, atravesadas por el miedo, la soledad y el desamparo	manual	Res Penentrantes.xlsx	MIEDO	E2	1	example
+pen-miedo-ar-0010	Res Longae Penetrantes	miedo	AR	verbal-instrumental	atravesar por	Narciso pone estas cuestiones en el centro de la escena, para dejar se atravesar por miedos y situaciones cotidianas	manual	Res Penentrantes.xlsx	MIEDO	E2	1	example
+pen-miedo-ar-0011	Res Longae Penetrantes	miedo	AR	verbal-instrumental	atravesado por	dos sujetos atravesados por todos los miedos imaginables.	manual	Res Penentrantes.xlsx	MIEDO	E2	1	example
+pen-miedo-ar-0012	Res Longae Penetrantes	miedo	AR	verbal-instrumental	atravesado por	atravesada por el miedo y las ganas, viuda de un hombre,	manual	Res Penentrantes.xlsx	MIEDO	E2	1	example
+pen-miedo-ar-0013	Res Longae Penetrantes	miedo	AR	verbal-instrumental	atravesado por	mesadas blancas también se revelan atravesados por los miedos	manual	Res Penentrantes.xlsx	MIEDO	E2	1	example
+pen-miedo-ar-0014	Res Longae Penetrantes	miedo	AR	verbal-instrumental	atravesado por	son hombres y mujeres atravesados por ese miedo a la libertad que pregonaba Erich Fromm.	manual	Res Penentrantes.xlsx	MIEDO	E2	1	example
+pen-miedo-ar-0015	Res Longae Penetrantes	miedo	AR	verbal-instrumental	atravesado por	en una melodía estructurada por los sentimientos de un corazón atravesado por los miedos y la soledad	manual	Res Penentrantes.xlsx	MIEDO	E2	1	example
+pen-miedo-ar-0016	Res Longae Penetrantes	miedo	AR	verbal-instrumental	atravesado por	rto`; todo se juega entre realidad y ficción, entre contar y decir, atravesado por el miedo y el misterio	manual	Res Penentrantes.xlsx	MIEDO	E2	1	example
+pen-miedo-ar-0017	Res Longae Penetrantes	miedo	AR	attributive	penetrante	1el mundo post Torres Gemelas estaba exhibiendo extrañas semejanzas, con su miedo penetrante y su incipiente vigilancia potencial de los ciudadano	manual	Res Penentrantes.xlsx	MIEDO	F2	1	example
+pen-miedo-bo-0001	Res Longae Penetrantes	miedo	BO	verbal-subject-transitive	atravesar	ada día que Eunice asistía a sus clases de piano, un intenso miedo le atravesaba el cuerpo.	manual	Res Penentrantes.xlsx	MIEDO	B3	1	example
+pen-miedo-cl-0001	Res Longae Penetrantes	miedo	CL	verbal-subject-transitive	penetrar	el miedo penetra nuestro entorno labora	manual	Res Penentrantes.xlsx	MIEDO	B4	1	example
+pen-miedo-cl-0002	Res Longae Penetrantes	miedo	CL	verbal-subject-transitive	atravesar	El miedo me atravesó como punta de lanza.	manual	Res Penentrantes.xlsx	MIEDO	B4	1	example
+pen-miedo-co-0001	Res Longae Penetrantes	miedo	CO	verbal-subject-transitive	atravesar	el miedo que atraviesa a las varias generaciones de esa guerrilla de cara a un acuerdo de paz.	manual	Res Penentrantes.xlsx	MIEDO	B5	1	example
+pen-miedo-co-0002	Res Longae Penetrantes	miedo	CO	verbal-instrumental	atravesado por	s una vida atravesada por el miedo de que alguien llegue en la noc	manual	Res Penentrantes.xlsx	MIEDO	E5	1	example
+pen-miedo-co-0003	Res Longae Penetrantes	miedo	CO	verbal-instrumental	clavado en	con el miedo y la incertidumbre clavados en los huesos,	manual	Res Penentrantes.xlsx	MIEDO	E5	1	example
+pen-miedo-do-0001	Res Longae Penetrantes	miedo	DO	verbal-instrumental	atravesado por	Sus representantes están como atravesados por el miedo a perder su hegemonía históric	manual	Res Penentrantes.xlsx	MIEDO	E8	1	example
+pen-miedo-es-0001	Res Longae Penetrantes	miedo	ES	verbal-subject-transitive	atravesar	El miedo " atravesó a varias generaciones, logrando una desideologización política de la sociedad española	manual	Res Penentrantes.xlsx	MIEDO	B10	1	example
+pen-miedo-es-0002	Res Longae Penetrantes	miedo	ES	verbal-subject-transitive	atravesar	una sensación de miedo e incertidumbre atraviesa a el orden mundia	manual	Res Penentrantes.xlsx	MIEDO	B10	1	example
+pen-miedo-es-0003	Res Longae Penetrantes	miedo	ES	verbal-subject-transitive	atravesar	Para que el miedo atraviese la pantalla y se te meta entre los huesos sin grandes charcos de mercromina	manual	Res Penentrantes.xlsx	MIEDO	B10	1	example
+pen-miedo-es-0004	Res Longae Penetrantes	miedo	ES	verbal-subject-transitive	clavar	El miedo que se te clava en el cuerpo y el que te corta la respiración.	manual	Res Penentrantes.xlsx	MIEDO	B10	1	example
+pen-miedo-es-0005	Res Longae Penetrantes	miedo	ES	verbal-subject-intransitive	penetrar en	el miedo termina penetrando en el trabajador a través de diversos grados de violencia,	manual	Res Penentrantes.xlsx	MIEDO	C10	1	example
+pen-miedo-es-0006	Res Longae Penetrantes	miedo	ES	verbal-instrumental	clavado en	solo recuerdo el continuo miedo clavado en mi corazón, la presión en el pecho que me impedía respira	manual	Res Penentrantes.xlsx	MIEDO	E10	1	example
+pen-miedo-mx-0001	Res Longae Penetrantes	miedo	MX	verbal-subject-transitive	penetrar	y el miedo penetra nuestro entorno laboral.	manual	Res Penentrantes.xlsx	MIEDO	B13	1	example
+pen-miedo-mx-0002	Res Longae Penetrantes	miedo	MX	verbal-subject-transitive	atravesar	Me atravesó un relámpago de miedo.	manual	Res Penentrantes.xlsx	MIEDO	B13	1	example
+pen-miedo-mx-0003	Res Longae Penetrantes	miedo	MX	verbal-subject-intransitive	penetrar	el miedo penetra como la humedad y se apodera de nosotros	manual	Res Penentrantes.xlsx	MIEDO	C13	1	example
+pen-miedo-mx-0004	Res Longae Penetrantes	miedo	MX	verbal-instrumental	atravesado por	a una relación entre los géneros que no esté atravesada por el miedo y los malentendido	manual	Res Penentrantes.xlsx	MIEDO	E13	1	example
+pen-miedo-mx-0005	Res Longae Penetrantes	miedo	MX	attributive	penetrante	a las policías de el país, las de hace décadas, con un miedo penetrante.	manual	Res Penentrantes.xlsx	MIEDO	F13	1	example
+pen-miedo-ni-0001	Res Longae Penetrantes	miedo	NI	verbal-subject-transitive	atravesar	El miedo atravesó mis médulas y dócilmente entregué mis pertenencia	manual	Res Penentrantes.xlsx	MIEDO	B14	1	example
+pen-miedo-pa-0001	Res Longae Penetrantes	miedo	PA	verbal-instrumental	atravesado por	Están todos aterrorizados. Atravesados por los miedos más diversos.	manual	Res Penentrantes.xlsx	MIEDO	E15	1	example
+pen-miedo-pe-0001	Res Longae Penetrantes	miedo	PE	verbal-instrumental	atravesado por	un personaje denso, creíble, atravesado por el miedo y la angustia	manual	Res Penentrantes.xlsx	MIEDO	E16	1	example
+pen-miedo-py-0001	Res Longae Penetrantes	miedo	PY	verbal-objective	clavar	Walter Clar clavó miedo en el cuerpo de Olimpia en el primer minuto de juego	manual	Res Penentrantes.xlsx	MIEDO	D18	1	example
+pen-miedo-us-0001	Res Longae Penetrantes	miedo	US	verbal-subject-transitive	atravesar	a los vecinos el miedo los atraviesa tras los tiroteos que se sucedieron en los últimos día	manual	Res Penentrantes.xlsx	MIEDO	B22	1	example
+pen-miedo-us-0002	Res Longae Penetrantes	miedo	US	verbal-subject-transitive	atravesar	cargué con las dudas y los miedos que me atravesaban en aquel momento	manual	Res Penentrantes.xlsx	MIEDO	B22	1	example
+pen-miedo-uy-0001	Res Longae Penetrantes	miedo	UY	verbal-subject-transitive	atravesar	si bien el miedo atraviesa todo el monólogo de Tom Pa	manual	Res Penentrantes.xlsx	MIEDO	B20	1	example
+pen-miedo-ve-0001	Res Longae Penetrantes	miedo	VE	verbal-subject-transitive	penetrar	un poderoso miedo ha penetrado, hasta los tuétanos, a ateridos y temblecos transeúntes	manual	Res Penentrantes.xlsx	MIEDO	B21	1	example
+pen-miedo-ve-0002	Res Longae Penetrantes	miedo	VE	verbal-subject-transitive	penetrar	las corrientes de el miedo que han penetrado a la opinión pública,	manual	Res Penentrantes.xlsx	MIEDO	B21	1	example
+pen-miedo-ve-0003	Res Longae Penetrantes	miedo	VE	verbal-subject-transitive	penetrar	la política de el miedo estadounidense ha penetrado profundamente a su socieda	manual	Res Penentrantes.xlsx	MIEDO	B21	1	example
+pen-miedo-ve-0004	Res Longae Penetrantes	miedo	VE	verbal-subject-transitive	atravesar	a la sociedad postmoderna le atraviesa un miedo atávico a el compartir con los otros,	manual	Res Penentrantes.xlsx	MIEDO	B21	1	example
+pen-miedo-ve-0005	Res Longae Penetrantes	miedo	VE	verbal-subject-intransitive	penetrar en	El miedo penetró en todos los hogares y con el tiempo todos se volvieron más cautos	manual	Res Penentrantes.xlsx	MIEDO	C21	1	example
+pen-miedo-ve-0006	Res Longae Penetrantes	miedo	VE	attributive	penetrante	Esto ha sido un miedo penetrante y una ansiedad mucho antes de la Ley Patriota	manual	Res Penentrantes.xlsx	MIEDO	F21	1	example
+pla-miedo-co-0001	Res Planae	miedo	CO	attributive	llano	yo estaba completamente descompuesto por un miedo simple y llano, puro terror abstracto desligado de cualquier forma física distinguible	manual	Res Planae.xlsx	MIEDO	B5	1	example
+rot-miedo-ar-0001	Res Rotundae	miedo	AR	verbal-subject-intransitive	girar en torno a	su mayor miedo gira en torno a el tamaño de su pene y la eyaculación precoz,	manual	Res Rotundae.xlsx	MIEDO	C2	1	example
+rot-miedo-ar-0002	Res Rotundae	miedo	AR	verbal-instrumental	envuelto en	envueltos en ese miedo, los retrató la columna de Eduardo Van der Kooy	manual	Res Rotundae.xlsx	MIEDO	E2	1	example
+rot-miedo-ar-0003	Res Rotundae	miedo	AR	verbal-instrumental	envuelto entre	Envuelta entre miedos y urgencias por su serpenteante marcha	manual	Res Rotundae.xlsx	MIEDO	E2	1	example
+rot-miedo-ar-0004	Res Rotundae	miedo	AR	verbal-instrumental	envuelto en	ra una sociedad envuelta en el miedo, pero los movimientos querían conversar y discutir	manual	Res Rotundae.xlsx	MIEDO	E2	1	example
+rot-miedo-ar-0005	Res Rotundae	miedo	AR	verbal-instrumental	envuelto en	La población de Sierra Grande sigue en silencio y envuelta en miedo, a la crisis minera	manual	Res Rotundae.xlsx	MIEDO	E2	1	example
+rot-miedo-cl-0001	Res Rotundae	miedo	CL	verbal-subject-intransitive	envolver	miedos que envolvían a la sociedad chilena,	manual	Res Rotundae.xlsx	MIEDO	C4	1	example
+rot-miedo-cl-0002	Res Rotundae	miedo	CL	verbal-subject-intransitive	envolver	1 El miedo envuelve a el Carnaval de Río Por El Liber	manual	Res Rotundae.xlsx	MIEDO	C4	1	example
+rot-miedo-cl-0003	Res Rotundae	miedo	CL	verbal-instrumental	envolver en	ué les detiene el tránsito de el oxígeno en la sangre, qué les envuelve en miedo y solo desde mí pueden dar con una puerta,	manual	Res Rotundae.xlsx	MIEDO	E4	1	example
+rot-miedo-cl-0004	Res Rotundae	miedo	CL	verbal-instrumental	envuelto en	así seguíamos sumidos en ese letargo infinito envuelto en miedo.	manual	Res Rotundae.xlsx	MIEDO	E4	1	example
+rot-miedo-co-0001	Res Rotundae	miedo	CO	verbal-subject-intransitive	envolver	deben ser explicados a el detalle para que a la población no la envuelvan en el miedo	manual	Res Rotundae.xlsx	MIEDO	C5	1	example
+rot-miedo-co-0002	Res Rotundae	miedo	CO	verbal-subject-intransitive	envolver	oven reconoce que en ese momento el miedo lo envolvi	manual	Res Rotundae.xlsx	MIEDO	C5	1	example
+rot-miedo-co-0003	Res Rotundae	miedo	CO	verbal-subject-intransitive	envolver	Los miedos que me envuelven me hacen tomar decisiones equivocada	manual	Res Rotundae.xlsx	MIEDO	C5	1	example
+rot-miedo-co-0004	Res Rotundae	miedo	CO	verbal-subject-intransitive	envolver	el miedo que envuelve a las familias	manual	Res Rotundae.xlsx	MIEDO	C5	1	example
+rot-miedo-co-0007	Res Rotundae	miedo	CO	verbal-instrumental	envuelto en	e aseguraran que era de el demonio y yo quedaba envuelta en miedo	manual	Res Rotundae.xlsx	MIEDO	E5	1	example
+rot-miedo-cu-0001	Res Rotundae	miedo	CU	verbal-subject-intransitive	girar	a ingratitud es miedo que gira en la decadencia de la gente	manual	Res Rotundae.xlsx	MIEDO	C7	1	example
+rot-miedo-do-0001	Res Rotundae	miedo	DO	verbal-subject-intransitive	envolver	El miedo nos envuelve a una inexorable condena de no poder alzar nuestras alas a mejores horizontes,	manual	Res Rotundae.xlsx	MIEDO	C8	1	example
+rot-miedo-es-0001	Res Rotundae	miedo	ES	verbal-subject-intransitive	envolver	el miedo envolvió el abarrotado estadio por culpa de una escena de terro	manual	Res Rotundae.xlsx	MIEDO	C10	1	example
+rot-miedo-es-0002	Res Rotundae	miedo	ES	verbal-subject-intransitive	envolver	Los miedos que me envuelven me hacen tomar decisiones equivocadas y	manual	Res Rotundae.xlsx	MIEDO	C10	1	example
+rot-miedo-es-0003	Res Rotundae	miedo	ES	verbal-subject-intransitive	girar alrededor de	Las historias de miedo que giran alrededor de muñeco	manual	Res Rotundae.xlsx	MIEDO	C10	1	example
+rot-miedo-es-0004	Res Rotundae	miedo	ES	verbal-instrumental	envuelto en	los miembros de la comunidad envueltos en un miedo sin precedentes	manual	Res Rotundae.xlsx	MIEDO	E10	1	example
+rot-miedo-es-0005	Res Rotundae	miedo	ES	verbal-instrumental	envuelto en	n equipo envuelto en sus miedos	manual	Res Rotundae.xlsx	MIEDO	E10	1	example
+rot-miedo-es-0006	Res Rotundae	miedo	ES	verbal-instrumental	envuelto en	un conjunto casi fantasmagórico, envuelto en el miedo y el romanticismo q	manual	Res Rotundae.xlsx	MIEDO	E10	1	example
+rot-miedo-es-0007	Res Rotundae	miedo	ES	verbal-instrumental	envuelto en	yo me fui a la cama envuelto en miedo	manual	Res Rotundae.xlsx	MIEDO	E10	1	example
+rot-miedo-es-0008	Res Rotundae	miedo	ES	verbal-instrumental	envuelto en	Envueltos en miedo y caos	manual	Res Rotundae.xlsx	MIEDO	E10	1	example
+rot-miedo-hn-0001	Res Rotundae	miedo	HN	verbal-subject-intransitive	envolver	política editorial de los medios que representan, es el miedo que les envuelv	manual	Res Rotundae.xlsx	MIEDO	C12	1	example
+rot-miedo-hn-0002	Res Rotundae	miedo	HN	verbal-instrumental	envuelto en	hay ancianos envueltos en el miedo por la disminución de sus fuerzas	manual	Res Rotundae.xlsx	MIEDO	E12	1	example
+rot-miedo-mx-0001	Res Rotundae	miedo	MX	verbal-subject-intransitive	envolver	El miedo que envuelve a el país galo se justifica por los atentados yihadistas de enero	manual	Res Rotundae.xlsx	MIEDO	C13	1	example
+rot-miedo-mx-0002	Res Rotundae	miedo	MX	verbal-subject-intransitive	envolver	n la psicosis y el miedo que envuelve a la comunidad que cuando conoce de esos hechos crece el temor	manual	Res Rotundae.xlsx	MIEDO	C13	1	example
+rot-miedo-mx-0003	Res Rotundae	miedo	MX	verbal-subject-intransitive	envolver	miedo que envuelve como sopor caliente	manual	Res Rotundae.xlsx	MIEDO	C13	1	example
+rot-miedo-mx-0004	Res Rotundae	miedo	MX	verbal-instrumental	envuelto en	funcionarios de todos los niveles que con su omisión envuelta en miedo permitieron y permiten el saqueo	manual	Res Rotundae.xlsx	MIEDO	E13	1	example
+rot-miedo-mx-0005	Res Rotundae	miedo	MX	verbal-instrumental	envolver en	una realidad que nos envuelve en el miedo.	manual	Res Rotundae.xlsx	MIEDO	E13	1	example
+rot-miedo-mx-0006	Res Rotundae	miedo	MX	verbal-instrumental	envuelto en	regresó a casa envuelta en el miedo	manual	Res Rotundae.xlsx	MIEDO	E13	1	example
+rot-miedo-mx-0007	Res Rotundae	miedo	MX	verbal-instrumental	envuelto en	no dudo que estén bajo la incertidumbre de lo que puede venir y envueltos en miedo de lo que podría pasar,	manual	Res Rotundae.xlsx	MIEDO	E13	1	example
+rot-miedo-mx-0008	Res Rotundae	miedo	MX	verbal-instrumental	envuelto en	ienden a dejar a el paciente en una especie de parálisis interna envueltos en el miedo, el pánico y el vértig	manual	Res Rotundae.xlsx	MIEDO	E13	1	example
+rot-miedo-mx-0009	Res Rotundae	miedo	MX	verbal-instrumental	envuelto de	estas historias envueltas de miedo, sangre y mucho misterio.	manual	Res Rotundae.xlsx	MIEDO	E13	1	example
+rot-miedo-mx-0010	Res Rotundae	miedo	MX	verbal-instrumental	envuelto en	envuelta en miedo Karina salió de su trabajo	manual	Res Rotundae.xlsx	MIEDO	E13	1	example
+rot-miedo-pe-0001	Res Rotundae	miedo	PE	verbal-subject-intransitive	envolver	Hay una suerte de miedo moderno que envuelve tus relatos	manual	Res Rotundae.xlsx	MIEDO	C16	1	example
+rot-miedo-pe-0002	Res Rotundae	miedo	PE	verbal-subject-intransitive	envolver	Los miedos que me envuelven me hacen tomar decisiones equivocadas	manual	Res Rotundae.xlsx	MIEDO	C16	1	example
+rot-miedo-pe-0003	Res Rotundae	miedo	PE	verbal-instrumental	envuelto en	propias de una pubertad envuelta en miedo, tejen la trama	manual	Res Rotundae.xlsx	MIEDO	E16	1	example
+rot-miedo-pr-0001	Res Rotundae	miedo	PR	verbal-subject-intransitive	envolver	r la neblina de confusión y miedo que envuelve a la mayoría.	manual	Res Rotundae.xlsx	MIEDO	C17	1	example
+rot-miedo-pr-0002	Res Rotundae	miedo	PR	verbal-subject-intransitive	girar en torno a	aunque el miedo gire en torno a esa misma person	manual	Res Rotundae.xlsx	MIEDO	C17	1	example
+rot-miedo-us-0001	Res Rotundae	miedo	US	verbal-subject-intransitive	envolver	el miedo real que envolvió a Japón en 1945.	manual	Res Rotundae.xlsx	MIEDO	C22	1	example
+rot-miedo-us-0002	Res Rotundae	miedo	US	verbal-subject-intransitive	envolver	Miedo e incertidumbre envuelven desde el pasado dos de diciembre a la comunidad migrante	manual	Res Rotundae.xlsx	MIEDO	C22	1	example
+rot-miedo-us-0003	Res Rotundae	miedo	US	verbal-instrumental	envuelto en	estar atrapadas en un círculo vicioso y envueltas en miedos que les impide dejar a quien	manual	Res Rotundae.xlsx	MIEDO	E22	1	example
+rot-miedo-ve-0001	Res Rotundae	miedo	VE	verbal-subject-intransitive	envolver	Qué miedos lo envolvieron; la crueldad de la cárcel, la humillación de ser acusado	manual	Res Rotundae.xlsx	MIEDO	C21	1	example
