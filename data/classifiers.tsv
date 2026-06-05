@@ -1,10 +1,10 @@
 cryptoclass	construction_type	seed_lemmas_es	seed_lemmas_ru_legacy	notes
 Res Liquidae	verbal-subject-intransitive	fluir, brotar, manar, rebosar, diluirse, chorrear	субъектная интранзитивная	The dominant pattern for emonyms-as-liquids (382/750 = 51% in amor).
 Res Liquidae	verbal-subject-transitive	inundar, anegar, empapar	субъектная транзитивная	Emonym floods/soaks the experiencer.
-Res Liquidae	verbal-objective	derramar, verter, diluir, salpicar	объектная	Pouring/spilling the emonym.
+Res Liquidae	verbal-objective	derramar, verter, diluir, salpicar, gotear	объектная	Pouring/spilling/dripping the emonym. `gotear` ("to drip") added 2026-06 — surfaced as a `GOTEAR N` count label in the legacy data.
 Res Liquidae	verbal-instrumental	inundado por, empapado de, ahogado en, inundar de, inundar con, inundarse de, inundarse en	инструментальная	Experiencer as oblique recipient of the liquid. Active-voice forms (`inundar de`, `se inundó de`) listed alongside the canonical past-participle ones — both surface in the legacy data under the instrumental column.
 Res Liquidae	attributive	derramado, vertido, diluido	атрибутивная	
-Res Liquidae	substantive	gota de, gotas de, chorro de, torrente de, flujo de, mar de, brote de	субстантивная	Container/measure nouns for the liquid emonym.
+Res Liquidae	substantive	gota de, gotas de, chorro de, torrente de, flujo de, mar de, brote de, aluvión de, desbordamiento de	субстантивная	Container/measure nouns for the liquid emonym. `aluvión de` (flood/torrent) and `desbordamiento de` (overflow) added 2026-06 — surfaced as `ALUVIÓN N` / `DESBORDAMIENTO N` count labels whose counts were being dropped.
 Res Filiformes	verbal-objective	desatar, entrelazar, tejer, retorcer, hilvanar, anudar	Глагольные объектные классификаторы	Working the thread.
 Res Filiformes	verbal-subject-intransitive	desatarse, tejerse, enrollarse, entrelazarse	Субъектные интранзитивные	Thread does itself. "Se entrelazan miedos y obsesiones" is the productive form in legacy data.
 Res Filiformes	verbal-subject-transitive	tensar, amarrar, atar, desatar, enhebrar	Субъектные транзитивные	Thread ties/binds something.

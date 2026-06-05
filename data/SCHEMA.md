@@ -234,17 +234,17 @@ citations contain unescaped `"` characters (direct speech, scare quotes), and
 both modes treat `"` as a CSV quote delimiter. The import silently merges or
 drops rows — counts will be wrong without erroring out. `.mode ascii` with
 explicit `\t` / `\n` separators disables quote interpretation and gives the
-correct row counts. Verify a load by checking total rows = 3,499 (or
-`Res Liquidae` rows = 1,272).
+correct row counts. Verify a load by checking total rows = 3,498 (or
+`Res Liquidae` rows = 1,271).
 
 ## Extraction status
 
 - **All 8 cryptoclasses extracted**: `pipeline/extract_wide.js` reads the
-  wide-format xlsx files in `data/legacy-xlsx/` and writes **3,499 citation
+  wide-format xlsx files in `data/legacy-xlsx/` and writes **3,498 citation
   rows** to `citations.tsv`. Re-run the script anytime to regenerate; it
   overwrites the file (the source of truth is the `legacy-xlsx/` files, so
   manual edits must be made there, not in `citations.tsv`). Per-class row
-  counts: Res Liquidae 1,272 · Res Continens 555 · Res Filiformes 554 ·
+  counts: Res Liquidae 1,271 · Res Continens 555 · Res Filiformes 554 ·
   Res Parvae 468 · Res Planae 252 · Res Longae Penetrantes 194 ·
   Res Rotundae 134 · Res Acutae 70. The five frequency-parsed classes emit
   authoritative-count and negative-attestation rows, so their **row counts**

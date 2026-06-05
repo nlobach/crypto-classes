@@ -18,23 +18,24 @@ occurrence, weight 1) · `illustrative` (sample under an explicit count, weight
 | miedo | **45** | 47 | 0 |
 | tristeza | **159** | 159 | 0 |
 | amor | **579** | 499 | 0 |
-| alegría | **518** | 522 | 0 |
+| alegría | **519** | 521 | 1 |
 | ira | **45** | 45 | 0 |
 
 Distribution of `freq_role` across all Res Liquidae rows:
 
 | role | rows | meaning |
 |---|--:|---|
-| inline | 23 | authoritative count from `<classifier> N` |
-| example | 1095 | one quoted occurrence (weight 1) |
-| illustrative | 154 | sample sentence under an explicit total (weight 0) |
+| inline | 22 | authoritative count from `<classifier> N` |
+| example | 1097 | one quoted occurrence (weight 1) |
+| illustrative | 151 | sample sentence under an explicit total (weight 0) |
+| absent | 1 | construction searched, 0 occurrences (weight 0) |
 
 ## Weighted classifier breakdown per emonym (Σfreq, freq>0)
 
 - **miedo** (Σ=45; lead inundar de 49%): inundar de 22, brotar 7, gota de 5, fluir 4, rebosar 4, brote de 1, inundar 1, brote 1
-- **tristeza** (Σ=159; lead inundar 45%): inundar 72, inundar de 46, fluir 10, brotar 10, rebosar 9, derramar 4, diluir 3, (blank) 2, diluirse 1, gota de 1, chorro de 1
+- **tristeza** (Σ=159; lead inundar 45%): inundar 72, inundar de 46, fluir 10, brotar 10, rebosar 9, derramar 4, diluir 3, gotear 2, diluirse 1, gota de 1, chorro de 1
 - **amor** (Σ=579; lead fluir 39%): fluir 225, derramar 96, inundar de 77, brotar 68, inundar 49, diluirse 20, derramado 16, flujo de 12, flujo 9, salpicar 3, torrente 3, diluido 1
-- **alegría** (Σ=518; lead rebosar 25%): rebosar 132, inundar 127, inundar de 96, brotar 73, fluir 16, gota de 16, derramar 15, diluirse 9, chorro 6, torrente 6, (blank) 5, inundado 5, salpicar 2, brote de 2, verter 2, diluir 2, derramado 1, diluido 1, brote 1, flujo 1
+- **alegría** (Σ=519; lead rebosar 25%): rebosar 132, inundar 127, inundar de 96, brotar 73, fluir 16, gota de 16, derramar 15, diluirse 9, chorro 6, torrente 6, inundado 5, aluvión 3, desbordamiento 3, salpicar 2, brote de 2, verter 2, diluir 2, derramado 1, diluido 1, brote 1, flujo 1
 - **ira** (Σ=45; lead brotar 33%): brotar 15, torrente 7, derramar 6, inundar 3, inundar de 3, rebosar 3, fluir 3, derramado 2, diluir 2, salpicar 1
 
 > The lead-classifier share drives the membership verdict: a lead share ≥ 90 %
@@ -46,7 +47,6 @@ Distribution of `freq_role` across all Res Liquidae rows:
 | locator | emonym/country | lemma | freq | note | citation |
 |---|---|---|--:|---|---|
 | G21 | miedo/VE | inundar de | 3 | FLAG: stated 3 < 4 examples shown | inundar miedo |
-| G10 | alegría/ES | brote | 1 | FLAG: stated 1 < 3 examples shown | brote alegría |
 | C13 | alegría/MX | inundar | 16 | FLAG: stated 16 < 17 examples shown | inundar alegría |
 | E19 | alegría/SV | inundar de | 2 | FLAG: stated 2 < 3 examples shown | inundar alegría |
 | C21 | alegría/VE | inundar | 7 | FLAG: stated 7 < 8 examples shown | inundar alegría |
@@ -146,7 +146,7 @@ cell at the given locator.
 
 **AR** (Σ=30)
 
-- `   1` example      —            [B2] GOTEAR 1 una pintura que gotea su tristeza, su abuso reprimido, una desesperació
+- `   1` example      gotear       [B2] una pintura que gotea su tristeza, su abuso reprimido, una desesperación disipad
 - `   1` example      inundar      [C2] Sin embargo la tristeza que inunda a el jugador lesionado preocupa a sus compañe
 - `   1` example      inundar      [C2] Y los dos ganaron para que la tristeza inunde los corazones verdes en cada rincó
 - `   1` example      inundar      [C2] La tristeza inundaba en la vereda a los comerciantes que conocían a muje AR
@@ -274,7 +274,7 @@ cell at the given locator.
 
 **GT** (Σ=3)
 
-- `   1` example      —            [B11] este mi cuerpo es solo una sombra que gotea tristeza
+- `   1` example      gotear       [B11] este mi cuerpo es solo una sombra que gotea tristeza
 - `   1` example      inundar      [C11] Tristeza y desolación inundan la casa de la familia Chicas en la aldea Los Chiqu
 - `   1` example      inundar      [C11] Los recuerdos y la tristeza inundan su mente,
 
@@ -990,15 +990,15 @@ cell at the given locator.
 - `   1` example      rebosar      [E2] muestra que el animal también rebosa de alegría por haber vuelto con su familia.
 - `   1` example      rebosar      [E2] Rebosaba de alegría de que yo pudiera ver el parecido de su padre в его лице...
 - `   1` example      rebosar      [E2] Los flamantes papás de Rufina rebosan de alegría y la joven actriz celebró la pr
-- `   1` example      —            [G2] justamente, como la primera murga " Aluvión de Alegría  AR
-- `   1` example      —            [G2] hace tres años había una agrupación que se llamaba Aluvión de Alegría
+- `   1` example      aluvión      [G2] justamente, como la primera murga " Aluvión de Alegría  AR
+- `   1` example      aluvión      [G2] hace tres años había una agrupación que se llamaba Aluvión de Alegría
 - `   1` example      chorro       [G2] TV Chorro de alegría AR
 - `   1` example      chorro       [G2] iertos chorros de alegría que me atravesaban en la adolescencia?
 
-**BO** (Σ=10)
+**BO** (Σ=9)
 
 - `   1` example      fluir        [B3] los presentes dejaron fluir su alegría
-- `   1` example      —            [D3] 1
+- `   ·` absent       —            [D3] ? alegría
 - `   1` example      inundar de   [E3] las actividades de el carnaval recuperan la identidad milenaria e inunda de aleg
 - `   1` example      inundar de   [E3] su estreno en España, daba la vuelta a la manzana, lo que me inundó de alegría —
 - `   1` example      inundar de   [E3] Niños y adultos inundaron de alegría el coliseo, con bailes, juegos
@@ -1119,8 +1119,8 @@ cell at the given locator.
 - `   1` example      rebosar      [E7] la vieja Mariana, rebosando en alegría, entra en su cuarto, coge un crucifijo...
 - `   1` example      rebosar      [E7] ...este pueblo que agradece su inmenso sacrificio, ahora rebosa de alegría por s
 - `   1` example      rebosar      [E7] ...el carnaval santiaguero, que rebosará de alegría
-- `   1` example      —            [G7] Al amanecer entre mis vecinos hubo un aluvión de alegría en medio de tanta trist
-- `   1` example      —            [G7] el desbordamiento oceánico de alegría pura y sincera
+- `   1` example      aluvión      [G7] Al amanecer entre mis vecinos hubo un aluvión de alegría en medio de tanta trist
+- `   1` example      desbordamiento [G7] el desbordamiento oceánico de alegría pura y sincera
 - `   1` example      gota de      [G7] " No estoy seguro chorro de alegría.
 
 **DO** (Σ=16)
@@ -1156,7 +1156,7 @@ cell at the given locator.
 - `   1` example      rebosar      [E9] El rostro de Danna Santos rebosó de alegría.
 - `   1` example      rebosar      [E9] Hoy mi corazón rebosa de alegría con estas escena
 
-**ES** (Σ=133)
+**ES** (Σ=135)
 
 - `   1` example      fluir        [B10] Hay que dejar fluir la alegría
 - `   1` example      fluir        [B10] dejando fluir esa alegría
@@ -1281,10 +1281,9 @@ cell at the given locator.
 - `   1` example      rebosar      [E10] .tus ambientes de exterior e interior rebosarán de alegría.
 - `   1` example      derramado    [F10] osé Miguel Gambín y, en especial, mi hermano Pablo, que disfrutó poco más de cua
 - `   1` example      diluido      [F10] Alegría diluida en el palco de el Santiago Bernabéu con la goleada a el Celt
-- `   1` inline       brote        [G10] brote alegría
-- `   ·` illustrative brote        [G10] destruye cualquier brote de alegría e ilusión que todos deberíamos tene
-- `   ·` illustrative brote        [G10] para dejar se llevar por desbordamientos de alegría -o de cólera ES
-- `   ·` illustrative brote        [G10] Por eso, los congregantes están radiantes, pletóricos, felices, un desbordamient
+- `   1` example      brote        [G10] destruye cualquier brote de alegría e ilusión que todos deberíamos tene
+- `   1` example      desbordamiento [G10] para dejar se llevar por desbordamientos de alegría -o de cólera ES
+- `   1` example      desbordamiento [G10] Por eso, los congregantes están radiantes, pletóricos, felices, un desbordamient
 - `   1` example      torrente     [G10] es un torrente de alegría contagiosa. ES
 - `   1` example      torrente     [G10] ue un blanco perfecto es un torrente de alegría que invade todo el espíritu de e
 - `   1` example      torrente     [G10] Fue todo un torrente de alegrías el que inundó las maderas nobles y las alfombra
