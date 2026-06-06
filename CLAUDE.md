@@ -9,9 +9,33 @@ full 8-class English inventory — Boriskina's original six plus the two later
 English additions *Res Planae* (Golikova 2018) and *Res Continens*
 (Zadobrivskaya 2019).
 
-The intended scholarly output is in **Spanish**. Working notes in this repo are
-in **English**, with canonical Russian terms preserved in the glossary so the
-source dissertations remain quotable.
+**Language policy.** The scholarly output is bilingual, with a strict hierarchy:
+
+- **Russian is the canonical, priority manuscript** — the dissertation is
+  written and defended in Russian, and Russian prose is the source of truth for
+  argument and wording. Canonical terms (ПоКА / ИРа / СИ, эталон, метафороним,
+  идиом) follow the Voronezh school. See `manuscript/*-ru.md` and the autoreferat
+  in `data/derived/autoreferat-prose-3index-ru.md`.
+- **Spanish is a derived parallel manuscript** — produced *freeze-then-translate*:
+  a section is translated to Spanish (`manuscript/*-es.md`) only once its Russian
+  counterpart is analytically stable. It is **not** co-edited turn by turn, to
+  avoid drift. Spanish terminology is provisional until the advisor confirms
+  (see `notes/glossary.md`).
+
+**File-naming convention.** Language-tagged files carry a suffix: `-ru` for
+Russian, `-es` for Spanish (e.g. `manuscript/metodologia-prototipo-metaforonimo-ru.md`
+and `...-es.md`). English working notes (`notes/`) and language-neutral analysis
+files (`data/derived/*.md` audits, profiles, indices) carry **no** suffix.
+- **Data and analysis are language-neutral and single-sourced** — everything in
+  `data/` and `data/derived/` (indices, gold sets, tables, numbers) has no
+  language; both manuscripts cite it rather than restating it. Numbers live in
+  exactly one place.
+- **Working notes** in `notes/` remain in **English**, with canonical Russian
+  terms preserved so the source dissertations stay quotable.
+
+The object language under study is **Spanish** regardless of write-up language;
+illustrative contexts are given in Spanish original with a Russian (or Spanish)
+gloss and bracketed idiom code.
 
 **Conclusions derive exclusively from the Spanish data.** The 8-class inventory
 is borrowed from the English research as an analytical *toolkit*, not as a
