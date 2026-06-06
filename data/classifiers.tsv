@@ -1,26 +1,26 @@
 cryptoclass	construction_type	seed_lemmas_es	seed_lemmas_ru_legacy	notes
-Res Liquidae	verbal-subject-intransitive	fluir, brotar, manar, rebosar, diluirse, chorrear	субъектная интранзитивная	The dominant pattern for emonyms-as-liquids (382/750 = 51% in amor).
-Res Liquidae	verbal-subject-transitive	inundar, anegar, empapar	субъектная транзитивная	Emonym floods/soaks the experiencer.
+Res Liquidae	verbal-subject-intransitive	fluir, brotar, rebosar, diluirse	субъектная интранзитивная	The dominant pattern for emonyms-as-liquids (382/750 = 51% in amor). `chorrear` removed 2026-06 (never attested; the noun `chorro` is realized instead, filed under substantive).
+Res Liquidae	verbal-subject-transitive	inundar	субъектная транзитивная	Emonym floods the experiencer. `anegar`, `empapar` removed 2026-06 (never attested for any emonym).
 Res Liquidae	verbal-objective	derramar, verter, diluir, salpicar, gotear	объектная	Pouring/spilling/dripping the emonym. `gotear` ("to drip") added 2026-06 — surfaced as a `GOTEAR N` count label in the legacy data.
-Res Liquidae	verbal-instrumental	inundado por, empapado de, ahogado en, inundar de, inundar con, inundarse de, inundarse en	инструментальная	Experiencer as oblique recipient of the liquid. Active-voice forms (`inundar de`, `se inundó de`) listed alongside the canonical past-participle ones — both surface in the legacy data under the instrumental column.
-Res Liquidae	attributive	derramado, vertido, diluido	атрибутивная	
-Res Liquidae	substantive	gota de, gotas de, chorro de, torrente de, flujo de, mar de, brote de, aluvión de, desbordamiento de	субстантивная	Container/measure nouns for the liquid emonym. `aluvión de` (flood/torrent) and `desbordamiento de` (overflow) added 2026-06 — surfaced as `ALUVIÓN N` / `DESBORDAMIENTO N` count labels whose counts were being dropped.
-Res Filiformes	verbal-objective	desatar, entrelazar, tejer, retorcer, hilvanar, anudar	Глагольные объектные классификаторы	Working the thread.
+Res Liquidae	verbal-instrumental	inundado por, inundar de, inundar con, inundarse de, inundarse en	инструментальная	Experiencer as oblique recipient of the liquid. Active-voice forms (`inundar de`, `se inundó de`) listed alongside the canonical past-participle ones — both surface in the legacy data under the instrumental column. `empapado de` (←empapar), `ahogado en` (←ahogar) removed 2026-06 (never attested).
+Res Liquidae	attributive	derramado, diluido	атрибутивная	`vertido` removed 2026-06 (never attested; the verb `verter` is realized, filed under verbal-objective).
+Res Liquidae	substantive	gota de, gotas de, chorro, chorro de, torrente de, flujo de, brote de, aluvión de, desbordamiento de	субстантивная	Container/measure nouns for the liquid emonym. `aluvión de` (flood/torrent) and `desbordamiento de` (overflow) added 2026-06 — surfaced as `ALUVIÓN N` / `DESBORDAMIENTO N` count labels whose counts were being dropped. Bare `chorro` added 2026-06 (replaces verb `chorrear`; attested e.g. alegría).
+Res Filiformes	verbal-objective	desatar, entrelazar, tejer, retorcer, hilvanar	Глагольные объектные классификаторы	Working the thread.
 Res Filiformes	verbal-subject-intransitive	desatarse, tejerse, enrollarse, entrelazarse	Субъектные интранзитивные	Thread does itself. "Se entrelazan miedos y obsesiones" is the productive form in legacy data.
 Res Filiformes	verbal-subject-transitive	tensar, amarrar, atar, desatar, enhebrar	Субъектные транзитивные	Thread ties/binds something.
 Res Filiformes	verbal-instrumental	atado con, tejido con, pender de	Инструментальные	
 Res Filiformes	attributive	tenso, tejido, atado, entrelazado, retorcido, desatado	Атрибутивные	Lat. tensus. `retorcido` is the past-participle attributive of `retorcer` (in verbal-objective). `desatado` ("la ira desatada") added 2026-06 — the attributive participle of `desatar`; previously fell back to lemma `desatar`.
-Res Filiformes	substantive	hilo de, madeja de, carrete de, ovillo de	Субстантивные	
+Res Filiformes	substantive	hilo de, madeja de, ovillo de	Субстантивные	
 Res Rotundae	verbal-objective	rodar, envolver	Глагольные объектные классификаторы	rodar la pelota, envolver un plato.
 Res Rotundae	verbal-subject-intransitive	girar en torno a, girar alrededor de, girar, rodar, envolver	Субъектные интранзитивные	Emonym revolves. Compound forms listed first so the detector picks the prepositional form when it is present. `envolver` reflects the legacy source's tagging of "el miedo envuelve a X" as intransitive (the emonym as enveloping agent), even though syntactically transitive — preserve source intent.
 Res Rotundae	verbal-subject-transitive	envolver	Субъектные транзитивные	Emonym wraps the experiencer.
 Res Rotundae	verbal-instrumental	envuelto en, envuelto entre, envuelto de, envolver en, envolver de	инструментальные	Past-participle and active-voice variants both surface under the instrumental column.
-Res Rotundae	attributive	redondo, esférico, circular	Атрибутивные	
-Res Rotundae	predicative	es redondo, es esférico	предикативные	
-Res Rotundae	substantive	bola de, círculo de, esfera de	субстантивные	círculo vicioso de tristeza is recurrent.
+Res Rotundae	attributive	redondo, circular	Атрибутивные	
+Res Rotundae	predicative	es redondo	предикативные	
+Res Rotundae	substantive	bola de, esfera de	субстантивные	`círculo de` removed 2026-06 (excluded class-wide — *círculo vicioso* idiom, no round image).
 Res Longae Penetrantes	verbal-subject-transitive	atravesar, penetrar, clavar	Глагольные субъектные транзитивные	S atraviesa O; "el miedo penetra nuestro entorno" without preposition; "el miedo se clava en…" reflexive variant.
 Res Longae Penetrantes	verbal-subject-intransitive	penetrar en, penetrar	субъектные интранзитивные	S penetra en O. Bare form kept for compound-fallback when "en" is absent.
-Res Longae Penetrantes	verbal-objective	clavar, hincar	объектный	Clavar/hincar el miedo en alguien.
+Res Longae Penetrantes	verbal-objective	clavar	объектный	Clavar el miedo en alguien. `hincar` removed 2026-06 (never attested).
 Res Longae Penetrantes	verbal-instrumental	atravesado por, clavado por, atravesar por, clavado en	инструментальные	"clavado en" surfaces alongside "clavado por" in legacy data; "atravesar por" appears in causative infinitive frames ("dejarse atravesar por…").
 Res Longae Penetrantes	attributive	penetrante	Атрибутивные	Source headers spell "penentrante" — preserved only in source_file.
 Res Longae Penetrantes	predicative	es penetrante	предикативные	
@@ -32,7 +32,7 @@ Res Acutae	verbal-instrumental	pinchado por, punzado por	инструмента�
 Res Acutae	attributive	puntiagudo, punzante, cortante, afilado, agudo	Атрибутивные	
 Res Acutae	predicative	es punzante, es agudo	предикативные	
 Res Acutae	substantive	punta de, filo de	субстантивные	"a punta de miedo" idiom.
-Res Acutae	idiomatic	a punta de, al filo de	идиомы	Frozen prepositional idioms.
+Res Acutae	idiomatic	al filo de	идиомы	`a punta de` removed 2026-06 (grammaticalised locución prepositiva "a fuerza de", no live sharp image; never attested).
 Res Parvae	verbal-objective-grasp	tomar, coger, agarrar, asir, sujetar, traer, entregar	глагольные транзитивные (захват, удерживание)	Grasping/holding/bringing the small object. "traer el miedo" is productive in legacy data. `entregar` ("hand over / deliver to a recipient") is filed in column B in the source alongside `traer`; dominant for alegría (entregar alegría) and present for amor/tristeza.
 Res Parvae	verbal-objective-throw	soltar, tirar, lanzar, arrojar	глагольные транзитивные (отпускание, бросок)	Releasing/throwing.
 Res Parvae	verbal-objective-collect	captar, recoger	глагольные транзитивные (собирать)	Collecting.
@@ -49,5 +49,5 @@ Res Continens	predicative	está lleno de, está vacío de, está rebosante de	п
 Res Planae	attributive	plano, llano, liso	Атрибутивные	"tristeza simple y llana".
 Res Planae	predicative	es plano, es liso, es llano	предикативные	
 Res Planae	verbal-objective	nivelar, alisar	объектные	
-Res Planae	substantive	nivel de	субстантивные	By far the dominant pattern in Planae — most cells are nivel-de.
+Res Planae	substantive		субстантивные	`nivel de` removed 2026-06 (excluded class-wide — measurement frame "level of X", no flatness image).
 Res Planae	verbal-instrumental		инструментальные	Sparse / absent in legacy.

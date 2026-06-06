@@ -16,7 +16,8 @@ const REPO = path.resolve(__dirname, '..');
 //   node pipeline/freq_audit_parvae.js ["Res Liquidae"]
 const CLASS = process.argv.slice(2).join(' ').trim() || 'Res Parvae';
 const SLUG = { 'Res Parvae': 'parvae', 'Res Acutae': 'acutae', 'Res Liquidae': 'liquidae',
-  'Res Filiformes': 'filiformes', 'Res Continens': 'continens' }[CLASS]
+  'Res Filiformes': 'filiformes', 'Res Continens': 'continens', 'Res Rotundae': 'rotundae',
+  'Res Longae Penetrantes': 'penetrantes', 'Res Planae': 'planae' }[CLASS]
   || CLASS.toLowerCase().replace(/[^a-z]+/g, '-').replace(/^-|-$/g, '');
 const OUT = path.join(REPO, 'data', 'derived', `freq-audit-${SLUG}.md`);
 

@@ -13,6 +13,14 @@ The intended scholarly output is in **Spanish**. Working notes in this repo are
 in **English**, with canonical Russian terms preserved in the glossary so the
 source dissertations remain quotable.
 
+**Conclusions derive exclusively from the Spanish data.** The 8-class inventory
+is borrowed from the English research as an analytical *toolkit*, not as a
+comparative *benchmark*. The study is **not** required to compare its findings
+with English. Any comparison with English is optional, never a methodological
+requirement and never a constraint on interpretation: the central claims must
+follow from the evidence in the Spanish corpus data, even where those findings
+diverge from what English-language research would predict.
+
 ## Source references
 
 Located in `references/`. Untouched; treat as read-only sources.
