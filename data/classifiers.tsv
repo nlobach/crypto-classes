@@ -32,7 +32,7 @@ Res Acutae	verbal-instrumental	pinchado por, punzado por	инструмента�
 Res Acutae	attributive	puntiagudo, punzante, cortante, afilado, agudo	Атрибутивные	
 Res Acutae	predicative	es punzante, es agudo	предикативные	
 Res Acutae	substantive	punta de, filo de	субстантивные	"a punta de miedo" idiom.
-Res Acutae	idiomatic	al filo de	идиомы	`a punta de` removed 2026-06 (grammaticalised locución prepositiva "a fuerza de", no live sharp image; never attested).
+Res Acutae	idiomatic		идиомы	`al filo de` and `a punta de` removed 2026-06 (grammaticalised locuciones prepositivas, no live sharp image; never attested). Res Acutae has no idiomatic classifier.
 Res Parvae	verbal-objective-grasp	tomar, coger, agarrar, asir, sujetar, traer, entregar	глагольные транзитивные (захват, удерживание)	Grasping/holding/bringing the small object. "traer el miedo" is productive in legacy data. `entregar` ("hand over / deliver to a recipient") is filed in column B in the source alongside `traer`; dominant for alegría (entregar alegría) and present for amor/tristeza.
 Res Parvae	verbal-objective-throw	soltar, tirar, lanzar, arrojar	глагольные транзитивные (отпускание, бросок)	Releasing/throwing.
 Res Parvae	verbal-objective-collect	captar, recoger	глагольные транзитивные (собирать)	Collecting.
@@ -41,10 +41,10 @@ Res Continens	verbal-objective	tapar, destapar, llenar, vaciar	Глагольн�
 Res Continens	verbal-subject-transitive	contener, tener, almacenar, guardar	субъектные транзитивные	The container holds X.
 Res Continens	verbal-subject-intransitive		ИНТРАНЗИТИВНЫЕ	Rare in this class.
 Res Continens	verbal-instrumental	almacenar en, guardar en	инструментальные	
-Res Continens	verbal-locative-state	estar en, encontrarse en, vivir en, existir en, aparecer en, permanecer en, sumirse en, dentro de	Глагольные локативные классификаторы	algo está / vive en el recipiente — being inside. "dentro de" covers preposition-only locatives ("dentro de este miedo aparece…"); "sumirse en" covers immersion-state ("sumidas en el temor").
+Res Continens	verbal-locative-state	estar en, encontrarse en, vivir en, existir en, aparecer en, permanecer en, dentro de	Глагольные локативные классификаторы	algo está / vive en el recipiente — being inside. "dentro de" covers preposition-only locatives ("dentro de este miedo aparece…"). `sumirse en` removed 2026-06-07 (per inventory revision).
 Res Continens	verbal-locative-into	caer en, entrar en, sumergirse en	Интранзитивные классификаторы (Помещение)	Motion into the container.
 Res Continens	verbal-locative-out	sacar de, salir de	ИЗВЛЕЧЕНИЕ	Motion out of the container — distinct from -into.
-Res Continens	attributive	lleno de, rebosante de, vacío de, tapado, destapado, obturado	Атрибутивные	Past-participle attributives of the verbal-objective verbs (`tapar/destapar/obturar`) surface in the legacy attributive column.
+Res Continens	attributive	lleno de, rebosante de, vacío de, tapado, destapado	Атрибутивные	Past-participle attributives of the verbal-objective verbs (`tapar/destapar`) surface in the legacy attributive column. `obturado` removed 2026-06-07 (per inventory revision).
 Res Continens	predicative	está lleno de, está vacío de, está rebosante de	предикативные	
 Res Planae	attributive	plano, llano, liso	Атрибутивные	"tristeza simple y llana".
 Res Planae	predicative	es plano, es liso, es llano	предикативные	

@@ -7,6 +7,35 @@ directory. Newest first.
 
 ---
 
+## 2026-06-07 — Manuscript inventory revision (3 classifier/prototype edits)
+
+**Context.** While folding the full 8-class classifier inventory into the RU
+methodology section (`manuscript/metodologia-prototipo-metaforonimo-ru.md` §5),
+three corrections were made to the canonical sources at the user's instruction.
+
+**Decisions.**
+
+1. **Res Acutae — drop the idiomatic type entirely.** `al filo de` removed
+   (joining `a punta de`, already out 2026-06): both are grammaticalised
+   *locuciones prepositivas* with no live sharp image; never attested. Res Acutae
+   now has **no idiomatic classifier**.
+2. **Res Parvae — prototype `guijarro` → `piedra`.** Canonical эталон in
+   `data/cryptoclasses.tsv` is now *piedra* (the more basic, higher-frequency
+   term); `guijarro` demoted to a listed variant. Propagated to the glossary
+   (already *piedra*), `notes/cryptoclasses/res-parvae.md`, and the manuscript
+   (§2.2 prototype table, §5.6 header).
+3. **Res Continens — remove two never-attested forms.** `sumirse en`
+   (verbal-locative-state) and `obturado` (attributive) dropped.
+
+**Impact.** `pipeline/compute_indices.js` re-run after the edits: **all M
+unchanged** (LIQ 13 · FIL 14 · ROT 7 · PEN 6 · ACU 11 · PAR 15 · PLA 5 ·
+CON 23) and `data/derived/cryptoclass-indices.md` byte-identical — the three
+removed forms had **zero corpus citations**, so no ПоКА/ИРа change and no
+downstream regeneration of profiles or the autoreferat needed. All edits are
+inline-documented in `data/classifiers.tsv` notes and reversible.
+
+---
+
 ## 2026-06-02 — *miedo* gold-set cleanup: Problem 1.5 (mis-filed rows)
 
 **Decision.** 14 rows filed under *miedo* whose citation is about a different

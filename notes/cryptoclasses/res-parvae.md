@@ -18,15 +18,15 @@ This file is the **commentary** layer.
 
 ## Prototype
 
-- **Spanish (project canonical)**: *guijarro* — see
-  `data/cryptoclasses.tsv`. Also *piedrecilla*, *piedra*, *moneda*,
+- **Spanish (project canonical)**: *piedra* — see
+  `data/cryptoclasses.tsv`. Also *guijarro*, *piedrecilla*, *moneda*,
   *pelota pequeña*, *grano*.
 - **Boriskina's English prototype**: *pebble* / "small graspable
   thing" (p. 47, 477). Distinguished from Res Rotundae (where the
   salient feature is *round shape*, not size) and from Res Continens
   (three-dimensional bounded volume).
 
-For *guijarro* the [+small-graspable] feature is constitutive. Other
+For *piedra* the [+small-graspable] feature is constitutive. Other
 small-graspable nouns (*moneda*, *guisante*, *grano*, *cuenta*, *bolita*)
 are also non-metaphorical members. Emonyms enter the class by analogy:
 *coger miedo*, *agarrar amor*, *soltar la tristeza*, *un puñado de
