@@ -1,1 +1,8 @@
 node_modules/
+
+# Local Claude Code memory & settings (machine/user-specific)
+.claude/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
