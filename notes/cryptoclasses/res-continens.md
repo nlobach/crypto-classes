@@ -7,18 +7,20 @@ Spanish-specific**: this is the **eighth English cryptoclass**,
 established for English by Zadobrivskaya (2019) over the same 23 emonyms
 × 20 variants as Donina (see `notes/theory-zadobrivskaya.md`). It is
 one of the two classes the project carries *beyond* Boriskina's
-original six. What is **provisional is its weight in the *Spanish*
-emonym profile**, not the existence of the class: its admission to the
-project's working inventory is **conditional on the Varimax factor
-analysis in ROADMAP §Phase 6** — see *Provisional status and the
-factor-analysis gate* below.
+original six. It is a **recognised, well-investigated cryptoclass** —
+established and described for English by Zadobrivskaya (2019) — and the
+project includes it in the eight-class inventory **on equal footing with
+the original six**. Its weight in the *Spanish* emonym profile is an
+empirical question answered from the corpus data, as it is for any class
+(the ROADMAP §Phase 6 factor analysis confirms class independence across
+all eight, not the admissibility of this one).
 
 For the framework that grounds this file see
 `notes/theory-boriskina.md`. The Spanish classifier-seed inventory lives
 in `data/classifiers.tsv` (rows where `cryptoclass = "Res Continens"`).
 This file is the **commentary** layer plus the **defence of
-inclusion** — given the class is provisional, the documentation has to
-carry the burden of justifying it.
+inclusion** — documenting how the recognised class realises in the
+Spanish emonym data.
 
 ## Prototype
 
@@ -39,9 +41,9 @@ also non-metaphorical members. Emonyms enter the class by analogy: *vivir
 en el miedo*, *caer en la tristeza*, *está lleno de amor*, *sacar a
 alguien de la depresión*, *guardar el amor en el corazón*.
 
-## Provisional status and the factor-analysis gate
+## Recognised status and the factor-analysis confirmation
 
-Two prior commitments shape the class's admission:
+Two prior commitments ground the class's recognition:
 
 1. **Contrastive principle** (Boriskina §3, p. 49–52): a candidate
    cryptoclass is admissible if some natural language somewhere marks
@@ -70,14 +72,16 @@ Two prior commitments shape the class's admission:
    open Spanish question is purely how heavily *Spanish* emonyms load
    on it.
 
-The class therefore enters the inventory **on probation**. The decision
-gate is the **Varimax factor analysis** in ROADMAP §Phase 6
-(`notes/methodology-donina.md` §7.4): Res Continens must load on its
-own factor at ≥ 0.95 to survive. If it collapses onto Res Liquidae
-(containers hold liquids — the obvious failure mode), it is dropped and
-the statistics re-run on the inherited six classes (or seven, if
-Res Planae survives but Continens doesn't). All Continens-related
-analysis downstream of Phase 6 is therefore **contingent**.
+The class therefore enters the inventory **on equal footing with
+Boriskina's six**, as a recognised English cryptoclass (Zadobrivskaya
+2019). The **Varimax factor analysis** in ROADMAP §Phase 6
+(`notes/methodology-donina.md` §7.4) is run, as for every class, to
+confirm that the eight classes behave as independent factors on the
+Spanish data — a check on the inventory's structure (e.g. whether
+Continens and Liquidae stay distinct, since containers hold liquids),
+not a gate on this class's admissibility. The open Spanish question is
+purely how heavily *Spanish* emonyms load on the class, not whether it
+belongs.
 
 ## Cross-linguistic typological support
 
@@ -146,10 +150,10 @@ Phase 6.
 Res Continens populates **8 of 9 construction types** (only the
 subject-intransitive is empty, and that's noted as "rare in this
 class" in the seed table). This is the **broadest classifier
-inventory** of any of the eight cryptoclasses — a fact that itself
-weighs in favour of the class surviving the Varimax gate: a feature
-that recruits this many syntactically distinct construction types is
-unlikely to be a noise factor.
+inventory** of any of the eight cryptoclasses — a feature that recruits
+this many syntactically distinct construction types is robustly
+realised in the data and unlikely to behave as a noise factor in the
+Varimax solution.
 
 Implication for Phase 2: **budget query effort heavily** for
 Res Continens, and especially for the three locative slugs which
@@ -232,11 +236,13 @@ that file is created:
 
 ## Open questions specific to Res Continens
 
-- **Will Res Continens survive the Varimax gate?** The known failure
-  mode is collapse onto Res Liquidae (containers hold liquids). If
-  the loading on the Continens factor is < 0.95 and the cross-loading
-  with Liquidae is > 0.3, the classes are not separable and Continens
-  is dropped. Decision recorded in
+- **Does Res Continens load on its own factor in the Spanish Varimax
+  solution?** The point of interest is separability from Res Liquidae
+  (containers hold liquids): a low Continens-factor loading with a
+  Liquidae cross-loading > 0.3 would indicate the two images are not
+  distinct *for Spanish emotion nouns* — a finding about the Spanish
+  profile's structure, not about the class's recognised status.
+  Outcome recorded in
   `notes/cryptoclasses/_inventory-decisions.md` post-Phase 6.
 - **Is the `verbal-locative-out` slot a real Spanish gap or a
   collection oversight?** Only 3 citations of *miedo

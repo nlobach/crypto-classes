@@ -229,10 +229,11 @@ that file is created:
 
 ## Open questions specific to Res Planae
 
-- **Will Res Planae survive the Varimax gate?** Higher risk than
-  Continens, both because the inventory is narrow and because the
-  dominant classifier (*nivel de*) may be a quantifier with bleached
-  topological semantics rather than a true classifier. Known failure
+- **Will Res Planae survive the Varimax gate?** This is the genuinely
+  doubtful class of the eight for Spanish, both because the inventory is
+  narrow and because the dominant classifier (*nivel de*) may be a
+  quantifier with bleached topological semantics rather than a true
+  classifier. Known failure
   modes per Donina: collapse onto Res Parvae (flat + graspable) or
   Res Filiformes (flat + thin). A third failure mode added by this
   file: the class survives statistically but turns out to be

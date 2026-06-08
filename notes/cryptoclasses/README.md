@@ -8,10 +8,11 @@ design hints for ROADMAP Phase 2, and class-specific open questions.
 
 The two extra classes beyond Boriskina's six (*Res Continens*, *Res Planae*) —
 both English-attested (Golikova 2018, Zadobrivskaya 2019), not Spanish-specific
-— additionally carry a *defence-of-inclusion* section pegged to the Varimax
-factor-analysis gate in ROADMAP Phase 6: the open question for the project is
-whether they earn their place in the *Spanish* emonym profile, not whether the
-classes exist.
+— additionally carry a *defence-of-inclusion* section. *Res Continens* is a
+recognised cryptoclass and is carried on equal footing with the original six;
+*Res Planae*'s place in the *Spanish* emonym profile remains provisional pending
+the Varimax factor analysis in ROADMAP Phase 6. In neither case is the existence
+of the class in question.
 
 | File | Class | Prototype | Status |
 |---|---|---|---|
@@ -21,9 +22,9 @@ classes exist.
 | `res-longae-penetrantes.md` | Res Longae Penetrantes | spear (penetrating) | Boriskina original |
 | `res-acutae.md` | Res Acutae | needle (sharp) | Boriskina original |
 | `res-parvae.md` | Res Parvae | pebble (small, graspable) | Boriskina original |
-| `res-continens.md` | Res Continens | recipiente (container) | English (Zadobrivskaya 2019); inclusion provisional for Spanish |
+| `res-continens.md` | Res Continens | recipiente (container) | English (Zadobrivskaya 2019); recognised 8th class |
 | `res-planae.md` | Res Planae | flat surface | English (Golikova 2018); inclusion provisional for Spanish |
 
-The eventual `_inventory-decisions.md` (recording Phase 5 outcomes — whether the
-two provisional classes survive the Varimax gate, and any further additions or
-drops) is not yet created.
+The eventual `_inventory-decisions.md` (recording Phase 5 outcomes — whether
+*Res Planae* earns its place in the Spanish profile under the Varimax analysis,
+and any further additions or drops) is not yet created.

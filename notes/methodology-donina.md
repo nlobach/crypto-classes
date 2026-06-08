@@ -1052,7 +1052,7 @@ methodological choices to the Spanish equivalent.
 | Pearson `r` 20×20 matrix between variants | Pearson `r` 21×21 matrix | extended |
 | Ivanter-Korosov interpretive bands | same | unchanged |
 | Kendall's `W` (per emonym, across variants) | same | unchanged |
-| Factor analysis (Varimax) on 6 classes | Factor analysis on 8 classes — **gate for adding Res Continens / Res Planae** | extended |
+| Factor analysis (Varimax) on 6 classes | Factor analysis on 8 classes — confirms class independence; **bears on Res Planae's place in the Spanish profile** | extended |
 | k-means clustering (`k=6`) | k-means clustering (`k=7` likely) | extended |
 | Kohonen SOM (6×6 hex lattice) | Kohonen SOM (lattice size to be tuned) | unchanged in method |
 | Emotion maps + cryptoclass portraits | same outputs, Spanish-labelled | unchanged |

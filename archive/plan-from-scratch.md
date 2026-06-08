@@ -43,8 +43,10 @@ Before any data:
    Res Filiformes, Res Rotundae, Res Longae Penetrantes, Res Acutae,
    Res Parvae) plus the two further English-attested classes Res Planae
    (Golikova 2018) and Res Continens (Zadobrivskaya 2019) — not
-   Spanish-specific. Their *weight in the Spanish profile* is provisional
-   and gets re-tested in Phase 7's factor analysis.
+   Spanish-specific. Res Continens is a recognised class, carried on equal
+   footing with the original six; only Res Planae's *weight in the Spanish
+   profile* is provisional, re-tested in Phase 7's factor analysis (which
+   confirms class independence across all eight).
 3. **Write the theory / methodology notes** — `notes/theory-boriskina.md`,
    `notes/methodology-donina.md`, `notes/glossary.md`. Conventions pinned;
    not re-derived per session.

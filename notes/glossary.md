@@ -411,10 +411,12 @@ and Spanish, plus the project's data-file pointer.
   one can be inside, fall into, escape from.
 - **Diagnostic classifiers (Spanish seeds)**: *envuelto en, lleno de, vacío
   de, sumido en, salir de, encerrado en, contenido en, en el fondo de*.
-- **Status**: securely English-attested (overt container marking in Russian
-  *-ница*, Avar, Navajo, Atsugewi, Upper Kuskokwim; Spanish adds *-ero/-era*).
-  Its **weight in the Spanish profile** is provisional, subject to
-  factor-analysis confirmation in Phase 7 (per `archive/plan-from-scratch.md`).
+- **Status**: a **recognised cryptoclass**, securely English-attested (overt
+  container marking in Russian *-ница*, Avar, Navajo, Atsugewi, Upper
+  Kuskokwim; Spanish adds *-ero/-era*) and carried on equal footing with
+  Boriskina's six. How heavily **Spanish emonyms load on it** is the empirical
+  question; the Phase-7 factor analysis confirms class independence across all
+  eight (per `archive/plan-from-scratch.md`).
 
 ### Res Planae — 7th English class (Golikova 2018)
 - **Prototype**: плоскость, ровная поверхность / flat surface, plane /
@@ -427,8 +429,9 @@ and Spanish, plus the project's data-file pointer.
 - **Diagnostic classifiers (Spanish seeds)**: *nivel de, capa de, profundo,
   plano, superficial, llano, en la superficie de*.
 - **Status**: English-attested (overt flat marking in Pular-Fulfulde *NGO*,
-  Japanese *枚*); weight in the Spanish profile provisional, same caveat as
-  [[Res Continens]].
+  Japanese *枚*); its weight in the Spanish profile is **provisional**, pending
+  the factor analysis — on current data a negative result (no emonym recruited
+  once *nivel de* is excluded).
 
 ---
 

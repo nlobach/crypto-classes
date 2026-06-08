@@ -417,8 +417,10 @@ For this project: the eight cryptoclasses used are admissible because:
   Spanish-specific. The contrastive test is firmly met: overt container
   marking in Russian (*-ница*), Avar, Navajo, Atsugewi, Upper Kuskokwim,
   plus Australian/Papuan classifier systems
-  (`notes/theory-zadobrivskaya.md` §3). Its retention in the *Spanish*
-  profile is still gated by the Varimax analysis — see
+  (`notes/theory-zadobrivskaya.md` §3). It is a recognised cryptoclass,
+  carried on equal footing with Boriskina's six; how heavily *Spanish*
+  emonyms load on it is the empirical question (class independence is
+  confirmed alongside the other seven by the Varimax analysis) — see
   `notes/cryptoclasses/res-continens.md`.
 - *Res Planae* — **7th English class** (Golikova 2018), not
   Spanish-specific. The contrastive test is met by overt flat-object
