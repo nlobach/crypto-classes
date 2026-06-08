@@ -122,6 +122,18 @@ What is **not** in the inventory:
    sharp objects are agents-not-patients, Parvae's small objects are
    patients-not-agents.
 
+   > ⚠ **Under revision (2026-06-08, data held).** The `quitar`/`quitarse`
+   > candidate (`_inventory-decisions.md`, 2026-06-08) challenges the
+   > *grammatical* half of this claim: *se (le) quita el miedo* ("the fear
+   > goes away") surfaces the emonym as the **unaccusative subject** of a
+   > medio-passive removal verb — a `verbal-subject-intransitive` use. The
+   > *semantic* half stands (the emonym is still a **patient**, not an agent).
+   > Pending the full citation set, the wording above will be split into
+   > semantic-role (patients, unchanged) vs. grammatical-role (Spanish
+   > licenses patient-as-subject, refuted). **Not yet applied** — no seed in
+   > `classifiers.tsv`, no count change; the "4 of 9 construction types" /
+   > "M = 15" figures below remain current until the data lands.
+
 ### Spanish-specific lexical gotcha — *coger*
 
 ***Coger* is the most dialectally fraught verb in this entire project.**

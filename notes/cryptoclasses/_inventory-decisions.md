@@ -7,6 +7,64 @@ directory. Newest first.
 
 ---
 
+## 2026-06-08 — Res Parvae: `quitarse` candidate + medio-passive subject finding (FLAGGED, data held)
+
+**Status.** Decision logged; **nothing committed to data or manuscript yet** (user
+elected "notes only, hold data + manuscript"). This entry reserves the analysis
+so the next data drop can be processed against a fixed plan.
+
+**Candidate.** Add **`quitar` / `quitarse`** to Res Parvae. Semantic fit is clean:
+*quitar una piedra* / *quité todas las piedras* is removal of a small
+hand-graspable object — the constitutive [+small-graspable] feature.
+
+**The analytical decision (user's call).** The emonym evidence —
+*decidió tomar un primer colectivo y que también **se quitó ese miedo*** (AR);
+***se quitaba el miedo** en el cuerpo* (ES) — is read as **medio-passive with the
+emonym as grammatical SUBJECT** (*se (le) quita el miedo* = "the fear goes away"),
+**not** reflexive-benefactive object (*alguien se quita el miedo* = "sheds it").
+Construction-type therefore = **`verbal-subject-intransitive`**.
+
+**Why this is a finding, not a tagging detail.** Res Parvae currently has **zero**
+subject-role rows by documented design (`res-parvae.md` §"Construction-type
+structure"): "small objects are patients-not-agents … patients-not-agents."
+`quitarse` would be the **first subject-role attestation in the class**. The
+finding *refines rather than overturns* that claim — it splits a conflation:
+
+- **Semantic role** — the emonym in *se quita el miedo* is still a **patient/theme**
+  (the fear *undergoes* removal; it is not an agent). The "patients-not-agents"
+  generalisation holds.
+- **Grammatical role** — that patient **surfaces as grammatical subject** via the
+  medio-passive (an unaccusative subject, exactly like *el miedo fluye*). The
+  "small objects do not surface as subjects" half of the claim is **refuted for
+  Spanish**.
+
+So the revised wording will be: *Parvae emonyms are patients, but Spanish licenses
+the patient-emonym as the unaccusative subject of a medio-passive removal verb.*
+
+**Seed form.** `quitarse` (pronominal), matching the Filiformes
+`verbal-subject-intransitive` convention (*desatarse, tejerse, enrollarse,
+entrelazarse*). Literal prototype stays transitive (*quitar una piedra*); only the
+emonym attaches via the medio-passive.
+
+**Open / held until data.**
+1. **Volume.** Only 2 illustrative citations seen so far (*miedo*, AR + ES) — below
+   the ≥5 critical-mass threshold. User reports "much more" exists. Held pending the
+   full set; the finding is *qualitative* until then.
+2. **Provenance route.** These citations are **not** in `Res Parvae.xlsx`, and
+   `extract_wide.js` overwrites `citations.tsv` — so a **sidecar + downstream
+   loader** (mirroring `emonym-reassignments.tsv` / `duplicate-drops.tsv`) is the
+   persistence plan once data arrives. Not built yet.
+3. **Per-citation subject check.** Each incoming citation must be confirmed as the
+   *medio-passive subject* reading; any that are reflexive-benefactive (emonym =
+   object) route to a `verbal-objective` slot instead, not here.
+4. **Index impact.** Adding a 5th construction type to Parvae will raise its ИРа
+   (construction-type diversity); ПоКА/СИ effect TBD on the actual counts. To be
+   measured on re-run, not assumed.
+
+**Reversibility.** Trivial — nothing is committed; this is a planning entry.
+
+---
+
 ## 2026-06-07 — Manuscript inventory revision (3 classifier/prototype edits)
 
 **Context.** While folding the full 8-class classifier inventory into the RU
