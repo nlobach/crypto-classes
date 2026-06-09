@@ -523,7 +523,7 @@ desata pasiones, amor y locura* [AR] «совместная жизнь разв�
 Единственным эмонимом, у которого образ удержимого предмета развёрнут продуктивно,
 выступает *amor* (14 % сочетаемости, наибольшее в этом классе разнообразие — ИРа
 0,73 — при концентрации лишь 49 %). Любовь берут и удерживают (*coger* 92;
-*agarrar* 18; *le agarré amor al club* [CL], *le agarré amor a la carrera* [CU]
+*agarrar* 18; *le agarré amor al club* [BO], *le agarré amor a la carrera* [CU]
 «привязался, полюбил»), передают из рук в руки (*entregar* 34, *traer* 18),
 бросают и отпускают (*tirar* 12; *tira amor y solidaridad* [CO] «бросает в мир
 любовь и солидарность»; *soltar*), собирают (*recoger* 3; *quien siembra amor,
