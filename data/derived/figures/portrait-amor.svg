@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="790" height="470" viewBox="0 0 790 470" font-family="Georgia, 'Times New Roman', serif">
+<defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#ffffff" stroke-width="2.1"/></pattern></defs>
+<rect width="790" height="470" fill="#ffffff"/>
+<text x="24" y="34" font-size="20" font-weight="bold"><tspan font-style="italic">amor</tspan> — криптоклассный портрет (N = 1 288)</text>
+<path d="M 258 240 L 258.00 88.00 A 152 152 0 0 1 398.90 182.98 Z" fill="#9bbb59" fill-opacity="0.55" stroke="#ffffff" stroke-width="1"/>
+<path d="M 258 240 L 258.00 88.00 A 152 152 0 0 1 398.90 182.98 Z" fill="url(#hatch)" stroke="none"/>
+<path d="M 258 240 L 398.90 182.98 A 152 152 0 0 1 305.39 384.42 Z" fill="#9bbb59" stroke="#ffffff" stroke-width="1"/>
+<text x="351.1" y="231.1" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">45 %</text>
+<path d="M 258 240 L 305.39 384.42 A 152 152 0 0 1 243.93 391.35 Z" fill="#c0504d" fill-opacity="0.55" stroke="#ffffff" stroke-width="1"/>
+<path d="M 258 240 L 305.39 384.42 A 152 152 0 0 1 243.93 391.35 Z" fill="url(#hatch)" stroke="none"/>
+<path d="M 258 240 L 243.93 391.35 A 152 152 0 0 1 159.23 355.53 Z" fill="#c0504d" stroke="#ffffff" stroke-width="1"/>
+<text x="239.7" y="338.5" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">16 %</text>
+<path d="M 258 240 L 159.23 355.53 A 152 152 0 0 1 119.14 301.82 Z" fill="#4bacc6" fill-opacity="0.55" stroke="#ffffff" stroke-width="1"/>
+<path d="M 258 240 L 159.23 355.53 A 152 152 0 0 1 119.14 301.82 Z" fill="url(#hatch)" stroke="none"/>
+<path d="M 258 240 L 119.14 301.82 A 152 152 0 0 1 106.15 233.33 Z" fill="#4bacc6" stroke="#ffffff" stroke-width="1"/>
+<text x="171.6" y="283.5" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">14 %</text>
+<path d="M 258 240 L 106.15 233.33 A 152 152 0 0 1 113.52 192.78 Z" fill="#d4a017" fill-opacity="0.55" stroke="#ffffff" stroke-width="1"/>
+<path d="M 258 240 L 106.15 233.33 A 152 152 0 0 1 113.52 192.78 Z" fill="url(#hatch)" stroke="none"/>
+<path d="M 258 240 L 113.52 192.78 A 152 152 0 0 1 142.47 141.23 Z" fill="#d4a017" stroke="#ffffff" stroke-width="1"/>
+<text x="170.3" y="211.4" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">11 %</text>
+<path d="M 258 240 L 142.47 141.23 A 152 152 0 0 1 180.27 109.38 Z" fill="#8064a2" fill-opacity="0.55" stroke="#ffffff" stroke-width="1"/>
+<path d="M 258 240 L 142.47 141.23 A 152 152 0 0 1 180.27 109.38 Z" fill="url(#hatch)" stroke="none"/>
+<path d="M 258 240 L 180.27 109.38 A 152 152 0 0 1 197.44 100.58 Z" fill="#8064a2" stroke="#ffffff" stroke-width="1"/>
+<path d="M 258 240 L 197.44 100.58 A 152 152 0 0 1 224.90 91.65 Z" fill="#f79646" fill-opacity="0.55" stroke="#ffffff" stroke-width="1"/>
+<path d="M 258 240 L 197.44 100.58 A 152 152 0 0 1 224.90 91.65 Z" fill="url(#hatch)" stroke="none"/>
+<path d="M 258 240 L 224.90 91.65 A 152 152 0 0 1 240.24 89.04 Z" fill="#f79646" stroke="#ffffff" stroke-width="1"/>
+<path d="M 258 240 L 240.24 89.04 A 152 152 0 0 1 243.19 88.72 Z" fill="#4f81bd" fill-opacity="0.55" stroke="#ffffff" stroke-width="1"/>
+<path d="M 258 240 L 240.24 89.04 A 152 152 0 0 1 243.19 88.72 Z" fill="url(#hatch)" stroke="none"/>
+<path d="M 258 240 L 243.19 88.72 A 152 152 0 0 1 255.03 88.03 Z" fill="#4f81bd" stroke="#ffffff" stroke-width="1"/>
+<path d="M 258 240 L 255.03 88.03 A 152 152 0 0 1 257.26 88.00 Z" fill="#948a54" fill-opacity="0.55" stroke="#ffffff" stroke-width="1"/>
+<path d="M 258 240 L 255.03 88.03 A 152 152 0 0 1 257.26 88.00 Z" fill="url(#hatch)" stroke="none"/>
+<path d="M 258 240 L 257.26 88.00 A 152 152 0 0 1 258.00 88.00 Z" fill="#948a54" stroke="#ffffff" stroke-width="1"/>
+<line x1="247.4" y1="85.4" x2="80.0" y2="85.4" stroke="#999999" stroke-width="0.8"/>
+<text x="76.0" y="89.4" font-size="12.5" fill="#444444" text-anchor="end">ACU 1,6 %</text>
+<line x1="217.6" y1="90.3" x2="80.0" y2="102.4" stroke="#999999" stroke-width="0.8"/>
+<text x="76.0" y="106.4" font-size="12.5" fill="#444444" text-anchor="end">ROT 4,7 %</text>
+<line x1="165.9" y1="115.4" x2="80.0" y2="119.4" stroke="#999999" stroke-width="0.8"/>
+<text x="76.0" y="123.4" font-size="12.5" fill="#444444" text-anchor="end">PEN 7,2 %</text>
+<rect x="462" y="66" width="14" height="14" fill="#9bbb59" stroke="#888888" stroke-width="0.5"/>
+<text x="484" y="78" font-size="13.5"><tspan font-style="italic">Res Liquidae</tspan> — 45 %</text>
+<text x="484" y="93" font-size="11.5" fill="#777777">штриховка 42 % частоты класса — ведущий: <tspan font-style="italic">fluir</tspan></text>
+<rect x="462" y="106" width="14" height="14" fill="#c0504d" stroke="#888888" stroke-width="0.5"/>
+<text x="484" y="118" font-size="13.5"><tspan font-style="italic">Res Filiformes</tspan> — 16 %</text>
+<text x="484" y="133" font-size="11.5" fill="#777777">штриховка 40 % частоты класса — ведущий: <tspan font-style="italic">desatar</tspan></text>
+<rect x="462" y="146" width="14" height="14" fill="#4bacc6" stroke="#888888" stroke-width="0.5"/>
+<text x="484" y="158" font-size="13.5"><tspan font-style="italic">Res Parvae</tspan> — 14 %</text>
+<text x="484" y="173" font-size="11.5" fill="#777777">штриховка 49 % частоты класса — ведущий: <tspan font-style="italic">coger</tspan></text>
+<rect x="462" y="186" width="14" height="14" fill="#d4a017" stroke="#888888" stroke-width="0.5"/>
+<text x="484" y="198" font-size="13.5"><tspan font-style="italic">Res Continens</tspan> — 11 %</text>
+<text x="484" y="213" font-size="11.5" fill="#777777">штриховка 41 % частоты класса — ведущий: <tspan font-style="italic">llenar</tspan></text>
+<rect x="462" y="226" width="14" height="14" fill="#8064a2" stroke="#888888" stroke-width="0.5"/>
+<text x="484" y="238" font-size="13.5"><tspan font-style="italic">Res Longae Penetrantes</tspan> — 7,2 %</text>
+<text x="484" y="253" font-size="11.5" fill="#777777">штриховка 72 % частоты класса — ведущий: <tspan font-style="italic">atravesar</tspan></text>
+<rect x="462" y="266" width="14" height="14" fill="#f79646" stroke="#888888" stroke-width="0.5"/>
+<text x="484" y="278" font-size="13.5"><tspan font-style="italic">Res Rotundae</tspan> — 4,7 %</text>
+<text x="484" y="293" font-size="11.5" fill="#777777">штриховка 65 % частоты класса — ведущий: <tspan font-style="italic">envolver</tspan></text>
+<rect x="462" y="306" width="14" height="14" fill="#4f81bd" stroke="#888888" stroke-width="0.5"/>
+<text x="484" y="318" font-size="13.5"><tspan font-style="italic">Res Acutae</tspan> — 1,6 %</text>
+<text x="484" y="333" font-size="11.5" fill="#777777">штриховка 20 % частоты класса — ведущий: <tspan font-style="italic">punta de</tspan></text>
+<rect x="462" y="346" width="14" height="14" fill="#948a54" stroke="#888888" stroke-width="0.5"/>
+<text x="484" y="358" font-size="13.5"><tspan font-style="italic">Res Planae</tspan> — &#60;1 %</text>
+<rect x="24" y="413" width="13" height="13" fill="#9c9c9c"/>
+<text x="44" y="424" font-size="12" fill="#444444">сплошной цвет — свободная, продуктивная сочетаемость (живой образ)</text>
+<rect x="24" y="435" width="13" height="13" fill="#9c9c9c" fill-opacity="0.55"/><rect x="24" y="435" width="13" height="13" fill="url(#hatch)"/>
+<text x="44" y="446" font-size="12" fill="#444444">штриховка — частота, лежащая на одном ведущем обороте (связанная сочетаемость, СИ)</text>
+<text x="24" y="464" font-size="11" fill="#999999">Сектор — доля криптокласса в корпусной сочетаемости эмонима (ПоКА). Источник: data/derived/cryptoclass-indices.md</text>
+</svg>

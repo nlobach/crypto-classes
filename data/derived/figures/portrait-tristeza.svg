@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="790" height="470" viewBox="0 0 790 470" font-family="Georgia, 'Times New Roman', serif">
+<defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#ffffff" stroke-width="2.1"/></pattern></defs>
+<rect width="790" height="470" fill="#ffffff"/>
+<text x="24" y="34" font-size="20" font-weight="bold"><tspan font-style="italic">tristeza</tspan> — криптоклассный портрет (N = 422)</text>
+<path d="M 258 240 L 258.00 88.00 A 152 152 0 0 1 407.52 267.37 Z" fill="#9bbb59" fill-opacity="0.55" stroke="#ffffff" stroke-width="1"/>
+<path d="M 258 240 L 258.00 88.00 A 152 152 0 0 1 407.52 267.37 Z" fill="url(#hatch)" stroke="none"/>
+<path d="M 258 240 L 407.52 267.37 A 152 152 0 0 1 364.27 348.67 Z" fill="#9bbb59" stroke="#ffffff" stroke-width="1"/>
+<text x="345.3" y="210.4" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">38 %</text>
+<path d="M 258 240 L 364.27 348.67 A 152 152 0 0 1 211.33 384.66 Z" fill="#d4a017" fill-opacity="0.55" stroke="#ffffff" stroke-width="1"/>
+<path d="M 258 240 L 364.27 348.67 A 152 152 0 0 1 211.33 384.66 Z" fill="url(#hatch)" stroke="none"/>
+<path d="M 258 240 L 211.33 384.66 A 152 152 0 0 1 120.43 304.64 Z" fill="#d4a017" stroke="#ffffff" stroke-width="1"/>
+<text x="241.3" y="338.7" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">30 %</text>
+<path d="M 258 240 L 120.43 304.64 A 152 152 0 0 1 110.56 203.03 Z" fill="#4bacc6" fill-opacity="0.55" stroke="#ffffff" stroke-width="1"/>
+<path d="M 258 240 L 120.43 304.64 A 152 152 0 0 1 110.56 203.03 Z" fill="url(#hatch)" stroke="none"/>
+<path d="M 258 240 L 110.56 203.03 A 152 152 0 0 1 113.03 194.32 Z" fill="#4bacc6" stroke="#ffffff" stroke-width="1"/>
+<text x="164.0" y="252.3" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">12 %</text>
+<path d="M 258 240 L 113.03 194.32 A 152 152 0 0 1 145.26 138.05 Z" fill="#c0504d" fill-opacity="0.55" stroke="#ffffff" stroke-width="1"/>
+<path d="M 258 240 L 113.03 194.32 A 152 152 0 0 1 145.26 138.05 Z" fill="url(#hatch)" stroke="none"/>
+<path d="M 258 240 L 145.26 138.05 A 152 152 0 0 1 160.10 123.72 Z" fill="#c0504d" stroke="#ffffff" stroke-width="1"/>
+<text x="179.6" y="193.7" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">9,0 %</text>
+<path d="M 258 240 L 160.10 123.72 A 152 152 0 0 1 184.34 107.04 Z" fill="#8064a2" fill-opacity="0.55" stroke="#ffffff" stroke-width="1"/>
+<path d="M 258 240 L 160.10 123.72 A 152 152 0 0 1 184.34 107.04 Z" fill="url(#hatch)" stroke="none"/>
+<path d="M 258 240 L 184.34 107.04 A 152 152 0 0 1 222.13 92.29 Z" fill="#8064a2" stroke="#ffffff" stroke-width="1"/>
+<path d="M 258 240 L 222.13 92.29 A 152 152 0 0 1 244.46 88.60 Z" fill="#4f81bd" fill-opacity="0.55" stroke="#ffffff" stroke-width="1"/>
+<path d="M 258 240 L 222.13 92.29 A 152 152 0 0 1 244.46 88.60 Z" fill="url(#hatch)" stroke="none"/>
+<path d="M 258 240 L 244.46 88.60 A 152 152 0 0 1 246.69 88.42 Z" fill="#4f81bd" stroke="#ffffff" stroke-width="1"/>
+<path d="M 258 240 L 246.69 88.42 A 152 152 0 0 1 248.93 88.27 Z" fill="#f79646" fill-opacity="0.55" stroke="#ffffff" stroke-width="1"/>
+<path d="M 258 240 L 246.69 88.42 A 152 152 0 0 1 248.93 88.27 Z" fill="url(#hatch)" stroke="none"/>
+<path d="M 258 240 L 248.93 88.27 A 152 152 0 0 1 253.47 88.07 Z" fill="#f79646" stroke="#ffffff" stroke-width="1"/>
+<path d="M 258 240 L 253.47 88.07 A 152 152 0 0 1 258.00 88.00 Z" fill="#948a54" fill-opacity="0.55" stroke="#ffffff" stroke-width="1"/>
+<path d="M 258 240 L 253.47 88.07 A 152 152 0 0 1 258.00 88.00 Z" fill="url(#hatch)" stroke="none"/>
+<line x1="233.9" y1="86.9" x2="80.0" y2="86.9" stroke="#999999" stroke-width="0.8"/>
+<text x="76.0" y="90.9" font-size="12.5" fill="#444444" text-anchor="end">ACU 2,6 %</text>
+<line x1="187.9" y1="101.7" x2="80.0" y2="103.9" stroke="#999999" stroke-width="0.8"/>
+<text x="76.0" y="107.9" font-size="12.5" fill="#444444" text-anchor="end">PEN 7,3 %</text>
+<rect x="462" y="66" width="14" height="14" fill="#9bbb59" stroke="#888888" stroke-width="0.5"/>
+<text x="484" y="78" font-size="13.5"><tspan font-style="italic">Res Liquidae</tspan> — 38 %</text>
+<text x="484" y="93" font-size="11.5" fill="#777777">штриховка 74 % частоты класса — ведущий: <tspan font-style="italic">inundar</tspan></text>
+<rect x="462" y="106" width="14" height="14" fill="#d4a017" stroke="#888888" stroke-width="0.5"/>
+<text x="484" y="118" font-size="13.5"><tspan font-style="italic">Res Continens</tspan> — 30 %</text>
+<text x="484" y="133" font-size="11.5" fill="#777777">штриховка 57 % частоты класса — ведущий: <tspan font-style="italic">caer en</tspan></text>
+<rect x="462" y="146" width="14" height="14" fill="#4bacc6" stroke="#888888" stroke-width="0.5"/>
+<text x="484" y="158" font-size="13.5"><tspan font-style="italic">Res Parvae</tspan> — 12 %</text>
+<text x="484" y="173" font-size="11.5" fill="#777777">штриховка 92 % частоты класса — ведущий: <tspan font-style="italic">traer</tspan></text>
+<rect x="462" y="186" width="14" height="14" fill="#c0504d" stroke="#888888" stroke-width="0.5"/>
+<text x="484" y="198" font-size="13.5"><tspan font-style="italic">Res Filiformes</tspan> — 9,0 %</text>
+<text x="484" y="213" font-size="11.5" fill="#777777">штриховка 76 % частоты класса — ведущий: <tspan font-style="italic">desatar</tspan></text>
+<rect x="462" y="226" width="14" height="14" fill="#8064a2" stroke="#888888" stroke-width="0.5"/>
+<text x="484" y="238" font-size="13.5"><tspan font-style="italic">Res Longae Penetrantes</tspan> — 7,3 %</text>
+<text x="484" y="253" font-size="11.5" fill="#777777">штриховка 42 % частоты класса — ведущий: <tspan font-style="italic">atravesar</tspan></text>
+<rect x="462" y="266" width="14" height="14" fill="#4f81bd" stroke="#888888" stroke-width="0.5"/>
+<text x="484" y="278" font-size="13.5"><tspan font-style="italic">Res Acutae</tspan> — 2,6 %</text>
+<text x="484" y="293" font-size="11.5" fill="#777777">штриховка 91 % частоты класса</text>
+<rect x="462" y="306" width="14" height="14" fill="#f79646" stroke="#888888" stroke-width="0.5"/>
+<text x="484" y="318" font-size="13.5"><tspan font-style="italic">Res Rotundae</tspan> — &#60;1 %</text>
+<rect x="462" y="332" width="14" height="14" fill="#948a54" stroke="#888888" stroke-width="0.5"/>
+<text x="484" y="344" font-size="13.5"><tspan font-style="italic">Res Planae</tspan> — &#60;1 %</text>
+<rect x="24" y="413" width="13" height="13" fill="#9c9c9c"/>
+<text x="44" y="424" font-size="12" fill="#444444">сплошной цвет — свободная, продуктивная сочетаемость (живой образ)</text>
+<rect x="24" y="435" width="13" height="13" fill="#9c9c9c" fill-opacity="0.55"/><rect x="24" y="435" width="13" height="13" fill="url(#hatch)"/>
+<text x="44" y="446" font-size="12" fill="#444444">штриховка — частота, лежащая на одном ведущем обороте (связанная сочетаемость, СИ)</text>
+<text x="24" y="464" font-size="11" fill="#999999">Сектор — доля криптокласса в корпусной сочетаемости эмонима (ПоКА). Источник: data/derived/cryptoclass-indices.md</text>
+</svg>
