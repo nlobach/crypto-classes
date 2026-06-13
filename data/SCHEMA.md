@@ -110,14 +110,17 @@ byte-identical after any parser change). Done: **all five count-bearing classes*
 — Res Parvae, Res Acutae, Res Liquidae, Res Filiformes, Res Continens. **Res
 Planae**, **Res Rotundae** and **Res Longae Penetrantes** carry *no* explicit
 counts (pure example cells) and need no conversion (`frequency = 1` is already
-correct). Remaining work: wire the frequency columns through `build_gold.js` and
-regenerate the gold sets.
+correct). The frequency columns are wired through `build_gold.js` and the gold
+sets carry them (verified 2026-06-13: gold-`alegría` Res Parvae Σfreq 3793
+reconciles with the raw audit 3844 minus the documented per-emonym exclusions).
 
 **Cross-class CAC is now coherent** (no scale-mixing): every class is on one
 occurrence scale. The correction reshapes the profile — e.g. *ira* is ~94 %
 Res Filiformes (`desatar la ira`), *alegría* ~68 % Res Parvae
 (`traer`/`entregar alegría`). Per-class audits live in
-`data/derived/freq-audit-<class>.md`.
+`data/derived/freq-audit-<class>.md`; the assembled cross-emonym × cross-class
+frequency-mass distribution is the canonical
+`data/derived/distribution-frequency-mass.md`.
 
 ### Construction-type controlled vocab
 

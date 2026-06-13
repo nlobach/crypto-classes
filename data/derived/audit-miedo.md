@@ -1,5 +1,11 @@
 # *miedo* — Phase 1 coverage audit
 
+> ⚠️ **COUNT-based (2026-06-02) — superseded for distribution.** Any CAC %/`n`
+> here count *rows*, not corpus occurrences (Σfrequency). The authoritative
+> frequency-mass distribution is
+> [`distribution-frequency-mass.md`](distribution-frequency-mass.md). The coverage
+> / gap analysis below is unaffected.
+
 Date: 2026-06-02 (regenerated on the curated gold set).
 Source: `data/derived/gold-miedo.tsv` (n = 391) via
 `pipeline/coverage_miedo.js --from-gold`; cross-checked against the legacy

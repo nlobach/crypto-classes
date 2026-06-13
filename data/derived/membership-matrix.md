@@ -1,5 +1,14 @@
 # Cryptoclass membership of the 5 Spanish emonyms — preliminary matrix
 
+> ⚠️ **CAC % here are COUNT-based (2026-06-02) — superseded for distribution.**
+> The percentages and the "Res Liquidae is the cross-emonym backbone" reading
+> count *rows*, not corpus occurrences. On the authoritative Σfrequency basis
+> ([`distribution-frequency-mass.md`](distribution-frequency-mass.md)) the
+> frequency dominants are *miedo* → Res Parvae, *alegría* → Res Parvae, *ira* →
+> Res Filiformes, and the pooled frequency-mass leader is **Res Parvae**, not Res
+> Liquidae. The membership **verdicts** (member / marginal / non-member) and the
+> variant-coverage analysis below are unaffected.
+
 Date: 2026-06-02 (regenerated after the curation sweeps — adds the class-wide
 `círculo de` exclusion and reflects the duplicate drop-list + Problem-1.5
 reassignments).

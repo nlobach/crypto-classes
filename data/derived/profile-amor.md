@@ -1,5 +1,13 @@
 # *amor* — aggregate cryptoclass profile (Spanish pooled)
 
+> ⚠️ **COUNT-based (2026-06-02) — superseded for distribution.** The CAC %/`n`
+> below count *rows*, not corpus occurrences (Σfrequency). The authoritative
+> frequency-mass distribution is
+> [`distribution-frequency-mass.md`](distribution-frequency-mass.md); on that
+> basis dominant classes differ (e.g. *alegría* → Res Parvae, *ira* → Res
+> Filiformes). The membership *verdicts* (member / marginal) here still hold; the
+> percentages do not.
+
 Date: 2026-06-02.
 Source: `data/derived/gold-amor.tsv` (curated gold set, n = 1060).
 Method: `pipeline/aggregate_profile.js amor --from-gold` +

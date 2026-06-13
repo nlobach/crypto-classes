@@ -1,5 +1,13 @@
 # *miedo* — aggregate cryptoclass profile (Spanish pooled)
 
+> ⚠️ **COUNT-based (2026-06-02) — superseded for distribution.** The CAC %/`n`
+> below count *rows*, not corpus occurrences (Σfrequency). The authoritative
+> frequency-mass distribution is
+> [`distribution-frequency-mass.md`](distribution-frequency-mass.md); on that
+> basis dominant classes differ (e.g. *alegría* → Res Parvae, *ira* → Res
+> Filiformes). The membership *verdicts* (member / marginal) here still hold; the
+> percentages do not.
+
 Date: 2026-06-02 (regenerated on the curated gold set: Problem-1 lemma
 cleanup, Problem-2 duplicate drop-list, and Problem-1.5 mis-file cleanup
 all applied).

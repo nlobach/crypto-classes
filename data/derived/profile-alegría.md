@@ -1,5 +1,13 @@
 # *alegría* — aggregate cryptoclass profile (Spanish pooled)
 
+> ⚠️ **COUNT-based (2026-06-02) — superseded for distribution.** The CAC %/`n`
+> below count *rows*, not corpus occurrences (Σfrequency). The authoritative
+> frequency-mass distribution is
+> [`distribution-frequency-mass.md`](distribution-frequency-mass.md); on that
+> basis *alegría* is dominated by **Res Parvae** (Σfreq 67.6 %), not Res Liquidae
+> (9.0 %). The membership *verdicts* (member / marginal) here still hold; the
+> percentages do not.
+
 Date: 2026-06-02.
 Source: `data/derived/gold-alegría.tsv` (curated gold set, n = 737).
 Method: `pipeline/aggregate_profile.js alegría --from-gold` +

@@ -1,5 +1,11 @@
 # *alegría* — Phase 1 coverage audit
 
+> ⚠️ **COUNT-based (2026-06-02) — superseded for distribution.** Any CAC %/`n`
+> here count *rows*, not corpus occurrences (Σfrequency). The authoritative
+> frequency-mass distribution is
+> [`distribution-frequency-mass.md`](distribution-frequency-mass.md). The coverage
+> / gap analysis below is unaffected.
+
 Date: 2026-06-02.
 Source: `data/derived/gold-alegría.tsv` (n = 737) via
 `pipeline/coverage_miedo.js alegría --from-gold`.
