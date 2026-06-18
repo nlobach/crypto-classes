@@ -140,7 +140,7 @@ P('');
 // ---- 1. decision summary table ----
 P('## 1. Сводная таблица — по одной строке на ячейку (Sᵢ ≥ ' + CELL_MIN + ')');
 P('');
-P('| эмоним | класс | Sᵢ | ведущая | Σ ведущей | СИ | идиомов класс≥' + MASS + ' | идиомов ведущая≥' + MASS + ' | единообразие |');
+P('| эмоним | класс | Sᵢ | ведущая | Σ ведущей | доля ведущего, % | идиомов класс≥' + MASS + ' | идиомов ведущая≥' + MASS + ' | единообразие |');
 P('|---|---|--:|---|--:|--:|--:|--:|--:|');
 const cells = [];
 for (const e of EM) for (const c of CLASSES) {
@@ -169,7 +169,7 @@ for (const e of EM) {
     const { c, l } = cell;
     const span = cell.idioms.filter(([, b]) => (b.byCanon[l.name] || 0) > 0)
       .map(([cc, b]) => [cc, b.byCanon[l.name]]).sort((a, b) => b[1] - a[1]);
-    P(`**${ABBR[c]} — Sᵢ=${cell.S}, ведущая \`${l.name}\` ${l.freq} (СИ ${Math.round(100 * l.share)}%)**`);
+    P(`**${ABBR[c]} — Sᵢ=${cell.S}, ведущая \`${l.name}\` ${l.freq} (доля ведущего классификатора ${Math.round(100 * l.share)}%)**`);
     P('');
     P(`- Сводно ведущая \`${l.name}\` засвидетельствована в ${span.length} идиомах (${cell.leadMass.length} ≥${MASS}): ` +
       span.map(([cc, n]) => `${cc} ${n}`).join(', '));
@@ -190,7 +190,7 @@ fs.writeFileSync(REPO + '/data/derived/coverage-by-construction-ru.md', O.join('
 
 // ---- console summary ----
 console.log('cross-check:', bad ? bad + ' MISMATCH' : 'all match');
-console.log('\ncell                         Sᵢ   lead          СИ  cls≥5 lead≥5 consist');
+console.log('\ncell                         Sᵢ   lead          дв%  cls≥5 lead≥5 consist');
 for (const x of cells) console.log(
   `${(x.e + ' ' + ABBR[x.c]).padEnd(28)} ${String(x.S).padStart(4)}  ${x.l.name.padEnd(12)} ${(Math.round(100 * x.l.share) + '%').padStart(4)}  ${String(x.classMass.length).padStart(4)}  ${String(x.leadMass.length).padStart(5)}  ${x.consist}/${x.classMass.length}`);
 console.log('\nWrote data/derived/coverage-by-construction-ru.md');

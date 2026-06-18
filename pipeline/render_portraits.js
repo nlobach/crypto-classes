@@ -5,7 +5,7 @@
 // the manuscript cites, so the figures can never drift from the published
 // numbers. Each pie slice = ПоКА (share of the emonym's corpus frequency held
 // by the class); the HATCHED part of a slice = the share of that class's
-// frequency carried by its single lead classifier (СИ) — i.e. the
+// frequency carried by its single lead classifier (доля ведущего классификатора) — i.e. the
 // phraseologically bound portion. Solid colour = free, productive
 // combinability. This makes Figure-level sense of положение 1 (bound vs
 // productive membership) instead of letting a raw-frequency pie contradict it.
@@ -44,16 +44,16 @@ function parseTable(heading) {
   return out;
 }
 const S = parseTable('Sᵢ — corpus frequency');           // strings of ints
-const SI = parseTable('СИ — lead-classifier share (%)'); // strings or '·'
+const SI = parseTable('Доля ведущего классификатора (%) — concentration summary of СИ, not СИ itself'); // lead-classifier share, strings or '·'
 
 const N = {};
 const nLine = md.match(/^N per emonym: (.+)$/m)[1];
 for (const m of nLine.matchAll(/\*([^*]+)\* (\d+)/g)) N[m[1]] = +m[2];
 
-// lead-classifier names from the "Lead classifier + top-3" section (Sᵢ ≥ 20)
+// lead-classifier names from the "СИ — combinatorial-selectivity profile" section (Sᵢ ≥ 20)
 const LEAD = {};
 {
-  const i = md.indexOf('## Lead classifier');
+  const i = md.indexOf('## СИ — combinatorial-selectivity profile');
   let em = null;
   for (const line of md.slice(i).split('\n')) {
     const h = line.match(/^\*\*(.+)\*\*$/);
@@ -160,7 +160,7 @@ for (const em of EM) {
   svg.push(`<rect x="24" y="${fy - 11}" width="13" height="13" fill="#9c9c9c"/>`);
   svg.push(`<text x="44" y="${fy}" font-size="12" fill="#444444">сплошной цвет — свободная, продуктивная сочетаемость (живой образ)</text>`);
   svg.push(`<rect x="24" y="${fy + 11}" width="13" height="13" fill="#9c9c9c" fill-opacity="0.55"/><rect x="24" y="${fy + 11}" width="13" height="13" fill="url(#hatch)"/>`);
-  svg.push(`<text x="44" y="${fy + 22}" font-size="12" fill="#444444">штриховка — частота, лежащая на одном ведущем обороте (связанная сочетаемость, СИ)</text>`);
+  svg.push(`<text x="44" y="${fy + 22}" font-size="12" fill="#444444">штриховка — частота, лежащая на одном ведущем классификаторе (доля ведущего классификатора)</text>`);
   svg.push(`<text x="24" y="${fy + 40}" font-size="11" fill="#999999">Сектор — доля криптокласса в корпусной сочетаемости эмонима (ПоКА). Источник: data/derived/cryptoclass-indices.md</text>`);
   svg.push('</svg>');
 
