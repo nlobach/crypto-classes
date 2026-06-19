@@ -15,7 +15,7 @@ Cross-check vs freq-audit totals: all match. Unmapped freq>0 classifiers: none.
 
 | LIQ | FIL | ROT | PEN | ACU | PAR | PLA | CON |
 |--:|--:|--:|--:|--:|--:|--:|--:|
-| 13 | 14 | 7 | 6 | 11 | 15 | 5 | 23 |
+| 13 | 14 | 7 | 6 | 11 | 15 | 5 | 18 |
 
 ## Sᵢ — corpus frequency
 
@@ -55,11 +55,11 @@ N per emonym: *miedo* 1055 · *tristeza* 409 · *amor* 1250 · *alegría* 5608 �
 
 | emonym | LIQ | FIL | ROT | PEN | ACU | PAR | PLA | CON |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|
-| *miedo* | 0.38 | 0.43 | 0.29 | 0.67 | 0.55 | 0.53 | 0.20 | 0.39 |
-| *tristeza* | 0.62 | 0.43 | 0.14 | 0.67 | 0.09 | 0.27 | 0.20 | 0.30 |
-| *amor* | 0.54 | 0.64 | 0.57 | 0.50 | 0.27 | 0.73 | 0.40 | 0.39 |
-| *alegría* | 1.00 | 0.50 | 0.43 | 0.50 | 0.45 | 0.67 | 0.20 | 0.35 |
-| *ira* | 0.62 | 0.07 | 0.14 | 0.50 | 0.00 | 0.20 | 0.00 | 0.35 |
+| *miedo* | 0.38 | 0.43 | 0.29 | 0.67 | 0.55 | 0.53 | 0.20 | 0.50 |
+| *tristeza* | 0.62 | 0.43 | 0.14 | 0.67 | 0.09 | 0.27 | 0.20 | 0.39 |
+| *amor* | 0.54 | 0.64 | 0.57 | 0.50 | 0.27 | 0.73 | 0.40 | 0.50 |
+| *alegría* | 1.00 | 0.50 | 0.43 | 0.50 | 0.45 | 0.67 | 0.20 | 0.44 |
+| *ira* | 0.62 | 0.07 | 0.14 | 0.50 | 0.00 | 0.20 | 0.00 | 0.44 |
 
 ## Qᵢ — distinct classifiers realized
 
@@ -105,7 +105,7 @@ lead classifier's share of Sᵢ (a concentration summary, not СИ itself).
 - PEN (Sᵢ=48, ПоКА 5%, ИРа 0.67, доля вед. 67%): atravesar 32, penetrar 9, clavar 4, penetrante 3
 - ACU (Sᵢ=22, ПоКА 2%, ИРа 0.55, доля вед. 36%): agudo 8, punta de 8, puntiagudo 2, punzante 2, pinchar 1, aguzar 1
 - PAR (Sᵢ=546, ПоКА 52%, ИРа 0.53, доля вед. 90%): coger 492, agarrar 38, traer 6, puñado de 3, lanzar 2, manojo de 2, soltar 2, arrojar 1
-- CON (Sᵢ=176, ПоКА 17%, ИРа 0.39, доля вед. 45%): estar en 80, caer en 27, tapar 23, vivir en 16, encontrarse en 12, sacar de 10, destapar 5, contener 2, guardar 1
+- CON (Sᵢ=176, ПоКА 17%, ИРа 0.50, доля вед. 45%): estar en 80, caer en 27, tapar 23, vivir en 16, encontrarse en 12, sacar de 10, destapar 5, contener 2, guardar 1
 
 **tristeza**
 
@@ -113,7 +113,7 @@ lead classifier's share of Sᵢ (a concentration summary, not СИ itself).
 - FIL (Sᵢ=38, ПоКА 9%, ИРа 0.43, доля вед. 76%): desatar 29, hilo de 5, enrollarse 1, entrelazar 1, tejer 1, enhebrar 1
 - PEN (Sᵢ=31, ПоКА 8%, ИРа 0.67, доля вед. 42%): atravesar 13, clavar 7, penetrar 4, penetrante 2
 - PAR (Sᵢ=50, ПоКА 12%, ИРа 0.27, доля вед. 92%): traer 46, entregar 2, arrojar 1, recoger 1
-- CON (Sᵢ=122, ПоКА 30%, ИРа 0.30, доля вед. 58%): caer en 71, estar en 20, sacar de 13, tapar 9, vivir en 5, llenar 3, dentro de 1
+- CON (Sᵢ=122, ПоКА 30%, ИРа 0.39, доля вед. 58%): caer en 71, estar en 20, sacar de 13, tapar 9, vivir en 5, llenar 3, dentro de 1
 
 **amor**
 
@@ -123,17 +123,17 @@ lead classifier's share of Sᵢ (a concentration summary, not СИ itself).
 - PEN (Sᵢ=89, ПоКА 7%, ИРа 0.50, доля вед. 75%): atravesar 67, penetrar 17, clavar 3
 - ACU (Sᵢ=20, ПоКА 2%, ИРа 0.27, доля вед. 20%): punta de 4, agudo 3, punzante 3
 - PAR (Sᵢ=176, ПоКА 14%, ИРа 0.73, доля вед. 48%): coger 85, entregar 34, traer 17, agarrar 16, tirar 12, recoger 3, puñado de 3, soltar 2, lanzar 2, arrojar 1, captar 1
-- CON (Sᵢ=132, ПоКА 11%, ИРа 0.39, доля вед. 42%): llenar 56, encontrarse en 23, caer en 18, tapar 11, contener 6, dentro de 6, estar en 6, destapar 5, guardar 1
+- CON (Sᵢ=132, ПоКА 11%, ИРа 0.50, доля вед. 42%): llenar 56, encontrarse en 23, caer en 18, tapar 11, contener 6, dentro de 6, estar en 6, destapar 5, guardar 1
 
 **alegría**
 
 - LIQ (Sᵢ=506, ПоКА 9%, ИРа 1.00, доля вед. 44%): inundar 225, rebosar 125, brotar 75, fluir 17, gotear 16, derramar 15, diluir 11, chorro 6, torrente de 6, aluvión de 3, desbordamiento de 3, salpicar 2, verter 2
 - FIL (Sᵢ=1201, ПоКА 21%, ИРа 0.50, доля вед. 99%): desatar 1187, hilo de 4, tensar 3, entrelazar 2, tejer 1, amarrar 1, retorcer 1
 - PAR (Sᵢ=3793, ПоКА 68%, ИРа 0.67, доля вед. 84%): traer 3187, entregar 580, manojo de 9, coger 8, recoger 3, puñado de 2, arrojar 1, tirar 1, lanzar 1, captar 1
-- CON (Sᵢ=71, ПоКА 1%, ИРа 0.35, доля вед. 24%): vivir en 17, dentro de 16, llenar 16, estar en 11, destapar 6, encontrarse en 3, tapar 1, caer en 1
+- CON (Sᵢ=71, ПоКА 1%, ИРа 0.44, доля вед. 24%): vivir en 17, dentro de 16, llenar 16, estar en 11, destapar 6, encontrarse en 3, tapar 1, caer en 1
 
 **ira**
 
 - LIQ (Sᵢ=45, ПоКА 3%, ИРа 0.62, доля вед. 33%): brotar 15, derramar 8, torrente de 7, inundar 6, rebosar 3, fluir 3, diluir 2, salpicar 1
 - FIL (Sᵢ=1565, ПоКА 94%, ИРа 0.07, доля вед. 100%): desatar 1564
-- CON (Sᵢ=30, ПоКА 2%, ИРа 0.35, доля вед. 23%): caer en 7, destapar 7, encontrarse en 5, estar en 5, tapar 1, llenar 1, vaciar 1, dentro de 1
+- CON (Sᵢ=30, ПоКА 2%, ИРа 0.44, доля вед. 23%): caer en 7, destapar 7, encontrarse en 5, estar en 5, tapar 1, llenar 1, vaciar 1, dentro de 1

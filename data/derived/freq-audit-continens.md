@@ -15,7 +15,7 @@ occurrence, weight 1) · `illustrative` (sample under an explicit count, weight
 
 | emonym | Σfreq | rows | absent(0) cells |
 |---|--:|--:|--:|
-| miedo | **186** | 187 | 1 |
+| miedo | **184** | 185 | 1 |
 | tristeza | **128** | 128 | 0 |
 | amor | **136** | 136 | 0 |
 | alegría | **73** | 73 | 0 |
@@ -25,12 +25,12 @@ Distribution of `freq_role` across all Res Continens rows:
 
 | role | rows | meaning |
 |---|--:|---|
-| example | 554 | one quoted occurrence (weight 1) |
+| example | 552 | one quoted occurrence (weight 1) |
 | absent | 1 | construction searched, 0 occurrences (weight 0) |
 
 ## Weighted classifier breakdown per emonym (Σfreq, freq>0)
 
-- **miedo** (Σ=186; lead estar en 44%): estar en 81, caer en 27, tapar 23, vivir en 18, encontrarse en 14, sacar de 8, destapar 5, contener 2, sacar 2, sumirse en 2, destapado 1, (blank) 1, guardar 1, tapado 1
+- **miedo** (Σ=184; lead estar en 44%): estar en 81, caer en 27, tapar 23, vivir en 18, encontrarse en 14, sacar de 8, destapar 5, contener 2, sacar 2, destapado 1, (blank) 1, guardar 1, tapado 1
 - **tristeza** (Σ=128; lead caer en 57%): caer en 73, estar en 20, sacar de 13, tapar 9, vivir en 5, sacar 2, lleno de 2, encontrarse en 2, llenar 1, dentro de 1
 - **amor** (Σ=136; lead lleno de 29%): lleno de 39, encontrarse en 26, caer en 18, está lleno de 15, tapar 11, estar en 7, contener 6, dentro de 6, destapar 5, llenar 2, guardar 1
 - **alegría** (Σ=73; lead vivir en 26%): vivir en 19, dentro de 16, lleno de 16, estar en 11, destapar 6, encontrarse en 3, tapar 1, caer en 1
@@ -190,9 +190,8 @@ cell at the given locator.
 - `   1` example      sacar        [F10] Si fuera carismatico no le haria falta soltar bestialidades una tras otra sacada
 - `   1` example      sacar        [F10] Observa a tu padre tembloroso en un rincón, con la manta sobre las piernas, las 
 
-**HN** (Σ=2)
+**HN** (Σ=1)
 
-- `   1` example      sumirse en   [D12] sumidas en el temor
 - `   1` example      caer en      [E12] e digo a todas las mujeres que no caigamos en el miedo porque eso es lo que esa 
 
 **MX** (Σ=27)
@@ -248,10 +247,6 @@ cell at the given locator.
 
 - `   1` example      vivir en     [D17] Personas que viven en el miedo, el odio y la envidia, y no pierden la oportunida
 - `   1` example      vivir en     [D17] Si se vive en el terror, si se vive en el miedo
-
-**PY** (Σ=1)
-
-- `   1` example      sumirse en   [D18] sumidos en el temor
 
 **UY** (Σ=4)
 

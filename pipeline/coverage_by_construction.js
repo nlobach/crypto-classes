@@ -68,9 +68,9 @@ const G = {
     vaciar: ['vaciar', 'vacío de', 'está vacío de', 'vacío'], contener: ['contener'], tener: ['tener'],
     almacenar: ['almacenar', 'almacenar en'], guardar: ['guardar', 'guardar en'], 'estar en': ['estar en'],
     'encontrarse en': ['encontrarse en'], 'vivir en': ['vivir en'], 'existir en': ['existir en'], 'aparecer en': ['aparecer en'],
-    'permanecer en': ['permanecer en'], 'sumirse en': ['sumirse en'], 'dentro de': ['dentro de'], 'caer en': ['caer en'],
-    'entrar en': ['entrar en'], 'sumergirse en': ['sumergirse en'], 'sacar de': ['sacar de', 'sacar'], 'salir de': ['salir de'],
-    'rebosante de': ['rebosante de', 'está rebosante de', 'rebosante'], obturado: ['obturado', 'obturar'],
+    'permanecer en': ['permanecer en'], 'dentro de': ['dentro de'], 'caer en': ['caer en'],
+    'sacar de': ['sacar de', 'sacar'],
+    'rebosante de': ['rebosante de', 'está rebosante de', 'rebosante'],
   },
 };
 const EXCL = new Set(['círculo de', 'nivel de']);
@@ -105,7 +105,7 @@ const idiomLead = b => { const e = Object.entries(b.byCanon); e.sort((a, x) => x
 // ---- sanity: same audit as compute_indices.js ----
 const AUDIT = { 'Res Liquidae': { miedo: 45, tristeza: 159, amor: 579, 'alegría': 519, ira: 45 },
   'Res Filiformes': { miedo: 199, tristeza: 38, amor: 210, 'alegría': 1202, ira: 1565 },
-  'Res Continens': { miedo: 186, tristeza: 128, amor: 136, 'alegría': 73, ira: 31 },
+  'Res Continens': { miedo: 184, tristeza: 128, amor: 136, 'alegría': 73, ira: 31 },
   'Res Parvae': { miedo: 546, tristeza: 50, amor: 186, 'alegría': 3844, ira: 11 } };
 let bad = 0; for (const c of Object.keys(AUDIT)) for (const e of EM) if (S[e][c] !== AUDIT[c][e]) bad++;
 

@@ -42,8 +42,8 @@ Res Continens	verbal-subject-transitive	contener, tener, almacenar, guardar	су
 Res Continens	verbal-subject-intransitive		ИНТРАНЗИТИВНЫЕ	Rare in this class.
 Res Continens	verbal-instrumental	almacenar en, guardar en	инструментальные	
 Res Continens	verbal-locative-state	estar en, encontrarse en, vivir en, existir en, aparecer en, permanecer en, dentro de	Глагольные локативные классификаторы	algo está / vive en el recipiente — being inside. "dentro de" covers preposition-only locatives ("dentro de este miedo aparece…"). `sumirse en` removed 2026-06-07 (per inventory revision).
-Res Continens	verbal-locative-into	caer en, entrar en, sumergirse en	Интранзитивные классификаторы (Помещение)	Motion into the container.
-Res Continens	verbal-locative-out	sacar de, salir de	ИЗВЛЕЧЕНИЕ	Motion out of the container — distinct from -into.
+Res Continens	verbal-locative-into	caer en	Интранзитивные классификаторы (Помещение)	Motion into the container. `entrar en`, `sumergirse en` removed 2026-06-19 (per inventory revision; never attested, motion rather than container-state).
+Res Continens	verbal-locative-out	sacar de	ИЗВЛЕЧЕНИЕ	Motion out of the container — distinct from -into. `salir de` removed 2026-06-19 (per inventory revision; never attested).
 Res Continens	attributive	lleno de, rebosante de, vacío de, tapado, destapado	Атрибутивные	Past-participle attributives of the verbal-objective verbs (`tapar/destapar`) surface in the legacy attributive column. `obturado` removed 2026-06-07 (per inventory revision).
 Res Continens	predicative	está lleno de, está vacío de, está rebosante de	предикативные	
 Res Planae	attributive	plano, llano, liso	Атрибутивные	"tristeza simple y llana".

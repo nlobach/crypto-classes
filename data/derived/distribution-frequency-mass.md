@@ -15,9 +15,10 @@ parse in `pipeline/extract_wide.js`). **Not** `COUNT(*)`.
 >
 > **Intentional basis split (user decision, 2026-06-14).** The autoreferat prose
 > *manuscript* `data/derived/autoreferat-prose-3index-ru.md` is deliberately left
-> on the **raw** basis (total **10 142**, class-wide exclusions only) and is NOT
+> on the **raw** basis (total **10 140** since 2026-06-19, class-wide exclusions
+> only) and is NOT
 > reconciled to this file. So the manuscript and this gold file differ by ~1.5 %
-> (raw 10 142 vs gold 9 984) — that gap is *expected*, not a discrepancy to
+> (raw 10 140 vs gold 9 984) — that gap is *expected*, not a discrepancy to
 > "fix." Gold additionally applies the per-emonym lexical exclusions, the
 > duplicate drop-list, and the Problem-1.5 reassignment (see Reconciliation).
 
